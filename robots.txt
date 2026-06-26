@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
 
-# Naver Yeti and other search bots are allowed to crawl the site.
-# After the production domain is confirmed, enable the sitemap line below.
-# Example: Sitemap: https://example.com/sitemap.xml
+Sitemap: https://xn--ol5ba64b839b.com/sitemap.xml
