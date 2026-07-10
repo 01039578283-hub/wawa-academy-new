@@ -1,0 +1,7 @@
+tools/
+__pycache__/
+*.py
+PAGE_GENERATION_RULES.md
+PROJECT_HANDOFF.md
+CHAT_HISTORY_*.md
+sitemap-template.xml
