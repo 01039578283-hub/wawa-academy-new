@@ -145,12 +145,16 @@ def process_page(page_dir: Path, seen_reviews: set) -> bool:
         for rating, body in new_reviews
     ]
 
-    # FAQ: keep slots 0,1,2,4 (dong/subject-specific), regenerate slots 3 and 5 from bank
+    # FAQ: keep slots 0,1,2,4 (dong/subject-specific), regenerate slots 3 and 5.
+    # Questions and answers are selected as an inseparable pair so that a
+    # newly selected question can never retain an unrelated previous answer.
     visible_faqs = extract_faqs(updated)
-    faq_q4 = pick(FAQ_SLOT4_BANK, 1, page_url, "faq4")[0].format(subject=subject)
-    faq_q6 = pick(FAQ_SLOT6_BANK, 1, page_url, "faq6")[0]
-    faq_a4 = visible_faqs[3][1]
-    faq_a6 = visible_faqs[5][1]
+    faq_q4_template, faq_a4_template = pick(FAQ_SLOT4_BANK, 1, page_url, "faq4")[0]
+    faq_q6_template, faq_a6_template = pick(FAQ_SLOT6_BANK, 1, page_url, "faq6")[0]
+    faq_q4 = faq_q4_template.format(subject=subject)
+    faq_a4 = faq_a4_template.format(subject=subject)
+    faq_q6 = faq_q6_template.format(subject=subject)
+    faq_a6 = faq_a6_template.format(subject=subject)
     new_faqs = list(visible_faqs)
     new_faqs[3] = (faq_q4, faq_a4)
     new_faqs[5] = (faq_q6, faq_a6)

@@ -4,8 +4,19 @@ import json
 import re
 from pathlib import Path
 
+from content_banks_site4 import FAQ_SLOT4_BANK, FAQ_SLOT6_BANK
+
 ROOT = Path(__file__).resolve().parents[1]
 CENTER_ROOT = ROOT / "전국센터"
+
+SUBJECT_MAP = {
+    "수학학원": "수학",
+    "영어학원": "영어",
+    "영수학원": "영어·수학",
+    "초등학생학원": "주요 과목",
+    "중학생학원": "주요 과목",
+    "고등학생학원": "주요 과목",
+}
 
 
 def target_files() -> list[Path]:
@@ -16,6 +27,7 @@ def main() -> None:
     files = target_files()
     parse_errors = 0
     faq_mismatch = 0
+    faq_pair_invalid = 0
     review_mismatch = 0
     rating_bad = 0
 
@@ -41,11 +53,36 @@ def main() -> None:
 
         faq_node = find("FAQPage")
         faq_section_m = re.search(r'<section id="faq-section".*?</section>', text, re.S)
-        visible_q = re.findall(r"<summary>([^<]*)</summary>", faq_section_m.group(0))
-        jsonld_q = [q["name"] for q in faq_node["mainEntity"]]
-        if visible_q != jsonld_q:
+        visible_faqs = re.findall(
+            r"<details>\s*<summary>([^<]*)</summary><p>(.*?)</p></details>",
+            faq_section_m.group(0),
+            re.S,
+        )
+        jsonld_faqs = [
+            (q["name"], q["acceptedAnswer"]["text"])
+            for q in faq_node["mainEntity"]
+        ]
+        if visible_faqs != jsonld_faqs:
             faq_mismatch += 1
             print("FAQ MISMATCH", f)
+
+        category = f.relative_to(CENTER_ROOT).parts[0]
+        subject = SUBJECT_MAP.get(category, "주요 과목")
+        valid_slot4 = {
+            (q.format(subject=subject), a.format(subject=subject))
+            for q, a in FAQ_SLOT4_BANK
+        }
+        valid_slot6 = {
+            (q.format(subject=subject), a.format(subject=subject))
+            for q, a in FAQ_SLOT6_BANK
+        }
+        if (
+            len(visible_faqs) != 6
+            or visible_faqs[3] not in valid_slot4
+            or visible_faqs[5] not in valid_slot6
+        ):
+            faq_pair_invalid += 1
+            print("FAQ PAIR INVALID", f)
 
         org = find("EducationalOrganization")
         visible_reviews = re.findall(r'<p>(.*?)</p>\s*<span>학부모</span>', text)
@@ -59,7 +96,11 @@ def main() -> None:
             rating_bad += 1
             print("RATING BAD", f, visible_ratings)
 
-    print(f"total={len(files)} parse_errors={parse_errors} faq_mismatch={faq_mismatch} review_mismatch={review_mismatch} rating_bad={rating_bad}")
+    print(
+        f"total={len(files)} parse_errors={parse_errors} "
+        f"faq_mismatch={faq_mismatch} faq_pair_invalid={faq_pair_invalid} "
+        f"review_mismatch={review_mismatch} rating_bad={rating_bad}"
+    )
 
 
 if __name__ == "__main__":
