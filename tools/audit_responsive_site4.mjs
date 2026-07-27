@@ -182,6 +182,32 @@ for (const viewport of [
     };
   })()`);
   tests.push({ page: 'article', viewport: viewport.name, article });
+
+  for (const detailPage of [
+    { name: 'subject-high-math', path: '/전국센터/수학학원/명일동고등수학학원/', role: 'subject-high-math' },
+    { name: 'grade-high-math', path: '/전국센터/고등학생학원/명일동고등학생수학학원/', role: 'grade-high-math' },
+  ]) {
+    await navigate(detailPage.path, viewport.width, viewport.height, viewport.mobile);
+    const detail = await evaluate(`(() => {
+      const section = document.querySelector('[data-intent-role]');
+      const heading = section.querySelector('#intent-role-title');
+      const paragraph = section.querySelector('.geo-summary-panel > p:not(.eyebrow)');
+      const counterpart = section.querySelector('.intent-counterpart a');
+      return {
+        overflow: document.documentElement.scrollWidth <= window.innerWidth,
+        h1Count: document.querySelectorAll('h1').length,
+        role: section.dataset.intentRole,
+        sectionWithinViewport: section.getBoundingClientRect().width <= window.innerWidth,
+        heading: heading.textContent.trim(),
+        paragraphFontSize: parseFloat(getComputedStyle(paragraph).fontSize),
+        paragraphLineHeight: parseFloat(getComputedStyle(paragraph).lineHeight),
+        answerCards: section.querySelectorAll('.geo-answer-card').length,
+        checklistCards: section.querySelectorAll('.geo-check-card').length,
+        counterpart: counterpart ? counterpart.href : ''
+      };
+    })()`);
+    tests.push({ page: 'detail', detailPage, viewport: viewport.name, detail });
+  }
 }
 
 const failures = [];
@@ -191,9 +217,13 @@ for (const test of tests) {
     if (test.initial.searchHeight < 44 || test.initial.chipMinHeight < 44) failures.push(`${test.viewport}:hub-target-size`);
     if (test.search.visible !== 4 || !test.search.allMatch || !test.search.overflow || test.search.linkMinHeight < 44) failures.push(`${test.viewport}:hub-search`);
     if (test.region.visible !== 168 || !test.region.allSeoul) failures.push(`${test.viewport}:hub-region`);
-  } else {
+  } else if (test.page === 'article') {
     if (!test.article.overflow || !test.article.mainWithinViewport || test.article.paragraphFontSize < 16 || test.article.paragraphLineHeight < 27) failures.push(`${test.viewport}:article-layout`);
     if (test.viewport === 'desktop' && (!test.article.ctaVisible || test.article.ctaContrast < 4.5)) failures.push('desktop:cta-contrast');
+  } else {
+    if (!test.detail.overflow || !test.detail.sectionWithinViewport || test.detail.h1Count !== 1) failures.push(`${test.viewport}:${test.detailPage.name}:layout`);
+    if (test.detail.role !== test.detailPage.role || test.detail.answerCards !== 4 || test.detail.checklistCards !== 4) failures.push(`${test.viewport}:${test.detailPage.name}:role`);
+    if (test.detail.paragraphFontSize < 16 || test.detail.paragraphLineHeight < 27 || !test.detail.counterpart) failures.push(`${test.viewport}:${test.detailPage.name}:readability`);
   }
 }
 

@@ -1751,6 +1751,91 @@ code {
   text-shadow: 0 1px 0 rgba(0, 0, 0, .12);
   box-shadow: 0 14px 30px rgba(143, 63, 96, .28);
 }
+
+/* 2026-07-27 duplicate page intent separation */
+.intent-role-section .geo-summary-panel,
+.intent-role-section .geo-answer-panel,
+.intent-role-section .geo-checklist-panel {
+  scroll-margin-top: 110px;
+}
+
+.intent-role-section p {
+  line-height: 1.75;
+}
+
+.intent-role-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.intent-role-badges span {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
+  padding: 8px 14px;
+  border: 1px solid rgba(143, 63, 96, 0.22);
+  border-radius: 999px;
+  background: #fff7fa;
+  color: #71324d;
+  font-size: 0.92rem;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.intent-counterpart {
+  margin-top: 22px;
+  padding: 18px 20px;
+  border-left: 4px solid #8f3f60;
+  border-radius: 0 18px 18px 0;
+  background: linear-gradient(135deg, #fff8fb, #f8f4ff);
+}
+
+.intent-counterpart strong {
+  display: block;
+  margin-bottom: 7px;
+  color: #4f2135;
+  font-size: 1rem;
+}
+
+.intent-counterpart p {
+  margin: 0;
+}
+
+.intent-counterpart a {
+  color: #77324f;
+  font-weight: 850;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.intent-counterpart a:hover {
+  color: #552036;
+}
+
+@media (max-width: 640px) {
+  .intent-role-badges {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .intent-role-badges span:first-child {
+    grid-column: 1 / -1;
+  }
+
+  .intent-role-badges span {
+    justify-content: center;
+    min-width: 0;
+    padding-inline: 10px;
+    text-align: center;
+  }
+
+  .intent-counterpart {
+    padding: 16px;
+  }
+}
 .header-cta:hover { background: #77324f; }
 .header-cta:focus-visible,
 .nav-link:focus-visible,
