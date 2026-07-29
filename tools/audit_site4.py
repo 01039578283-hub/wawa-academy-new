@@ -33,7 +33,8 @@ def target_files() -> list[Path]:
         rel = index.parent.relative_to(CENTER_ROOT)
         if str(rel) == ".":
             continue
-        result.append(index)
+        if 'data-intent-role="' in index.read_text(encoding="utf-8", errors="ignore"):
+            result.append(index)
     return sorted(result)
 
 

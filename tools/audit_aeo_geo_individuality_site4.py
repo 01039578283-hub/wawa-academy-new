@@ -76,7 +76,11 @@ def percentile(values: list[float], ratio: float) -> float:
 
 def main() -> None:
     centers = load_centers()
-    targets = sorted(CENTER_ROOT.glob("*/*/index.html"))
+    targets = sorted(
+        path
+        for path in CENTER_ROOT.glob("*/*/index.html")
+        if 'data-intent-role="' in path.read_text(encoding="utf-8", errors="ignore")
+    )
     summaries: Counter[str] = Counter()
     summary_templates: Counter[str] = Counter()
     answers: Counter[str] = Counter()

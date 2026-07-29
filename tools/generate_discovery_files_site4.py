@@ -158,6 +158,7 @@ def rss_selection(records: list[dict]) -> list[dict]:
         for record in records
         if record["relative"].startswith("전국센터/")
         and len(record["path"].relative_to(ROOT).parts) >= 4
+        and 'data-intent-role="' in record["path"].read_text(encoding="utf-8", errors="ignore")
         and record["canonical"] not in selected_urls
     ]
     detail_candidates.sort(key=lambda record: (record["modified"], record["relative"]), reverse=True)

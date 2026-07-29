@@ -32,7 +32,11 @@ def extract_dong(category: str, leaf_name: str) -> str | None:
 
 
 def target_files() -> list[Path]:
-    return sorted(CENTER_ROOT.glob("*/*/index.html"))
+    return sorted(
+        path
+        for path in CENTER_ROOT.glob("*/*/index.html")
+        if 'data-intent-role="' in path.read_text(encoding="utf-8", errors="ignore")
+    )
 
 
 def schools_or_placeholder(value: str) -> list[str]:

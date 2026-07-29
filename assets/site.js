@@ -103,3 +103,88 @@ document.querySelectorAll('[data-hub-tools="true"]').forEach((finder) => {
     });
   });
 });
+
+document.querySelectorAll('[data-split-directory="true"]').forEach((directory, directoryIndex) => {
+  const input = directory.querySelector('[data-split-search="true"]');
+  const clearButton = directory.querySelector('[data-split-clear="true"]');
+  const expandButton = directory.querySelector('[data-split-expand="true"]');
+  const collapseButton = directory.querySelector('[data-split-collapse="true"]');
+  const status = directory.querySelector('[data-split-status="true"]');
+  const groupsContainer = directory.querySelector('.split-directory-groups');
+  const groups = [...directory.querySelectorAll('[data-split-group="true"]')];
+  const items = [...directory.querySelectorAll('[data-split-item="true"]')];
+
+  if (!input || !clearButton || !expandButton || !collapseButton || !status || !groupsContainer || !groups.length) return;
+
+  const initialOpenGroups = new Set(groups.filter((group) => group.open));
+  const normalize = (value) => String(value || '')
+    .normalize('NFKC')
+    .toLocaleLowerCase('ko-KR')
+    .replace(/\s+/g, '');
+  const format = (value) => value.toLocaleString('ko-KR');
+  const statusId = status.id || `split-directory-status-${directoryIndex + 1}`;
+  const groupsId = groupsContainer.id || `split-directory-groups-${directoryIndex + 1}`;
+
+  status.id = statusId;
+  status.setAttribute('aria-atomic', 'true');
+  input.setAttribute('aria-describedby', statusId);
+  input.setAttribute('inputmode', 'search');
+  groupsContainer.id = groupsId;
+  expandButton.setAttribute('aria-controls', groupsId);
+  collapseButton.setAttribute('aria-controls', groupsId);
+
+  const pageCount = (visibleItems) => visibleItems.reduce(
+    (total, item) => total + item.querySelectorAll('.split-intent-grid a').length,
+    0,
+  );
+
+  const restoreInitialOpenState = () => {
+    groups.forEach((group) => { group.open = initialOpenGroups.has(group); });
+  };
+
+  const applyFilter = () => {
+    const rawQuery = input.value.trim();
+    const query = normalize(rawQuery);
+
+    items.forEach((item) => {
+      const searchable = item.dataset.search || item.textContent;
+      item.hidden = Boolean(query) && !normalize(searchable).includes(query);
+    });
+
+    groups.forEach((group) => {
+      const hasVisibleItem = [...group.querySelectorAll('[data-split-item="true"]')]
+        .some((item) => !item.hidden);
+      group.hidden = !hasVisibleItem;
+      if (query && hasVisibleItem) group.open = true;
+    });
+    if (!query) restoreInitialOpenState();
+
+    const visibleItems = items.filter((item) => !item.hidden);
+    const visiblePages = pageCount(visibleItems);
+    status.textContent = query
+      ? `“${rawQuery}” 검색 결과 ${format(visibleItems.length)}개 동네 · ${format(visiblePages)}개 안내페이지입니다.`
+      : `${format(items.length)}개 동네 · ${format(pageCount(items))}개 안내페이지`;
+  };
+
+  input.addEventListener('input', applyFilter);
+  input.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape' || !input.value) return;
+    input.value = '';
+    applyFilter();
+  });
+  clearButton.addEventListener('click', () => {
+    input.value = '';
+    applyFilter();
+    input.focus();
+  });
+  expandButton.addEventListener('click', () => {
+    groups.forEach((group) => {
+      if (!group.hidden) group.open = true;
+    });
+  });
+  collapseButton.addEventListener('click', () => {
+    groups.forEach((group) => { group.open = false; });
+  });
+
+  applyFilter();
+});

@@ -152,7 +152,11 @@ def is_detail_page(path: Path) -> bool:
         relative = path.relative_to(CENTER_ROOT)
     except ValueError:
         return False
-    return len(relative.parts) == 3 and relative.name == "index.html"
+    return (
+        len(relative.parts) == 3
+        and relative.name == "index.html"
+        and 'data-intent-role="' in path.read_text(encoding="utf-8", errors="ignore")
+    )
 
 
 @dataclass

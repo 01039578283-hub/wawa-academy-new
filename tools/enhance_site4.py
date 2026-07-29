@@ -36,7 +36,8 @@ ALTERNATE_NAMES = ["와와학습코칭학원", "와와학습코칭센터", "와�
 def target_files() -> list[Path]:
     result = []
     for index in CENTER_ROOT.glob("*/*/index.html"):
-        result.append(index.parent)
+        if 'data-intent-role="' in index.read_text(encoding="utf-8", errors="ignore"):
+            result.append(index.parent)
     return sorted(result)
 
 

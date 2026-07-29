@@ -643,7 +643,11 @@ def process_page(path: Path, centers: dict[str, dict]) -> tuple[bool, str]:
 
 def main() -> None:
     centers = load_centers()
-    targets = sorted(CENTER_ROOT.glob("*/*/index.html"))
+    targets = sorted(
+        path
+        for path in CENTER_ROOT.glob("*/*/index.html")
+        if 'data-intent-role="' in path.read_text(encoding="utf-8", errors="ignore")
+    )
     counts: Counter[str] = Counter()
     changed = 0
     errors: list[str] = []

@@ -7,6 +7,7 @@ import re
 import statistics
 from collections import Counter
 from pathlib import Path
+from urllib.parse import unquote, urlsplit
 
 from separate_page_intents_site4 import CATEGORY_RULES, CENTER_ROOT, canonical, classify, role_key
 
@@ -108,7 +109,11 @@ def main() -> None:
     parser.add_argument("--baseline", action="store_true")
     args = parser.parse_args()
 
-    targets = sorted(CENTER_ROOT.glob("*/*/index.html"))
+    targets = sorted(
+        path
+        for path in CENTER_ROOT.glob("*/*/index.html")
+        if 'data-intent-role="' in path.read_text(encoding="utf-8", errors="ignore")
+    )
     failures: list[str] = []
     counts: Counter[str] = Counter()
     canonicals: list[str] = []
@@ -166,8 +171,9 @@ def main() -> None:
 
             for href in re.findall(r'\bhref="([^"]+)"', source):
                 if href.startswith("/") and not href.startswith("//"):
-                    candidate = CENTER_ROOT.parent / href.lstrip("/")
-                    if href.endswith("/"):
+                    href_path = unquote(urlsplit(href).path)
+                    candidate = CENTER_ROOT.parent / href_path.lstrip("/")
+                    if href_path.endswith("/"):
                         candidate = candidate / "index.html"
                     if not candidate.exists():
                         href_targets_missing += 1
