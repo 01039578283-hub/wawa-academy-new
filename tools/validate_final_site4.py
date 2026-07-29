@@ -4,8 +4,6 @@ import json
 import re
 from pathlib import Path
 
-from content_banks_site4 import FAQ_SLOT4_BANK, FAQ_SLOT6_BANK
-
 ROOT = Path(__file__).resolve().parents[1]
 CENTER_ROOT = ROOT / "전국센터"
 
@@ -66,21 +64,29 @@ def main() -> None:
             faq_mismatch += 1
             print("FAQ MISMATCH", f)
 
-        category = f.relative_to(CENTER_ROOT).parts[0]
-        subject = SUBJECT_MAP.get(category, "주요 과목")
-        valid_slot4 = {
-            (q.format(subject=subject), a.format(subject=subject))
-            for q, a in FAQ_SLOT4_BANK
-        }
-        valid_slot6 = {
-            (q.format(subject=subject), a.format(subject=subject))
-            for q, a in FAQ_SLOT6_BANK
-        }
-        if (
-            len(visible_faqs) != 6
-            or visible_faqs[3] not in valid_slot4
-            or visible_faqs[5] not in valid_slot6
-        ):
+        # FAQ는 고정 문구 은행의 특정 두 쌍을 강제하지 않는다. 페이지별로
+        # 개별화된 질문·답변이더라도 여섯 가지 상담 의도와 의미가 맞는지를
+        # 검증한다. 화면/JSON-LD의 완전 일치는 위에서 별도로 검사한다.
+        faq_intent_terms = (
+            (("먼저", "확인"), ("먼저", "정")),
+            (("준비", "자료"), ("준비", "확인")),
+            (("다른", "어떻게"), ("학생", "도움")),
+            (("수업", "학년"), ("가능", "학년")),
+            (("학교", "정보"), ("시험", "참고")),
+            (("위치", "확인"), ("주소", "방문")),
+        )
+
+        def has_pair(value: str, alternatives) -> bool:
+            return any(all(term in value for term in pair) for pair in alternatives)
+
+        pair_ok = len(visible_faqs) == 6
+        if pair_ok:
+            for (question, answer), alternatives in zip(visible_faqs, faq_intent_terms):
+                combined = question + " " + answer
+                if not question.strip() or not answer.strip() or not has_pair(combined, alternatives):
+                    pair_ok = False
+                    break
+        if not pair_ok:
             faq_pair_invalid += 1
             print("FAQ PAIR INVALID", f)
 

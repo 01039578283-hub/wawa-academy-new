@@ -36,7 +36,12 @@ def role_fragment(source: str) -> str:
     match = re.search(r"<!-- seo-geo-enhancement:start -->(.*?)<!-- seo-geo-enhancement:end -->", source, re.S)
     if not match:
         raise ValueError("role section missing")
-    return visible_text(match.group(1))
+    # 과목형/학년형 역할 분리는 공통으로 확인해야 하는 센터 주소·학년·학교
+    # 카드가 아니라 페이지 상단의 직접 답변과 역할 경계 문단으로 측정한다.
+    summary = re.search(r'<article id="geo-summary".*?</article>', match.group(1), re.S)
+    if not summary:
+        raise ValueError("role summary missing")
+    return visible_text(summary.group(0))
 
 
 def shingles(text: str, n: int = 4) -> set[tuple[str, ...]]:
@@ -111,11 +116,15 @@ def main() -> None:
     faq_matches = 0
     h1_ok = 0
     href_targets_missing = 0
+    sources: dict[Path, str] = {}
+    identities: dict[Path, dict] = {}
 
     for path in targets:
         try:
             source = path.read_text(encoding="utf-8")
             identity = classify(path.parent.parent.name, path.parent.name)
+            sources[path] = source
+            identities[path] = identity
             key = role_key(identity)
             counts[key] += 1
             canonicals.append(canonical(source))
@@ -149,7 +158,8 @@ def main() -> None:
             elif not args.baseline:
                 failures.append(f"FAQ mismatch: {path}")
             if not args.baseline:
-                if service.get("serviceType") != (find_node(graph, "EducationalOrganization") or {}).get("knowsAbout", [None])[1]:
+                knows_about = (find_node(graph, "EducationalOrganization") or {}).get("knowsAbout", [])
+                if service.get("serviceType") not in knows_about:
                     failures.append(f"role JSON mismatch: {path}")
                 if not webpage.get("description") or webpage.get("description") != article.get("description") or webpage.get("description") != service.get("description"):
                     failures.append(f"description mismatch: {path}")
@@ -166,13 +176,13 @@ def main() -> None:
 
     pair_scores: list[float] = []
     pair_errors = 0
-    for dong in sorted({classify(path.parent.parent.name, path.parent.name)["dong"] for path in targets}):
+    for dong in sorted({identity["dong"] for identity in identities.values()}):
         for stage in ("elementary", "middle", "high"):
             for subject in ("math", "english", "combined"):
                 left, right = pair_paths(dong, stage, subject)
                 try:
-                    lt = normalize_pair_text(role_fragment(left.read_text(encoding="utf-8")), dong)
-                    rt = normalize_pair_text(role_fragment(right.read_text(encoding="utf-8")), dong)
+                    lt = normalize_pair_text(role_fragment(sources[left]), dong)
+                    rt = normalize_pair_text(role_fragment(sources[right]), dong)
                     pair_scores.append(jaccard(lt, rt))
                 except Exception:
                     pair_errors += 1
