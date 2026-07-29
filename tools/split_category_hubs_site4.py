@@ -28,6 +28,7 @@ class Category:
     audience: str
     role_order: tuple[str, ...]
     role_labels: dict[str, str]
+    source_name: str | None = None
 
 
 CATEGORIES = (
@@ -36,39 +37,24 @@ CATEGORIES = (
         "MATH ACADEMY DIRECTORY",
         "개념 이해·계산 정확도·유형 적용·오답 재학습을 학년 단계에 맞춰 확인하는 수학 학습 안내",
         "초등·중등·고등 수학 학습을 점검하려는 학생과 학부모",
-        ("subject-all-math", "subject-elementary-math", "subject-middle-math", "subject-high-math"),
-        {
-            "subject-all-math": "수학 전체",
-            "subject-elementary-math": "초등 수학",
-            "subject-middle-math": "중등 수학",
-            "subject-high-math": "고등 수학",
-        },
+        ("subject-all-math",),
+        {"subject-all-math": "수학 전체"},
     ),
     Category(
         "영어학원",
         "ENGLISH ACADEMY DIRECTORY",
         "어휘·문법·독해·학교 본문과 서술형 대비를 학년별로 연결하는 영어 학습 안내",
         "초등·중등·고등 영어 학습을 점검하려는 학생과 학부모",
-        ("subject-all-english", "subject-elementary-english", "subject-middle-english", "subject-high-english"),
-        {
-            "subject-all-english": "영어 전체",
-            "subject-elementary-english": "초등 영어",
-            "subject-middle-english": "중등 영어",
-            "subject-high-english": "고등 영어",
-        },
+        ("subject-all-english",),
+        {"subject-all-english": "영어 전체"},
     ),
     Category(
         "영수학원",
         "ENGLISH & MATH DIRECTORY",
         "영어와 수학의 주간 분량·복습 순서·시험 대비 균형을 함께 점검하는 영수 학습 안내",
         "영어와 수학을 함께 관리하려는 초등·중등·고등 학생과 학부모",
-        ("subject-all-combined", "subject-elementary-combined", "subject-middle-combined", "subject-high-combined"),
-        {
-            "subject-all-combined": "영수 전체",
-            "subject-elementary-combined": "초등 영수",
-            "subject-middle-combined": "중등 영수",
-            "subject-high-combined": "고등 영수",
-        },
+        ("subject-all-combined",),
+        {"subject-all-combined": "영수 전체"},
     ),
     Category(
         "초등학생학원",
@@ -109,8 +95,115 @@ CATEGORIES = (
             "grade-high-combined": "고등 영수",
         },
     ),
+    Category(
+        "초등수학학원",
+        "ELEMENTARY MATH DIRECTORY",
+        "수 개념·연산·문장제 이해와 매일 복습 습관을 함께 확인하는 초등 수학 학습 안내",
+        "초등 수학의 기초 개념과 공부 습관을 점검하려는 학생과 학부모",
+        ("subject-elementary-math",),
+        {"subject-elementary-math": "초등 수학"},
+        "수학학원",
+    ),
+    Category(
+        "초등영어학원",
+        "ELEMENTARY ENGLISH DIRECTORY",
+        "기초 어휘·문장 읽기·문법과 학교 영어 학습 습관을 연결하는 초등 영어 학습 안내",
+        "초등 영어의 읽기 기초와 공부 습관을 점검하려는 학생과 학부모",
+        ("subject-elementary-english",),
+        {"subject-elementary-english": "초등 영어"},
+        "영어학원",
+    ),
+    Category(
+        "초등영수학원",
+        "ELEMENTARY ENGLISH & MATH DIRECTORY",
+        "초등 영어와 수학의 기초·숙제·복습 시간을 함께 관리하는 영수 학습 안내",
+        "초등 영어·수학의 기초와 주간 학습 흐름을 함께 점검하려는 학생과 학부모",
+        ("subject-elementary-combined",),
+        {"subject-elementary-combined": "초등 영수"},
+        "영수학원",
+    ),
+    Category(
+        "중등수학학원",
+        "MIDDLE MATH DIRECTORY",
+        "중등 개념·유형·서술형과 학교별 내신 오답을 연결하는 수학 학습 안내",
+        "중등 수학 내신과 오답 복습 순서를 점검하려는 학생과 학부모",
+        ("subject-middle-math",),
+        {"subject-middle-math": "중등 수학"},
+        "수학학원",
+    ),
+    Category(
+        "중등영어학원",
+        "MIDDLE ENGLISH DIRECTORY",
+        "중등 어휘·문법·독해·학교 본문과 서술형 내신을 연결하는 영어 학습 안내",
+        "중등 영어 내신과 과제·복습 흐름을 점검하려는 학생과 학부모",
+        ("subject-middle-english",),
+        {"subject-middle-english": "중등 영어"},
+        "영어학원",
+    ),
+    Category(
+        "중등영수학원",
+        "MIDDLE ENGLISH & MATH DIRECTORY",
+        "중등 영어·수학 내신 범위와 주간 복습 시간을 함께 조율하는 영수 학습 안내",
+        "중등 영어·수학 내신 준비를 함께 관리하려는 학생과 학부모",
+        ("subject-middle-combined",),
+        {"subject-middle-combined": "중등 영수"},
+        "영수학원",
+    ),
+    Category(
+        "고등수학학원",
+        "HIGH MATH DIRECTORY",
+        "고등 수학 내신·모의고사 개념과 취약 유형의 오답 근거를 점검하는 학습 안내",
+        "고등 수학 내신과 모의고사 학습 우선순위를 정하려는 학생과 학부모",
+        ("subject-high-math",),
+        {"subject-high-math": "고등 수학"},
+        "수학학원",
+    ),
+    Category(
+        "고등영어학원",
+        "HIGH ENGLISH DIRECTORY",
+        "고등 영어 내신·모의고사 어휘·구문·독해와 서술형 대비를 연결하는 학습 안내",
+        "고등 영어 내신과 모의고사 공부 흐름을 점검하려는 학생과 학부모",
+        ("subject-high-english",),
+        {"subject-high-english": "고등 영어"},
+        "영어학원",
+    ),
+    Category(
+        "고등영수학원",
+        "HIGH ENGLISH & MATH DIRECTORY",
+        "고등 영어·수학 내신과 모의고사 준비 시간을 함께 설계하는 영수 학습 안내",
+        "고등 영어·수학의 내신·모의고사 일정을 함께 관리하려는 학생과 학부모",
+        ("subject-high-combined",),
+        {"subject-high-combined": "고등 영수"},
+        "영수학원",
+    ),
 )
 CATEGORY_BY_NAME = {category.name: category for category in CATEGORIES}
+ROLE_OWNER: dict[tuple[str, str], Category] = {}
+for category in CATEGORIES:
+    source_name = category.source_name or category.name
+    for role in category.role_order:
+        key = (source_name, role)
+        if key in ROLE_OWNER:
+            raise RuntimeError(f"논리 허브 역할 중복: {key}")
+        ROLE_OWNER[key] = category
+SOURCE_CATEGORY_NAMES = tuple(dict.fromkeys(source_name for source_name, _ in ROLE_OWNER))
+
+SUBJECT_CATEGORY_GROUPS = (
+    ("수학학원", "초등수학학원", "중등수학학원", "고등수학학원"),
+    ("영어학원", "초등영어학원", "중등영어학원", "고등영어학원"),
+    ("영수학원", "초등영수학원", "중등영수학원", "고등영수학원"),
+)
+GRADE_CATEGORY_GROUPS = {
+    "초등학생학원": ("초등학생학원", "초등수학학원", "초등영어학원", "초등영수학원"),
+    "중학생학원": ("중학생학원", "중등수학학원", "중등영어학원", "중등영수학원"),
+    "고등학생학원": ("고등학생학원", "고등수학학원", "고등영어학원", "고등영수학원"),
+}
+RELATED_CATEGORY_NAMES: dict[str, tuple[str, ...]] = dict(GRADE_CATEGORY_GROUPS)
+for group in SUBJECT_CATEGORY_GROUPS:
+    for category_name in group:
+        RELATED_CATEGORY_NAMES[category_name] = group
+if set(RELATED_CATEGORY_NAMES) != set(CATEGORY_BY_NAME):
+    raise RuntimeError("관련 카테고리 그룹에 누락되거나 알 수 없는 허브가 있습니다.")
 
 
 @dataclass
@@ -165,15 +258,16 @@ def find_dong(leaf: str, dong_names: list[str]) -> str:
 
 def collect_details(centers: dict[str, dict], dong_names: list[str]) -> list[DetailPage]:
     pages: list[DetailPage] = []
-    for category in CATEGORIES:
-        category_root = CENTER_ROOT / category.name
+    for source_name in SOURCE_CATEGORY_NAMES:
+        category_root = CENTER_ROOT / source_name
         for path in sorted(category_root.glob("*/index.html")):
             source = path.read_text(encoding="utf-8", errors="strict")
             role_match = re.search(r'data-intent-role="([^"]+)"', source)
             if not role_match:
                 continue
             role = role_match.group(1)
-            if role not in category.role_order:
+            category = ROLE_OWNER.get((source_name, role))
+            if category is None:
                 raise RuntimeError(f"예상하지 못한 역할: {path} -> {role}")
             dong = find_dong(path.parent.name, dong_names)
             branch = centers[dong]
@@ -194,7 +288,7 @@ def collect_details(centers: dict[str, dict], dong_names: list[str]) -> list[Det
                     path=path,
                 )
             )
-    expected = len(CATEGORIES) * len(centers) * 4
+    expected = len(centers) * sum(len(category.role_order) for category in CATEGORIES)
     if len(pages) != expected:
         raise RuntimeError(f"상세페이지 {len(pages)}개 (예상 {expected}개)")
     return pages
@@ -386,10 +480,10 @@ def category_cards(category: Category, grouped: dict[str, list[DetailPage]]) -> 
 
 def sibling_category_links(current: str) -> str:
     links = []
-    for category in CATEGORIES:
-        active = " is-current" if category.name == current else ""
+    for category_name in RELATED_CATEGORY_NAMES[current]:
+        active = " is-current" if category_name == current else ""
         links.append(
-            f'<a class="split-category-link{active}" href="{root_href("전국센터", category.name)}">{escape(category.name)}</a>'
+            f'<a class="split-category-link{active}" href="{root_href("전국센터", category_name)}">{escape(category_name)}</a>'
         )
     return "\n".join(links)
 
@@ -447,6 +541,7 @@ def write_category_page(category: Category, grouped: dict[str, list[DetailPage]]
       </div>
     </section>'''
     path = CENTER_ROOT / category.name / "index.html"
+    path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
         page_shell(title=title, description=description, canonical=canonical, jsonld=structured, body=body, category_name=category.name),
         encoding="utf-8",
@@ -572,9 +667,14 @@ def write_region_page(category: Category, region: str, pages: list[DetailPage]) 
       </div>
     </section>'''
     else:
+        directory_description = (
+            "시·군·구 목록을 펼치거나 동네를 검색해 해당 학습 목적의 상세페이지를 확인하세요."
+            if len(category.role_order) == 1
+            else "시·군·구 목록을 펼치거나 동네를 검색해 네 가지 학습 목적별 상세페이지를 확인하세요."
+        )
         directory = f'''    <section class="section split-local-directory" data-split-directory="true" aria-labelledby="local-directory-title">
       <div class="wrap">
-        <div class="section-heading split-section-heading"><div><p class="eyebrow">LOCAL DIRECTORY</p><h2 id="local-directory-title">{escape(region)} 동네별 {escape(category.name)}</h2></div><p>시·군·구 목록을 펼치거나 동네를 검색해 네 가지 학습 목적별 상세페이지를 확인하세요.</p></div>
+        <div class="section-heading split-section-heading"><div><p class="eyebrow">LOCAL DIRECTORY</p><h2 id="local-directory-title">{escape(region)} 동네별 {escape(category.name)}</h2></div><p>{directory_description}</p></div>
 {directory_tools(dong_count, len(pages))}
         <div class="split-directory-groups">
 {dong_directory(category, by_district, open_first=True)}

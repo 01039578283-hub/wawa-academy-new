@@ -533,7 +533,8 @@ details p { margin-top: 12px; }
   font-weight: 950;
   letter-spacing: .14em;
 }
-.center-card h2 { font-size: 1.5rem; }
+.center-card h2,
+.center-card h3 { font-size: 1.5rem; }
 .center-card p { margin-top: 14px; }
 .center-points {
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -2120,6 +2121,7 @@ details > summary:focus-visible {
   font-size: 1.12rem;
   line-height: 1.35;
   letter-spacing: -.035em;
+  overflow-wrap: anywhere;
 }
 .split-region-card > p {
   margin-top: 9px;
@@ -2192,6 +2194,8 @@ details > summary:focus-visible {
   text-align: center;
   font-size: .9rem;
   font-weight: 850;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
 }
 .split-category-link.is-current {
   border-color: var(--rose-dark);
@@ -2372,6 +2376,7 @@ details > summary:focus-visible {
   line-height: 1.38;
   transition: transform .18s ease, border-color .18s ease, background .18s ease;
 }
+.split-intent-grid > a:only-child { grid-column: 1 / -1; }
 .split-intent-grid a span {
   color: var(--copper);
   font-size: .7rem;
@@ -2410,6 +2415,11 @@ details > summary:focus-visible {
 .split-back-links span { color: var(--copper); font-size: .74rem; font-weight: 900; }
 .split-back-links strong { margin-top: 4px; color: var(--ink); }
 
+.center-card:focus-visible {
+  outline: 3px solid #2459c4;
+  outline-offset: 3px;
+}
+
 .split-hub-page .split-region-card:focus-visible,
 .split-hub-page .split-category-link:focus-visible,
 .split-hub-page .split-back-links a:focus-visible,
@@ -2427,6 +2437,10 @@ details > summary:focus-visible {
   .split-district-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .split-category-links { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .split-dong-grid { grid-template-columns: 1fr; }
+}
+
+@media (min-width: 641px) and (max-width: 920px) {
+  .center-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 760px) {
@@ -2468,4 +2482,13 @@ details > summary:focus-visible {
   .split-category-link,
   .split-search-control button,
   .split-directory-status button { min-height: 48px; }
+  .center-card {
+    min-height: 0;
+    padding: 20px 18px;
+    border-radius: 22px;
+  }
+  .center-card span { margin-bottom: 12px; }
+  .center-card h2,
+  .center-card h3 { font-size: 1.3rem; overflow-wrap: anywhere; }
+  .center-card p { margin-top: 10px; }
 }

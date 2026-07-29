@@ -124,68 +124,101 @@ async function evaluate(expression) {
 await command('Page.enable');
 await command('Runtime.enable');
 
+const hubPages = [
+  { name: 'math', path: '/전국센터/수학학원/', expectedLinks: 1 },
+  { name: 'high-math', path: '/전국센터/고등수학학원/', expectedLinks: 1 },
+];
 const tests = [];
 for (const viewport of [
   { name: 'mobile', width: 390, height: 844, mobile: true },
   { name: 'desktop', width: 1440, height: 900, mobile: false },
 ]) {
-  await navigate('/전국센터/수학학원/', viewport.width, viewport.height, viewport.mobile);
-  const categoryHub = await evaluate(`(() => ({
-    overflow: document.documentElement.scrollWidth <= window.innerWidth,
-    h1Count: document.querySelectorAll('h1').length,
-    regionCards: document.querySelectorAll('.split-region-card').length,
-    cardMinHeight: Math.min(...[...document.querySelectorAll('.split-region-card')].map((item) => item.getBoundingClientRect().height)),
-    validRegionTargets: [...document.querySelectorAll('.split-region-card')].every((item) =>
-      ['서울', '경기', '인천', '충청', '대전', '대구', '울산', '부산', '경상', '광주', '전라', '강원', '제주']
-        .includes(decodeURIComponent(item.pathname).split('/').filter(Boolean).at(-1)))
-  }))()`);
-  tests.push({ page: 'category-hub', viewport: viewport.name, categoryHub });
-
-  await navigate('/전국센터/수학학원/서울/', viewport.width, viewport.height, viewport.mobile);
-  const regionInitial = await evaluate(`(() => ({
-    overflow: document.documentElement.scrollWidth <= window.innerWidth,
-    h1Count: document.querySelectorAll('h1').length,
-    directory: document.querySelectorAll('[data-split-directory="true"]').length,
-    items: document.querySelectorAll('[data-split-item="true"]').length,
-    searchHeight: document.querySelector('[data-split-search="true"]').getBoundingClientRect().height,
-    buttonMinHeight: Math.min(...[...document.querySelectorAll('.split-directory-tools button')].map((item) => item.getBoundingClientRect().height))
-  }))()`);
-  const regionSearch = await evaluate(`(async () => {
-    const input = document.querySelector('[data-split-search="true"]');
-    input.value = '명일동';
-    input.dispatchEvent(new Event('input', { bubbles: true }));
-    await new Promise((resolve) => setTimeout(resolve, 40));
-    const visible = [...document.querySelectorAll('[data-split-item="true"]')].filter((item) => !item.hidden);
+  await navigate('/전국센터/', viewport.width, viewport.height, viewport.mobile);
+  const centerRoot = await evaluate(`(() => {
+    const structuredNodes = [...document.querySelectorAll('script[type="application/ld+json"]')]
+      .flatMap((script) => {
+        try {
+          const data = JSON.parse(script.textContent);
+          const roots = Array.isArray(data) ? data : [data];
+          return roots.flatMap((root) => Array.isArray(root?.['@graph']) ? root['@graph'] : [root]);
+        } catch {
+          return [];
+        }
+      });
+    const categoryItemList = structuredNodes.find((node) =>
+      (Array.isArray(node?.['@type']) ? node['@type'] : [node?.['@type']]).includes('ItemList') &&
+      String(node?.['@id'] || '').endsWith('#category-list'));
     return {
-      visible: visible.length,
-      allMatch: visible.every((item) => item.dataset.search.includes('명일동')),
-      links: visible.reduce((sum, item) => sum + item.querySelectorAll('a').length, 0),
-      linkMinHeight: Math.min(...visible.flatMap((item) => [...item.querySelectorAll('a')]).map((item) => item.getBoundingClientRect().height)),
-      status: document.querySelector('[data-split-status="true"]').textContent,
-      overflow: document.documentElement.scrollWidth <= window.innerWidth
+      overflow: document.documentElement.scrollWidth <= window.innerWidth,
+      h1Count: document.querySelectorAll('h1').length,
+      cards: document.querySelectorAll('.center-card').length,
+      itemListItems: categoryItemList?.itemListElement?.length || 0,
+      itemListNumber: Number(categoryItemList?.numberOfItems || 0),
+      gridColumns: [...document.querySelectorAll('.center-card-grid')].map((grid) =>
+        getComputedStyle(grid).gridTemplateColumns.split(' ').filter(Boolean).length)
     };
   })()`);
-  tests.push({ page: 'region-hub', viewport: viewport.name, regionInitial, regionSearch });
+  tests.push({ page: 'center-root', viewport: viewport.name, expectedColumns: viewport.mobile ? 1 : 3, centerRoot });
 
-  await navigate('/전국센터/수학학원/경기/', viewport.width, viewport.height, viewport.mobile);
-  const gyeonggiHub = await evaluate(`(() => ({
-    overflow: document.documentElement.scrollWidth <= window.innerWidth,
-    h1Count: document.querySelectorAll('h1').length,
-    districtCards: document.querySelectorAll('.split-district-card').length,
-    itemDirectories: document.querySelectorAll('[data-split-directory="true"]').length,
-    cardMinHeight: Math.min(...[...document.querySelectorAll('.split-district-card')].map((item) => item.getBoundingClientRect().height))
-  }))()`);
-  tests.push({ page: 'gyeonggi-hub', viewport: viewport.name, gyeonggiHub });
+  for (const hubPage of hubPages) {
+    await navigate(hubPage.path, viewport.width, viewport.height, viewport.mobile);
+    const categoryHub = await evaluate(`(() => ({
+      overflow: document.documentElement.scrollWidth <= window.innerWidth,
+      h1Count: document.querySelectorAll('h1').length,
+      regionCards: document.querySelectorAll('.split-region-card').length,
+      cardMinHeight: Math.min(...[...document.querySelectorAll('.split-region-card')].map((item) => item.getBoundingClientRect().height)),
+      validRegionTargets: [...document.querySelectorAll('.split-region-card')].every((item) =>
+        ['서울', '경기', '인천', '충청', '대전', '대구', '울산', '부산', '경상', '광주', '전라', '강원', '제주']
+          .includes(decodeURIComponent(item.pathname).split('/').filter(Boolean).at(-1)))
+    }))()`);
+    tests.push({ page: 'category-hub', hubPage, viewport: viewport.name, categoryHub });
 
-  await navigate('/전국센터/수학학원/경기/고양시/', viewport.width, viewport.height, viewport.mobile);
-  const districtHub = await evaluate(`(() => ({
-    overflow: document.documentElement.scrollWidth <= window.innerWidth,
-    h1Count: document.querySelectorAll('h1').length,
-    directory: document.querySelectorAll('[data-split-directory="true"]').length,
-    items: document.querySelectorAll('[data-split-item="true"]').length,
-    linksPerItem: [...document.querySelectorAll('[data-split-item="true"]')].every((item) => item.querySelectorAll('a').length === 4)
-  }))()`);
-  tests.push({ page: 'district-hub', viewport: viewport.name, districtHub });
+    await navigate(`${hubPage.path}서울/`, viewport.width, viewport.height, viewport.mobile);
+    const regionInitial = await evaluate(`(() => ({
+      overflow: document.documentElement.scrollWidth <= window.innerWidth,
+      h1Count: document.querySelectorAll('h1').length,
+      directory: document.querySelectorAll('[data-split-directory="true"]').length,
+      items: document.querySelectorAll('[data-split-item="true"]').length,
+      searchHeight: document.querySelector('[data-split-search="true"]').getBoundingClientRect().height,
+      buttonMinHeight: Math.min(...[...document.querySelectorAll('.split-directory-tools button')].map((item) => item.getBoundingClientRect().height))
+    }))()`);
+    const regionSearch = await evaluate(`(async () => {
+      const input = document.querySelector('[data-split-search="true"]');
+      input.value = '명일동';
+      input.dispatchEvent(new Event('input', { bubbles: true }));
+      await new Promise((resolve) => setTimeout(resolve, 40));
+      const visible = [...document.querySelectorAll('[data-split-item="true"]')].filter((item) => !item.hidden);
+      return {
+        visible: visible.length,
+        allMatch: visible.every((item) => item.dataset.search.includes('명일동')),
+        links: visible.reduce((sum, item) => sum + item.querySelectorAll('a').length, 0),
+        linkMinHeight: Math.min(...visible.flatMap((item) => [...item.querySelectorAll('a')]).map((item) => item.getBoundingClientRect().height)),
+        status: document.querySelector('[data-split-status="true"]').textContent,
+        overflow: document.documentElement.scrollWidth <= window.innerWidth
+      };
+    })()`);
+    tests.push({ page: 'region-hub', hubPage, viewport: viewport.name, regionInitial, regionSearch });
+
+    await navigate(`${hubPage.path}경기/`, viewport.width, viewport.height, viewport.mobile);
+    const gyeonggiHub = await evaluate(`(() => ({
+      overflow: document.documentElement.scrollWidth <= window.innerWidth,
+      h1Count: document.querySelectorAll('h1').length,
+      districtCards: document.querySelectorAll('.split-district-card').length,
+      itemDirectories: document.querySelectorAll('[data-split-directory="true"]').length,
+      cardMinHeight: Math.min(...[...document.querySelectorAll('.split-district-card')].map((item) => item.getBoundingClientRect().height))
+    }))()`);
+    tests.push({ page: 'gyeonggi-hub', hubPage, viewport: viewport.name, gyeonggiHub });
+
+    await navigate(`${hubPage.path}경기/고양시/`, viewport.width, viewport.height, viewport.mobile);
+    const districtHub = await evaluate(`(() => ({
+      overflow: document.documentElement.scrollWidth <= window.innerWidth,
+      h1Count: document.querySelectorAll('h1').length,
+      directory: document.querySelectorAll('[data-split-directory="true"]').length,
+      items: document.querySelectorAll('[data-split-item="true"]').length,
+      linkCounts: [...document.querySelectorAll('[data-split-item="true"]')].map((item) => item.querySelectorAll('a').length)
+    }))()`);
+    tests.push({ page: 'district-hub', hubPage, viewport: viewport.name, districtHub });
+  }
 
   await navigate('/학습가이드/시험기간-학습계획/', viewport.width, viewport.height, viewport.mobile);
   const article = await evaluate(`(() => {
@@ -212,7 +245,12 @@ for (const viewport of [
   tests.push({ page: 'article', viewport: viewport.name, article });
 
   for (const detailPage of [
-    { name: 'subject-high-math', path: '/전국센터/수학학원/명일동고등수학학원/', role: 'subject-high-math' },
+    {
+      name: 'subject-high-math',
+      path: '/전국센터/수학학원/명일동고등수학학원/',
+      role: 'subject-high-math',
+      breadcrumbParents: ['/전국센터/고등수학학원/', '/전국센터/고등수학학원/서울/'],
+    },
     { name: 'grade-high-math', path: '/전국센터/고등학생학원/명일동고등학생수학학원/', role: 'grade-high-math' },
   ]) {
     await navigate(detailPage.path, viewport.width, viewport.height, viewport.mobile);
@@ -221,6 +259,24 @@ for (const viewport of [
       const heading = section.querySelector('#intent-role-title');
       const paragraph = section.querySelector('.geo-summary-panel > p:not(.eyebrow)');
       const counterpart = section.querySelector('.intent-counterpart a');
+      const breadcrumbPaths = [...document.querySelectorAll('.seo-breadcrumb a')]
+        .map((link) => decodeURIComponent(link.pathname));
+      const structuredBreadcrumbPaths = [...document.querySelectorAll('script[type="application/ld+json"]')]
+        .flatMap((script) => {
+          try {
+            const data = JSON.parse(script.textContent);
+            const roots = Array.isArray(data) ? data : [data];
+            const nodes = roots.flatMap((root) => Array.isArray(root?.['@graph']) ? root['@graph'] : [root]);
+            return nodes
+              .filter((node) => (Array.isArray(node?.['@type']) ? node['@type'] : [node?.['@type']]).includes('BreadcrumbList'))
+              .flatMap((node) => node.itemListElement || [])
+              .map((item) => item.item || item.url)
+              .filter(Boolean)
+              .map((url) => decodeURIComponent(new URL(url, location.href).pathname));
+          } catch {
+            return [];
+          }
+        });
       return {
         overflow: document.documentElement.scrollWidth <= window.innerWidth,
         h1Count: document.querySelectorAll('h1').length,
@@ -231,26 +287,33 @@ for (const viewport of [
         paragraphLineHeight: parseFloat(getComputedStyle(paragraph).lineHeight),
         answerCards: section.querySelectorAll('.geo-answer-card').length,
         checklistCards: section.querySelectorAll('.geo-check-card').length,
-        counterpart: counterpart ? counterpart.href : ''
+        counterpart: counterpart ? counterpart.href : '',
+        breadcrumbPaths,
+        structuredBreadcrumbPaths
       };
     })()`);
     tests.push({ page: 'detail', detailPage, viewport: viewport.name, detail });
   }
 }
 
+const samePaths = (actual, expected) =>
+  actual.length === expected.length && actual.every((path, index) => path === expected[index]);
 const failures = [];
 for (const test of tests) {
-  if (test.page === 'category-hub') {
-    if (!test.categoryHub.overflow || test.categoryHub.h1Count !== 1 || test.categoryHub.regionCards !== 13 || !test.categoryHub.validRegionTargets) failures.push(`${test.viewport}:category-hub`);
-    if (test.categoryHub.cardMinHeight < 44) failures.push(`${test.viewport}:category-target-size`);
+  if (test.page === 'center-root') {
+    if (!test.centerRoot.overflow || test.centerRoot.h1Count !== 1 || test.centerRoot.cards !== 15 || test.centerRoot.itemListItems !== 15 || test.centerRoot.itemListNumber !== 15) failures.push(`${test.viewport}:center-root`);
+    if (test.centerRoot.gridColumns.length !== 3 || !test.centerRoot.gridColumns.every((columns) => columns === test.expectedColumns)) failures.push(`${test.viewport}:center-root-grid`);
+  } else if (test.page === 'category-hub') {
+    if (!test.categoryHub.overflow || test.categoryHub.h1Count !== 1 || test.categoryHub.regionCards !== 13 || !test.categoryHub.validRegionTargets) failures.push(`${test.viewport}:${test.hubPage.name}:category-hub`);
+    if (test.categoryHub.cardMinHeight < 44) failures.push(`${test.viewport}:${test.hubPage.name}:category-target-size`);
   } else if (test.page === 'region-hub') {
-    if (!test.regionInitial.overflow || test.regionInitial.h1Count !== 1 || test.regionInitial.directory !== 1 || test.regionInitial.items !== 42) failures.push(`${test.viewport}:region-hub`);
-    if (test.regionInitial.searchHeight < 44 || test.regionInitial.buttonMinHeight < 44) failures.push(`${test.viewport}:region-target-size`);
-    if (test.regionSearch.visible !== 1 || test.regionSearch.links !== 4 || !test.regionSearch.allMatch || !test.regionSearch.overflow || test.regionSearch.linkMinHeight < 44) failures.push(`${test.viewport}:region-search`);
+    if (!test.regionInitial.overflow || test.regionInitial.h1Count !== 1 || test.regionInitial.directory !== 1 || test.regionInitial.items !== 42) failures.push(`${test.viewport}:${test.hubPage.name}:region-hub`);
+    if (test.regionInitial.searchHeight < 44 || test.regionInitial.buttonMinHeight < 44) failures.push(`${test.viewport}:${test.hubPage.name}:region-target-size`);
+    if (test.regionSearch.visible !== 1 || test.regionSearch.links !== test.hubPage.expectedLinks || !test.regionSearch.allMatch || !test.regionSearch.overflow || test.regionSearch.linkMinHeight < 44) failures.push(`${test.viewport}:${test.hubPage.name}:region-search`);
   } else if (test.page === 'gyeonggi-hub') {
-    if (!test.gyeonggiHub.overflow || test.gyeonggiHub.h1Count !== 1 || test.gyeonggiHub.districtCards !== 22 || test.gyeonggiHub.itemDirectories !== 0 || test.gyeonggiHub.cardMinHeight < 44) failures.push(`${test.viewport}:gyeonggi-hub`);
+    if (!test.gyeonggiHub.overflow || test.gyeonggiHub.h1Count !== 1 || test.gyeonggiHub.districtCards !== 22 || test.gyeonggiHub.itemDirectories !== 0 || test.gyeonggiHub.cardMinHeight < 44) failures.push(`${test.viewport}:${test.hubPage.name}:gyeonggi-hub`);
   } else if (test.page === 'district-hub') {
-    if (!test.districtHub.overflow || test.districtHub.h1Count !== 1 || test.districtHub.directory !== 1 || test.districtHub.items < 1 || !test.districtHub.linksPerItem) failures.push(`${test.viewport}:district-hub`);
+    if (!test.districtHub.overflow || test.districtHub.h1Count !== 1 || test.districtHub.directory !== 1 || test.districtHub.items < 1 || !test.districtHub.linkCounts.every((count) => count === test.hubPage.expectedLinks)) failures.push(`${test.viewport}:${test.hubPage.name}:district-hub`);
   } else if (test.page === 'article') {
     if (!test.article.overflow || !test.article.mainWithinViewport || test.article.paragraphFontSize < 16 || test.article.paragraphLineHeight < 27) failures.push(`${test.viewport}:article-layout`);
     if (test.viewport === 'desktop' && (!test.article.ctaVisible || test.article.ctaContrast < 4.5)) failures.push('desktop:cta-contrast');
@@ -258,6 +321,17 @@ for (const test of tests) {
     if (!test.detail.overflow || !test.detail.sectionWithinViewport || test.detail.h1Count !== 1) failures.push(`${test.viewport}:${test.detailPage.name}:layout`);
     if (test.detail.role !== test.detailPage.role || test.detail.answerCards !== 4 || test.detail.checklistCards !== 4) failures.push(`${test.viewport}:${test.detailPage.name}:role`);
     if (test.detail.paragraphFontSize < 16 || test.detail.paragraphLineHeight < 27 || !test.detail.counterpart) failures.push(`${test.viewport}:${test.detailPage.name}:readability`);
+    if (test.detailPage.breadcrumbParents) {
+      const expected = test.detailPage.breadcrumbParents;
+      const visibleParents = test.detail.breadcrumbPaths.slice(-expected.length);
+      const structuredPaths = test.detail.structuredBreadcrumbPaths;
+      const hasCurrentItem = structuredPaths[structuredPaths.length - 1] === test.detailPage.path;
+      const structuredParents = structuredPaths.slice(
+        -(expected.length + Number(hasCurrentItem)),
+        hasCurrentItem ? -1 : undefined,
+      );
+      if (!samePaths(visibleParents, expected) || !samePaths(structuredParents, expected)) failures.push(`${test.viewport}:${test.detailPage.name}:breadcrumb-hub`);
+    }
   }
 }
 

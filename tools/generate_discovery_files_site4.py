@@ -16,12 +16,17 @@ RSS_LINK = (
     f'  <link rel="alternate" type="application/rss+xml" '
     f'title="와와학습코칭학원 학습정보 RSS" href="{RSS_URL}">\n'
 )
+DIRECT_HUB_NAMES = (
+    "수학학원", "초등수학학원", "중등수학학원", "고등수학학원",
+    "영어학원", "초등영어학원", "중등영어학원", "고등영어학원",
+    "영수학원", "초등영수학원", "중등영수학원", "고등영수학원",
+    "초등학생학원", "중학생학원", "고등학생학원",
+)
 RSS_DISCOVERY_PAGES = [
     ROOT / "index.html",
     ROOT / "학습가이드" / "index.html",
-    *(ROOT / "전국센터" / name / "index.html" for name in (
-        "수학학원", "영어학원", "영수학원", "초등학생학원", "중학생학원", "고등학생학원"
-    )),
+    ROOT / "전국센터" / "index.html",
+    *(ROOT / "전국센터" / name / "index.html" for name in DIRECT_HUB_NAMES),
 ]
 CORE_RSS_PAGES = [
     ROOT / "학습가이드" / "index.html",
@@ -31,9 +36,8 @@ CORE_RSS_PAGES = [
     ROOT / "학습코칭" / "index.html",
     ROOT / "과목별코칭" / "index.html",
     ROOT / "학년별코칭" / "index.html",
-    *(ROOT / "전국센터" / name / "index.html" for name in (
-        "수학학원", "영어학원", "영수학원", "초등학생학원", "중학생학원", "고등학생학원"
-    )),
+    ROOT / "전국센터" / "index.html",
+    *(ROOT / "전국센터" / name / "index.html" for name in DIRECT_HUB_NAMES),
 ]
 RECENT_DETAIL_LIMIT = 24
 

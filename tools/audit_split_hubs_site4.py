@@ -24,15 +24,18 @@ SITE_NAME = "와와학습코칭학원"
 
 REGIONS = ("서울", "경기", "인천", "충청", "대전", "대구", "울산", "부산", "경상", "광주", "전라", "강원", "제주")
 DISTRICT_HUB_REGION = "경기"
-EXPECTED_CATEGORIES = 6
-EXPECTED_REGION_HUBS = 78
-EXPECTED_DISTRICT_HUBS = 132
+EXPECTED_CATEGORIES = 15
+EXPECTED_REGION_HUBS = 195
+EXPECTED_DISTRICT_HUBS = 330
 EXPECTED_DETAILS = 8_904
+EXPECTED_SCOPED_PAGES = 9_444
+EXPECTED_ALL_HTML_PAGES = 9_454
 DEFAULT_MAX_INTERNAL_LINKS = 200
 
-# The role-to-suffix mapping is intentionally explicit. Besides checking the
-# count, it protects every pre-existing detail URL from accidental relocation.
-CATEGORY_ROLE_SUFFIXES: dict[str, tuple[tuple[str, str], ...]] = {
+# Physical source directories and their role-to-suffix mappings are
+# intentionally explicit. They protect every pre-existing detail URL from
+# accidental relocation while the logical hub owner can change independently.
+SOURCE_ROLE_SUFFIXES: dict[str, tuple[tuple[str, str], ...]] = {
     "수학학원": (
         ("subject-all-math", "수학학원"),
         ("subject-elementary-math", "초등수학학원"),
@@ -70,7 +73,65 @@ CATEGORY_ROLE_SUFFIXES: dict[str, tuple[tuple[str, str], ...]] = {
         ("grade-high-combined", "고등학생영수학원"),
     ),
 }
-CATEGORIES = tuple(CATEGORY_ROLE_SUFFIXES)
+
+# Each existing detail role has exactly one logical nationwide hub. The nine
+# new grade-by-subject hubs point to pages that remain in their original
+# 수학학원/영어학원/영수학원 physical directories.
+HUB_SOURCE_ROLES: dict[str, tuple[str, tuple[str, ...]]] = {
+    "수학학원": ("수학학원", ("subject-all-math",)),
+    "영어학원": ("영어학원", ("subject-all-english",)),
+    "영수학원": ("영수학원", ("subject-all-combined",)),
+    "초등수학학원": ("수학학원", ("subject-elementary-math",)),
+    "중등수학학원": ("수학학원", ("subject-middle-math",)),
+    "고등수학학원": ("수학학원", ("subject-high-math",)),
+    "초등영어학원": ("영어학원", ("subject-elementary-english",)),
+    "중등영어학원": ("영어학원", ("subject-middle-english",)),
+    "고등영어학원": ("영어학원", ("subject-high-english",)),
+    "초등영수학원": ("영수학원", ("subject-elementary-combined",)),
+    "중등영수학원": ("영수학원", ("subject-middle-combined",)),
+    "고등영수학원": ("영수학원", ("subject-high-combined",)),
+    "초등학생학원": (
+        "초등학생학원",
+        ("grade-elementary-general", "grade-elementary-math", "grade-elementary-english", "grade-elementary-combined"),
+    ),
+    "중학생학원": (
+        "중학생학원",
+        ("grade-middle-general", "grade-middle-math", "grade-middle-english", "grade-middle-combined"),
+    ),
+    "고등학생학원": (
+        "고등학생학원",
+        ("grade-high-general", "grade-high-math", "grade-high-english", "grade-high-combined"),
+    ),
+}
+CATEGORIES = tuple(HUB_SOURCE_ROLES)
+ROLE_OWNER = {
+    (source, role): hub
+    for hub, (source, roles) in HUB_SOURCE_ROLES.items()
+    for role in roles
+}
+HUB_ROLE_ORDER = {hub: roles for hub, (_, roles) in HUB_SOURCE_ROLES.items()}
+
+SUBJECT_HUB_GROUPS = (
+    ("수학학원", "초등수학학원", "중등수학학원", "고등수학학원"),
+    ("영어학원", "초등영어학원", "중등영어학원", "고등영어학원"),
+    ("영수학원", "초등영수학원", "중등영수학원", "고등영수학원"),
+)
+RELATED_HUBS: dict[str, tuple[str, ...]] = {
+    "초등학생학원": ("초등학생학원", "초등수학학원", "초등영어학원", "초등영수학원"),
+    "중학생학원": ("중학생학원", "중등수학학원", "중등영어학원", "중등영수학원"),
+    "고등학생학원": ("고등학생학원", "고등수학학원", "고등영어학원", "고등영수학원"),
+}
+for _group in SUBJECT_HUB_GROUPS:
+    for _hub in _group:
+        RELATED_HUBS[_hub] = _group
+if set(RELATED_HUBS) != set(CATEGORIES):
+    raise RuntimeError("관련 허브 검증 그룹이 15개 직속 허브와 일치하지 않습니다.")
+
+_physical_roles = {(source, role) for source, roles in SOURCE_ROLE_SUFFIXES.items() for role, _ in roles}
+if set(ROLE_OWNER) != _physical_roles:
+    missing = sorted(_physical_roles - set(ROLE_OWNER))
+    extra = sorted(set(ROLE_OWNER) - _physical_roles)
+    raise RuntimeError(f"논리 허브 역할 매핑 불일치: missing={missing}, extra={extra}")
 
 
 def clean_text(value: str) -> str:
@@ -212,6 +273,7 @@ class PageInfo:
 @dataclass(frozen=True)
 class DetailRecord:
     category: str
+    source_category: str
     dong: str
     region: str
     district: str
@@ -349,7 +411,11 @@ def load_centers(audit: Audit) -> dict[str, dict[str, str]]:
         if normalized in centers:
             audit.fail("center_info", f"공백 정규화 후 동네 키 중복: {key} -> {normalized}")
             continue
-        centers[normalized] = {field: clean_text(str(branch[field])) for field in required}
+        center = {field: clean_text(str(branch[field])) for field in required}
+        address = clean_text(str(branch.get("센터 주소", "")))
+        if address.startswith("세종특별자치시") and center["시or구"].endswith("로"):
+            center["시or구"] = "세종시"
+        centers[normalized] = center
     audit.check(len(centers) == 371, "center_count", f"동네 {len(centers)}개 (예상 371개)")
     audit.check(set(branch["지역"] for branch in centers.values()) == set(REGIONS), "region_data", "center_info 광역지역 집합이 확정 13개와 다릅니다")
     gyeonggi_districts = {branch["시or구"] for branch in centers.values() if branch["지역"] == DISTRICT_HUB_REGION}
@@ -359,17 +425,19 @@ def load_centers(audit: Audit) -> dict[str, dict[str, str]]:
 
 def expected_details(centers: dict[str, dict[str, str]]) -> list[DetailRecord]:
     result: list[DetailRecord] = []
-    for category, roles in CATEGORY_ROLE_SUFFIXES.items():
+    for source_category, roles in SOURCE_ROLE_SUFFIXES.items():
         for dong, branch in centers.items():
             for role, suffix in roles:
+                category = ROLE_OWNER[(source_category, role)]
                 result.append(
                     DetailRecord(
                         category=category,
+                        source_category=source_category,
                         dong=dong,
                         region=branch["지역"],
                         district=branch["시or구"],
                         role=role,
-                        path=CENTER_ROOT / category / f"{dong}{suffix}" / "index.html",
+                        path=CENTER_ROOT / source_category / f"{dong}{suffix}" / "index.html",
                     )
                 )
     return result
@@ -603,6 +671,12 @@ def main() -> int:
     audit.check(actual_district_count == EXPECTED_DISTRICT_HUBS, "count_districts", f"경기 시 허브 {actual_district_count}개 (예상 {EXPECTED_DISTRICT_HUBS})")
     audit.check(actual_detail_count == EXPECTED_DETAILS, "count_details", f"기존 상세 {actual_detail_count}개 (예상 {EXPECTED_DETAILS})")
     audit.check(len(details) == EXPECTED_DETAILS, "expected_detail_model", f"데이터에서 계산한 상세 {len(details)}개")
+    audit.check(
+        len(expected_scoped_paths) == EXPECTED_SCOPED_PAGES,
+        "expected_scoped_model",
+        f"데이터에서 계산한 범위 페이지 {len(expected_scoped_paths)}개 (예상 {EXPECTED_SCOPED_PAGES})",
+    )
+    audit.check(len(all_pages) == EXPECTED_ALL_HTML_PAGES, "count_all_html", f"전체 HTML {len(all_pages)}개 (예상 {EXPECTED_ALL_HTML_PAGES})")
 
     # Any extra center index at these depths is a stale, duplicated, or
     # accidentally generated page and must not silently pass the count check.
@@ -644,10 +718,18 @@ def main() -> int:
 
     by_category_region: dict[tuple[str, str], list[DetailRecord]] = defaultdict(list)
     by_category_region_district: dict[tuple[str, str, str], list[DetailRecord]] = defaultdict(list)
-    record_by_path = {record.path: record for record in details}
+    by_category: dict[str, list[DetailRecord]] = defaultdict(list)
     for record in details:
+        by_category[record.category].append(record)
         by_category_region[(record.category, record.region)].append(record)
         by_category_region_district[(record.category, record.region, record.district)].append(record)
+    for category in CATEGORIES:
+        expected_count = len(centers) * len(HUB_ROLE_ORDER[category])
+        audit.check(
+            len(by_category[category]) == expected_count,
+            "hub_detail_ownership",
+            f"{category}: 소유 상세 {len(by_category[category])}개 (예상 {expected_count})",
+        )
 
     canonical_owners: dict[str, list[Path]] = defaultdict(list)
 
@@ -673,11 +755,16 @@ def main() -> int:
         if len(info.canonicals) == 1:
             canonical_owners[info.canonicals[0]].append(path)
 
-    # 전국센터 -> six category roots.
+    # 전국센터 -> 15 direct category roots, both visibly and in ItemList.
     national = CENTER_ROOT / "index.html"
     if national in infos:
         for child in sorted(category_paths):
             audit.check(child in adjacency[national], "national_to_category", f"전국센터에서 {relative(child)} 링크 누락")
+        validate_item_list(
+            infos[national],
+            [(category, canonical_url("전국센터", category)) for category in CATEGORIES],
+            audit,
+        )
 
     for category in CATEGORIES:
         path = CENTER_ROOT / category / "index.html"
@@ -700,6 +787,13 @@ def main() -> int:
         for region in REGIONS:
             child = CENTER_ROOT / category / region / "index.html"
             audit.check(child in adjacency[path], "category_to_region", f"{relative(path)} -> {relative(child)} 누락")
+        expected_related_paths = {CENTER_ROOT / related / "index.html" for related in RELATED_HUBS[category]}
+        actual_related_paths = adjacency[path] & category_paths
+        audit.check(
+            actual_related_paths == expected_related_paths,
+            "category_related_hubs",
+            f"{relative(path)}: 관련 허브 {[relative(item) for item in sorted(actual_related_paths)]}",
+        )
         bypasses = adjacency[path] & detail_paths
         audit.check(not bypasses, "category_bypasses_region", f"{relative(path)}: 상세 직링크 {len(bypasses)}개")
 
@@ -708,7 +802,7 @@ def main() -> int:
             path = CENTER_ROOT / category / region / "index.html"
             grouped = sorted(
                 by_category_region[(category, region)],
-                key=lambda item: (item.district, item.dong, [role for role, _ in CATEGORY_ROLE_SUFFIXES[category]].index(item.role)),
+                key=lambda item: (item.district, item.dong, HUB_ROLE_ORDER[category].index(item.role)),
             )
             if region == DISTRICT_HUB_REGION:
                 districts = sorted({record.district for record in grouped})
@@ -749,7 +843,7 @@ def main() -> int:
 
     gyeonggi_districts = sorted({branch["시or구"] for branch in centers.values() if branch["지역"] == DISTRICT_HUB_REGION})
     for category in CATEGORIES:
-        role_order = [role for role, _ in CATEGORY_ROLE_SUFFIXES[category]]
+        role_order = HUB_ROLE_ORDER[category]
         for district in gyeonggi_districts:
             path = CENTER_ROOT / category / DISTRICT_HUB_REGION / district / "index.html"
             grouped = sorted(
@@ -789,12 +883,38 @@ def main() -> int:
             continue
         h1 = info.h1s[0] if len(info.h1s) == 1 else record.path.parent.name
         visible, structured = expected_breadcrumbs(record, h1)
+        parent_items = [
+            (f"{record.region} {record.category}", canonical_url("전국센터", record.category, record.region)),
+        ]
+        if record.region == DISTRICT_HUB_REGION:
+            parent_items.append(
+                (
+                    f"{record.region} {record.district} {record.category}",
+                    canonical_url("전국센터", record.category, record.region, record.district),
+                )
+            )
+        parent_items.append((f"전체 {record.category}", canonical_url("전국센터", record.category)))
+        peers = sorted(
+            (
+                peer
+                for peer in by_category_region_district[(record.category, record.region, record.district)]
+                if peer.role == record.role and peer.dong != record.dong
+            ),
+            key=lambda peer: peer.dong,
+        )[:8]
+        detail_children = parent_items + [
+            (
+                infos[peer.path].h1s[0] if peer.path in infos and len(infos[peer.path].h1s) == 1 else peer.path.parent.name,
+                canonical_for_page(peer.path),
+            )
+            for peer in peers
+        ]
         validate_page(
             record.path,
             expected_h1=None,
             visible_crumbs=visible,
             structured_crumbs=structured,
-            children=None,
+            children=detail_children,
             require_collection=False,
         )
         immediate_parent = (
@@ -805,6 +925,8 @@ def main() -> int:
         audit.check(immediate_parent in adjacency[record.path], "detail_to_parent", f"{relative(record.path)} -> {relative(immediate_parent)} 누락")
         region_parent = CENTER_ROOT / record.category / record.region / "index.html"
         audit.check(region_parent in adjacency[record.path], "detail_to_region", f"{relative(record.path)} -> {relative(region_parent)} 누락")
+        category_parent = CENTER_ROOT / record.category / "index.html"
+        audit.check(category_parent in adjacency[record.path], "detail_to_category", f"{relative(record.path)} -> {relative(category_parent)} 누락")
 
     for canonical, owners in canonical_owners.items():
         if len(owners) > 1:
