@@ -61,39 +61,105 @@ CATEGORIES = (
         "ELEMENTARY ACADEMY DIRECTORY",
         "기초 개념과 숙제 습관부터 영어·수학의 주간 학습 흐름까지 확인하는 초등 학습 안내",
         "초등 학습 습관과 과목별 기초를 점검하려는 학생과 학부모",
-        ("grade-elementary-general", "grade-elementary-math", "grade-elementary-english", "grade-elementary-combined"),
-        {
-            "grade-elementary-general": "초등 종합",
-            "grade-elementary-math": "초등 수학",
-            "grade-elementary-english": "초등 영어",
-            "grade-elementary-combined": "초등 영수",
-        },
+        ("grade-elementary-general",),
+        {"grade-elementary-general": "초등 종합"},
     ),
     Category(
         "중학생학원",
         "MIDDLE SCHOOL DIRECTORY",
         "학교 진도·내신 범위·수행평가·오답 복습을 함께 관리하는 중등 학습 안내",
         "중등 내신과 과목별 학습 루틴을 점검하려는 학생과 학부모",
-        ("grade-middle-general", "grade-middle-math", "grade-middle-english", "grade-middle-combined"),
-        {
-            "grade-middle-general": "중등 종합",
-            "grade-middle-math": "중등 수학",
-            "grade-middle-english": "중등 영어",
-            "grade-middle-combined": "중등 영수",
-        },
+        ("grade-middle-general",),
+        {"grade-middle-general": "중등 종합"},
     ),
     Category(
         "고등학생학원",
         "HIGH SCHOOL DIRECTORY",
         "학년별 내신·모의고사 일정과 영어·수학 공부 시간을 함께 설계하는 고등 학습 안내",
         "고등 내신·모의고사와 과목별 시간 관리를 점검하려는 학생과 학부모",
-        ("grade-high-general", "grade-high-math", "grade-high-english", "grade-high-combined"),
-        {
-            "grade-high-general": "고등 종합",
-            "grade-high-math": "고등 수학",
-            "grade-high-english": "고등 영어",
-            "grade-high-combined": "고등 영수",
-        },
+        ("grade-high-general",),
+        {"grade-high-general": "고등 종합"},
+    ),
+    Category(
+        "초등학생수학학원",
+        "ELEMENTARY STUDENT MATH ROUTINE",
+        "초등학생의 수학 숙제·복습 시간과 연산·문장제 학습을 주간 계획으로 이어가는 학년 운영 안내",
+        "초등 수학을 생활 습관과 함께 꾸준히 운영하려는 학생과 학부모",
+        ("grade-elementary-math",),
+        {"grade-elementary-math": "초등학생 수학"},
+        "초등학생학원",
+    ),
+    Category(
+        "초등학생영어학원",
+        "ELEMENTARY STUDENT ENGLISH ROUTINE",
+        "초등학생의 영어 어휘·읽기 과제와 복습 간격을 생활 시간표 안에서 꾸준히 관리하는 학년 운영 안내",
+        "초등 영어의 시작 시간과 과제·복습 습관을 점검하려는 학생과 학부모",
+        ("grade-elementary-english",),
+        {"grade-elementary-english": "초등학생 영어"},
+        "초등학생학원",
+    ),
+    Category(
+        "초등학생영수학원",
+        "ELEMENTARY STUDENT ENGLISH & MATH ROUTINE",
+        "초등학생의 영어·수학 숙제와 복습 시간을 한 주 안에 무리 없이 배치하는 학년 운영 안내",
+        "초등 영어·수학의 과제와 복습 습관을 함께 만들려는 학생과 학부모",
+        ("grade-elementary-combined",),
+        {"grade-elementary-combined": "초등학생 영수"},
+        "초등학생학원",
+    ),
+    Category(
+        "중학생수학학원",
+        "MIDDLE SCHOOL STUDENT MATH ROUTINE",
+        "중학생의 학교 일정 안에서 수학 과제·복습·오답 재풀이 시간을 꾸준히 운영하는 학습 습관 안내",
+        "중등 수학 공부 시간과 과제 완료·복습 습관을 점검하려는 학생과 학부모",
+        ("grade-middle-math",),
+        {"grade-middle-math": "중학생 수학"},
+        "중학생학원",
+    ),
+    Category(
+        "중학생영어학원",
+        "MIDDLE SCHOOL STUDENT ENGLISH ROUTINE",
+        "중학생의 영어 과제·어휘 복습·학교 일정과 시험 준비 시간을 주간 계획으로 연결하는 학년 운영 안내",
+        "중등 영어 과제와 복습 시간을 꾸준히 관리하려는 학생과 학부모",
+        ("grade-middle-english",),
+        {"grade-middle-english": "중학생 영어"},
+        "중학생학원",
+    ),
+    Category(
+        "중학생영수학원",
+        "MIDDLE SCHOOL STUDENT ENGLISH & MATH ROUTINE",
+        "중학생의 영어·수학 과제와 시험 준비 시간을 학교 일정에 맞춰 균형 있게 배치하는 학년 운영 안내",
+        "중등 영어·수학의 시간 배분과 과제·복습 습관을 함께 점검하려는 학생과 학부모",
+        ("grade-middle-combined",),
+        {"grade-middle-combined": "중학생 영수"},
+        "중학생학원",
+    ),
+    Category(
+        "고등학생수학학원",
+        "HIGH SCHOOL STUDENT MATH ROUTINE",
+        "고등학생의 내신·모의고사 일정 속 수학 공부 시간과 과제·복습 간격을 조정하는 학년 운영 안내",
+        "고등 수학 공부 시간을 학사 일정과 함께 관리하려는 학생과 학부모",
+        ("grade-high-math",),
+        {"grade-high-math": "고등학생 수학"},
+        "고등학생학원",
+    ),
+    Category(
+        "고등학생영어학원",
+        "HIGH SCHOOL STUDENT ENGLISH ROUTINE",
+        "고등학생의 영어 과제·어휘 복습·독해 시간을 내신과 모의고사 일정에 맞춰 운영하는 학년 안내",
+        "고등 영어 공부 시간과 과제·복습 습관을 점검하려는 학생과 학부모",
+        ("grade-high-english",),
+        {"grade-high-english": "고등학생 영어"},
+        "고등학생학원",
+    ),
+    Category(
+        "고등학생영수학원",
+        "HIGH SCHOOL STUDENT ENGLISH & MATH ROUTINE",
+        "고등학생의 영어·수학 공부 시간을 내신·모의고사 일정과 자습 가능 시간에 맞춰 조정하는 학년 운영 안내",
+        "고등 영어·수학의 시간 배분과 실행 습관을 함께 점검하려는 학생과 학부모",
+        ("grade-high-combined",),
+        {"grade-high-combined": "고등학생 영수"},
+        "고등학생학원",
     ),
     Category(
         "초등수학학원",
@@ -194,11 +260,14 @@ SUBJECT_CATEGORY_GROUPS = (
     ("영수학원", "초등영수학원", "중등영수학원", "고등영수학원"),
 )
 GRADE_CATEGORY_GROUPS = {
-    "초등학생학원": ("초등학생학원", "초등수학학원", "초등영어학원", "초등영수학원"),
-    "중학생학원": ("중학생학원", "중등수학학원", "중등영어학원", "중등영수학원"),
-    "고등학생학원": ("고등학생학원", "고등수학학원", "고등영어학원", "고등영수학원"),
+    "초등학생학원": ("초등학생학원", "초등학생수학학원", "초등학생영어학원", "초등학생영수학원"),
+    "중학생학원": ("중학생학원", "중학생수학학원", "중학생영어학원", "중학생영수학원"),
+    "고등학생학원": ("고등학생학원", "고등학생수학학원", "고등학생영어학원", "고등학생영수학원"),
 }
 RELATED_CATEGORY_NAMES: dict[str, tuple[str, ...]] = dict(GRADE_CATEGORY_GROUPS)
+for group in GRADE_CATEGORY_GROUPS.values():
+    for category_name in group:
+        RELATED_CATEGORY_NAMES[category_name] = group
 for group in SUBJECT_CATEGORY_GROUPS:
     for category_name in group:
         RELATED_CATEGORY_NAMES[category_name] = group
@@ -779,14 +848,16 @@ def update_detail_page(page: DetailPage, district_peers: list[DetailPage]) -> bo
     visible, structured = detail_breadcrumbs(page)
     peer_candidates = [peer for peer in district_peers if peer.role == page.role and peer.dong != page.dong]
     peer_candidates.sort(key=lambda item: item.dong)
-    updated = re.sub(
-        r'<nav class="seo-breadcrumb" aria-label="현재 위치">.*?</nav>',
+    # 기존 들여쓰기까지 함께 교체해야 생성기를 반복 실행해도 공백이
+    # 누적되지 않는다. URL과 본문은 그대로 두고 브레드크럼 블록만 갱신한다.
+    updated, breadcrumb_count = re.subn(
+        r'^[ \t]*<nav class="seo-breadcrumb" aria-label="현재 위치">.*?</nav>',
         breadcrumb_html(visible, page.title),
         source,
         count=1,
-        flags=re.S,
+        flags=re.S | re.M,
     )
-    if updated == source:
+    if breadcrumb_count != 1:
         raise RuntimeError(f"브레드크럼 교체 실패: {page.path}")
 
     json_match = re.search(r'(<script type="application/ld\+json">)(.*?)(</script>)', updated, re.S)

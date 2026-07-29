@@ -24,12 +24,12 @@ SITE_NAME = "와와학습코칭학원"
 
 REGIONS = ("서울", "경기", "인천", "충청", "대전", "대구", "울산", "부산", "경상", "광주", "전라", "강원", "제주")
 DISTRICT_HUB_REGION = "경기"
-EXPECTED_CATEGORIES = 15
-EXPECTED_REGION_HUBS = 195
-EXPECTED_DISTRICT_HUBS = 330
+EXPECTED_CATEGORIES = 24
+EXPECTED_REGION_HUBS = 312
+EXPECTED_DISTRICT_HUBS = 528
 EXPECTED_DETAILS = 8_904
-EXPECTED_SCOPED_PAGES = 9_444
-EXPECTED_ALL_HTML_PAGES = 9_454
+EXPECTED_SCOPED_PAGES = 9_768
+EXPECTED_ALL_HTML_PAGES = 9_778
 DEFAULT_MAX_INTERNAL_LINKS = 200
 
 # Physical source directories and their role-to-suffix mappings are
@@ -75,33 +75,33 @@ SOURCE_ROLE_SUFFIXES: dict[str, tuple[tuple[str, str], ...]] = {
 }
 
 # Each existing detail role has exactly one logical nationwide hub. The nine
-# new grade-by-subject hubs point to pages that remain in their original
-# 수학학원/영어학원/영수학원 physical directories.
+# student-stage-by-subject hubs point to pages that remain in their original
+# 초등학생학원/중학생학원/고등학생학원 physical directories.
 HUB_SOURCE_ROLES: dict[str, tuple[str, tuple[str, ...]]] = {
     "수학학원": ("수학학원", ("subject-all-math",)),
     "영어학원": ("영어학원", ("subject-all-english",)),
     "영수학원": ("영수학원", ("subject-all-combined",)),
+    "초등학생학원": ("초등학생학원", ("grade-elementary-general",)),
+    "중학생학원": ("중학생학원", ("grade-middle-general",)),
+    "고등학생학원": ("고등학생학원", ("grade-high-general",)),
+    "초등학생수학학원": ("초등학생학원", ("grade-elementary-math",)),
+    "초등학생영어학원": ("초등학생학원", ("grade-elementary-english",)),
+    "초등학생영수학원": ("초등학생학원", ("grade-elementary-combined",)),
+    "중학생수학학원": ("중학생학원", ("grade-middle-math",)),
+    "중학생영어학원": ("중학생학원", ("grade-middle-english",)),
+    "중학생영수학원": ("중학생학원", ("grade-middle-combined",)),
+    "고등학생수학학원": ("고등학생학원", ("grade-high-math",)),
+    "고등학생영어학원": ("고등학생학원", ("grade-high-english",)),
+    "고등학생영수학원": ("고등학생학원", ("grade-high-combined",)),
     "초등수학학원": ("수학학원", ("subject-elementary-math",)),
-    "중등수학학원": ("수학학원", ("subject-middle-math",)),
-    "고등수학학원": ("수학학원", ("subject-high-math",)),
     "초등영어학원": ("영어학원", ("subject-elementary-english",)),
-    "중등영어학원": ("영어학원", ("subject-middle-english",)),
-    "고등영어학원": ("영어학원", ("subject-high-english",)),
     "초등영수학원": ("영수학원", ("subject-elementary-combined",)),
+    "중등수학학원": ("수학학원", ("subject-middle-math",)),
+    "중등영어학원": ("영어학원", ("subject-middle-english",)),
     "중등영수학원": ("영수학원", ("subject-middle-combined",)),
+    "고등수학학원": ("수학학원", ("subject-high-math",)),
+    "고등영어학원": ("영어학원", ("subject-high-english",)),
     "고등영수학원": ("영수학원", ("subject-high-combined",)),
-    "초등학생학원": (
-        "초등학생학원",
-        ("grade-elementary-general", "grade-elementary-math", "grade-elementary-english", "grade-elementary-combined"),
-    ),
-    "중학생학원": (
-        "중학생학원",
-        ("grade-middle-general", "grade-middle-math", "grade-middle-english", "grade-middle-combined"),
-    ),
-    "고등학생학원": (
-        "고등학생학원",
-        ("grade-high-general", "grade-high-math", "grade-high-english", "grade-high-combined"),
-    ),
 }
 CATEGORIES = tuple(HUB_SOURCE_ROLES)
 ROLE_OWNER = {
@@ -117,15 +117,18 @@ SUBJECT_HUB_GROUPS = (
     ("영수학원", "초등영수학원", "중등영수학원", "고등영수학원"),
 )
 RELATED_HUBS: dict[str, tuple[str, ...]] = {
-    "초등학생학원": ("초등학생학원", "초등수학학원", "초등영어학원", "초등영수학원"),
-    "중학생학원": ("중학생학원", "중등수학학원", "중등영어학원", "중등영수학원"),
-    "고등학생학원": ("고등학생학원", "고등수학학원", "고등영어학원", "고등영수학원"),
+    "초등학생학원": ("초등학생학원", "초등학생수학학원", "초등학생영어학원", "초등학생영수학원"),
+    "중학생학원": ("중학생학원", "중학생수학학원", "중학생영어학원", "중학생영수학원"),
+    "고등학생학원": ("고등학생학원", "고등학생수학학원", "고등학생영어학원", "고등학생영수학원"),
 }
+for _group in tuple(RELATED_HUBS.values()):
+    for _hub in _group:
+        RELATED_HUBS[_hub] = _group
 for _group in SUBJECT_HUB_GROUPS:
     for _hub in _group:
         RELATED_HUBS[_hub] = _group
 if set(RELATED_HUBS) != set(CATEGORIES):
-    raise RuntimeError("관련 허브 검증 그룹이 15개 직속 허브와 일치하지 않습니다.")
+    raise RuntimeError("관련 허브 검증 그룹이 24개 직속 허브와 일치하지 않습니다.")
 
 _physical_roles = {(source, role) for source, roles in SOURCE_ROLE_SUFFIXES.items() for role, _ in roles}
 if set(ROLE_OWNER) != _physical_roles:
@@ -755,7 +758,7 @@ def main() -> int:
         if len(info.canonicals) == 1:
             canonical_owners[info.canonicals[0]].append(path)
 
-    # 전국센터 -> 15 direct category roots, both visibly and in ItemList.
+    # 전국센터 -> 24 direct category roots, both visibly and in ItemList.
     national = CENTER_ROOT / "index.html"
     if national in infos:
         for child in sorted(category_paths):

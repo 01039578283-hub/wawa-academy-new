@@ -127,6 +127,7 @@ await command('Runtime.enable');
 const hubPages = [
   { name: 'math', path: '/전국센터/수학학원/', expectedLinks: 1 },
   { name: 'high-math', path: '/전국센터/고등수학학원/', expectedLinks: 1 },
+  { name: 'middle-student-math', path: '/전국센터/중학생수학학원/', expectedLinks: 1 },
 ];
 const tests = [];
 for (const viewport of [
@@ -251,7 +252,12 @@ for (const viewport of [
       role: 'subject-high-math',
       breadcrumbParents: ['/전국센터/고등수학학원/', '/전국센터/고등수학학원/서울/'],
     },
-    { name: 'grade-high-math', path: '/전국센터/고등학생학원/명일동고등학생수학학원/', role: 'grade-high-math' },
+    {
+      name: 'grade-high-math',
+      path: '/전국센터/고등학생학원/명일동고등학생수학학원/',
+      role: 'grade-high-math',
+      breadcrumbParents: ['/전국센터/고등학생수학학원/', '/전국센터/고등학생수학학원/서울/'],
+    },
   ]) {
     await navigate(detailPage.path, viewport.width, viewport.height, viewport.mobile);
     const detail = await evaluate(`(() => {
@@ -301,8 +307,8 @@ const samePaths = (actual, expected) =>
 const failures = [];
 for (const test of tests) {
   if (test.page === 'center-root') {
-    if (!test.centerRoot.overflow || test.centerRoot.h1Count !== 1 || test.centerRoot.cards !== 15 || test.centerRoot.itemListItems !== 15 || test.centerRoot.itemListNumber !== 15) failures.push(`${test.viewport}:center-root`);
-    if (test.centerRoot.gridColumns.length !== 3 || !test.centerRoot.gridColumns.every((columns) => columns === test.expectedColumns)) failures.push(`${test.viewport}:center-root-grid`);
+    if (!test.centerRoot.overflow || test.centerRoot.h1Count !== 1 || test.centerRoot.cards !== 24 || test.centerRoot.itemListItems !== 24 || test.centerRoot.itemListNumber !== 24) failures.push(`${test.viewport}:center-root`);
+    if (test.centerRoot.gridColumns.length !== 4 || !test.centerRoot.gridColumns.every((columns) => columns === test.expectedColumns)) failures.push(`${test.viewport}:center-root-grid`);
   } else if (test.page === 'category-hub') {
     if (!test.categoryHub.overflow || test.categoryHub.h1Count !== 1 || test.categoryHub.regionCards !== 13 || !test.categoryHub.validRegionTargets) failures.push(`${test.viewport}:${test.hubPage.name}:category-hub`);
     if (test.categoryHub.cardMinHeight < 44) failures.push(`${test.viewport}:${test.hubPage.name}:category-target-size`);
