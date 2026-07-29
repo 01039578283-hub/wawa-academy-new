@@ -29,6 +29,8 @@ RSS_DISCOVERY_PAGES = [
     *(ROOT / "전국센터" / name / "index.html" for name in DIRECT_HUB_NAMES),
 ]
 CORE_RSS_PAGES = [
+    ROOT / "전국센터" / "index.html",
+    *(ROOT / "전국센터" / name / "index.html" for name in DIRECT_HUB_NAMES),
     ROOT / "학습가이드" / "index.html",
     ROOT / "학습가이드" / "시험기간-학습계획" / "index.html",
     ROOT / "학습가이드" / "오답관리-루틴" / "index.html",
@@ -36,10 +38,7 @@ CORE_RSS_PAGES = [
     ROOT / "학습코칭" / "index.html",
     ROOT / "과목별코칭" / "index.html",
     ROOT / "학년별코칭" / "index.html",
-    ROOT / "전국센터" / "index.html",
-    *(ROOT / "전국센터" / name / "index.html" for name in DIRECT_HUB_NAMES),
 ]
-RECENT_DETAIL_LIMIT = 24
 
 
 def git_output(args: list[str]) -> bytes:
@@ -155,19 +154,10 @@ def write_sitemap(records: list[dict]) -> None:
 
 def rss_selection(records: list[dict]) -> list[dict]:
     by_path = {record["path"]: record for record in records}
-    selected = [by_path[path] for path in CORE_RSS_PAGES]
-    selected_urls = {record["canonical"] for record in selected}
-    detail_candidates = [
-        record
-        for record in records
-        if record["relative"].startswith("전국센터/")
-        and len(record["path"].relative_to(ROOT).parts) >= 4
-        and 'data-intent-role="' in record["path"].read_text(encoding="utf-8", errors="ignore")
-        and record["canonical"] not in selected_urls
-    ]
-    detail_candidates.sort(key=lambda record: (record["modified"], record["relative"]), reverse=True)
-    selected.extend(detail_candidates[:RECENT_DETAIL_LIMIT])
-    return sorted(selected, key=lambda record: (record["modified"], record["relative"]), reverse=True)
+    missing = [path for path in CORE_RSS_PAGES if path not in by_path]
+    if missing:
+        raise RuntimeError(f"RSS 핵심 페이지 누락: {missing}")
+    return [by_path[path] for path in CORE_RSS_PAGES]
 
 
 def write_rss(records: list[dict]) -> int:
@@ -179,7 +169,7 @@ def write_rss(records: list[dict]) -> int:
         "  <channel>",
         "    <title>와와학습코칭학원 학습정보</title>",
         f"    <link>{DOMAIN}/</link>",
-        "    <description>학습가이드와 최근 보강된 지역별 학습코칭 안내를 선별해 제공합니다.</description>",
+        "    <description>수학·영어·영수와 초등·중등·고등 과정별 핵심 학원 허브 및 학습가이드를 선별해 제공합니다.</description>",
         "    <language>ko-KR</language>",
         f"    <lastBuildDate>{format_datetime(build_time)}</lastBuildDate>",
         f'    <atom:link href="{RSS_URL}" rel="self" type="application/rss+xml" />',
