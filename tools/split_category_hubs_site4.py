@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import html
 import json
 import re
@@ -537,7 +538,7 @@ def category_cards(category: Category, grouped: dict[str, list[DetailPage]]) -> 
         dong_count = len({page.dong for page in grouped[region]})
         href = root_href("전국센터", category.name, region)
         cards.append(
-            f'''        <a class="split-region-card" href="{href}">
+            f'''        <a class="split-region-card" id="region-{index:02d}" href="{href}">
           <span>REGION {index:02d}</span>
           <strong>{escape(region)} {escape(category.name)}</strong>
           <p>{dong_count:,}개 동네 · {detail_count:,}개 상세 안내</p>
@@ -545,6 +546,45 @@ def category_cards(category: Category, grouped: dict[str, list[DetailPage]]) -> 
         </a>'''
         )
     return "\n".join(cards)
+
+
+def category_quick_tools(category: Category, grouped: dict[str, list[DetailPage]]) -> str:
+    region_links = "\n".join(
+        f'          <a href="#region-{index:02d}">{escape(region)}</a>'
+        for index, region in enumerate(REGIONS, 1)
+    )
+    pages = sorted(
+        (page for region in REGIONS for page in grouped[region]),
+        key=lambda page: (page.dong, REGIONS.index(page.region), page.district),
+    )
+    if len(pages) != len({page.dong for page in pages}):
+        raise RuntimeError(f"{category.name}: 동네 바로찾기 항목이 중복됩니다.")
+    options = "\n".join(
+        f'          <option value="{escape(page.dong)}" data-url="{escape(page.canonical)}">'
+        f"{escape(page.region)} · {escape(page.district)}</option>"
+        for page in pages
+    )
+    return f'''      <div class="split-category-tools" data-category-finder="true">
+        <form class="split-category-finder" novalidate>
+          <label for="category-dong-{escape(category.name)}">동네 이름으로 바로 찾기</label>
+          <div>
+            <input id="category-dong-{escape(category.name)}" type="search"
+              list="category-dong-list-{escape(category.name)}"
+              placeholder="예: 명일동" autocomplete="off" data-category-dong-input="true">
+            <button type="submit">안내 보기</button>
+          </div>
+          <datalist id="category-dong-list-{escape(category.name)}">
+{options}
+          </datalist>
+          <p data-category-dong-status="true" aria-live="polite">371개 동네 중 이름을 입력해 바로 이동할 수 있습니다.</p>
+        </form>
+        <nav class="split-region-jumps" aria-label="{escape(category.name)} 광역지역 빠른 이동">
+          <strong>광역지역 바로가기</strong>
+          <div>
+{region_links}
+          </div>
+        </nav>
+      </div>'''
 
 
 def sibling_category_links(current: str) -> str:
@@ -589,6 +629,7 @@ def write_category_page(category: Category, grouped: dict[str, list[DetailPage]]
           <div><p class="eyebrow">REGIONAL DIRECTORY</p><h2 id="region-directory-title">광역지역부터 선택하세요</h2></div>
           <p>각 광역 허브에서 시·군·구와 동네를 확인한 뒤, 필요한 과목·학년 페이지로 이동할 수 있습니다.</p>
         </div>
+{category_quick_tools(category, grouped)}
         <div class="split-region-grid">
 {category_cards(category, grouped)}
         </div>
@@ -958,6 +999,13 @@ def update_detail_page(page: DetailPage, district_peers: list[DetailPage]) -> bo
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description="전국센터 카테고리·지역 허브를 생성하고 상세 내부링크를 정리합니다.")
+    parser.add_argument(
+        "--hubs-only",
+        action="store_true",
+        help="카테고리·지역·시군구 허브만 생성하고 8,904개 상세페이지는 변경하지 않습니다.",
+    )
+    args = parser.parse_args()
     centers, dong_names = load_centers()
     pages = collect_details(centers, dong_names)
     by_category_region: dict[tuple[str, str], list[DetailPage]] = defaultdict(list)
@@ -983,9 +1031,10 @@ def main() -> None:
                     generated_districts += 1
 
     changed_details = 0
-    for page in pages:
-        peers = by_category_region_district[(page.category.name, page.region, page.district)]
-        changed_details += int(update_detail_page(page, peers))
+    if not args.hubs_only:
+        for page in pages:
+            peers = by_category_region_district[(page.category.name, page.region, page.district)]
+            changed_details += int(update_detail_page(page, peers))
 
     print(
         json.dumps(

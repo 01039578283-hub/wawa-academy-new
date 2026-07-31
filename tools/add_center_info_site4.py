@@ -93,7 +93,7 @@ def process_page(page_dir: Path, center_info: dict[str, dict]) -> bool:
         return False
     updated = source
 
-    # 1) JSON-LD: add address + identifier to EducationalOrganization node
+    # 1) JSON-LD: add address + identifier to the actual branch node
     m = re.search(r'<script type="application/ld\+json">(.*?)</script>', updated, re.S)
     data = json.loads(m.group(1))
     graph = data["@graph"]
@@ -101,9 +101,11 @@ def process_page(page_dir: Path, center_info: dict[str, dict]) -> bool:
     for node in graph:
         t = node.get("@type")
         types = t if isinstance(t, list) else [t]
-        if "EducationalOrganization" in types:
+        if "LocalBusiness" in types:
             org = node
             break
+    if org is None:
+        raise RuntimeError(f"LocalBusiness branch node not found: {path}")
 
     org["address"] = {
         "@type": "PostalAddress",

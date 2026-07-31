@@ -21,6 +21,7 @@ INFO_PATH = ROOT / "tools" / "center_info.json"
 DOMAIN = "https://xn--ol5ba64b839b.com"
 DOMAIN_HOST = urlsplit(DOMAIN).netloc.lower()
 SITE_NAME = "와와학습코칭학원"
+HOME_LABEL = "홈"
 
 REGIONS = ("서울", "경기", "인천", "충청", "대전", "대구", "울산", "부산", "경상", "광주", "전라", "강원", "제주")
 DISTRICT_HUB_REGION = "경기"
@@ -454,7 +455,7 @@ def expected_breadcrumbs(record: DetailRecord, h1: str) -> tuple[list[tuple[str,
         (record.region, root_href("전국센터", record.category, record.region)),
     ]
     structured = [
-        (SITE_NAME, canonical_url()),
+        (HOME_LABEL, canonical_url()),
         ("전국센터", canonical_url("전국센터")),
         (record.category, canonical_url("전국센터", record.category)),
         (record.region, canonical_url("전국센터", record.category, record.region)),
@@ -780,7 +781,7 @@ def main() -> int:
             expected_h1=f"{category} 지역별 안내",
             visible_crumbs=[("홈", root_href()), ("전국센터", root_href("전국센터")), (category, "")],
             structured_crumbs=[
-                (SITE_NAME, canonical_url()),
+                (HOME_LABEL, canonical_url()),
                 ("전국센터", canonical_url("전국센터")),
                 (category, canonical_url("전국센터", category)),
             ],
@@ -830,7 +831,7 @@ def main() -> int:
                     (region, ""),
                 ],
                 structured_crumbs=[
-                    (SITE_NAME, canonical_url()),
+                    (HOME_LABEL, canonical_url()),
                     ("전국센터", canonical_url("전국센터")),
                     (category, canonical_url("전국센터", category)),
                     (region, canonical_url("전국센터", category, region)),
@@ -868,7 +869,7 @@ def main() -> int:
                     (district, ""),
                 ],
                 structured_crumbs=[
-                    (SITE_NAME, canonical_url()),
+                    (HOME_LABEL, canonical_url()),
                     ("전국센터", canonical_url("전국센터")),
                     (category, canonical_url("전국센터", category)),
                     (DISTRICT_HUB_REGION, canonical_url("전국센터", category, DISTRICT_HUB_REGION)),

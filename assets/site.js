@@ -9,6 +9,103 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
   });
 });
 
+document.querySelectorAll('[data-category-finder="true"]').forEach((finder, finderIndex) => {
+  const form = finder.querySelector('.split-category-finder');
+  const input = finder.querySelector('[data-category-dong-input="true"]');
+  const status = finder.querySelector('[data-category-dong-status="true"]');
+  const options = [...finder.querySelectorAll('datalist option[data-url]')];
+  if (!form || !input || !status || !options.length) return;
+
+  const normalize = (value) => String(value || '')
+    .normalize('NFKC')
+    .toLocaleLowerCase('ko-KR')
+    .replace(/\s+/g, '');
+  const statusId = status.id || `category-dong-status-${finderIndex + 1}`;
+  status.id = statusId;
+  status.setAttribute('aria-atomic', 'true');
+  input.setAttribute('aria-describedby', statusId);
+
+  const findMatches = () => {
+    const query = normalize(input.value);
+    if (!query) return [];
+    const exact = options.filter((option) => normalize(option.value) === query);
+    if (exact.length) return exact;
+    return options.filter((option) => normalize(option.value).includes(query));
+  };
+
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const matches = findMatches();
+    if (matches.length === 1) {
+      window.location.assign(matches[0].dataset.url);
+      return;
+    }
+    status.textContent = matches.length
+      ? `비슷한 동네가 ${matches.length.toLocaleString('ko-KR')}개입니다. 목록에서 정확한 동네 이름을 선택해 주세요.`
+      : '일치하는 동네를 찾지 못했습니다. 동네 이름을 다시 확인해 주세요.';
+    input.focus();
+  });
+
+  input.addEventListener('input', () => {
+    const matches = findMatches();
+    status.textContent = matches.length === 1
+      ? `${matches[0].value} 안내페이지를 찾았습니다. ‘안내 보기’를 눌러 이동하세요.`
+      : '371개 동네 중 이름을 입력해 바로 이동할 수 있습니다.';
+  });
+  input.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape' || !input.value) return;
+    input.value = '';
+    status.textContent = '371개 동네 중 이름을 입력해 바로 이동할 수 있습니다.';
+  });
+});
+
+document.querySelectorAll('[data-center-hub-tools="true"]').forEach((tools, toolsIndex) => {
+  const input = tools.querySelector('input[type="search"]');
+  const clearButton = tools.querySelector('[data-center-hub-clear="true"]');
+  const status = tools.querySelector('[data-center-hub-status="true"]');
+  const items = [...document.querySelectorAll('[data-center-hub-item="true"]')];
+  const sections = [...document.querySelectorAll('[data-center-hub-section="true"]')];
+  if (!input || !clearButton || !status || !items.length) return;
+
+  const normalize = (value) => String(value || '')
+    .normalize('NFKC')
+    .toLocaleLowerCase('ko-KR')
+    .replace(/\s+/g, '');
+  const statusId = status.id || `center-hub-status-${toolsIndex + 1}`;
+  status.id = statusId;
+  status.setAttribute('aria-atomic', 'true');
+  input.setAttribute('aria-describedby', statusId);
+
+  const applyFilter = () => {
+    const rawQuery = input.value.trim();
+    const query = normalize(rawQuery);
+    let visible = 0;
+    items.forEach((item) => {
+      const matches = !query || normalize(item.dataset.search || item.textContent).includes(query);
+      item.hidden = !matches;
+      if (matches) visible += 1;
+    });
+    sections.forEach((section) => {
+      section.hidden = !items.some((item) => section.contains(item) && !item.hidden);
+    });
+    status.textContent = query
+      ? `“${rawQuery}” 검색 결과 ${visible.toLocaleString('ko-KR')}개 카테고리입니다.`
+      : `${items.length.toLocaleString('ko-KR')}개 학원 카테고리를 살펴볼 수 있습니다.`;
+  };
+
+  input.addEventListener('input', applyFilter);
+  input.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape' || !input.value) return;
+    input.value = '';
+    applyFilter();
+  });
+  clearButton.addEventListener('click', () => {
+    input.value = '';
+    applyFilter();
+    input.focus();
+  });
+});
+
 document.querySelectorAll('[data-hub-tools="true"]').forEach((finder) => {
   const directories = [...document.querySelectorAll('[data-hub-directory="true"]')];
   const items = [...document.querySelectorAll('[data-hub-item="true"]')];

@@ -23,10 +23,11 @@ from separate_page_intents_site4 import (
     replace_meta,
     render_faqs,
     role_key,
+    type_names,
 )
 
 
-MODIFIED_DATE = "2026-07-27"
+MODIFIED_DATE = "2026-07-31"
 
 STAGE = {
     "all": {
@@ -385,7 +386,7 @@ def render_section(title: str, identity: dict, branch: dict) -> str:
     <section class="section seo-geo-section intent-role-section" data-intent-role="{html.escape(role_key(identity))}" aria-label="{html.escape(title)} 학습 안내">
       <div class="wrap seo-geo-enhancement">
         <article id="geo-summary" class="geo-summary-panel">
-          <p class="eyebrow">DIRECT STUDY ANSWER</p>
+          <p class="eyebrow">학습 기준 먼저 보기</p>
           <h2 id="intent-role-title">{html.escape(title)}에서 먼저 확인할 학습 기준</h2>
           <p>{html.escape(summary)} {html.escape(values['intent_core'])}</p>
           <div class="intent-role-badges" aria-label="페이지 핵심 역할">
@@ -395,23 +396,258 @@ def render_section(title: str, identity: dict, branch: dict) -> str:
         </article>
 
         <article id="geo-answer" class="geo-answer-panel">
-          <p class="eyebrow">VERIFIED CENTER CONTEXT</p>
+          <p class="eyebrow">센터 안내 자료로 확인하기</p>
           <h2>{html.escape(title)} 상담에서 확인하는 네 가지 근거</h2>
           <p>{html.escape(answer)}</p>
           <div class="geo-answer-grid">{card_html}</div>
           <div class="geo-mini-faq">
-            <details open><summary>한 문장으로 정리하면 무엇을 먼저 확인하나요?</summary><p>{html.escape(direct_answer)}</p></details>
+            <details open><summary>상담에서 가장 먼저 확인하는 것은 무엇인가요?</summary><p>{html.escape(direct_answer)}</p></details>
           </div>
         </article>
 
         <article id="geo-checklist" class="geo-checklist-panel">
-          <p class="eyebrow">PERSONALIZED CHECKLIST</p>
+          <p class="eyebrow">상담 준비 항목</p>
           <h2>{html.escape(title)} 상담 전 준비 체크리스트</h2>
           <div class="geo-checklist-grid">{check_html}</div>
         </article>
       </div>
     </section>
     <!-- seo-geo-enhancement:end -->'''
+
+
+def render_consultation_cases(title: str, identity: dict, branch: dict) -> str:
+    """Render non-testimonial examples derived only from the page's verified inputs.
+
+    These cards intentionally describe *what to check* in a consultation. They are
+    not student outcomes or customer reviews, so they do not carry stars, authors,
+    ratings, or Review structured data.
+    """
+
+    values = format_values(title, identity, branch)
+    role = role_key(identity)
+    situation = with_josa(values["situation"], "이라면", "라면")
+
+    record_body = pick(
+        [
+            (
+                f"{title} 상담에서는 {values['record_obj']} 먼저 확인합니다. "
+                f"{situation} {values['focus']} 가운데 반복해서 막히는 지점을 구분한 뒤 "
+                "처음 보완할 범위를 정합니다."
+            ),
+            (
+                f"{title} 학습 상태를 살필 때는 {values['record_obj']} 기준 자료로 삼습니다. "
+                f"{situation} 최근 기록에서 {values['focus_obj']} 하나씩 나누어 확인합니다."
+            ),
+            (
+                f"{title} 안내에서 출발점이 되는 자료는 {values['record']}입니다. "
+                f"{situation} 풀이 과정과 표시된 오답을 함께 보며 {values['focus']} 중 "
+                "어디에서 흐름이 끊기는지 정리합니다."
+            ),
+            (
+                f"{title} 상담을 준비한다면 {values['record_obj']} 날짜순으로 모아 두는 것이 좋습니다. "
+                f"{situation} 한 번의 결과보다 {values['focus']}에서 반복되는 양상을 먼저 살펴봅니다."
+            ),
+            (
+                f"{title} 학습 점검은 {values['record_obj']} 펼쳐 보는 것에서 시작합니다. "
+                f"{situation} 기록에 남은 근거를 바탕으로 {values['focus_obj']} 구분하고 "
+                "우선 확인할 항목을 정합니다."
+            ),
+            (
+                f"{title} 상담에서는 학생의 설명과 {values['record_obj']} 함께 대조합니다. "
+                f"{situation} {values['focus']} 가운데 실제 기록에서 되풀이되는 부분부터 확인합니다."
+            ),
+        ],
+        title,
+        role,
+        "consult-record-body",
+    )
+
+    if values["has_schools"]:
+        verified_context = pick(
+            [
+                (
+                    f"참고 학교 {values['schools']} 정보는 생활권을 확인하는 자료로만 사용하며, "
+                    "실제 교재·진도·시험 범위는 재학 학교 기준으로 다시 확인합니다."
+                ),
+                (
+                    f"자료에 기재된 {with_josa(values['schools'], '은', '는')} 참고 학교이므로, "
+                    "학생의 실제 학교 일정과 범위는 상담 시 별도로 대조합니다."
+                ),
+                (
+                    f"{values['schools']} 관련 정보는 지역 참고 범위에 한정하고, "
+                    "구체적인 평가 일정과 교재는 현재 재학 학교 자료로 확인합니다."
+                ),
+            ],
+            title,
+            role,
+            "consult-school-context",
+        )
+    elif values["has_grades"]:
+        verified_context = pick(
+            [
+                (
+                    f"센터 자료에 기재된 가능 학년은 {values['grades']}이며, "
+                    "실제 반 편성과 상담 가능 여부는 방문 전에 다시 확인합니다."
+                ),
+                (
+                    f"{values['grades']} 학년 범위가 자료에 확인되지만, "
+                    "현재 수업 가능 여부와 학교별 일정은 상담 시점에 재확인합니다."
+                ),
+                (
+                    f"확인된 학년 정보는 {values['grades']} 범위입니다. "
+                    "학생의 재학 학년과 현재 진도에 맞는지는 상담에서 별도로 점검합니다."
+                ),
+            ],
+            title,
+            role,
+            "consult-grade-context",
+        )
+    else:
+        verified_context = pick(
+            [
+                "가능 학년과 학교별 진도는 공개 자료만으로 단정하지 않고 상담 시점에 다시 확인합니다.",
+                "반 편성과 재학 학교의 실제 진도는 학생 자료를 바탕으로 상담에서 확인합니다.",
+                "학년별 수업 가능 여부와 학교 일정은 방문 전에 센터에 재확인합니다.",
+            ],
+            title,
+            role,
+            "consult-open-context",
+        )
+
+    schedule_body = pick(
+        [
+            (
+                f"{values['region']}의 {values['scope']} 계획은 {values['assessment_and']} "
+                f"{values['schedule_obj']} 나란히 놓고, {values['stage_student']}이 이어 갈 수 있는 "
+                f"순서와 분량을 정하는 방식으로 살펴봅니다. {verified_context}"
+            ),
+            (
+                f"{values['region']}에서 {values['scope']} 학습량을 정할 때는 "
+                f"{values['assessment_and']} {values['schedule_obj']} 함께 확인합니다. "
+                f"평가 일정 안에서 실행 가능한 분량인지 점검한 뒤 계획에 반영합니다. {verified_context}"
+            ),
+            (
+                f"{values['region']} {values['stage_student']}의 {values['subject_label']} 일정은 "
+                f"{values['assessment_and']} {values['schedule_obj']} 기준으로 조정합니다. "
+                f"한 주에 수행할 수 있는 범위를 먼저 정하고 다음 점검 시점을 남깁니다. {verified_context}"
+            ),
+            (
+                f"{values['region']}의 {values['scope']} 상담에서는 "
+                f"{values['schedule_obj']} 먼저 펼쳐 놓고 {values['assessment']} 결과와 비교합니다. "
+                f"학생이 실제로 지킬 수 있는 순서로 학습량을 나눕니다. {verified_context}"
+            ),
+            (
+                f"{values['region']}에서 {values['scope']} 계획을 세울 때 "
+                f"{values['assessment_and']} {values['schedule_obj']} 따로 보지 않습니다. "
+                f"남은 기간과 현재 기록을 함께 확인해 실행 순서를 정합니다. {verified_context}"
+            ),
+            (
+                f"{values['region']}의 {values['stage_student']} 학습 계획은 "
+                f"{values['schedule_obj']} 기준으로 {values['assessment']} 결과를 다시 배치하는 과정입니다. "
+                f"무리한 분량보다 확인 가능한 완료 기준을 먼저 둡니다. {verified_context}"
+            ),
+        ],
+        title,
+        role,
+        "consult-schedule-body",
+    )
+
+    measure_body = pick(
+        [
+            (
+                f"{title}의 다음 점검에서는 {values['measure']}를 확인합니다. "
+                "처음 세운 계획을 그대로 유지하기보다 확인된 기록에 따라 보완 순서와 분량을 조정합니다."
+            ),
+            (
+                f"{title} 학습 계획에는 다음 확인 시점도 함께 남깁니다. "
+                f"그때 {values['measure']}를 살펴보고 유지할 부분과 다시 조정할 부분을 구분합니다."
+            ),
+            (
+                f"{title} 상담에서 정한 기준은 한 번으로 끝내지 않습니다. "
+                f"다음 기록에서 {values['measure']}를 확인한 뒤 필요한 보완 순서를 다시 정합니다."
+            ),
+            (
+                f"{title}의 재점검 기준은 {values['measure']}입니다. "
+                "학생의 실제 수행 기록을 보고 분량을 유지할지, 범위를 좁혀 다시 연습할지 결정합니다."
+            ),
+            (
+                f"{title} 계획을 실행한 뒤에는 {values['measure']}를 기준으로 기록을 비교합니다. "
+                "확인 결과에 따라 다음 주의 우선순위와 완료 기준을 다시 맞춥니다."
+            ),
+            (
+                f"{title} 상담에서는 계획과 함께 재확인 기준을 남깁니다. "
+                f"{values['measure']}를 다음 점검에서 확인하고, 필요한 항목만 순서대로 보완합니다."
+            ),
+        ],
+        title,
+        role,
+        "consult-measure-body",
+    )
+
+    cases = [
+        (
+            pick(
+                ["학습 기록에서 출발하기", "현재 기록부터 확인하기", "막히는 지점 구분하기"],
+                title,
+                "consult-record-heading",
+            ),
+            record_body,
+            "확인 자료",
+        ),
+        (
+            pick(
+                ["학교 일정과 학습량 맞추기", "실행 가능한 분량 정하기", "평가 일정에 계획 맞추기"],
+                title,
+                "consult-schedule-heading",
+            ),
+            schedule_body,
+            "계획 기준",
+        ),
+        (
+            pick(
+                ["다음 점검 기준 남기기", "재확인 시점 정해 두기", "실행 뒤 기록 비교하기"],
+                title,
+                "consult-measure-heading",
+            ),
+            measure_body,
+            "재확인 기준",
+        ),
+    ]
+    cards = "".join(
+        (
+            '<article class="review-card consultation-case-card">'
+            f"<strong>{html.escape(heading)}</strong>"
+            f"<p>{html.escape(body)}</p>"
+            f"<span>{html.escape(label)}</span>"
+            "</article>"
+        )
+        for heading, body, label in cases
+    )
+    return f'''<section id="consultation-cases" class="section muted consultation-case-section">
+      <div class="wrap faq-grid">
+        <div>
+          <p class="eyebrow">상담에서 살펴보는 상황</p>
+          <h2>{html.escape(title)} 학습 상담 참고 사례</h2>
+          <p>아래 내용은 이용 후기가 아니라, 상담 전에 학생의 현재 기록을 살펴보는 방법을 상황별로 정리한 안내입니다.</p>
+        </div>
+        <div class="review-grid">
+          {cards}
+        </div>
+      </div>
+    </section>'''
+
+
+def replace_consultation_cases(source: str, title: str, identity: dict, branch: dict) -> str:
+    replacement = render_consultation_cases(title, identity, branch)
+    patterns = (
+        r'<section id="parent-reviews"[^>]*>.*?</section>',
+        r'<section id="consultation-cases"[^>]*>.*?</section>',
+    )
+    for pattern in patterns:
+        updated, count = re.subn(pattern, replacement, source, count=1, flags=re.S)
+        if count:
+            return updated
+    raise ValueError("review/consultation section not found")
 
 
 def build_faqs(title: str, identity: dict, branch: dict) -> list[tuple[str, str]]:
@@ -473,6 +709,62 @@ def build_faqs(title: str, identity: dict, branch: dict) -> list[tuple[str, str]
         title,
         "faq-prepared",
     )
+    if identity["family"] == "subject":
+        prepared_question = pick(
+            [
+                f"{title} 과목 상담에서는 어떤 학습 기록을 준비하면 되나요?",
+                f"{title} 진단에 최근 평가 자료를 어떻게 활용하나요?",
+                f"{title} 상담 전에 {values['subject_label']} 풀이 기록을 준비해야 하나요?",
+                f"{title}에서 취약 단원을 찾으려면 무엇을 가져가야 하나요?",
+                f"{title} 내신·평가 상담에 필요한 자료는 무엇인가요?",
+                f"{title} 상담에서 오답 기록은 어떻게 확인하나요?",
+            ],
+            title,
+            role_key(identity),
+            "faq-prepared-question",
+        )
+    else:
+        prepared_question = pick(
+            [
+                f"{title} 상담에서는 어떤 주간 학습 기록을 준비하면 되나요?",
+                f"{title} 학습 계획을 정하려면 어떤 자료가 필요한가요?",
+                f"{title} 상담 전에 과제·복습 기록을 준비해야 하나요?",
+                f"{title}에서 공부 습관을 확인할 때 무엇을 살펴보나요?",
+                f"{title} 일정 관리 상담에 필요한 기록은 무엇인가요?",
+                f"{title} 상담에서 실제 공부 시간은 어떻게 확인하나요?",
+            ],
+            title,
+            role_key(identity),
+            "faq-prepared-question",
+        )
+    if values["has_schools"]:
+        school_question = pick(
+            [
+                f"{title} 상담에서 참고 학교 정보는 어떻게 활용하나요?",
+                f"{title} 시험 대비를 위해 재학 학교에서 무엇을 확인하나요?",
+                f"{values['region']}의 학교 일정은 {title} 상담에 어떻게 반영하나요?",
+                f"{title} 상담에서 학교별 진도와 평가 범위는 어떻게 확인하나요?",
+                f"{title}의 학교 시험 준비 기준은 어떻게 정하나요?",
+                f"{title} 상담 시 참고 학교와 실제 재학 학교를 구분하는 이유는 무엇인가요?",
+            ],
+            title,
+            role_key(identity),
+            "faq-school-question",
+        )
+    else:
+        school_question = pick(
+            [
+                f"{title} 상담에서 참고 학교 정보가 없으면 무엇을 확인하나요?",
+                f"{title} 시험 대비 상담에는 어떤 학교 자료가 필요한가요?",
+                f"{title} 상담 전에 실제 재학 학교의 무엇을 확인해야 하나요?",
+                f"{title}의 학교 진도와 시험 범위는 어떻게 반영하나요?",
+                f"{title} 상담에서 학교 정보는 어떤 기준으로 확인하나요?",
+                f"{title} 시험 계획을 세울 때 학생이 준비할 학교 자료는 무엇인가요?",
+            ],
+            title,
+            role_key(identity),
+            "faq-school-question",
+        )
     return [
         (
             f"{title}에서는 무엇을 가장 먼저 확인하나요?",
@@ -483,7 +775,7 @@ def build_faqs(title: str, identity: dict, branch: dict) -> list[tuple[str, str]
             ),
         ),
         (
-            "상담 전에 어떤 자료를 준비하면 좋나요?",
+            prepared_question,
             (
                 f"{prepared} 이 페이지에서는 특히 {values['record_obj']} 확인 자료로 활용합니다. "
                 f"{title} 범위에서는 {values['schedule_obj']} 함께 알려주면 우선순위를 더 구체적으로 정할 수 있습니다."
@@ -495,11 +787,23 @@ def build_faqs(title: str, identity: dict, branch: dict) -> list[tuple[str, str]
             grade_answer,
         ),
         (
-            "학교 시험 대비를 상담할 때 참고할 정보가 있나요?",
+            school_question,
             school_answer,
         ),
         (
-            f"{values['center']} 위치와 방문 전 확인사항은 무엇인가요?",
+            pick(
+                [
+                    f"{title} 상담 장소와 방문 전 확인사항은 무엇인가요?",
+                    f"{title} 상담을 위해 방문하기 전에 무엇을 확인해야 하나요?",
+                    f"{title} 안내의 센터 위치와 방문 전 확인할 내용은 무엇인가요?",
+                    f"{title} 상담 위치는 어디이며 예약 전에 무엇을 확인해야 하나요?",
+                    f"{title} 방문 상담 전에 위치와 운영 여부를 어떻게 확인하나요?",
+                    f"{title} 상담 센터를 방문할 때 미리 확인할 사항은 무엇인가요?",
+                ],
+                title,
+                role_key(identity),
+                "faq-location-question",
+            ),
             location_answer,
         ),
     ]
@@ -551,7 +855,20 @@ def update_jsonld(source: str, title: str, description: str, identity: dict, bra
     if not all((org, webpage, service, article, faq)):
         raise ValueError("required JSON-LD node missing")
 
-    org["knowsAbout"] = list(dict.fromkeys([values["scope"], values["focus"], values["record"]]))
+    # Only verifiable, attributable reviews belong in Review/AggregateRating.
+    # The former generated testimonial bank had no date or source URL, so keep
+    # the organization facts but remove those unsupported rating properties.
+    org.pop("review", None)
+    org.pop("aggregateRating", None)
+    graph[:] = [
+        node
+        for node in graph
+        if not (
+            isinstance(node, dict)
+            and any(kind in ("Review", "AggregateRating") for kind in type_names(node))
+        )
+    ]
+
     webpage.update(
         {
             "description": description,
@@ -581,8 +898,8 @@ def update_jsonld(source: str, title: str, description: str, identity: dict, bra
                 "검증된 센터 정보",
                 "학생 상황",
                 "상담 전 체크리스트",
+                "학습 상담 참고 사례",
                 "FAQ",
-                "학부모 후기",
                 "내부링크",
             ],
             "about": about,
@@ -600,6 +917,41 @@ def update_jsonld(source: str, title: str, description: str, identity: dict, bra
             "mentions": mentions,
         }
     )
+    page_url = webpage.get("url", "").rstrip("/") + "/"
+    existing_parts = webpage.get("hasPart", [])
+    if not isinstance(existing_parts, list):
+        existing_parts = []
+    revised_parts = []
+    consultation_part_added = False
+    for part in existing_parts:
+        if not isinstance(part, dict):
+            continue
+        part_name = str(part.get("name", ""))
+        part_url = str(part.get("url", ""))
+        if "후기" in part_name or "#parent-reviews" in part_url:
+            if not consultation_part_added:
+                revised_parts.append(
+                    {
+                        "@type": "WebPageElement",
+                        "name": "학습 상담 참고 사례",
+                        "url": page_url + "#consultation-cases",
+                    }
+                )
+                consultation_part_added = True
+            continue
+        revised_parts.append(part)
+        if "#consultation-cases" in part_url:
+            part["name"] = "학습 상담 참고 사례"
+            consultation_part_added = True
+    if not consultation_part_added:
+        revised_parts.append(
+            {
+                "@type": "WebPageElement",
+                "name": "학습 상담 참고 사례",
+                "url": page_url + "#consultation-cases",
+            }
+        )
+    webpage["hasPart"] = revised_parts
     rendered = '<script type="application/ld+json">' + json.dumps(
         data, ensure_ascii=False, separators=(",", ":")
     ) + "</script>"
@@ -641,6 +993,7 @@ def process_page(path: Path, centers: dict[str, dict]) -> tuple[bool, str]:
     )
     if count != 1:
         raise ValueError("SEO/GEO section marker missing or duplicated")
+    updated = replace_consultation_cases(updated, title, identity, branch)
     updated, count = re.subn(
         r'(<div class="faq-list">\n)(.*?)(\n\s*</div>\s*\n\s*</div>\s*\n\s*</section>)',
         lambda match: match.group(1) + render_faqs(faqs) + match.group(3),

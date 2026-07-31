@@ -163,9 +163,36 @@ def main() -> None:
             elif not args.baseline:
                 failures.append(f"FAQ mismatch: {path}")
             if not args.baseline:
-                knows_about = (find_node(graph, "EducationalOrganization") or {}).get("knowsAbout", [])
-                if service.get("serviceType") not in knows_about:
+                # 과목·학년 검색 의도는 WebPage/Service/Article/FAQPage의
+                # 주제이며, 실제 센터 LocalBusiness 엔터티의 고정 속성이 아니다.
+                # 같은 센터가 24개 서비스 페이지에서 하나의 조직으로 연결되도록
+                # branch에는 페이지별 knowsAbout/about/mentions를 두지 않는다.
+                branch = find_node(graph, "LocalBusiness")
+                scope = service.get("serviceType")
+
+                def about_names(node: dict) -> set[str]:
+                    return {
+                        str(item.get("name", ""))
+                        for item in node.get("about", [])
+                        if isinstance(item, dict)
+                    }
+
+                role_nodes = (webpage, service, article, faq)
+                if not scope or not all(scope in about_names(node) for node in role_nodes):
                     failures.append(f"role JSON mismatch: {path}")
+                if (
+                    not branch
+                    or not str(branch.get("@id", "")).startswith(
+                        "https://xn--ol5ba64b839b.com/#branch-"
+                    )
+                    or branch.get("branchOf", {}).get("@id")
+                    != "https://xn--ol5ba64b839b.com/#organization"
+                    or any(
+                        key in branch
+                        for key in ("knowsAbout", "about", "mentions", "makesOffer", "offers")
+                    )
+                ):
+                    failures.append(f"branch entity mismatch: {path}")
                 if not webpage.get("description") or webpage.get("description") != article.get("description") or webpage.get("description") != service.get("description"):
                     failures.append(f"description mismatch: {path}")
 

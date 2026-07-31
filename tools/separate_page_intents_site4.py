@@ -553,9 +553,19 @@ def update_jsonld(source: str, title: str, description: str, identity: dict, bra
     if not all((org, webpage, service, article, faq)):
         raise ValueError("required JSON-LD node missing")
 
-    org["knowsAbout"] = list(dict.fromkeys([title, role["scope"], *[x["name"] for x in mentions]]))
-    org["about"] = about
-    org["mentions"] = mentions
+    # Generated testimonial banks are not evidence-backed reviews. Keep the
+    # verified organization facts, but never recreate Review/AggregateRating.
+    org.pop("review", None)
+    org.pop("aggregateRating", None)
+    graph[:] = [
+        node
+        for node in graph
+        if not (
+            isinstance(node, dict)
+            and any(kind in ("Review", "AggregateRating") for kind in type_names(node))
+        )
+    ]
+
     webpage["description"] = description
     webpage["about"] = about
     webpage["mentions"] = mentions
@@ -565,7 +575,15 @@ def update_jsonld(source: str, title: str, description: str, identity: dict, bra
     service["about"] = about
     service["mentions"] = mentions
     article["description"] = description
-    article["articleSection"] = [role["scope"], "학습 기준", "학생 상황", "상담 전 체크리스트", "FAQ", "학부모 후기", "내부링크"]
+    article["articleSection"] = [
+        role["scope"],
+        "학습 기준",
+        "학생 상황",
+        "상담 전 체크리스트",
+        "학습 상담 참고 사례",
+        "FAQ",
+        "내부링크",
+    ]
     article["about"] = about
     article["mentions"] = mentions
     article["keywords"] = webpage["keywords"]

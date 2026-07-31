@@ -44,8 +44,8 @@ def main() -> None:
 
     issues = Counter()
     faq_counter: Counter[str] = Counter()
-    review_counter: Counter[str] = Counter()
-    review_sets: Counter[frozenset] = Counter()
+    consultation_counter: Counter[str] = Counter()
+    consultation_sets: Counter[frozenset] = Counter()
     relative_id_bug = 0
 
     for f in files:
@@ -97,6 +97,7 @@ def main() -> None:
         webpage = find("WebPage")
         article = find("Article")
         org = find("EducationalOrganization")
+        service = find("Service")
         if webpage and not webpage.get("about"):
             issues["webpage_no_about"] += 1
         if webpage and not webpage.get("mentions"):
@@ -105,22 +106,32 @@ def main() -> None:
             issues["webpage_no_haspart"] += 1
         if article and not article.get("articleSection"):
             issues["article_no_articlesection"] += 1
-        if org and not org.get("makesOffer"):
-            issues["org_no_makesoffer"] += 1
+        if service and not service.get("offers"):
+            issues["service_no_offers"] += 1
+        if org and any(
+            key in org for key in ("knowsAbout", "about", "mentions", "makesOffer", "offers")
+        ):
+            issues["branch_has_page_specific_topics"] += 1
         if org and not org.get("alternateName"):
             issues["org_no_alternatename"] += 1
         if org and not org.get("branchOf"):
             issues["org_no_branchof"] += 1
+        if org and ("review" in org or "aggregateRating" in org):
+            issues["unsupported_review_schema"] += 1
 
         faq_section_m = re.search(r'<section id="faq-section".*?</section>', text, re.S)
         faqs = re.findall(r"<summary>([^<]*)</summary>", faq_section_m.group(0)) if faq_section_m else []
         for q in faqs:
             faq_counter[q] += 1
-        reviews = re.findall(r'review-card">\s*<div class="stars"[^>]*>[^<]*</div>\s*<p>(.*?)</p>', text, re.S)
-        for r in reviews:
-            review_counter[r] += 1
-        if reviews:
-            review_sets[frozenset(reviews)] += 1
+        cases = re.findall(
+            r'review-card consultation-case-card">\s*<strong>.*?</strong>\s*<p>(.*?)</p>',
+            text,
+            re.S,
+        )
+        for body in cases:
+            consultation_counter[body] += 1
+        if cases:
+            consultation_sets[frozenset(cases)] += 1
 
     print("--- structural issues ---")
     for key, cnt in issues.most_common(40):
@@ -132,12 +143,20 @@ def main() -> None:
     for text, cnt in faq_counter.most_common(5):
         print(f"  {cnt}x  {text[:50]}")
 
-    print(f"\ndistinct_review_bodies={len(review_counter)} total_review_instances={sum(review_counter.values())}")
-    for text, cnt in review_counter.most_common(5):
+    print(
+        f"\ndistinct_consultation_case_bodies={len(consultation_counter)} "
+        f"total_consultation_case_instances={sum(consultation_counter.values())}"
+    )
+    for text, cnt in consultation_counter.most_common(5):
         print(f"  {cnt}x  {text[:50]}")
 
-    dup_sets = sum(1 for c in review_sets.values() if c > 1)
-    print(f"\ndistinct_review_sets={len(review_sets)} pages_with_reviews={sum(review_sets.values())} dup_sets={dup_sets}")
+    dup_sets = sum(1 for c in consultation_sets.values() if c > 1)
+    print(
+        f"\ndistinct_consultation_case_sets={len(consultation_sets)} "
+        f"pages_with_cases={sum(consultation_sets.values())} dup_sets={dup_sets}"
+    )
+    if issues:
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":

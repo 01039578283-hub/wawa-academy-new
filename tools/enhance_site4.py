@@ -15,11 +15,14 @@ from content_banks_site4 import (
     pick_unique,
     seed_for,
 )
+from normalize_structured_entities_site4 import page_branch, transform_html
+from add_center_info_site4 import load_center_info
 
 ROOT = Path(__file__).resolve().parents[1]
 CENTER_ROOT = ROOT / "전국센터"
 DOMAIN = "https://xn--ol5ba64b839b.com"
 ROOT_ORG_ID = f"{DOMAIN}/#organization"
+CENTER_INFO = load_center_info()
 
 SUBJECT_MAP = {
     "수학학원": "수학",
@@ -117,7 +120,9 @@ def process_page(page_dir: Path, seen_reviews: set) -> bool:
     data = json.loads(m.group(1))
     graph = data["@graph"]
 
-    org = find_node(graph, "EducationalOrganization")
+    # A detail graph may also reference the root organization. The branch is
+    # the only LocalBusiness node, so select it explicitly.
+    org = find_node(graph, "LocalBusiness")
     real_org_id = org["@id"]
     fix_relative_ids(data, real_org_id)
 
@@ -187,6 +192,10 @@ def process_page(page_dir: Path, seen_reviews: set) -> bool:
         count=1,
         flags=re.S,
     )
+
+    # Keep the branch entity stable across every service page and keep the
+    # visible/structured breadcrumb labels synchronized after regeneration.
+    updated, _ = transform_html(updated, page_branch(path, CENTER_INFO))
 
     if updated != source:
         path.write_text(updated, encoding="utf-8")

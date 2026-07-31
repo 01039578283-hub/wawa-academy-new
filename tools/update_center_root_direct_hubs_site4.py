@@ -82,7 +82,8 @@ def canonical(*parts: str) -> str:
 
 def cards(hubs: tuple[Hub, ...]) -> str:
     return "\n".join(
-        f'''          <a class="center-card" href="{href("전국센터", hub.name)}">
+        f'''          <a class="center-card" href="{href("전국센터", hub.name)}"
+            data-center-hub-item="true" data-search="{esc(f"{hub.name} {hub.eyebrow} {hub.summary}")}">
             <span>{esc(hub.eyebrow)}</span>
             <h3>{esc(hub.name)}</h3>
             <p>{esc(hub.summary)}</p>
@@ -107,7 +108,31 @@ def main_html() -> str:
       </div>
     </section>
 
-    <section class="section">
+    <section class="section center-hub-quick-section">
+      <div class="wrap">
+        <div class="center-hub-quick-tools" data-center-hub-tools="true">
+          <div>
+            <label for="center-hub-search">과목·학년 이름으로 찾기</label>
+            <div class="center-hub-search-control">
+              <input id="center-hub-search" type="search" placeholder="예: 고등수학, 초등 영어" autocomplete="off">
+              <button type="button" data-center-hub-clear="true">초기화</button>
+            </div>
+            <p data-center-hub-status="true" aria-live="polite">24개 학원 카테고리를 살펴볼 수 있습니다.</p>
+          </div>
+          <nav aria-label="전국센터 카테고리 빠른 이동">
+            <strong>분류 바로가기</strong>
+            <div>
+              <a href="#subject-directory">과목별</a>
+              <a href="#grade-directory">학년별</a>
+              <a href="#routine-directory">학년·과목 습관</a>
+              <a href="#course-directory">교과·과목</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <section id="subject-directory" class="section" data-center-hub-section="true">
       <div class="wrap">
         <div class="section-heading">
           <p class="eyebrow">SUBJECT OVERVIEW</p>
@@ -120,7 +145,7 @@ def main_html() -> str:
       </div>
     </section>
 
-    <section class="section muted">
+    <section id="grade-directory" class="section muted" data-center-hub-section="true">
       <div class="wrap">
         <div class="section-heading">
           <p class="eyebrow">GRADE OVERVIEW</p>
@@ -133,7 +158,7 @@ def main_html() -> str:
       </div>
     </section>
 
-    <section class="section">
+    <section id="routine-directory" class="section" data-center-hub-section="true">
       <div class="wrap">
         <div class="section-heading">
           <p class="eyebrow">STUDENT ROUTINE × SUBJECT</p>
@@ -146,7 +171,7 @@ def main_html() -> str:
       </div>
     </section>
 
-    <section class="section muted">
+    <section id="course-directory" class="section muted" data-center-hub-section="true">
       <div class="wrap">
         <div class="section-heading">
           <p class="eyebrow">COURSE ACHIEVEMENT × SUBJECT</p>
