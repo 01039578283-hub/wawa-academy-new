@@ -1,0 +1,157 @@
+/* Page-specific anchor navigation for subject academy detail pages */
+.subject-page-toc {
+  padding: 28px 0 20px;
+}
+
+.subject-page-toc-shell {
+  display: grid;
+  grid-template-columns: minmax(210px, .34fr) minmax(0, 1fr);
+  gap: 26px;
+  align-items: start;
+  padding: 26px;
+  border: 1px solid rgba(207, 111, 140, .22);
+  border-radius: 30px;
+  background: rgba(255, 255, 255, .88);
+  box-shadow: 0 20px 60px rgba(69, 46, 65, .1);
+}
+
+.subject-page-toc-heading .eyebrow {
+  margin: 0 0 8px;
+}
+
+.subject-page-toc-heading strong {
+  display: block;
+  color: var(--ink);
+  font-size: 1.4rem;
+  line-height: 1.4;
+  letter-spacing: -.035em;
+}
+
+.subject-page-toc-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 9px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.subject-page-toc-list a {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  min-height: 56px;
+  padding: 10px 13px;
+  border: 1px solid rgba(207, 111, 140, .18);
+  border-radius: 18px;
+  color: var(--ink);
+  background: #fffafb;
+  font-size: .88rem;
+  font-weight: 800;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+  transition: border-color .15s ease, background-color .15s ease;
+}
+
+.subject-page-toc-list a:hover {
+  border-color: var(--rose-deep);
+  background: #fff2f6;
+}
+
+.subject-page-toc-list a:focus-visible {
+  border-color: var(--rose-deep);
+  outline: 3px solid var(--rose-deep);
+  outline-offset: 2px;
+  background: #fff2f6;
+}
+
+.subject-page-toc-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  color: var(--rose-dark);
+  background: var(--blossom);
+  font-size: .68rem;
+  font-weight: 900;
+}
+
+#geo-summary,
+#geo-answer,
+#geo-checklist,
+#consultation-cases,
+#faq-section,
+#internal-links {
+  scroll-margin-top: 110px;
+}
+
+#geo-summary:target h2,
+#geo-answer:target h2,
+#geo-checklist:target h2,
+#consultation-cases:target h2,
+#faq-section:target h2,
+#internal-links:target h2 {
+  color: var(--rose-dark);
+}
+
+@media (min-width: 561px) and (max-width: 920px) {
+  #geo-summary,
+  #geo-answer,
+  #geo-checklist,
+  #consultation-cases,
+  #faq-section,
+  #internal-links {
+    scroll-margin-top: 160px;
+  }
+}
+
+@media (max-width: 760px) {
+  .subject-page-toc {
+    padding: 22px 0 16px;
+  }
+
+  .subject-page-toc-shell {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 20px 16px;
+    border-radius: 24px;
+  }
+
+  .subject-page-toc-heading strong {
+    font-size: 1.25rem;
+  }
+
+  .subject-page-toc-list {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .subject-page-toc-list a {
+    min-height: 56px;
+    padding: 10px 11px;
+  }
+}
+
+@media (max-width: 560px) {
+  #geo-summary,
+  #geo-answer,
+  #geo-checklist,
+  #consultation-cases,
+  #faq-section,
+  #internal-links {
+    scroll-margin-top: 32px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .subject-page-toc-list a {
+    transition: none;
+  }
+}

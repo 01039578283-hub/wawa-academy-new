@@ -160,9 +160,14 @@ def transform_detail_source(source: str, path: Path, centers: dict[str, dict]) -
         raise ValueError("canonical changed")
     before_hrefs = href_counter(source)
     after_hrefs = href_counter(updated)
-    # The only permitted href change is the renamed local consultation anchor.
-    before_hrefs.subtract({"#parent-reviews": before_hrefs["#parent-reviews"]})
-    after_hrefs.subtract({"#consultation-cases": after_hrefs["#consultation-cases"]})
+    # Ignore only the legacy anchor occurrences that were actually renamed.
+    # Existing same-page links to #consultation-cases (for example, the page
+    # contents navigation) must remain present on both sides of this check.
+    renamed_consultation_links = min(
+        before_hrefs["#parent-reviews"], after_hrefs["#consultation-cases"]
+    )
+    before_hrefs.subtract({"#parent-reviews": renamed_consultation_links})
+    after_hrefs.subtract({"#consultation-cases": renamed_consultation_links})
     if +before_hrefs != +after_hrefs:
         raise ValueError("existing href set changed")
     if visible_faqs(updated) != structured_faqs(updated):
