@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-09-07T15:14:24.605327+00:00",
+  "inventory": 9778,
+  "results": [
+    {
+      "script": "audit_aeo_geo_individuality_site4.py",
+      "exitCode": 0,
+      "output": "{\n  \"pages\": 8904,\n  \"errors\": 0,\n  \"direct_summary_unique\": 8887,\n  \"direct_summary_template_signatures\": 911,\n  \"direct_answer_unique\": 8535,\n  \"direct_answer_template_signatures\": 783,\n  \"checklist_sentence_unique\": 10901,\n  \"checklist_template_signatures\": 536,\n  \"checklist_occurrences_reused_100_plus_pct\": 0.0,\n  \"faq_question_unique\": 44891,\n  \"faq_answer_unique\": 39911,\n  \"faq_answer_occurrences_reused_100_plus_pct\": 0.0,\n  \"faq_answer_top_repeats\": [\n    {\n      \"count\": 35,\n      \"sample\": \"참고 학교로 장덕고가 기재되어 있습니다. 이는 생활권 참고 정보이며, 실제 재학 학교의 교재·진도·시험 범위는 상담에서 다시 확인합니다.\"\n    },\n    {\n      \"count\": 35,\n      \"sample\": \"참고 학교로 천곡중·월봉중이 기재되어 있습니다. 이는 생활권 참고 정보이며, 실제 재학 학교의 교재·진도·시험 범위는 상담에서 다시 확인합니다.\"\n    },\n    {\n      \"count\": 35,\n      \"sample\": \"참고 학교로 월봉초가 기재되어 있습니다. 이는 생활권 참고 정보이며, 실제 재학 학교의 교재·진도·시험 범위는 상담에서 다시 확인합니다.\"\n    },\n    {\n      \"count\": 30,\n      \"sample\": \"참고 학교로 석동중이 기재되어 있습니다. 이는 생활권 참고 정보이며, 실제 재학 학교의 교재·진도·시험 범위는 상담에서 다시 확인합니다.\"\n    },\n    {\n      \"count\": 30,\n      \"sample\": \"참고 학교로 한가람초가 기재되어 있습니다. 이는 생활권 참고 정보이며, 실제 재학 학교의 교재·진도·시험 범위는 상담에서 다시 확인합니다.\"\n    },\n    {\n      \"count\": 30,\n      \"sample\": \"참고 학교로 동중이 기재되어 있습니다. 이는 생활권 참고 정보이며, 실제 재학 학교의 교재·진도·시험 범위는 상담에서 다시 확인합니다.\"\n    },\n    {\n      \"count\": 30,\n      \"sample\": \"참고 학교로 샛별초·화접초·별가람초·한별초·덕송초가 기재되어 있습니다. 이는 생활권 참고 정보이며, 실제 재학 학교의 교재·진도·시험 범위는 상담에서 다시 확인합니다.\"\n    },\n    {\n      \"count\": 28,\n      \"sample\": \"참고 학교로 인창고·수택고가 기재되어 있습니다. 이는 생활권 참고 정보이며, 실제 재학 학교의 교재·진도·시험 범위는 상담에서 다시 확인합니다.\"\n    }\n  ],\n  \"meta_description_unique\": 8904,\n  \"meta_description_length\": {\n    \"min\": 86,\n    \"mean\": 95.3,\n    \"p95\": 102,\n    \"max\": 105\n  },\n  \"schema_complete\": 8904,\n  \"faq_screen_json_matches\": 8904,\n  \"verified_context_pages\": 7277,\n  \"grammar_pattern_pages\": {},\n  \"per_role_summary_template_range\": {\n    \"min\": 50,\n    \"mean\": 50,\n    \"max\": 50\n  },\n  \"sample_errors\": []\n}\n"
+    },
+    {
+      "script": "audit_faq_consistency_site4.py",
+      "exitCode": 0,
+      "output": "scope=all pages=9778 mismatches=0 structured_only=0 visible_only=0\n"
+    },
+    {
+      "script": "validate_final_site4.py",
+      "exitCode": 0,
+      "output": "details=8904 hubs=864 parse_errors=0 faq_mismatch=0 faq_pair_invalid=0 unsupported_review_schema=0 unsupported_review_markup=0 consultation_case_bad=0 mechanical_label_bad=0 hub_content_missing=0 hub_faq_mismatch=0\n"
+    },
+    {
+      "script": "audit_intent_roles_site4.py",
+      "exitCode": 0,
+      "output": "{\n  \"detail_pages\": 8904,\n  \"role_types\": 24,\n  \"role_counts\": {\n    \"grade-elementary-combined\": 371,\n    \"grade-elementary-english\": 371,\n    \"grade-elementary-general\": 371,\n    \"grade-elementary-math\": 371,\n    \"grade-high-combined\": 371,\n    \"grade-high-english\": 371,\n    \"grade-high-general\": 371,\n    \"grade-high-math\": 371,\n    \"grade-middle-combined\": 371,\n    \"grade-middle-english\": 371,\n    \"grade-middle-general\": 371,\n    \"grade-middle-math\": 371,\n    \"subject-all-combined\": 371,\n    \"subject-all-english\": 371,\n    \"subject-all-math\": 371,\n    \"subject-elementary-combined\": 371,\n    \"subject-elementary-english\": 371,\n    \"subject-elementary-math\": 371,\n    \"subject-high-combined\": 371,\n    \"subject-high-english\": 371,\n    \"subject-high-math\": 371,\n    \"subject-middle-combined\": 371,\n    \"subject-middle-english\": 371,\n    \"subject-middle-math\": 371\n  },\n  \"unique_canonicals\": 8904,\n  \"h1_ok\": 8904,\n  \"role_sections\": 8904,\n  \"faq_screen_json_matches\": 8904,\n  \"missing_internal_targets\": 0,\n  \"paired_pages\": 3339,\n  \"paired_section_similarity\": {\n    \"mean\": 0.1372,\n    \"p50\": 0.1189,\n    \"p95\": 0.2754,\n    \"max\": 0.3812\n  },\n  \"pair_errors\": 0,\n  \"failures\": 0\n}\n"
+    }
+  ]
+}
