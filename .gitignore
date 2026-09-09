@@ -6,3 +6,4 @@ node_modules/
 tools/reports/title-suffix-plan.json
 tools/reports/title-suffix-public-verification.json
 tools/reports/title-suffix-release.json
+tools/reports/hub-enrichment/
