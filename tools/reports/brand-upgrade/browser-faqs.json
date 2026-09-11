@@ -1,0 +1,872 @@
+[
+  {
+    "url": "/",
+    "question": "와와학습코칭은 무엇을 관리하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/",
+    "question": "과목별 안내와 학년별 안내는 어떻게 고르면 되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/",
+    "question": "모든 센터에서 AI 학습을 이용할 수 있나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/",
+    "question": "동네 안내가 많으면 실제 센터도 그만큼 있나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/",
+    "question": "상담 전에 성적표만 준비하면 되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "question": "4C 과정은 한 번의 진단으로 끝나나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "question": "AI 영어와 AI 수학은 어떤 점이 다른가요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "question": "AI 국어와 AI 독서는 같은 프로그램인가요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "question": "플래너에는 무엇을 적으면 좋나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "question": "AI 학습을 하면 선생님의 설명은 필요 없나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/",
+    "question": "과목형 학원 안내와 학년형 학원 안내는 어떻게 다른가요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/",
+    "question": "영수학원 안내와 학년별 영수 안내 중 무엇부터 보면 좋나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/",
+    "question": "처음 센터 상담을 준비할 때 기록이 많아야 하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EA%B3%BC%EB%AA%A9%EB%B3%84%EC%BD%94%EC%B9%AD/",
+    "question": "과목별 코칭 상담에는 완성된 숙제만 가져가면 되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EA%B3%BC%EB%AA%A9%EB%B3%84%EC%BD%94%EC%B9%AD/",
+    "question": "맞힌 문제도 코칭에서 살펴볼 필요가 있나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EA%B3%BC%EB%AA%A9%EB%B3%84%EC%BD%94%EC%B9%AD/",
+    "question": "과목마다 오답 복습 방법을 다르게 정해야 하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EA%B3%BC%EB%AA%A9%EB%B3%84%EC%BD%94%EC%B9%AD/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EA%B3%BC%EB%AA%A9%EB%B3%84%EC%BD%94%EC%B9%AD/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%ED%95%99%EB%85%84%EB%B3%84%EC%BD%94%EC%B9%AD/",
+    "question": "학년이 올라가면 플래너도 완전히 바꿔야 하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%ED%95%99%EB%85%84%EB%B3%84%EC%BD%94%EC%B9%AD/",
+    "question": "아직 혼자 계획하지 못하는 학생에게 무엇부터 맡기나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%ED%95%99%EB%85%84%EB%B3%84%EC%BD%94%EC%B9%AD/",
+    "question": "학년별 코칭 계획이 맞는지 처음에는 무엇으로 살펴보나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%ED%95%99%EB%85%84%EB%B3%84%EC%BD%94%EC%B9%AD/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%ED%95%99%EB%85%84%EB%B3%84%EC%BD%94%EC%B9%AD/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "수학은 학년보다 어느 자료를 보고 출발점을 정하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "틀린 수학 단원을 처음부터 모두 다시 봐야 하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "풀이를 외워서 맞힌 것인지 어떻게 구분하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "단어시험은 잘 보는데 영어 해석이 어색한 이유는 무엇부터 보나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "영어 문장은 해석하지만 지문 내용을 놓치면 어떤 표시가 유용한가요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "영어 쓰기 실력을 살펴볼 때 완성본 외에 무엇을 보나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "영수학원을 알아볼 때 두 과목 진단 자료를 합쳐도 되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "영어와 수학의 오답 복습을 같은 방식으로 해도 되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "한 과목 진도가 빠르면 다른 과목도 함께 높여야 하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "초등 수학에서 계산 이유는 어떤 예제로 살펴볼 수 있나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "초등 문장제를 읽자마자 숫자만 계산하면 무엇을 바꾸나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "초등 수학 답이 맞는지 계산을 다시 하는 것 외에 무엇을 보나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "초등학생이 영어 문장을 따라 읽으면 이해한 것으로 보나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "영어 낱말 배열 활동에서는 정답 외에 무엇을 살피나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "초등 영어 읽기와 쓰기의 차이는 어떻게 기록하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "초등 영어와 수학이 모두 어려우면 한 원인으로 볼 수 있나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "말로 설명하지만 쓰거나 풀지 못할 때 두 과목에서 무엇을 보나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "초등 영수 학습에서 다음 단계는 같은 속도로 정하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "중등 수학 공식은 아는데 잘못 적용하면 무엇을 기록하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "수학 서술형에서 식만 길게 쓰면 충분한가요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "비슷한 중등 수학 유형을 계속 틀리면 어떤 비교가 도움이 되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "중등 영어 문법과 교과서 본문을 따로 외우고 있다면 어떻게 연결하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "영어 서술형 문법은 맞는데 답이 틀렸다면 무엇을 보나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "본문 암기 뒤에 중등 영어 이해를 어떻게 다시 점검하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%EB%93%B1%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "중등 영수 내신 범위는 어떤 항목으로 정리하면 좋나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%EB%93%B1%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "영어와 수학 서술형의 오답을 같은 목록에 적어도 되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%EB%93%B1%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "중등 영수 복습에서 암기와 응용 중 무엇을 먼저 하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%EB%93%B1%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%EB%93%B1%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "고등 수학 해설에서 가장 먼저 찾아볼 부분은 무엇인가요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "고등 수학 풀이 검토는 답을 비교하는 것으로 끝내도 되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "시험 때 못 푼 수학 문제를 시간이 지난 뒤 다시 푸는 이유는 무엇인가요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "고등 영어 긴 문장을 읽다가 앞부분을 잊으면 무엇을 표시하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "본문과 같은 단어가 있는 영어 선택지를 골라도 틀리는 이유는요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "고등 영어 지문을 자꾸 다시 읽을 때 어떤 기록이 도움이 되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "고등 영수 내신 문제는 풀지만 모의고사에서 막히면 무엇을 비교하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "고등 영어와 수학 답안의 근거는 어떻게 다르게 기록하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "영수 오답 해설을 이해한 뒤에는 어떤 문항으로 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/",
+    "question": "초등학생 숙제 시작이 매일 늦으면 첫날 무엇을 관찰하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/",
+    "question": "초등학생이 한 문제를 모르겠다며 숙제를 중단하면 어떻게 하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/",
+    "question": "초등학생의 하루 공부 마감에는 무엇을 체크하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/",
+    "question": "중학생 학교 과제와 평가 일정은 같은 목록에 적어도 되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/",
+    "question": "중학생 주간표의 빈칸을 숙제로 모두 채워도 괜찮나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/",
+    "question": "한 주 계획을 못 지켰을 때 학생에게 무엇을 물어보면 좋나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/",
+    "question": "고등학생 주간 계획은 하루 전체 공부 시간으로 짜면 되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/",
+    "question": "내신 기간에 줄인 공부는 어떻게 다시 이어 가나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/",
+    "question": "고등학생이 계획을 모두 끝냈다면 다음 주 분량을 늘려도 되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "초등학생 수학 숙제는 매일 같은 문제 수로 정하면 되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "초등 수학 숙제에서 막힌 문제를 다음 상담에 어떻게 가져가나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "초등학생 수학 숙제를 끝냈다는 표시는 어떻게 나누나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "초등학생 영어 플래너에는 어떤 첫 행동을 쓰면 좋나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "영어를 매일 읽었다는 체크만으로 복습을 볼 수 있나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "초등 영어 과제를 빠뜨린 다음 날에는 두 배로 하면 되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "초등학생은 영어와 수학 중 어느 숙제를 먼저 해야 하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "초등 영수 숙제 분량을 같은 쪽수로 나누면 균형이 맞나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "초등 영수 숙제를 부모가 모두 검사해야 하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "중학생 수학 복습이 늘 새 숙제 뒤로 밀리면 어떻게 적나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "중학생이 수학 한 문제에 오래 멈추면 시간을 어떻게 기록하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "수학 오답을 다음 주로 넘길 때 어떤 기준이 좋나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "중학생 영어 과제를 짧은 시간에도 나눠 할 수 있나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "중등 영어 복습표에는 공부한 날짜만 적으면 되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "중학생 영어 시험 준비가 마지막 날에 몰릴 때 어떻게 나누나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "중학생 영어·수학 계획을 각각 세웠는데도 밀리는 이유는 무엇부터 보나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "중학생 영수 공부 시간을 반씩 나누면 되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "학교 일정 때문에 영수 과제가 밀리면 어느 과목부터 옮기나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "고등학생 수학 계획은 문제 수만 정하면 충분한가요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "수학 질문을 해결한 날에는 재풀이도 완료로 표시해도 되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "고등 수학 시험 전 남은 과제가 많을 때 어떻게 분류하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "고등학생 영어 자습을 짧은 구간과 긴 구간으로 어떻게 나누나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "영어 지문을 오래 읽었는데 공부한 내용이 남지 않으면 무엇을 적나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "고등 영어 내신 기간에 줄인 독해 과제는 시험 후 모두 해야 하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "고등학생 영어와 수학을 따로 계획하면 어떤 문제가 생길 수 있나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "한 과목을 보충하느라 다른 과목을 자꾸 못 하면 어떻게 조정하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "고등 영수 주간 점검에서는 남은 과제를 어떻게 나누나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "동네 이름과 실제 방문할 지점은 어떻게 확인하나요?",
+    "opened": true,
+    "closed": true
+  },
+  {
+    "url": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+    "question": "사진과 학습 안내가 모든 지점에 그대로 적용되나요?",
+    "opened": true,
+    "closed": true
+  }
+]

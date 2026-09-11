@@ -1,0 +1,596 @@
+[
+  {
+    "from": "전국센터/index.html",
+    "link": {
+      "href": "/학습코칭/#four-c",
+      "label": "4C 코칭 과정을 알아보기"
+    },
+    "hash": "#four-c",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/index.html",
+    "link": {
+      "href": "/학습코칭/#ai-class",
+      "label": "AI 과목별 대상과 학습 구성"
+    },
+    "hash": "#ai-class",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.75,
+    "pass": true
+  },
+  {
+    "from": "과목별코칭/index.html",
+    "link": {
+      "href": "/학습코칭/#four-c",
+      "label": "진단에서 학습 계획으로 연결하기"
+    },
+    "hash": "#four-c",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "과목별코칭/index.html",
+    "link": {
+      "href": "/학습코칭/#ai-class",
+      "label": "AI 영어·수학·국어 구성 비교"
+    },
+    "hash": "#ai-class",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.75,
+    "pass": true
+  },
+  {
+    "from": "학년별코칭/index.html",
+    "link": {
+      "href": "/학습코칭/#daily-care",
+      "label": "플랜·학습·생활 관리 구성"
+    },
+    "hash": "#daily-care",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "학년별코칭/index.html",
+    "link": {
+      "href": "/학습코칭/#consult-ready",
+      "label": "학년과 시간표에 맞춘 상담 준비"
+    },
+    "hash": "#consult-ready",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.75,
+    "pass": true
+  },
+  {
+    "from": "전국센터/수학학원/index.html",
+    "link": {
+      "href": "/학습코칭/#ai-math",
+      "label": "AI 수학의 문제·오답 학습 보기"
+    },
+    "hash": "#ai-math",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.600000381469727,
+    "pass": true
+  },
+  {
+    "from": "전국센터/수학학원/index.html",
+    "link": {
+      "href": "/학습코칭/#review-example",
+      "label": "풀이와 복습 결과를 남기는 방법"
+    },
+    "hash": "#review-example",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 20.274999618530273,
+    "pass": true
+  },
+  {
+    "from": "전국센터/영어학원/index.html",
+    "link": {
+      "href": "/학습코칭/#ai-english",
+      "label": "AI 영어의 진단과 학습 구성"
+    },
+    "hash": "#ai-english",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 20.149999618530273,
+    "pass": true
+  },
+  {
+    "from": "전국센터/영어학원/index.html",
+    "link": {
+      "href": "/학습코칭/#four-c",
+      "label": "진단 뒤 학습 순서를 정하는 과정"
+    },
+    "hash": "#four-c",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/영수학원/index.html",
+    "link": {
+      "href": "/학습코칭/#ai-class",
+      "label": "영어와 수학 AI 학습 비교"
+    },
+    "hash": "#ai-class",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.75,
+    "pass": true
+  },
+  {
+    "from": "전국센터/영수학원/index.html",
+    "link": {
+      "href": "/학습코칭/#daily-care",
+      "label": "두 과목의 실행 기록 관리하기"
+    },
+    "hash": "#daily-care",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/초등수학학원/index.html",
+    "link": {
+      "href": "/학습코칭/#ai-math",
+      "label": "AI 수학 연습 방식 이해하기"
+    },
+    "hash": "#ai-math",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.600000381469727,
+    "pass": true
+  },
+  {
+    "from": "전국센터/초등수학학원/index.html",
+    "link": {
+      "href": "/학습코칭/#review-example",
+      "label": "다시 설명하는 복습 기록 예시"
+    },
+    "hash": "#review-example",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 20.274999618530273,
+    "pass": true
+  },
+  {
+    "from": "전국센터/초등영어학원/index.html",
+    "link": {
+      "href": "/학습코칭/#ai-english",
+      "label": "AI 영어의 초등 학습 구성"
+    },
+    "hash": "#ai-english",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 20.149999618530273,
+    "pass": true
+  },
+  {
+    "from": "전국센터/초등영어학원/index.html",
+    "link": {
+      "href": "/학습코칭/#four-c",
+      "label": "현재 수준에 맞춘 시작점 정하기"
+    },
+    "hash": "#four-c",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/초등영수학원/index.html",
+    "link": {
+      "href": "/학습코칭/#ai-class",
+      "label": "영어·수학 AI 활동 살펴보기"
+    },
+    "hash": "#ai-class",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.75,
+    "pass": true
+  },
+  {
+    "from": "전국센터/초등영수학원/index.html",
+    "link": {
+      "href": "/학습코칭/#review-example",
+      "label": "도움받은 내용과 혼자 한 내용 구분"
+    },
+    "hash": "#review-example",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 20.274999618530273,
+    "pass": true
+  },
+  {
+    "from": "전국센터/중등수학학원/index.html",
+    "link": {
+      "href": "/학습코칭/#ai-math",
+      "label": "오답에서 유사·변형 문제로 이어가기"
+    },
+    "hash": "#ai-math",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.600000381469727,
+    "pass": true
+  },
+  {
+    "from": "전국센터/중등수학학원/index.html",
+    "link": {
+      "href": "/학습코칭/#four-c",
+      "label": "진단 결과에 맞춘 학습 처방"
+    },
+    "hash": "#four-c",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/중등영어학원/index.html",
+    "link": {
+      "href": "/학습코칭/#ai-english",
+      "label": "AI 영어의 중고등 구성 보기"
+    },
+    "hash": "#ai-english",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 20.149999618530273,
+    "pass": true
+  },
+  {
+    "from": "전국센터/중등영어학원/index.html",
+    "link": {
+      "href": "/학습코칭/#review-example",
+      "label": "표현을 자료 없이 확인하는 복습"
+    },
+    "hash": "#review-example",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 20.274999618530273,
+    "pass": true
+  },
+  {
+    "from": "전국센터/중등영수학원/index.html",
+    "link": {
+      "href": "/학습코칭/#four-c",
+      "label": "과목별 진단을 계획에 반영하기"
+    },
+    "hash": "#four-c",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/중등영수학원/index.html",
+    "link": {
+      "href": "/학습코칭/#ai-class",
+      "label": "영어와 수학 학습 결과의 차이"
+    },
+    "hash": "#ai-class",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.75,
+    "pass": true
+  },
+  {
+    "from": "전국센터/고등수학학원/index.html",
+    "link": {
+      "href": "/학습코칭/#ai-math",
+      "label": "AI 수학과 유형별 복습 이해하기"
+    },
+    "hash": "#ai-math",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.600000381469727,
+    "pass": true
+  },
+  {
+    "from": "전국센터/고등수학학원/index.html",
+    "link": {
+      "href": "/학습코칭/#review-example",
+      "label": "선택한 풀이의 근거 기록하기"
+    },
+    "hash": "#review-example",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 20.274999618530273,
+    "pass": true
+  },
+  {
+    "from": "전국센터/고등영어학원/index.html",
+    "link": {
+      "href": "/학습코칭/#ai-english",
+      "label": "AI 영어의 영역별 학습 구성"
+    },
+    "hash": "#ai-english",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 20.149999618530273,
+    "pass": true
+  },
+  {
+    "from": "전국센터/고등영어학원/index.html",
+    "link": {
+      "href": "/학습코칭/#four-c",
+      "label": "진단에서 맞춤 학습으로 이어가기"
+    },
+    "hash": "#four-c",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/고등영수학원/index.html",
+    "link": {
+      "href": "/학습코칭/#four-c",
+      "label": "진단·처방·지도·상담의 연결"
+    },
+    "hash": "#four-c",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/고등영수학원/index.html",
+    "link": {
+      "href": "/학습코칭/#daily-care",
+      "label": "과목별 분량과 실제 시간 관리"
+    },
+    "hash": "#daily-care",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/초등학생학원/index.html",
+    "link": {
+      "href": "/학습코칭/#daily-care",
+      "label": "초등 공부 습관과 일상 관리"
+    },
+    "hash": "#daily-care",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/초등학생학원/index.html",
+    "link": {
+      "href": "/학습코칭/#ai-reading",
+      "label": "읽은 내용을 남기는 AI 독서 안내"
+    },
+    "hash": "#ai-reading",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.92500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/중학생학원/index.html",
+    "link": {
+      "href": "/학습코칭/#daily-care",
+      "label": "학교 일정과 플랜관리 연결"
+    },
+    "hash": "#daily-care",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/중학생학원/index.html",
+    "link": {
+      "href": "/학습코칭/#consult-ready",
+      "label": "학습 기록을 활용한 상담 준비"
+    },
+    "hash": "#consult-ready",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.75,
+    "pass": true
+  },
+  {
+    "from": "전국센터/고등학생학원/index.html",
+    "link": {
+      "href": "/학습코칭/#four-c",
+      "label": "현재 상태에 맞춘 학습 순서"
+    },
+    "hash": "#four-c",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/고등학생학원/index.html",
+    "link": {
+      "href": "/학습코칭/#daily-care",
+      "label": "고등학생의 시간·분량 기록"
+    },
+    "hash": "#daily-care",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/초등학생수학학원/index.html",
+    "link": {
+      "href": "/학습코칭/#daily-care",
+      "label": "수학 복습을 계획에 남기기"
+    },
+    "hash": "#daily-care",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/초등학생수학학원/index.html",
+    "link": {
+      "href": "/학습코칭/#ai-math",
+      "label": "AI 수학 결과의 활용 방식"
+    },
+    "hash": "#ai-math",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.600000381469727,
+    "pass": true
+  },
+  {
+    "from": "전국센터/초등학생영어학원/index.html",
+    "link": {
+      "href": "/학습코칭/#daily-care",
+      "label": "짧은 영어 활동의 실행 기록"
+    },
+    "hash": "#daily-care",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/초등학생영어학원/index.html",
+    "link": {
+      "href": "/학습코칭/#ai-english",
+      "label": "AI 영어 학습 활동 알아보기"
+    },
+    "hash": "#ai-english",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 20.149999618530273,
+    "pass": true
+  },
+  {
+    "from": "전국센터/초등학생영수학원/index.html",
+    "link": {
+      "href": "/학습코칭/#daily-care",
+      "label": "두 과목의 순서와 분량 계획"
+    },
+    "hash": "#daily-care",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/초등학생영수학원/index.html",
+    "link": {
+      "href": "/학습코칭/#review-example",
+      "label": "혼자 복습한 결과를 확인하기"
+    },
+    "hash": "#review-example",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 20.274999618530273,
+    "pass": true
+  },
+  {
+    "from": "전국센터/중학생수학학원/index.html",
+    "link": {
+      "href": "/학습코칭/#daily-care",
+      "label": "과제와 재풀이 일정 정리"
+    },
+    "hash": "#daily-care",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/중학생수학학원/index.html",
+    "link": {
+      "href": "/학습코칭/#ai-math",
+      "label": "AI 수학 오답 결과 살펴보기"
+    },
+    "hash": "#ai-math",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.600000381469727,
+    "pass": true
+  },
+  {
+    "from": "전국센터/중학생영어학원/index.html",
+    "link": {
+      "href": "/학습코칭/#daily-care",
+      "label": "영어 과제와 복습의 실행 관리"
+    },
+    "hash": "#daily-care",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/중학생영어학원/index.html",
+    "link": {
+      "href": "/학습코칭/#ai-english",
+      "label": "중고등 AI 영어 구성 확인"
+    },
+    "hash": "#ai-english",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 20.149999618530273,
+    "pass": true
+  },
+  {
+    "from": "전국센터/중학생영수학원/index.html",
+    "link": {
+      "href": "/학습코칭/#daily-care",
+      "label": "영수 과제·복습 시간 나누기"
+    },
+    "hash": "#daily-care",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/중학생영수학원/index.html",
+    "link": {
+      "href": "/학습코칭/#four-c",
+      "label": "진단에 맞춘 우선순위 상담"
+    },
+    "hash": "#four-c",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/고등학생수학학원/index.html",
+    "link": {
+      "href": "/학습코칭/#daily-care",
+      "label": "문제 수와 실제 학습 시간 비교"
+    },
+    "hash": "#daily-care",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/고등학생수학학원/index.html",
+    "link": {
+      "href": "/학습코칭/#ai-math",
+      "label": "AI 수학 결과와 다음 연습"
+    },
+    "hash": "#ai-math",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.600000381469727,
+    "pass": true
+  },
+  {
+    "from": "전국센터/고등학생영어학원/index.html",
+    "link": {
+      "href": "/학습코칭/#daily-care",
+      "label": "영역별 계획과 완료 기록"
+    },
+    "hash": "#daily-care",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/고등학생영어학원/index.html",
+    "link": {
+      "href": "/학습코칭/#ai-english",
+      "label": "AI 영어 영역별 연습 안내"
+    },
+    "hash": "#ai-english",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 20.149999618530273,
+    "pass": true
+  },
+  {
+    "from": "전국센터/고등학생영수학원/index.html",
+    "link": {
+      "href": "/학습코칭/#daily-care",
+      "label": "주간 영수 학습 기록 정리"
+    },
+    "hash": "#daily-care",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.67500114440918,
+    "pass": true
+  },
+  {
+    "from": "전국센터/고등학생영수학원/index.html",
+    "link": {
+      "href": "/학습코칭/#consult-ready",
+      "label": "실행 기록으로 다음 계획 상담"
+    },
+    "hash": "#consult-ready",
+    "path": "/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/",
+    "top": 19.75,
+    "pass": true
+  }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "test": "root partial subject search",
+    "status": "“초등 영어” 검색 결과 1개 카테고리입니다.",
+    "visible": [
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+        "text": "ELEMENTARY ENGLISH\n초등영어학원\n어휘 기초와 문장 읽기, 규칙적인 복습 습관을 중심으로 확인"
+      }
+    ]
+  },
+  {
+    "test": "root empty results",
+    "status": "“없는분류검사” 검색 결과 0개 카테고리입니다.",
+    "visible": []
+  },
+  {
+    "test": "root reset",
+    "status": "24개 학원 카테고리를 살펴볼 수 있습니다.",
+    "visible": [
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+        "text": "MATH\n수학학원\n학년을 한정하지 않고 개념·유형·오답 흐름을 점검하는 수학 안내"
+      },
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+        "text": "ENGLISH\n영어학원\n학년을 한정하지 않고 어휘·문법·독해 흐름을 점검하는 영어 안내"
+      },
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+        "text": "ENGLISH & MATH\n영수학원\n영어와 수학의 주간 분량과 복습 균형을 함께 살피는 통합 안내"
+      },
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/",
+        "text": "ELEMENTARY\n초등학생학원\n공부 습관과 기초 개념, 과목별 학습 시작점을 종합적으로 확인"
+      },
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/",
+        "text": "MIDDLE SCHOOL\n중학생학원\n학교 진도·수행평가·내신 준비와 주간 루틴을 종합적으로 확인"
+      },
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%ED%95%99%EC%9B%90/",
+        "text": "HIGH SCHOOL\n고등학생학원\n학년 단계와 내신·모의고사 일정, 자기관리 흐름을 종합적으로 확인"
+      },
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+        "text": "ELEMENTARY STUDENT MATH\n초등학생수학학원\n초등학생의 수학 숙제·복습 시간과 실행 습관을 중심으로 확인"
+      },
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+        "text": "ELEMENTARY STUDENT ENGLISH\n초등학생영어학원\n초등학생의 영어 과제·읽기·어휘 복습 습관을 중심으로 확인"
+      },
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+        "text": "ELEMENTARY STUDENT ENGLISH & MATH\n초등학생영수학원\n초등학생의 영어·수학 과제와 주간 시간 배분을 함께 확인"
+      },
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+        "text": "MIDDLE SCHOOL STUDENT MATH\n중학생수학학원\n중학생의 수학 과제·오답 재풀이와 주간 공부 시간을 중심으로 확인"
+      },
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+        "text": "MIDDLE SCHOOL STUDENT ENGLISH\n중학생영어학원\n중학생의 영어 과제·어휘 복습과 시험 준비 시간을 중심으로 확인"
+      },
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%ED%95%99%EC%83%9D%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+        "text": "MIDDLE SCHOOL STUDENT ENGLISH & MATH\n중학생영수학원\n중학생의 영어·수학 과제와 시험기간 시간 배분을 함께 확인"
+      },
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+        "text": "HIGH SCHOOL STUDENT MATH\n고등학생수학학원\n고등학생의 수학 공부 시간과 내신·모의고사 일정 관리를 중심으로 확인"
+      },
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+        "text": "HIGH SCHOOL STUDENT ENGLISH\n고등학생영어학원\n고등학생의 영어 과제·복습 시간과 학사 일정 관리를 중심으로 확인"
+      },
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+        "text": "HIGH SCHOOL STUDENT ENGLISH & MATH\n고등학생영수학원\n고등학생의 영어·수학 자습 시간과 일정별 실행 습관을 함께 확인"
+      },
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+        "text": "ELEMENTARY MATH\n초등수학학원\n연산 정확도와 기초 개념, 문제 읽기 습관을 중심으로 확인"
+      },
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+        "text": "ELEMENTARY ENGLISH\n초등영어학원\n어휘 기초와 문장 읽기, 규칙적인 복습 습관을 중심으로 확인"
+      },
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%B4%88%EB%93%B1%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+        "text": "ELEMENTARY ENGLISH & MATH\n초등영수학원\n영어·수학 기초와 주간 공부 습관을 함께 확인"
+      },
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+        "text": "MIDDLE MATH\n중등수학학원\n학교 진도와 내신 범위, 서술형·오답 관리를 중심으로 확인"
+      },
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+        "text": "MIDDLE ENGLISH\n중등영어학원\n교과서 본문과 문법·서술형 내신 준비를 중심으로 확인"
+      },
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%A4%91%EB%93%B1%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+        "text": "MIDDLE ENGLISH & MATH\n중등영수학원\n두 과목의 내신 범위와 시험기간 분량 배분을 함께 확인"
+      },
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+        "text": "HIGH MATH\n고등수학학원\n내신·모의고사 범위와 풀이 시간, 취약 단원을 중심으로 확인"
+      },
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+        "text": "HIGH ENGLISH\n고등영어학원\n내신 지문과 모의고사 독해, 어휘·시간 관리를 중심으로 확인"
+      },
+      {
+        "href": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%EC%98%81%EC%88%98%ED%95%99%EC%9B%90/",
+        "text": "HIGH ENGLISH & MATH\n고등영수학원\n내신·모의고사 일정에 맞춘 영어·수학 시간 배분을 함께 확인"
+      }
+    ]
+  },
+  {
+    "test": "invalid locality",
+    "path": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "status": "일치하는 동네를 찾지 못했습니다. 동네 이름을 다시 확인해 주세요.",
+    "value": "없는동네검사"
+  },
+  {
+    "test": "exact locality found",
+    "path": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "status": "명일동 안내페이지를 찾았습니다. ‘안내 보기’를 눌러 이동하세요.",
+    "value": "명일동"
+  },
+  {
+    "test": "locality Escape reset",
+    "path": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+    "status": "371개 동네 중 이름을 입력해 바로 이동할 수 있습니다.",
+    "value": ""
+  },
+  {
+    "test": "locality actual navigation",
+    "h1": "명일동 고등 수학학원",
+    "path": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%AA%85%EC%9D%BC%EB%8F%99%EA%B3%A0%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/"
+  },
+  {
+    "test": "official video opens new tab",
+    "url": "https://www.youtube.com/watch?v=f_skFu40U04",
+    "observed": "- banner:\n  - button \"가이드\":\n  - link \"YouTube 홈\":\n    - /url: /\n  - generic: KR\n  - button \"탐색 건너뛰기\":\n    - generic: 탐색 건너뛰기\n  - button \"검색\":\n    - tooltip \"tooltip\"\n  - button \"설정\":\n  - link \"로그인\":\n    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dko%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Df_skFu40U04&hl=ko&ec=65620\n    - generic: 로그인\n- main:\n  - complementary:\n    - generic \"YouTube 동영상 플레이어\" [active]:\n      - button \"재생\":\n      - generic: 중요한\n      - slider \"탐색 슬라이더\"\n      - slider \"세밀한 탐색을 하려면 패널을 클릭하거나 스크롤하세요.\"\n      - button \"재생 키보드 단축키 k\":\n      - button \"음소거(m)\":\n      - button:\n  - heading \"[와와학습코칭센터] 아이들의 진짜 학습성장을 돕는 학원, 와와학습코칭센터 원장님과의 인터뷰와 학원 후기\" [level=1]\n  - link:\n    - /url: /@wawacoachingcenter\n  - generic \"와와학습코칭센터\":\n    - link \"와와학습코칭센터\":\n      - /url: /@wawacoachingcenter\n  - generic \"구독자 717명\"\n  - button \"와와학습코칭센터을(를) 구독합니다.\":\n    - generic: 구독\n  - button \"다른 사용자 20명과 함께 이 동영상에 좋아요 표시\":\n    - generic: \"20\"\n  - button \"동영상에 싫어요 표시\":\n  - button \"공유\":\n    - generic: 공유\n  - button \"재생목록에 저장\":\n    - generic: 저장\n  - button \"추가 작업\":\n  - text: 조회수 2.8천회 3년 전\n  - link \"#공부\":\n    - /url: /hashtag/%EA%B3%B5%EB%B6%80\n  - link \"#학원\":\n    - /url: /hashtag/%ED%95%99%EC%9B%90\n  - link \"#공부방법\":\n    - /url: /hashtag/%EA%B3%B5%EB%B6%80%EB%B0%A9%EB%B2%95\n  - tooltip \"tooltip\"\n  - link \"#공부\":\n    - /url: /hashtag/%EA%B3%B5%EB%B6%80\n  - link \"#공부방법\":\n    - /url: /hashtag/%EA%B3%B5%EB%B6%80%EB%B0%A9%EB%B2%95\n  - li"
+  }
+]

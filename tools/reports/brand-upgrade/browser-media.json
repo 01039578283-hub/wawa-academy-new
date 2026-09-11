@@ -1,0 +1,66 @@
+{
+  "home": [
+    {
+      "loaded": true,
+      "ratioOK": true,
+      "src": "/assets/official-learning/brand-learning.png"
+    },
+    {
+      "loaded": true,
+      "ratioOK": true,
+      "src": "/assets/official-learning/four-c.png"
+    },
+    {
+      "loaded": true,
+      "ratioOK": true,
+      "src": "/assets/official-learning/learning-space.png"
+    },
+    {
+      "loaded": true,
+      "ratioOK": true,
+      "src": "/assets/official-learning/video-student.jpg"
+    },
+    {
+      "loaded": true,
+      "ratioOK": true,
+      "src": "/assets/official-learning/video-coaching.jpg"
+    },
+    {
+      "loaded": true,
+      "ratioOK": true,
+      "src": "/assets/official-learning/video-exam.jpg"
+    }
+  ],
+  "coaching": [
+    {
+      "loaded": true,
+      "ratioOK": true,
+      "src": "/assets/official-learning/teacher-coaching.png"
+    },
+    {
+      "loaded": true,
+      "ratioOK": true,
+      "src": "/assets/official-learning/learning-planner.png"
+    },
+    {
+      "loaded": true,
+      "ratioOK": true,
+      "src": "/assets/official-learning/ai-english.png"
+    },
+    {
+      "loaded": true,
+      "ratioOK": true,
+      "src": "/assets/official-learning/ai-math.png"
+    },
+    {
+      "loaded": true,
+      "ratioOK": true,
+      "src": "/assets/official-learning/ai-korean.png"
+    },
+    {
+      "loaded": true,
+      "ratioOK": true,
+      "src": "/assets/official-learning/ai-reading.png"
+    }
+  ]
+}

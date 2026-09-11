@@ -1,0 +1,111 @@
+{
+  "checked": "2026-09-11",
+  "pages": [
+    "https://www.wawacenter.com/brand/wawacenter",
+    "https://www.wawacenter.com/intro/coachingSystem",
+    "https://www.wawacenter.com/intro/AISystem"
+  ],
+  "assets": [
+    {
+      "file": "brand-learning.png",
+      "source": "https://www.wawacenter.com/assets/img/Main_CD_wawa.png",
+      "width": 582,
+      "height": 480,
+      "bytes": 125896,
+      "sha256": "7a3a8813a8d10cb80c59131d2e56f8fffed6ee7664ad846ac36af3c523c8043a"
+    },
+    {
+      "file": "learning-space.png",
+      "source": "https://www.wawacenter.com/assets/img/system_03.png",
+      "width": 620,
+      "height": 420,
+      "bytes": 391484,
+      "sha256": "1a1a07040f2dd073f1e4bbf1ce4686809b822a3b586d814ebe6b0515220dc348"
+    },
+    {
+      "file": "teacher-coaching.png",
+      "source": "https://www.wawacenter.com/assets/img/system_04.png",
+      "width": 620,
+      "height": 420,
+      "bytes": 401216,
+      "sha256": "6c3e9f344f641df301afc7758ef22d26a01b8577173b7b563cd8b29af1f0b24c"
+    },
+    {
+      "file": "four-c.png",
+      "source": "https://www.wawacenter.com/assets/img/system_05.png",
+      "width": 620,
+      "height": 423,
+      "bytes": 40017,
+      "sha256": "2fc46d9c9ab87684d6671f0622885628a0801f981da89aedbdf1663f06324897"
+    },
+    {
+      "file": "learning-planner.png",
+      "source": "https://www.wawacenter.com/assets/img/system_06_01.png",
+      "width": 620,
+      "height": 420,
+      "bytes": 385193,
+      "sha256": "6f34fd1f4acbd98215b2af5b967d2d0033a5dcaf9fa52ba90c2e4c474d39275f"
+    },
+    {
+      "file": "ai-english.png",
+      "source": "https://www.wawacenter.com/assets/img/ais_step02.png",
+      "width": 375,
+      "height": 228,
+      "bytes": 43816,
+      "sha256": "9b42c432e8582ebbf3fba7384163d3190d32cccbe04c08bb4625be75f500e6ab"
+    },
+    {
+      "file": "ai-math.png",
+      "source": "https://www.wawacenter.com/assets/img/ais_math_content02.png",
+      "width": 589,
+      "height": 418,
+      "bytes": 144862,
+      "sha256": "7cde3b0a9c26c977a03c158733c3b5c3ec8cda67c58820a653fd459bc8d0e743"
+    },
+    {
+      "file": "ai-korean.png",
+      "source": "https://www.wawacenter.com/assets/img/ais_kor_content03.png",
+      "width": 499,
+      "height": 325,
+      "bytes": 117254,
+      "sha256": "79b07391ccfa14c70bb35ee3ff6eb3eb5e842b9f7bd58c06071b3ee0e0ea3c3e"
+    },
+    {
+      "file": "ai-reading.png",
+      "source": "https://www.wawacenter.com/assets/img/ais_read_portfolio.png",
+      "width": 600,
+      "height": 421,
+      "bytes": 144972,
+      "sha256": "ee4a77bef0d90b630992f61896f698d0f4775bab2feb804e761630415912d915"
+    },
+    {
+      "file": "video-student.jpg",
+      "source": "https://www.youtube.com/watch?v=avpJfW7eIV0",
+      "width": 480,
+      "height": 360,
+      "bytes": 11570,
+      "sha256": "a0f992fecc3f999195c7b3a6f51786557ce808921de1ea3b7f8be02a65daf521"
+    },
+    {
+      "file": "video-coaching.jpg",
+      "source": "https://www.youtube.com/watch?v=f_skFu40U04",
+      "width": 480,
+      "height": 360,
+      "bytes": 11070,
+      "sha256": "6c5621d2f3c8440227af38fa6dc9f912e8b33960530cfdd55506229da04cc132"
+    },
+    {
+      "file": "video-exam.jpg",
+      "source": "https://www.youtube.com/watch?v=UIXUaBZdNXU",
+      "width": 480,
+      "height": 360,
+      "bytes": 8743,
+      "sha256": "0dacde2f61773acbb6da7b62126c2cbd74dee31a6f6a733b78ccd942d6dae5f0"
+    }
+  ],
+  "images": "Original bytes; no cropping or hidden body images.",
+  "videoPlayback": "Thumbnails and captions link directly to official YouTube videos. No embed/player script.",
+  "videoSchema": "VideoObject omitted: upload dates are not verified.",
+  "site": "와와학원.com",
+  "reuse": "Official source pages rechecked; original local asset bytes reused without editing."
+}

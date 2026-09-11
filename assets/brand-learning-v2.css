@@ -1,0 +1,180 @@
+/* Scoped to the 29 reviewed pages. Other regional pages retain their design. */
+html:has(.wa-upgrade-page) { scroll-behavior: auto; }
+.wa-upgrade-page { color: #242b43; background: #fffbfc; overflow-wrap: break-word; }
+.wa-upgrade-page :is(h1,h2,h3) { word-break: keep-all; overflow-wrap: anywhere; }
+.wa-upgrade-page [id] { scroll-margin-top: 110px; }
+.wa-upgrade-page :is(a,summary,button,input):focus-visible { outline: 3px solid #2462ad; outline-offset: 4px; }
+.wa-upgrade-page [hidden] { display: none !important; }
+.wa-upgrade-page .site-header { background: #fffcfdf5; }
+.wa-upgrade-page .brand { min-height: 44px; }
+.wa-upgrade-page .header-cta { background: #8f3f60; min-height: 44px; }
+.wa-upgrade-page .nav-link { min-height: 44px; display: inline-flex; align-items: center; }
+.wa-upgrade-page .nav-link:is(:hover,.is-active) { background: #8f3f60; }
+.wa-upgrade-page .wa-kicker { color: #8b3d5b; font-size: 12px; font-weight: 800; line-height: 1.6; letter-spacing: .05em; margin: 0 0 14px; }
+.wa-upgrade-page .wa-hero { padding: 58px 0 42px; background: linear-gradient(155deg, #fffafc, #f9edf2); }
+.wa-hero-grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: 48px; align-items: center; }
+.wa-upgrade-page .wa-hero h1 { font-size: clamp(34px, 4.15vw, 54px); line-height: 1.3; letter-spacing: -.045em; }
+.wa-upgrade-page .wa-lead { max-width: 37em; margin-top: 24px; color: #4e5060; font-size: 18px; line-height: 1.85; }
+.wa-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 25px; }
+.wa-button { display: inline-flex; gap: 12px; align-items: center; justify-content: center; min-height: 50px; padding: 12px 20px; border: 1px solid #d9bdca; border-radius: 12px; background: white; color: #783650; font-weight: 750; font-size: 15px; line-height: 1.5; }
+.wa-button.wa-primary { background: #8f3f60; color: white; border-color: #8f3f60; }
+.wa-button:hover { box-shadow: 0 6px 18px #58213816; border-color: #8f3f60; }
+.wa-upgrade-page .wa-note { font-size: 14px; line-height: 1.75; color: #64606d; margin-top: 20px; }
+.wa-hero-figure, .wa-figure { margin: 0; min-width: 0; }
+.wa-hero-figure { padding: 24px 20px; border-radius: 32px; border: 1px solid #edd6e0; background: #fff; }
+.wa-hero-figure img { width: 100%; height: auto; object-fit: contain; }
+.wa-figure img { width: 100%; height: auto; object-fit: contain; border-radius: 20px; }
+.wa-upgrade-page :is(.wa-figure,.wa-hero-figure) figcaption { font-size: 13px; color: #615765; line-height: 1.65; margin-top: 12px; }
+.wa-jumps { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 8px; padding-block: 20px; }
+.wa-coaching-page .wa-jumps { grid-template-columns: repeat(6,minmax(0,1fr)); }
+.wa-jumps a, .wa-ai-nav a { min-height: 48px; display: flex; align-items: center; justify-content: center; padding: 10px; border: 1px solid #e1ced7; border-radius: 10px; background: #fff; color: #6e354e; font-size: 14px; font-weight: 750; text-align: center; line-height: 1.5; }
+.wa-section { padding: 64px 0; }
+.wa-tint { background: #faf1f5; }
+.wa-heading { margin-bottom: 28px; max-width: 780px; }
+.wa-upgrade-page :is(.wa-section,.wa-hub-brief) h2 { font-size: clamp(26px,3vw,36px); line-height: 1.4; letter-spacing: -.04em; }
+.wa-upgrade-page :is(.wa-heading,.wa-copy) > p:not(.wa-kicker) { font-size: 16px; line-height: 1.85; margin-top: 18px; color: #505061; }
+.wa-grid { display: grid; gap: 20px; }
+.wa-two { grid-template-columns: repeat(2,minmax(0,1fr)); }
+.wa-three { grid-template-columns: repeat(3,minmax(0,1fr)); }
+.wa-four { grid-template-columns: repeat(4,minmax(0,1fr)); }
+.wa-align-center { align-items: center; gap: 42px; }
+.wa-upgrade-page :is(.wa-card,.wa-link-card,.wa-ai-card,.wa-video-card) { min-width: 0; border: 1px solid #e7d7df; border-radius: 18px; background: white; }
+.wa-upgrade-page :is(.wa-card,.wa-link-card) { padding: 26px; }
+.wa-link-card { display: flex; flex-direction: column; transition: border-color .15s; }
+.wa-link-card:hover { border-color: #a35171; }
+.wa-upgrade-page .wa-label { display: block; color: #8b3d5b; font-size: 12px; line-height: 1.6; letter-spacing: .035em; font-weight: 800; margin-bottom: 9px; }
+.wa-upgrade-page :is(.wa-section,.wa-hub-brief) h3 { font-size: 21px; line-height: 1.5; letter-spacing: -.03em; }
+.wa-upgrade-page :is(.wa-card,.wa-link-card,.wa-ai-card,.wa-video-card) p:not(.wa-label) { margin-top: 12px; font-size: 16px; line-height: 1.8; color: #535060; }
+.wa-link-tail { display: flex; justify-content: space-between; gap: 12px; margin-top: auto; padding-top: 22px; font-size: 14px; line-height: 1.6; font-weight: 800; color: #873a58; }
+.wa-stage-links { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12px; margin-top: 16px; }
+.wa-stage-links a { display: grid; gap: 6px; padding: 18px 22px; border-radius: 14px; background: #f5e6ed; }
+.wa-stage-links strong { font-size: 18px; }
+.wa-stage-links span { color: #5e4f5b; font-size: 14px; line-height: 1.65; }
+.wa-upgrade-page .wa-context { margin-top: 24px; font-size: 16px; line-height: 2.1; color: #535060; }
+.wa-context a { color: #863551; text-decoration: underline; text-underline-offset: 4px; font-weight: 750; padding-block: 6px; }
+.wa-plain-list { padding-left: 0; list-style: none; margin: 22px 0 16px; }
+.wa-plain-list li { border-bottom: 1px solid #e5d4dd; padding: 12px 0; font-size: 16px; line-height: 1.75; color: #504757; }
+.wa-plain-list strong { display: inline-block; min-width: 42px; color: #8a3d5b; }
+.wa-text-link { display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 10px 0; margin-top: 18px; color: #843954; font-size: 15px; font-weight: 800; line-height: 1.6; text-decoration: underline; text-underline-offset: 4px; }
+.wa-video-card { display: flex; flex-direction: column; }
+.wa-video-card > img { width: 100%; height: auto; object-fit: contain; border-radius: 17px 17px 0 0; }
+.wa-video-card > div { padding: 22px; display: flex; flex-direction: column; flex: 1; }
+.wa-video-play { align-self: start; display: inline-flex; gap: 20px; margin-top: 22px; padding: 10px 16px; border-radius: 10px; background: #8f3f60; color: #fff; font-size: 14px; font-weight: 750; }
+.wa-faq-layout { display: grid; grid-template-columns: .8fr 1.2fr; gap: 48px; }
+.wa-upgrade-page .wa-faq-list details { padding: 0; margin: 0 0 12px; border: 1px solid #e5d2dc; border-radius: 14px; background: #fff; }
+.wa-faq-list summary { cursor: pointer; padding: 18px 22px; min-height: 56px; font-size: 16px; line-height: 1.65; font-weight: 750; color: #29243c; }
+.wa-upgrade-page .wa-faq-list details p { padding: 0 22px 22px; color: #505061; font-size: 16px; line-height: 1.85; }
+.wa-upgrade-page .final-cta { padding: 48px 0; }
+.wa-upgrade-page .final-cta h2 { font-size: clamp(26px,3vw,34px); line-height: 1.45; }
+.wa-upgrade-page .final-cta p { font-size: 16px; line-height: 1.85; }
+.wa-upgrade-page .final-cta .btn { padding: 12px 20px; line-height: 1.55; }
+.wa-upgrade-page .floating-actions .fab { display: flex; align-items: center; justify-content: center; min-height: 48px; font-size: 14px; background: #8f3f60; }
+.wa-upgrade-page .footer-links a { display: inline-flex; align-items: center; min-height: 44px; line-height: 1.6; }
+.wa-upgrade-page .footer-contact a { min-height: 44px; display: inline-flex; align-items: center; }
+.wa-breadcrumb { display: flex; align-items: center; gap: 12px; font-size: 14px; padding-block: 12px; color: #635160; }
+.wa-breadcrumb a { min-height: 44px; display: flex; align-items: center; }
+.wa-coaching-hero { border-bottom: 1px solid #eaddE4; }
+.wa-step-number { display: inline-grid; place-items: center; background: #f7e5ed; color: #7d3352; width: 38px; height: 38px; border-radius: 12px; font-size: 14px; font-weight: 800; margin-bottom: 16px; }
+.wa-upgrade-page .wa-check { padding-top: 16px; border-top: 1px solid #eddee5; }
+.wa-check strong { display: block; color: #81405b; margin-bottom: 6px; font-size: 14px; }
+.wa-spaced { margin-top: 28px; }
+.wa-ai-nav { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 10px; margin-bottom: 24px; }
+.wa-ai-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px; align-items: start; }
+.wa-ai-card { padding: 28px; }
+.wa-ai-card figure { margin: 24px 0 0; background: #f7f5f7; border-radius: 14px; padding: 14px; }
+.wa-ai-card img { width: 100%; height: auto; max-height: none; object-fit: contain; }
+.wa-ai-card figcaption { margin-top: 10px; font-size: 13px; color: #655a64; line-height: 1.6; }
+.wa-review-list { counter-reset: review; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 24px; }
+.wa-review-list li { border-top: 2px solid #d2a5b9; padding: 22px 0 0; }
+.wa-review-list li::before { counter-increment: review; content: '0' counter(review); display: block; color: #873b59; font-size: 14px; font-weight: 800; margin-bottom: 14px; }
+.wa-review-list strong { font-size: 19px; }
+.wa-upgrade-page .wa-review-list p { margin-top: 12px; font-size: 16px; line-height: 1.85; color: #534b5a; }
+.wa-consult-panel { display: grid; grid-template-columns: 1.2fr .8fr; gap: 48px; align-items: center; padding: 38px; background: #282b43; color: white; border-radius: 24px; }
+.wa-upgrade-page .wa-consult-panel .wa-kicker { color: #f5c0d5; }
+.wa-upgrade-page .wa-consult-panel p:not(.wa-kicker) { color: #e5e1eb; font-size: 16px; line-height: 1.85; margin-top: 18px; }
+.wa-consult-panel .wa-actions { display: grid; margin: 0; }
+.wa-consult-panel .wa-primary { background: #f5d2e0; color: #6c2944; border-color: #f5d2e0; }
+.wa-source-note { padding-block: 28px 42px; }
+.wa-upgrade-page .wa-source-note p { font-size: 14px; line-height: 1.75; color: #625765; }
+.wa-source-note > div { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-top: 12px; }
+.wa-source-note a { font-size: 14px; color: #853957; line-height: 1.6; min-height: 44px; display: flex; align-items: center; text-decoration: underline; text-underline-offset: 3px; }
+.wa-sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.wa-mobile-break { display: none; }
+
+/* Briefs supplement existing subject/grade guidance; no extra image payload. */
+.wa-upgrade-page .wa-hub-brief { padding: 24px 0 30px; }
+.wa-hub-brief-inner { display: grid; grid-template-columns: 1.45fr 1fr; gap: 32px; align-items: center; border: 1px solid #e6cbd7; border-left: 4px solid #994568; border-radius: 18px; padding: 28px; background: #fff7fb; }
+.wa-upgrade-page .wa-hub-brief h2 { font-size: 25px; }
+.wa-upgrade-page .wa-hub-brief p:not(.wa-kicker) { margin-top: 14px; font-size: 16px; line-height: 1.85; color: #514657; }
+.wa-hub-links { display: grid; gap: 10px; }
+.wa-hub-links a { display: flex; gap: 14px; justify-content: space-between; align-items: center; min-height: 54px; padding: 14px; border: 1px solid #dec2cf; border-radius: 12px; background: #fff; color: #7b3351; font-size: 15px; font-weight: 750; line-height: 1.6; }
+.wa-hub-links a > span[aria-hidden] { flex: 0 0 auto; }
+.wa-hub-page .hub-guide-jumps .wrap { grid-template-columns: repeat(4,minmax(0,1fr)); }
+.wa-hub-page .hub-guide-jumps a { font-size: 14px; }
+
+@media (max-width: 1100px) {
+  .wa-four { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .wa-hero-grid { gap: 26px; }
+  .wa-upgrade-page .wa-hero h1 { font-size: 38px; }
+  .wa-hub-brief-inner { grid-template-columns: 1fr; gap: 20px; }
+  .wa-hub-links { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+@media (max-width: 920px) {
+  .wa-upgrade-page .site-header { position: static; }
+  .wa-upgrade-page .header-inner { grid-template-columns: 1fr auto; gap: 10px; padding-block: 12px; }
+  .wa-upgrade-page .brand { justify-content: start; }
+  .wa-upgrade-page .brand-text { font-size: 16px; }
+  .wa-upgrade-page .brand-mark { width: 34px; height: 34px; border-radius: 11px; flex: 0 0 auto; }
+  .wa-upgrade-page .header-cta { display: flex; font-size: 13px; padding: 10px 12px; line-height: 1.5; }
+  .wa-upgrade-page .main-nav { grid-column: 1/-1; grid-row: 2; display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); border-radius: 14px; padding: 4px; gap: 4px; }
+  .wa-upgrade-page .nav-link { padding: 8px 3px; font-size: 13px; text-align: center; justify-content: center; line-height: 1.5; }
+  .wa-upgrade-page [id] { scroll-margin-top: 20px; }
+  .wa-hero-grid, .wa-two, .wa-three, .wa-faq-layout, .wa-consult-panel, .wa-ai-grid { grid-template-columns: 1fr; }
+  .wa-hero-figure { max-width: 500px; width: 100%; margin: 0 auto; }
+  .wa-upgrade-page .wa-hero { padding: 32px 0; }
+  .wa-upgrade-page .wa-hero h1 { font-size: 36px; }
+  .wa-section { padding: 42px 0; }
+  .wa-grid, .wa-align-center { gap: 22px; }
+  .wa-upgrade-page .wa-lead { font-size: 17px; margin-top: 18px; }
+  .wa-upgrade-page :is(.wa-section,.wa-hub-brief) h2 { font-size: 28px; }
+  .wa-faq-layout { gap: 0; }
+  .wa-coaching-page .wa-jumps { grid-template-columns: repeat(3,minmax(0,1fr)); }
+  .wa-review-list { grid-template-columns: 1fr; }
+  .wa-consult-panel { gap: 24px; }
+  .wa-upgrade-page .final-cta h2 { font-size: 28px; }
+}
+@media (max-width: 560px) {
+  .wa-upgrade-page .wrap, .wa-upgrade-page .split-hub-hero .narrow { width: calc(100% - 32px); }
+  .wa-upgrade-page .wa-hero h1 { font-size: clamp(30px,7.8vw,36px); line-height: 1.35; }
+  .wa-upgrade-page .wa-lead { font-size: 16px; }
+  .wa-hero-figure { padding: 16px; border-radius: 22px; }
+  .wa-actions { display: grid; grid-template-columns: 1fr; width: 100%; }
+  .wa-button { justify-content: space-between; padding: 12px 16px; font-size: 15px; }
+  .wa-jumps, .wa-coaching-page .wa-jumps, .wa-hub-page .hub-guide-jumps .wrap { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .wa-upgrade-page :is(.wa-section,.wa-hub-brief) h2 { font-size: 26px; }
+  .wa-four, .wa-stage-links, .wa-hub-links { grid-template-columns: 1fr; }
+  .wa-stage-links a { padding: 16px 20px; }
+  .wa-upgrade-page :is(.wa-card,.wa-link-card,.wa-ai-card) { padding: 20px; }
+  .wa-upgrade-page :is(.wa-section,.wa-hub-brief) h3 { font-size: 20px; }
+  .wa-mobile-break { display: block; }
+  .wa-ai-nav { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .wa-ai-card figure { padding: 10px; }
+  .wa-consult-panel { padding: 24px 20px; }
+  .wa-faq-list summary { padding: 16px; }
+  .wa-upgrade-page .wa-faq-list details p { padding: 0 16px 18px; }
+  .wa-upgrade-page .wa-note { font-size: 14px; }
+  .wa-upgrade-page .floating-actions { bottom: max(8px,env(safe-area-inset-bottom,0px)); }
+  .wa-upgrade-page .floating-actions .fab { padding: 12px 4px; font-size: 13px; }
+  .wa-upgrade-page .site-footer { padding-bottom: calc(108px + env(safe-area-inset-bottom,0px)); }
+  .wa-hub-brief-inner { padding: 22px 18px; gap: 20px; }
+  .wa-upgrade-page .wa-hub-brief h2 { font-size: 23px; }
+  .wa-upgrade-page .wa-hub-brief { padding-top: 12px; }
+}
+@media (min-width: 561px) and (max-width: 1399px) {
+  .wa-upgrade-page .floating-actions { right: 8px; }
+  .wa-upgrade-page .floating-actions .fab { font-size: 12px; padding: 10px; }
+  .wa-hub-page .wa-hub-brief > .wrap { padding-right: 94px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .wa-upgrade-page * { transition: none !important; scroll-behavior: auto !important; }
+}

@@ -1,0 +1,2301 @@
+[
+  {
+    "path": "index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "30px",
+    "images": [
+      {
+        "loaded": true,
+        "ratioOK": true,
+        "src": "/assets/official-learning/brand-learning.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/four-c.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/learning-space.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/video-student.jpg"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/video-coaching.jpg"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/video-exam.jpg"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "학습코칭/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "30px",
+    "images": [
+      {
+        "loaded": true,
+        "ratioOK": true,
+        "src": "/assets/official-learning/teacher-coaching.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/learning-planner.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/ai-english.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/ai-math.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/ai-korean.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/ai-reading.png"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "과목별코칭/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "학년별코칭/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/수학학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/영어학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/영수학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/초등수학학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/초등영어학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/초등영수학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/중등수학학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/중등영어학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/중등영수학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/고등수학학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/고등영어학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/고등영수학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/초등학생학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/중학생학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/고등학생학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/초등학생수학학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/초등학생영어학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/초등학생영수학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/중학생수학학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/중학생영어학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/중학생영수학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/고등학생수학학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/고등학생영어학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "전국센터/고등학생영수학원/index.html",
+    "requested": 320,
+    "clipped": [],
+    "h1": "26px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 335,
+    "overflow": [],
+    "scrollWidth": 320,
+    "small": [],
+    "width": 320
+  },
+  {
+    "path": "index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "31.6368px",
+    "images": [
+      {
+        "loaded": true,
+        "ratioOK": true,
+        "src": "/assets/official-learning/brand-learning.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/four-c.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/learning-space.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/video-student.jpg"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/video-coaching.jpg"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/video-exam.jpg"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "학습코칭/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "31.6368px",
+    "images": [
+      {
+        "loaded": true,
+        "ratioOK": true,
+        "src": "/assets/official-learning/teacher-coaching.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/learning-planner.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/ai-english.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/ai-math.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/ai-korean.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/ai-reading.png"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "과목별코칭/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "학년별코칭/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/수학학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/영어학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/영수학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/초등수학학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/초등영어학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/초등영수학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/중등수학학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/중등영어학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/중등영수학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/고등수학학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/고등영어학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/고등영수학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/초등학생학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/중학생학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/고등학생학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/초등학생수학학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/초등학생영어학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/초등학생영수학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/중학생수학학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/중학생영어학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/중학생영수학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/고등학생수학학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/고등학생영어학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "전국센터/고등학생영수학원/index.html",
+    "requested": 390,
+    "clipped": [],
+    "h1": "26.364px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 406,
+    "overflow": [],
+    "scrollWidth": 390,
+    "small": [],
+    "width": 390
+  },
+  {
+    "path": "index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "53.7508px",
+    "images": [
+      {
+        "loaded": true,
+        "ratioOK": true,
+        "src": "/assets/official-learning/brand-learning.png"
+      },
+      {
+        "loaded": true,
+        "ratioOK": true,
+        "src": "/assets/official-learning/four-c.png"
+      },
+      {
+        "loaded": true,
+        "ratioOK": true,
+        "src": "/assets/official-learning/learning-space.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/video-student.jpg"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/video-coaching.jpg"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/video-exam.jpg"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "학습코칭/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "53.7508px",
+    "images": [
+      {
+        "loaded": true,
+        "ratioOK": true,
+        "src": "/assets/official-learning/teacher-coaching.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/learning-planner.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/ai-english.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/ai-math.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/ai-korean.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/ai-reading.png"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "과목별코칭/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "학년별코칭/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/수학학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/영어학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/영수학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/초등수학학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/초등영어학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/초등영수학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/중등수학학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/중등영어학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/중등영수학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/고등수학학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/고등영어학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/고등영수학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/초등학생학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/중학생학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/고등학생학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/초등학생수학학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/초등학생영어학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/초등학생영수학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/중학생수학학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/중학생영어학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/중학생영수학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/고등학생수학학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/고등학생영어학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "전국센터/고등학생영수학원/index.html",
+    "requested": 1280,
+    "clipped": [],
+    "h1": "48px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 1295,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "small": [],
+    "width": 1280
+  },
+  {
+    "path": "index.html",
+    "requested": 768,
+    "clipped": [],
+    "h1": "36px",
+    "images": [
+      {
+        "loaded": true,
+        "ratioOK": true,
+        "src": "/assets/official-learning/brand-learning.png"
+      },
+      {
+        "loaded": true,
+        "ratioOK": true,
+        "src": "/assets/official-learning/four-c.png"
+      },
+      {
+        "loaded": true,
+        "ratioOK": true,
+        "src": "/assets/official-learning/learning-space.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/video-student.jpg"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/video-coaching.jpg"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/video-exam.jpg"
+      }
+    ],
+    "innerWidth": 783,
+    "overflow": [],
+    "scrollWidth": 768,
+    "small": [],
+    "width": 768
+  },
+  {
+    "path": "학습코칭/index.html",
+    "requested": 768,
+    "clipped": [],
+    "h1": "36px",
+    "images": [
+      {
+        "loaded": true,
+        "ratioOK": true,
+        "src": "/assets/official-learning/teacher-coaching.png"
+      },
+      {
+        "loaded": true,
+        "ratioOK": true,
+        "src": "/assets/official-learning/learning-planner.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/ai-english.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/ai-math.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/ai-korean.png"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/official-learning/ai-reading.png"
+      }
+    ],
+    "innerWidth": 783,
+    "overflow": [],
+    "scrollWidth": 768,
+    "small": [],
+    "width": 768
+  },
+  {
+    "path": "전국센터/index.html",
+    "requested": 768,
+    "clipped": [],
+    "h1": "34px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 783,
+    "overflow": [],
+    "scrollWidth": 768,
+    "small": [],
+    "width": 768
+  },
+  {
+    "path": "과목별코칭/index.html",
+    "requested": 768,
+    "clipped": [],
+    "h1": "34px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 783,
+    "overflow": [],
+    "scrollWidth": 768,
+    "small": [],
+    "width": 768
+  },
+  {
+    "path": "학년별코칭/index.html",
+    "requested": 768,
+    "clipped": [],
+    "h1": "34px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 783,
+    "overflow": [],
+    "scrollWidth": 768,
+    "small": [],
+    "width": 768
+  },
+  {
+    "path": "전국센터/수학학원/index.html",
+    "requested": 768,
+    "clipped": [],
+    "h1": "34px",
+    "images": [
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-desks.webp"
+      },
+      {
+        "loaded": false,
+        "ratioOK": true,
+        "src": "/assets/hub-guide/classroom-study.webp"
+      }
+    ],
+    "innerWidth": 783,
+    "overflow": [],
+    "scrollWidth": 768,
+    "small": [],
+    "width": 768
+  }
+]
