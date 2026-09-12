@@ -1,0 +1,556 @@
+{
+  "status": "PASS",
+  "scope": "지점안내 mobile typography and branch editorial; local only",
+  "checks": [
+    {
+      "bodyFont": "16px",
+      "galleryClosed": true,
+      "nav": [
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "홈",
+          "width": 91.64167022705078
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "학습코칭",
+          "width": 91.64167022705078
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "전국센터",
+          "width": 91.64167022705078
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "지점안내",
+          "width": 91.64167022705078
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "상담문의",
+          "width": 91.64167022705078
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/%EB%AA%85%EC%9D%BC%EC%A0%90/",
+      "scrollWidth": 320,
+      "smallControls": [],
+      "width": 320
+    },
+    {
+      "bodyFont": null,
+      "galleryClosed": null,
+      "nav": [
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "홈",
+          "width": 91.64167022705078
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "학습코칭",
+          "width": 91.64167022705078
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "전국센터",
+          "width": 91.64167022705078
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "지점안내",
+          "width": 91.64167022705078
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "상담문의",
+          "width": 91.64167022705078
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/",
+      "scrollWidth": 320,
+      "smallControls": [],
+      "width": 320
+    },
+    {
+      "check": "directory-search-reset",
+      "result": "명일 검색 1개, 초기화 전체 193개"
+    },
+    {
+      "bodyFont": null,
+      "galleryClosed": null,
+      "nav": [
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "홈",
+          "width": 91.64167022705078
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "학습코칭",
+          "width": 91.64167022705078
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "전국센터",
+          "width": 91.64167022705078
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "지점안내",
+          "width": 91.64167022705078
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "상담문의",
+          "width": 91.64167022705078
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/",
+      "scrollWidth": 320,
+      "smallControls": [],
+      "width": 320
+    },
+    {
+      "check": "region-navigation-tuition",
+      "result": "서울 검색 후 명일점 이동, 가격 9칸 잘림 없음"
+    },
+    {
+      "bodyFont": "17px",
+      "galleryClosed": true,
+      "nav": [
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "홈",
+          "width": 68.15834045410156
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "학습코칭",
+          "width": 68.16667175292969
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "전국센터",
+          "width": 68.15834045410156
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "지점안내",
+          "width": 68.15834045410156
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "상담문의",
+          "width": 68.15834045410156
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/%EB%AA%85%EC%9D%BC%EC%A0%90/",
+      "scrollWidth": 390,
+      "smallControls": [],
+      "width": 390
+    },
+    {
+      "bodyFont": "17px",
+      "galleryClosed": true,
+      "nav": [
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "홈",
+          "width": 68.15834045410156
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "학습코칭",
+          "width": 68.16667175292969
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "전국센터",
+          "width": 68.15834045410156
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "지점안내",
+          "width": 68.15834045410156
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "상담문의",
+          "width": 68.15834045410156
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B2%BD%EA%B8%B0/%EB%AA%A9%EA%B0%90%EC%A0%90(%EB%AA%A8%EB%91%90)/",
+      "scrollWidth": 390,
+      "smallControls": [],
+      "width": 390
+    },
+    {
+      "bodyFont": "17px",
+      "galleryClosed": null,
+      "nav": [
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "홈",
+          "width": 68.15834045410156
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "학습코칭",
+          "width": 68.16667175292969
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "전국센터",
+          "width": 68.15834045410156
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "지점안내",
+          "width": 68.15834045410156
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "상담문의",
+          "width": 68.15834045410156
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EB%8C%80%EC%A0%84/%EA%B4%80%ED%8F%89%EC%A0%90/",
+      "scrollWidth": 390,
+      "smallControls": [],
+      "width": 390
+    },
+    {
+      "bodyFont": "17px",
+      "galleryClosed": null,
+      "nav": [
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "홈",
+          "width": 68.15834045410156
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "학습코칭",
+          "width": 68.16667175292969
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "전국센터",
+          "width": 68.15834045410156
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "지점안내",
+          "width": 68.15834045410156
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "상담문의",
+          "width": 68.15834045410156
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B2%BD%EA%B8%B0/%EC%9C%84%EB%A1%80%EC%A0%90/",
+      "scrollWidth": 390,
+      "smallControls": [],
+      "width": 390
+    },
+    {
+      "bodyFont": "17px",
+      "galleryClosed": null,
+      "nav": [
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "홈",
+          "width": 68.15834045410156
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "학습코칭",
+          "width": 68.16667175292969
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "전국센터",
+          "width": 68.15834045410156
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "지점안내",
+          "width": 68.15834045410156
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "상담문의",
+          "width": 68.15834045410156
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B2%BD%EA%B8%B0/%ED%99%94%EC%84%B1%ED%83%9C%EC%95%88%EC%A0%90/",
+      "scrollWidth": 390,
+      "smallControls": [],
+      "width": 390
+    },
+    {
+      "bodyFont": "17px",
+      "galleryClosed": null,
+      "nav": [
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "홈",
+          "width": 68.15834045410156
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "학습코칭",
+          "width": 68.16667175292969
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "전국센터",
+          "width": 68.15834045410156
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "지점안내",
+          "width": 68.15834045410156
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "상담문의",
+          "width": 68.15834045410156
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B0%95%EC%9B%90/%EC%84%9D%EC%82%AC%EC%A0%90/",
+      "scrollWidth": 390,
+      "smallControls": [],
+      "width": 390
+    },
+    {
+      "check": "faq-toggle",
+      "open": true
+    },
+    {
+      "check": "branch-gallery",
+      "open": true,
+      "photosLoaded": 3
+    },
+    {
+      "bodyFont": "17px",
+      "galleryClosed": true,
+      "nav": [
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "홈",
+          "width": 62.1833381652832
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "학습코칭",
+          "width": 62.19166946411133
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "전국센터",
+          "width": 62.1833381652832
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "지점안내",
+          "width": 62.19166946411133
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "상담문의",
+          "width": 62.1833381652832
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/%EB%AA%85%EC%9D%BC%EC%A0%90/",
+      "scrollWidth": 360,
+      "smallControls": [],
+      "width": 360
+    },
+    {
+      "bodyFont": "17px",
+      "galleryClosed": true,
+      "nav": [
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "홈",
+          "width": 65.2750015258789
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "학습코칭",
+          "width": 65.28334045410156
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "전국센터",
+          "width": 65.2750015258789
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "지점안내",
+          "width": 65.28334045410156
+        },
+        {
+          "font": "14px",
+          "height": 44.000003814697266,
+          "text": "상담문의",
+          "width": 65.28334045410156
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/%EB%AA%85%EC%9D%BC%EC%A0%90/",
+      "scrollWidth": 375,
+      "smallControls": [],
+      "width": 375
+    },
+    {
+      "bodyFont": "17px",
+      "galleryClosed": true,
+      "nav": [
+        {
+          "font": "14.72px",
+          "height": 44.000003814697266,
+          "text": "홈",
+          "width": 39.55000305175781
+        },
+        {
+          "font": "14.72px",
+          "height": 44.000003814697266,
+          "text": "학습코칭",
+          "width": 80.17500305175781
+        },
+        {
+          "font": "14.72px",
+          "height": 44.000003814697266,
+          "text": "전국센터",
+          "width": 80.17500305175781
+        },
+        {
+          "font": "14.72px",
+          "height": 44.000003814697266,
+          "text": "지점안내",
+          "width": 80.17500305175781
+        },
+        {
+          "font": "14.72px",
+          "height": 44.000003814697266,
+          "text": "상담문의",
+          "width": 80.17500305175781
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/%EB%AA%85%EC%9D%BC%EC%A0%90/",
+      "scrollWidth": 1280,
+      "smallControls": [],
+      "width": 1280
+    },
+    {
+      "bodyFont": null,
+      "galleryClosed": null,
+      "nav": [
+        {
+          "font": "14.72px",
+          "height": 44.000003814697266,
+          "text": "홈",
+          "width": 39.55000305175781
+        },
+        {
+          "font": "14.72px",
+          "height": 44.000003814697266,
+          "text": "학습코칭",
+          "width": 80.17500305175781
+        },
+        {
+          "font": "14.72px",
+          "height": 44.000003814697266,
+          "text": "전국센터",
+          "width": 80.17500305175781
+        },
+        {
+          "font": "14.72px",
+          "height": 44.000003814697266,
+          "text": "지점안내",
+          "width": 80.17500305175781
+        },
+        {
+          "font": "14.72px",
+          "height": 44.000003814697266,
+          "text": "상담문의",
+          "width": 80.17500305175781
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B2%BD%EA%B8%B0/",
+      "scrollWidth": 1280,
+      "smallControls": [],
+      "width": 1280
+    }
+  ]
+}

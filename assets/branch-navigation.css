@@ -1,0 +1,17 @@
+/* One extra directory destination; no changes to the existing page bodies. */
+.site-header .main-nav { gap: 3px; }
+.site-header .main-nav .nav-link { min-height: 44px; display: flex; align-items: center; justify-content: center; }
+@media (max-width: 920px) {
+  body .site-header .header-inner { grid-template-columns: minmax(0,1fr) auto; gap: 8px; padding-block: 10px; }
+  body .site-header .main-nav { grid-column: 1/-1; grid-row: 2; width: 100%; display: flex; flex-wrap: wrap; justify-content: center; gap: 3px; padding: 4px; border-radius: 14px; }
+  body .site-header .main-nav .nav-link { flex: 1 1 17%; min-width: 0; padding: 10px 3px; font-size: 13px; line-height: 1.5; white-space: nowrap; }
+  body .site-header .brand-text { font-size: 16px; }
+  body .site-header .header-cta { grid-column: 2; grid-row: 1; font-size: 12px; padding: 9px 10px; min-height: 44px; display: flex; align-items: center; }
+}
+@media (max-width: 359px) {
+  body .site-header .brand-text { font-size: 14px; }
+  body .site-header .brand { gap: 6px; }
+  body .site-header .brand-mark { width: 32px; height: 32px; border-radius: 10px; }
+  body .site-header .header-cta { padding-inline: 7px; }
+  body .site-header .main-nav .nav-link { font-size: 12px; }
+}

@@ -1,0 +1,26 @@
+{
+  "referenceProject": "C:\\Users\\1992k\\Desktop\\홈페이지 정리\\새 홈페이지15",
+  "photoRoot": "C:\\Users\\1992k\\Desktop\\WAWA 전국센터 사진",
+  "photoCatalogSha256": "fae0050fed361a834d99677400f4eb5f2612ba3fd1364f3d47789e078b1ee1fa",
+  "referenceGeneratorSha256": "46df9ac06de3b2153f76983926d34ae6c5c939834884b961ddfb1794887ded79",
+  "excludedCenterIds": [
+    "center-row-026",
+    "center-row-034",
+    "center-row-048",
+    "center-row-104",
+    "center-row-113",
+    "center-row-114",
+    "center-row-152",
+    "center-row-153",
+    "center-row-169",
+    "center-row-200",
+    "center-row-202",
+    "reference-경기-주엽2호점"
+  ],
+  "importDate": "2026-09-13",
+  "notes": [
+    "Reviewed source facts; user-supplied fee schedule retained.",
+    "Only unique registered photos with a matching road address. No shared fallback photos.",
+    "No branch descendants imported. Target contact endpoints are preserved."
+  ]
+}

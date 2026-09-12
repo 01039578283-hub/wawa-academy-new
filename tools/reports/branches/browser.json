@@ -1,0 +1,573 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "bodyFont": "16px",
+      "nav": [
+        {
+          "height": 44,
+          "text": "홈",
+          "width": 68.1500015258789
+        },
+        {
+          "height": 44,
+          "text": "학습코칭",
+          "width": 68.1624984741211
+        },
+        {
+          "height": 44,
+          "text": "전국센터",
+          "width": 68.1624984741211
+        },
+        {
+          "height": 44,
+          "text": "지점안내",
+          "width": 68.1624984741211
+        },
+        {
+          "height": 44,
+          "text": "상담문의",
+          "width": 68.1624984741211
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/",
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "check": "directory-search",
+      "result": "검색 결과 1개 지점 · 전체 193개"
+    },
+    {
+      "check": "no-results",
+      "result": "검색 결과 0개 지점 · 전체 193개"
+    },
+    {
+      "check": "reset",
+      "result": "전국 193개 지점을 검색하거나 아래에서 지역을 선택하세요."
+    },
+    {
+      "bodyFont": "16px",
+      "nav": [
+        {
+          "height": 44,
+          "text": "홈",
+          "width": 68.1500015258789
+        },
+        {
+          "height": 44,
+          "text": "학습코칭",
+          "width": 68.1624984741211
+        },
+        {
+          "height": 44,
+          "text": "전국센터",
+          "width": 68.1624984741211
+        },
+        {
+          "height": 44,
+          "text": "지점안내",
+          "width": 68.1624984741211
+        },
+        {
+          "height": 44,
+          "text": "상담문의",
+          "width": 68.1624984741211
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/",
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "bodyFont": "16px",
+      "nav": [
+        {
+          "height": 44,
+          "text": "홈",
+          "width": 68.1500015258789
+        },
+        {
+          "height": 44,
+          "text": "학습코칭",
+          "width": 68.1624984741211
+        },
+        {
+          "height": 44,
+          "text": "전국센터",
+          "width": 68.1624984741211
+        },
+        {
+          "height": 44,
+          "text": "지점안내",
+          "width": 68.1624984741211
+        },
+        {
+          "height": 44,
+          "text": "상담문의",
+          "width": 68.1624984741211
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/%EB%AA%85%EC%9D%BC%EC%A0%90/",
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "bodyFont": "16px",
+      "nav": [
+        {
+          "height": 44,
+          "text": "홈",
+          "width": 54.07500076293945
+        },
+        {
+          "height": 44,
+          "text": "학습코칭",
+          "width": 54.087501525878906
+        },
+        {
+          "height": 44,
+          "text": "전국센터",
+          "width": 54.07500076293945
+        },
+        {
+          "height": 44,
+          "text": "지점안내",
+          "width": 54.087501525878906
+        },
+        {
+          "height": 44,
+          "text": "상담문의",
+          "width": 54.07500076293945
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/%EB%AA%85%EC%9D%BC%EC%A0%90/",
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "check": "faq-toggle-320",
+      "result": {
+        "faqOpen": true,
+        "hash": "#questions",
+        "tuition": [
+          {
+            "scrollWidth": 74,
+            "text": "179,000원",
+            "width": 73.9124984741211
+          },
+          {
+            "scrollWidth": 74,
+            "text": "249,000원",
+            "width": 73.9124984741211
+          },
+          {
+            "scrollWidth": 74,
+            "text": "389,000원",
+            "width": 73.9124984741211
+          },
+          {
+            "scrollWidth": 74,
+            "text": "191,000원",
+            "width": 73.9124984741211
+          },
+          {
+            "scrollWidth": 74,
+            "text": "266,000원",
+            "width": 73.9124984741211
+          },
+          {
+            "scrollWidth": 74,
+            "text": "416,000원",
+            "width": 73.9124984741211
+          },
+          {
+            "scrollWidth": 74,
+            "text": "214,000원",
+            "width": 73.9124984741211
+          },
+          {
+            "scrollWidth": 74,
+            "text": "299,000원",
+            "width": 73.9124984741211
+          },
+          {
+            "scrollWidth": 74,
+            "text": "469,000원",
+            "width": 73.9124984741211
+          }
+        ]
+      }
+    },
+    {
+      "bodyFont": "17px",
+      "nav": [
+        {
+          "height": 44,
+          "text": "홈",
+          "width": 39.54999923706055
+        },
+        {
+          "height": 44,
+          "text": "학습코칭",
+          "width": 80.17500305175781
+        },
+        {
+          "height": 44,
+          "text": "전국센터",
+          "width": 80.17500305175781
+        },
+        {
+          "height": 44,
+          "text": "지점안내",
+          "width": 80.17500305175781
+        },
+        {
+          "height": 44,
+          "text": "상담문의",
+          "width": 80.17500305175781
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/%EB%AA%85%EC%9D%BC%EC%A0%90/",
+      "scrollWidth": 1280,
+      "width": 1280
+    },
+    {
+      "bodyFont": "17px",
+      "nav": [
+        {
+          "height": 44,
+          "text": "홈",
+          "width": 39.54999923706055
+        },
+        {
+          "height": 44,
+          "text": "학습코칭",
+          "width": 80.17500305175781
+        },
+        {
+          "height": 44,
+          "text": "전국센터",
+          "width": 80.17500305175781
+        },
+        {
+          "height": 44,
+          "text": "지점안내",
+          "width": 80.17500305175781
+        },
+        {
+          "height": 44,
+          "text": "상담문의",
+          "width": 80.17500305175781
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/",
+      "scrollWidth": 1280,
+      "width": 1280
+    },
+    {
+      "bodyFont": "17px",
+      "nav": [
+        {
+          "height": 44,
+          "text": "홈",
+          "width": 39.54999923706055
+        },
+        {
+          "height": 44,
+          "text": "학습코칭",
+          "width": 80.17500305175781
+        },
+        {
+          "height": 44,
+          "text": "전국센터",
+          "width": 80.17500305175781
+        },
+        {
+          "height": 44,
+          "text": "지점안내",
+          "width": 80.17500305175781
+        },
+        {
+          "height": 44,
+          "text": "상담문의",
+          "width": 80.17500305175781
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B2%BD%EA%B8%B0/",
+      "scrollWidth": 1280,
+      "width": 1280
+    },
+    {
+      "bodyFont": "17px",
+      "nav": [
+        {
+          "height": 44,
+          "text": "홈",
+          "width": 39.54999923706055
+        },
+        {
+          "height": 44,
+          "text": "학습코칭",
+          "width": 80.17500305175781
+        },
+        {
+          "height": 44,
+          "text": "전국센터",
+          "width": 80.17500305175781
+        },
+        {
+          "height": 44,
+          "text": "지점안내",
+          "width": 80.17500305175781
+        },
+        {
+          "height": 44,
+          "text": "상담문의",
+          "width": 80.17500305175781
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B2%BD%EA%B8%B0/%EB%AA%A9%EA%B0%90%EC%A0%90(%EB%AA%A8%EB%91%90)/",
+      "scrollWidth": 1280,
+      "width": 1280
+    },
+    {
+      "bodyFont": "16px",
+      "nav": [
+        {
+          "height": 44,
+          "text": "홈",
+          "width": 54.07500076293945
+        },
+        {
+          "height": 44,
+          "text": "학습코칭",
+          "width": 54.087501525878906
+        },
+        {
+          "height": 44,
+          "text": "전국센터",
+          "width": 54.07500076293945
+        },
+        {
+          "height": 44,
+          "text": "지점안내",
+          "width": 54.087501525878906
+        },
+        {
+          "height": 44,
+          "text": "상담문의",
+          "width": 54.07500076293945
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/",
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "bodyFont": "16px",
+      "nav": [
+        {
+          "height": 44,
+          "text": "홈",
+          "width": 54.07500076293945
+        },
+        {
+          "height": 44,
+          "text": "학습코칭",
+          "width": 54.087501525878906
+        },
+        {
+          "height": 44,
+          "text": "전국센터",
+          "width": 54.07500076293945
+        },
+        {
+          "height": 44,
+          "text": "지점안내",
+          "width": 54.087501525878906
+        },
+        {
+          "height": 44,
+          "text": "상담문의",
+          "width": 54.07500076293945
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B2%BD%EA%B8%B0/",
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "bodyFont": "16px",
+      "nav": [
+        {
+          "height": 44,
+          "text": "홈",
+          "width": 54.07500076293945
+        },
+        {
+          "height": 44,
+          "text": "학습코칭",
+          "width": 54.087501525878906
+        },
+        {
+          "height": 44,
+          "text": "전국센터",
+          "width": 54.07500076293945
+        },
+        {
+          "height": 44,
+          "text": "지점안내",
+          "width": 54.087501525878906
+        },
+        {
+          "height": 44,
+          "text": "상담문의",
+          "width": 54.07500076293945
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B2%BD%EA%B8%B0/%EB%AA%A9%EA%B0%90%EC%A0%90(%EB%AA%A8%EB%91%90)/",
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "bodyFont": null,
+      "nav": [
+        {
+          "height": 44,
+          "text": "홈",
+          "width": 53.275001525878906
+        },
+        {
+          "height": 44,
+          "text": "학습코칭",
+          "width": 53.28750228881836
+        },
+        {
+          "height": 44,
+          "text": "전국센터",
+          "width": 53.275001525878906
+        },
+        {
+          "height": 44,
+          "text": "지점안내",
+          "width": 53.28750228881836
+        },
+        {
+          "height": 44,
+          "text": "상담문의",
+          "width": 53.275001525878906
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A0%84%EA%B5%AD%EC%84%BC%ED%84%B0/%EA%B3%A0%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "check": "legacy-encoded-menu",
+      "result": "전국 지점안내"
+    },
+    {
+      "check": "gallery-and-media",
+      "result": {
+        "contacts": [
+          {
+            "href": "tel:01039578283",
+            "label": "전화문의"
+          },
+          {
+            "href": "https://blogsms.net/01039578283",
+            "label": "문자문의"
+          },
+          {
+            "href": "https://docs.google.com/forms/d/e/1FAIpQLSdb2oE5Qk5YS0TfYDxyV1w-IOTkhkjOCmmpAKTI9FmqpVj6Yg/viewform",
+            "label": "상담신청"
+          }
+        ],
+        "open": true,
+        "photos": [
+          {
+            "alt": "와와학습코칭학원 명일점 학습 공간 1",
+            "loaded": true
+          },
+          {
+            "alt": "와와학습코칭학원 명일점 학습 공간 2",
+            "loaded": true
+          },
+          {
+            "alt": "와와학습코칭학원 명일점 학습 공간 3",
+            "loaded": true
+          }
+        ],
+        "primary": [
+          {
+            "alt": "와와학습코칭학원 명일점 본문",
+            "display": "block",
+            "height": 6335.6376953125,
+            "inDisclosure": false,
+            "width": 362.3999938964844
+          },
+          {
+            "alt": "와와학습코칭학원 명일점 지도",
+            "display": "block",
+            "height": 392.4624938964844,
+            "inDisclosure": false,
+            "width": 362.3999938964844
+          }
+        ]
+      }
+    },
+    {
+      "bodyFont": "16px",
+      "nav": [
+        {
+          "height": 44,
+          "text": "홈",
+          "width": 68.1500015258789
+        },
+        {
+          "height": 44,
+          "text": "학습코칭",
+          "width": 68.1624984741211
+        },
+        {
+          "height": 44,
+          "text": "전국센터",
+          "width": 68.1624984741211
+        },
+        {
+          "height": 44,
+          "text": "지점안내",
+          "width": 68.1624984741211
+        },
+        {
+          "height": 44,
+          "text": "상담문의",
+          "width": 68.1624984741211
+        }
+      ],
+      "overflow": [],
+      "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/%EB%AA%85%EC%9D%BC%EC%A0%90/",
+      "scrollWidth": 390,
+      "width": 390
+    }
+  ],
+  "viewportWidths": [
+    320,
+    390,
+    1280
+  ],
+  "deployment": "local only"
+}
