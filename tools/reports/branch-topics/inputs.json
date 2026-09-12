@@ -1,0 +1,465 @@
+{
+  "status": "PASS",
+  "archiveStats": [
+    {
+      "topic": "고등학생 수학학원",
+      "count": 371,
+      "sha256": "891c1e98bb3b03dadb1a412754ea1d3c6d6bcffe0f7d1c5773a8a7d25dd00975",
+      "authoringTokens": {
+        "원고": 206,
+        "키워드": 150,
+        "제시된": 135,
+        "제공된": 240,
+        "입력": 155,
+        "D열": 4
+      },
+      "sections": {
+        "6": 296,
+        "5": 14,
+        "7": 61
+      },
+      "faqs": {
+        "4": 371
+      }
+    },
+    {
+      "topic": "고등학생 영어학원",
+      "count": 371,
+      "sha256": "f39f347d48dc5e6dbc2cd48b610a42013a55eed9f0c8bb0189757edd85b95693",
+      "authoringTokens": {
+        "제시된": 115,
+        "원고": 173,
+        "제공된": 251,
+        "키워드": 104,
+        "입력": 120,
+        "D열": 5
+      },
+      "sections": {
+        "6": 303,
+        "7": 47,
+        "5": 21
+      },
+      "faqs": {
+        "4": 371
+      }
+    },
+    {
+      "topic": "중학생 수학학원",
+      "count": 371,
+      "sha256": "03b970f70864a887b4b8d87a505c944303c855f6ba50ae3dfc20c6c49386b663",
+      "authoringTokens": {
+        "제공된": 247,
+        "원고": 102,
+        "키워드": 98,
+        "제시된": 92,
+        "입력": 152,
+        "D열": 2
+      },
+      "sections": {
+        "6": 298,
+        "7": 58,
+        "5": 15
+      },
+      "faqs": {
+        "4": 371
+      }
+    },
+    {
+      "topic": "중학생 영어학원",
+      "count": 371,
+      "sha256": "a0bf916eb2a1714948965599b4432a9c135bb302a5e4d8cc341b8d46cc3c84c0",
+      "authoringTokens": {
+        "제공된": 250,
+        "입력": 121,
+        "제시된": 120,
+        "원고": 139,
+        "키워드": 111,
+        "D열": 1
+      },
+      "sections": {
+        "7": 49,
+        "6": 302,
+        "5": 20
+      },
+      "faqs": {
+        "4": 371
+      }
+    },
+    {
+      "topic": "초등학생 수학학원",
+      "count": 371,
+      "sha256": "a3fe923d1407f7d58722e0598ee8db3c321f18fdd2cb2a52164cdf2a776e8408",
+      "authoringTokens": {
+        "제공된": 283,
+        "입력": 129,
+        "원고": 126,
+        "키워드": 126,
+        "제시된": 88,
+        "D열": 2,
+        "E열": 1
+      },
+      "sections": {
+        "6": 275,
+        "7": 78,
+        "5": 18
+      },
+      "faqs": {
+        "4": 371
+      }
+    },
+    {
+      "topic": "초등학생 영어학원",
+      "count": 371,
+      "sha256": "f92d6d8fae69f76fafc937b40dcafeb9740db04b982b568d5e775bd670793041",
+      "authoringTokens": {
+        "제공된": 240,
+        "입력": 113,
+        "제시된": 113,
+        "원고": 126,
+        "키워드": 125,
+        "D열": 1
+      },
+      "sections": {
+        "6": 289,
+        "7": 58,
+        "5": 24
+      },
+      "faqs": {
+        "4": 371
+      }
+    }
+  ],
+  "pages": 2226,
+  "localities": 371,
+  "parentBranches": 188,
+  "qualifiedScopePages": 59,
+  "scopeWarnings": [
+    {
+      "title": "갈현동 고등학생 수학학원",
+      "center": "은평점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "구파발 고등학생 수학학원",
+      "center": "은평점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "다산동 고등학생 수학학원",
+      "center": "다산점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "다산신도시 고등학생 수학학원",
+      "center": "다산점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "동백동 고등학생 수학학원",
+      "center": "동백점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "둔산동 고등학생 수학학원",
+      "center": "둔산점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "부천 중동 고등학생 수학학원",
+      "center": "중동점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "북변동 고등학생 수학학원",
+      "center": "사우점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "사우동 고등학생 수학학원",
+      "center": "사우점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "석사동 고등학생 수학학원",
+      "center": "석사점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "약대동 고등학생 수학학원",
+      "center": "중동점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "진관동 고등학생 수학학원",
+      "center": "은평점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "탄방동 고등학생 수학학원",
+      "center": "둔산점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "퇴계동 고등학생 수학학원",
+      "center": "석사점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "화성태안 고등학생 수학학원",
+      "center": "화성태안점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "교하 고등학생 영어학원",
+      "center": "교하점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "내발산동 고등학생 영어학원",
+      "center": "내발산점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "동백동 고등학생 영어학원",
+      "center": "동백점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "두호동 고등학생 영어학원",
+      "center": "두호점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "석사동 고등학생 영어학원",
+      "center": "석사점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "장성동 고등학생 영어학원",
+      "center": "두호점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "퇴계동 고등학생 영어학원",
+      "center": "석사점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "화곡동 고등학생 영어학원",
+      "center": "내발산점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "갈현동 중학생 수학학원",
+      "center": "은평점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "구파발 중학생 수학학원",
+      "center": "은평점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "다산동 중학생 수학학원",
+      "center": "다산점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "다산신도시 중학생 수학학원",
+      "center": "다산점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "동백동 중학생 수학학원",
+      "center": "동백점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "부천 중동 중학생 수학학원",
+      "center": "중동점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "석사동 중학생 수학학원",
+      "center": "석사점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "약대동 중학생 수학학원",
+      "center": "중동점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "진관동 중학생 수학학원",
+      "center": "은평점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "퇴계동 중학생 수학학원",
+      "center": "석사점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "교하 중학생 영어학원",
+      "center": "교하점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "내발산동 중학생 영어학원",
+      "center": "내발산점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "동백동 중학생 영어학원",
+      "center": "동백점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "두호동 중학생 영어학원",
+      "center": "두호점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "석사동 중학생 영어학원",
+      "center": "석사점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "장성동 중학생 영어학원",
+      "center": "두호점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "퇴계동 중학생 영어학원",
+      "center": "석사점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "화곡동 중학생 영어학원",
+      "center": "내발산점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "갈현동 초등학생 수학학원",
+      "center": "은평점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "구파발 초등학생 수학학원",
+      "center": "은평점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "다산동 초등학생 수학학원",
+      "center": "다산점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "다산신도시 초등학생 수학학원",
+      "center": "다산점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "동백동 초등학생 수학학원",
+      "center": "동백점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "부천 중동 초등학생 수학학원",
+      "center": "중동점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "석사동 초등학생 수학학원",
+      "center": "석사점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "약대동 초등학생 수학학원",
+      "center": "중동점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "진관동 초등학생 수학학원",
+      "center": "은평점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "퇴계동 초등학생 수학학원",
+      "center": "석사점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "교하 초등학생 영어학원",
+      "center": "교하점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "내발산동 초등학생 영어학원",
+      "center": "내발산점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "동백동 초등학생 영어학원",
+      "center": "동백점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "두호동 초등학생 영어학원",
+      "center": "두호점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "석사동 초등학생 영어학원",
+      "center": "석사점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "장성동 초등학생 영어학원",
+      "center": "두호점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "퇴계동 초등학생 영어학원",
+      "center": "석사점",
+      "reason": "stage/subject not confirmed; learning information only"
+    },
+    {
+      "title": "화곡동 초등학생 영어학원",
+      "center": "내발산점",
+      "reason": "stage/subject not confirmed; learning information only"
+    }
+  ],
+  "mappingExceptions": [
+    {
+      "locality": "위례",
+      "centerId": "center-row-148",
+      "basis": "reviewed registered identity; current school aggregation is empty"
+    },
+    {
+      "locality": "위례신도시",
+      "centerId": "center-row-148",
+      "basis": "reviewed registered identity; current school aggregation is empty"
+    },
+    {
+      "locality": "창곡동",
+      "centerId": "center-row-148",
+      "basis": "reviewed registered identity; current school aggregation is empty"
+    }
+  ],
+  "sources": [
+    {
+      "path": "C:\\Users\\1992k\\Desktop\\홈페이지 정리\\새 홈페이지15\\reports\\branches\\neighborhood-mapping.json",
+      "sha256": "9bd8fdc3e2e2fba878070eef87d8eb60d1dc0a90b2d15f7e024a3cee168083af"
+    },
+    {
+      "path": "C:\\Users\\1992k\\Desktop\\홈페이지 정리\\새 홈페이지15\\tools\\data\\branches\\target-schools.json",
+      "sha256": "a2365d3e1a8e0f60d49956ab766bbaede9f33b9a375c26ecf17a424ad8e402e4"
+    },
+    {
+      "path": "C:\\Users\\1992k\\Desktop\\홈페이지 정리\\새 홈페이지4\\tools\\data\\branches\\snapshot.json",
+      "sha256": "b7937da1a70314f3095739d3cca9bc202e8c48997ea3af7774b11d05fee6240a"
+    }
+  ],
+  "policy": "Local only. No source rewriting, nearest-branch guessing, broad grade availability, or deployment."
+}

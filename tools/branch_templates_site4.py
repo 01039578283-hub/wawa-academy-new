@@ -297,8 +297,10 @@ def neighborhood_navigation(children):
     cards = []
     for locality, entries in groups.items():
         links = ''.join(
-            '<a class="branch-neighborhood-link" href="' + esc(child['path']) + '">'
-            '<span>' + esc(child['title']) + '</span><span aria-hidden="true">→</span></a>'
+            '<a class="branch-neighborhood-link" href="' + esc(child['path']) + '" aria-label="' + esc(child['title']) + '">'
+            '<span>' + esc(child.get('topic', child['title']))
+            + ('<small class="branch-course-status">개설 학년 확인 필요</small>' if 'confirmedGrades' in child and not child['confirmedGrades'] else '')
+            + '</span><span aria-hidden="true">→</span></a>'
             for child in entries
         )
         cards.append('<div class="branch-neighborhood-card"><h3>' + esc(locality) + '</h3>'
@@ -452,7 +454,7 @@ def center_page(c, match, centers, reference=None):
     # reviews, or estimates as facts about the individual business in structured data.
     policy = '서울' if region == '서울' else '서울 외'
     duration = '80~100분' if region == '서울' else '90~100분'
-    children = sorted(c.get('_neighborhoodPages', []), key=lambda child: (child['locality'], child['subject']))
+    children = sorted(c.get('_neighborhoodPages', []), key=lambda child: (child['locality'], child.get('topicOrder', 0), child['subject']))
     heading = '<span class="branch-brand-name">' + esc(c['brandName']) + '</span> ' + esc(c['sourceCenterName'])
     body = '<section class="branch-hero branch-detail-hero"><div><p class="branch-eyebrow">' + esc(region + ' · ' + (c['region']['administrativeAreaText'] or '지점안내')) + '</p><h1>' + heading + '</h1>'
     body += paragraph(branch_summary(c, reference), 'branch-intro branch-editorial-intro')

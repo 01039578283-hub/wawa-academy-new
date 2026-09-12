@@ -1,0 +1,58 @@
+/* Reader-first topic articles. Only new branch descendants use these rules. */
+.branch-topic-page .topic-hero { display: block; padding: 36px; }
+.branch-topic-page .topic-hero h1 { font-size: clamp(30px,4vw,44px); line-height: 1.4; letter-spacing: -.035em; margin: 12px 0 22px; }
+.branch-topic-page .topic-hero .topic-copy { font-size: 17px; line-height: 1.9; color: #435166; }
+.branch-topic-page .topic-hero .topic-paragraph-unit { max-width: 72ch; margin-inline: auto; text-align: left; }
+.branch-topic-page .topic-inline-link { color: #81324f; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+.branch-topic-page .topic-inline-link:focus-visible { outline: 3px solid #8f3f60; outline-offset: 3px; }
+.branch-topic-page .topic-quick-scan { max-width: 900px; margin: 24px auto; }
+.branch-topic-page .topic-quick-scan h2 { font-size: 22px; line-height: 1.5; margin: 0 0 14px; }
+.branch-topic-page .topic-quick-scan ul { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12px; list-style: none; padding: 0; margin: 0; }
+.branch-topic-page .topic-quick-scan a { display: block; height: 100%; border: 1px solid #e4d4df; border-radius: 14px; padding: 16px; color: #435166; background: #fff; line-height: 1.8; }
+.branch-topic-page .topic-quick-scan a:hover { border-color: #a54c70; background: #fdf7fa; }
+.branch-topic-page .topic-quick-scan a:focus-visible { outline: 3px solid #8f3f60; outline-offset: 3px; }
+.branch-topic-page .topic-quick-label { display: flex; justify-content: space-between; gap: 8px; font-size: 14px; font-weight: 700; color: #81324f; margin-bottom: 6px; }
+.branch-topic-page .topic-quick-answer { display: block; font-size: 16px; }
+.branch-topic-page .topic-related-heading { font-size: 17px; margin: 24px 0 10px; line-height: 1.6; }
+.branch-topic-page .topic-course-status { display: block; margin-top: 4px; font-size: 13px; font-weight: 500; color: #7b394f; }
+.branch-topic-page .topic-center-summary { border-top: 1px solid #e7dce3; margin-top: 22px; padding-top: 12px; }
+.branch-topic-page .topic-center-summary p { font-size: 16px; line-height: 1.85; margin: 8px 0; }
+.branch-topic-page .topic-center-summary strong { display: inline-block; min-width: 110px; color: #563b50; }
+.branch-topic-page .topic-center-summary a { color: #81324f; text-decoration: underline; text-underline-offset: 4px; }
+.branch-topic-page .topic-scope-notice { padding: 15px 17px; background: #f7edf2; border-left: 3px solid #b95478; border-radius: 0 8px 8px 0; font-size: 16px; line-height: 1.8; }
+.branch-topic-page .topic-reading-shortcuts { margin-top: 22px; }
+.branch-topic-page .topic-content { max-width: 900px; margin-inline: auto; }
+.branch-topic-page .topic-content .branch-panel { margin-bottom: 24px; }
+.branch-topic-page .topic-paragraph-unit + .topic-paragraph-unit { margin-top: 25px; }
+.branch-topic-page .topic-paragraph-unit p { margin-block: 12px; }
+.branch-topic-page .topic-copy { word-break: normal; overflow-wrap: anywhere; }
+.branch-topic-page .topic-toc { padding: 28px 30px; margin: 28px auto; max-width: 900px; border: 1px solid #e6d9e1; border-radius: 18px; background: #fff; }
+.branch-topic-page .topic-toc h2 { font-size: 23px; margin: 0 0 16px; }
+.branch-topic-page .topic-toc ol { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 5px 24px; margin: 0; padding-left: 24px; }
+.branch-topic-page .topic-toc a { display: flex; align-items: center; min-height: 48px; font-size: 16px; line-height: 1.65; padding: 9px 4px; color: #65465b; text-decoration: underline; text-underline-offset: 4px; }
+.branch-topic-page .topic-related { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px; }
+.branch-topic-page .topic-related a { display: flex; justify-content: space-between; align-items: center; gap: 12px; min-height: 56px; border: 1px solid #decfd8; border-radius: 11px; padding: 14px 16px; font-size: 16px; line-height: 1.65; background: #fff; color: #70405a; }
+.branch-topic-page .topic-related a:hover { background: #fbf5f8; border-color: #b95478; }
+.branch-topic-page :is(.topic-related a,.topic-toc a):focus-visible { outline: 3px solid #8f3f60; outline-offset: 3px; }
+.branch-topic-page .topic-school-list { display: flex; flex-wrap: wrap; gap: 8px 20px; padding-left: 22px; }
+.branch-topic-page .branch-info a { color: #81324f; text-decoration: underline; }
+.branch-topic-page .branch-primary-media .branch-body-image { overflow: visible; max-height: none; }
+.branch-topic-page .branch-primary-media .branch-body-image img { display: block; height: auto; max-height: none; object-fit: contain; }
+@media(max-width:720px) {
+  .branch-topic-page .topic-quick-scan ul { grid-template-columns: minmax(0,1fr); gap: 9px; }
+  .branch-topic-page .topic-quick-scan a { padding: 13px 16px; }
+  .branch-topic-page .topic-hero { padding: 26px 18px; }
+  .branch-topic-page .topic-hero h1 { font-size: 31px; }
+  .branch-topic-page .topic-toc { padding: 24px 18px; }
+  .branch-topic-page .topic-toc ol { grid-template-columns: minmax(0,1fr); padding-left: 22px; gap: 2px; }
+  .branch-topic-page .topic-center-summary strong { display: block; }
+  .branch-topic-page .topic-related { grid-template-columns: minmax(0,1fr); }
+  .branch-topic-page .topic-content .branch-info { display: block; }
+  .branch-topic-page .topic-content .branch-info > div { display: block; }
+  .branch-topic-page .topic-content .branch-info dd { margin: 5px 0 14px; }
+}
+@media(max-width:359px) {
+  .branch-topic-page .topic-hero h1 { font-size: 28px; }
+  .branch-topic-page .topic-hero .topic-copy { font-size: 16px; }
+  .branch-topic-page .topic-toc a,.branch-topic-page .topic-related a { font-size: 15px; }
+}

@@ -39,10 +39,14 @@ def main():
         if not test:
             errors.append(label)
     paths = generation['paths']
+    child_manifest = ROOT / 'tools/data/branch-topics/manifest.json'
+    children = json.loads(child_manifest.read_text(encoding='utf8'))['pages'] if child_manifest.exists() else []
+    child_paths = [x['path'] for x in children]
+    check(len(child_paths) == len(set(child_paths)), 'unique manifest child paths')
     centers = {branch_path(c): c for c in data['centers']}
     check(len(paths) == 210 and len(centers) == 193, 'branch/region counts')
     actual = ['/' + p.parent.relative_to(ROOT).as_posix() + '/' for p in (ROOT / '지점안내').rglob('index.html')]
-    check(set(actual) == set(paths), 'no missing/extra branch descendants')
+    check(set(actual) == set(paths + child_paths), 'no missing/extra branch descendants outside explicit manifests')
     titles, descriptions = [], []
     soup_by_path = {}
     for path in paths:
@@ -116,7 +120,12 @@ def main():
                 disclosure = soup.select_one('#learning-space details')
                 check(disclosure is not None and not disclosure.has_attr('open'), path + ': gallery initially collapsed')
                 check(soup.select('main section')[-1]['id'] == 'learning-space', path + ': gallery last section')
-            check(not soup.select('#neighborhood-pages, #child-pages'), path + ': no unrequested children')
+            expected_children = {x['path'] for x in children if x['parentPath'] == path}
+            listed_children = [a['href'] for a in soup.select('#neighborhood-pages a')]
+            check(set(listed_children) == expected_children and len(listed_children) == len(expected_children), path + ': exact requested child navigation')
+            check(not soup.select('#child-pages'), path + ': no deeper grade hierarchy requested')
+            if expected_children:
+                check(soup.select_one('#questions').find_next_sibling('section').get('id') == 'neighborhood-pages', path + ': children immediately after FAQ')
     check(len(set(titles)) == len(titles), 'unique titles across 210 pages')
     check(len(set(descriptions)) == len(descriptions), 'unique meta descriptions across 210 pages')
     # Every old HTML byte is unchanged after removing only the marked nav addition.
@@ -133,7 +142,8 @@ def main():
         path = ROOT / src.lstrip('/')
         check(path.is_file() and hashlib.sha256(path.read_bytes()).hexdigest() == info['sha256'], 'original asset bytes: ' + src)
     urls = [unquote(n.text) for n in ET.parse(ROOT / 'sitemap.xml').getroot().iter() if n.tag.endswith('}loc')]
-    check(len(urls) == len(set(urls)) == len(baseline) + len(paths), 'sitemap unique total')
+    check(len(urls) == len(set(urls)) == len(baseline) + len(paths) + len(child_paths), 'sitemap unique total')
+    check(all(DOMAIN + p in urls for p in child_paths), 'all requested descendants in sitemap')
     check(all(DOMAIN + p in urls for p in paths), 'all branches in sitemap')
     rss = ET.parse(ROOT / 'rss.xml')
     check(bool(rss.findall('.//item')), 'RSS parses with entries')

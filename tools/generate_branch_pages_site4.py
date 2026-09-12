@@ -65,6 +65,19 @@ def main():
     data = json.loads((DATA / 'snapshot.json').read_text(encoding='utf-8'))
     centers = data['centers']
     assert len(centers) == 193 and all(not c.get('_neighborhoodPages') for c in centers)
+    # Only manifest-listed, already generated descendants may appear in parents.
+    child_manifest = ROOT / 'tools/data/branch-topics/manifest.json'
+    if child_manifest.exists():
+        from branch_topic_manuscripts_site4 import TOPICS
+        by_id = {c['id']: c for c in centers}
+        entries = json.loads(child_manifest.read_text(encoding='utf8'))['pages']
+        assert len({x['path'] for x in entries}) == len(entries)
+        for child in entries:
+            c = by_id[child['centerId']]
+            assert child['parentPath'] == render.branch_path(c)
+            assert child['path'].startswith(child['parentPath']) and len(child['path'].strip('/').split('/')) == 4
+            assert (ROOT / child['path'].strip('/') / 'index.html').is_file()
+            c.setdefault('_neighborhoodPages', []).append({**child, 'topicOrder': TOPICS.index(child['topic'])})
     baseline_path = DATA / 'legacy-baseline.json'
     baseline = json.loads(baseline_path.read_text(encoding='utf-8')) if baseline_path.exists() else {}
     legacy = [] if args.pages_only else [p for p in ROOT.rglob('*.html') if not EXCLUDE.intersection(p.relative_to(ROOT).parts)]

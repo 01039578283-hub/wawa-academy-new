@@ -111,3 +111,5 @@
   .branch-page :is(section[id],div[id]) { scroll-margin-top: 215px; }
 }
 @media (prefers-reduced-motion: reduce) { html:has(.branch-page) { scroll-behavior: auto; } }
+/* Course-status notes are limited to newly requested descendant links. */
+.branch-neighborhood-link .branch-course-status { display: block; margin-top: 5px; font-size: 12px; line-height: 1.6; font-weight: 500; color: #7b394f; }

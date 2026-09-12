@@ -1,0 +1,509 @@
+{
+  "date": "2026-09-13",
+  "environment": "LOCAL ONLY http://127.0.0.1:4414",
+  "viewportsAreMeasuredCssPixels": true,
+  "cases": [
+    {
+      "bodyFont": "16px",
+      "faqCount": 4,
+      "faqOpen": 1,
+      "h1Font": "28px",
+      "hash": "#questions",
+      "images": [
+        {
+          "alt": "명일동 고등학생 수학학원 와와학원 대표",
+          "collapsed": false,
+          "display": "none",
+          "height": 0,
+          "loaded": false,
+          "naturalHeight": 0,
+          "naturalWidth": 0,
+          "width": 0
+        },
+        {
+          "alt": "명일동 고등학생 수학학원 본문",
+          "collapsed": false,
+          "display": "block",
+          "height": 5109,
+          "loaded": true,
+          "naturalHeight": 16116,
+          "naturalWidth": 918,
+          "width": 292
+        },
+        {
+          "alt": "명일동 고등학생 수학학원 지도",
+          "collapsed": false,
+          "display": "block",
+          "height": 316,
+          "loaded": true,
+          "naturalHeight": 702,
+          "naturalWidth": 648,
+          "width": 292
+        }
+      ],
+      "minSiblingTouch": 56,
+      "minTocTouch": 48,
+      "overflow": [],
+      "path": "/지점안내/서울/명일점/명일동고등학생수학학원/",
+      "scrollWidth": 320,
+      "siblingCount": 5,
+      "tocColumns": "232.933px",
+      "width": 320
+    },
+    {
+      "bodyFont": "17px",
+      "faqCount": 4,
+      "faqOpen": 0,
+      "h1Font": "31px",
+      "hash": "#article-toc",
+      "images": [
+        {
+          "alt": "명일동 고등학생 영어학원 와와학원 대표",
+          "collapsed": false,
+          "display": "none",
+          "height": 0,
+          "loaded": false,
+          "naturalHeight": 0,
+          "naturalWidth": 0,
+          "width": 0
+        },
+        {
+          "alt": "명일동 고등학생 영어학원 본문",
+          "collapsed": false,
+          "display": "block",
+          "height": 6335,
+          "loaded": true,
+          "naturalHeight": 16116,
+          "naturalWidth": 918,
+          "width": 362
+        },
+        {
+          "alt": "명일동 고등학생 영어학원 지도",
+          "collapsed": false,
+          "display": "block",
+          "height": 392,
+          "loaded": true,
+          "naturalHeight": 702,
+          "naturalWidth": 648,
+          "width": 362
+        }
+      ],
+      "minSiblingTouch": 56,
+      "minTocTouch": 48,
+      "overflow": [],
+      "path": "/지점안내/서울/명일점/명일동고등학생영어학원/",
+      "scrollWidth": 390,
+      "siblingCount": 5,
+      "tocColumns": "302.8px",
+      "width": 390
+    },
+    {
+      "bodyFont": "17px",
+      "faqCount": 4,
+      "faqOpen": 0,
+      "h1Font": "31px",
+      "hash": "#article-toc",
+      "images": [
+        {
+          "alt": "명일동 중학생 수학학원 와와학원 대표",
+          "collapsed": false,
+          "display": "none",
+          "height": 0,
+          "loaded": false,
+          "naturalHeight": 0,
+          "naturalWidth": 0,
+          "width": 0
+        },
+        {
+          "alt": "명일동 중학생 수학학원 본문",
+          "collapsed": false,
+          "display": "block",
+          "height": 6335,
+          "loaded": true,
+          "naturalHeight": 16116,
+          "naturalWidth": 918,
+          "width": 362
+        },
+        {
+          "alt": "명일동 중학생 수학학원 지도",
+          "collapsed": false,
+          "display": "block",
+          "height": 392,
+          "loaded": true,
+          "naturalHeight": 702,
+          "naturalWidth": 648,
+          "width": 362
+        }
+      ],
+      "minSiblingTouch": 56,
+      "minTocTouch": 48,
+      "overflow": [],
+      "path": "/지점안내/서울/명일점/명일동중학생수학학원/",
+      "scrollWidth": 390,
+      "siblingCount": 5,
+      "tocColumns": "302.8px",
+      "width": 390
+    },
+    {
+      "bodyFont": "17px",
+      "faqCount": 4,
+      "faqOpen": 0,
+      "h1Font": "31px",
+      "hash": "#article-toc",
+      "images": [
+        {
+          "alt": "명일동 중학생 영어학원 와와학원 대표",
+          "collapsed": false,
+          "display": "none",
+          "height": 0,
+          "loaded": false,
+          "naturalHeight": 0,
+          "naturalWidth": 0,
+          "width": 0
+        },
+        {
+          "alt": "명일동 중학생 영어학원 본문",
+          "collapsed": false,
+          "display": "block",
+          "height": 6335,
+          "loaded": true,
+          "naturalHeight": 16116,
+          "naturalWidth": 918,
+          "width": 362
+        },
+        {
+          "alt": "명일동 중학생 영어학원 지도",
+          "collapsed": false,
+          "display": "block",
+          "height": 392,
+          "loaded": true,
+          "naturalHeight": 702,
+          "naturalWidth": 648,
+          "width": 362
+        }
+      ],
+      "minSiblingTouch": 56,
+      "minTocTouch": 48,
+      "overflow": [],
+      "path": "/지점안내/서울/명일점/명일동중학생영어학원/",
+      "scrollWidth": 390,
+      "siblingCount": 5,
+      "tocColumns": "302.8px",
+      "width": 390
+    },
+    {
+      "bodyFont": "17px",
+      "faqCount": 4,
+      "faqOpen": 0,
+      "h1Font": "31px",
+      "hash": "#article-toc",
+      "images": [
+        {
+          "alt": "명일동 초등학생 수학학원 와와학원 대표",
+          "collapsed": false,
+          "display": "none",
+          "height": 0,
+          "loaded": false,
+          "naturalHeight": 0,
+          "naturalWidth": 0,
+          "width": 0
+        },
+        {
+          "alt": "명일동 초등학생 수학학원 본문",
+          "collapsed": false,
+          "display": "block",
+          "height": 6335,
+          "loaded": true,
+          "naturalHeight": 16116,
+          "naturalWidth": 918,
+          "width": 362
+        },
+        {
+          "alt": "명일동 초등학생 수학학원 지도",
+          "collapsed": false,
+          "display": "block",
+          "height": 392,
+          "loaded": true,
+          "naturalHeight": 702,
+          "naturalWidth": 648,
+          "width": 362
+        }
+      ],
+      "minSiblingTouch": 56,
+      "minTocTouch": 48,
+      "overflow": [],
+      "path": "/지점안내/서울/명일점/명일동초등학생수학학원/",
+      "scrollWidth": 390,
+      "siblingCount": 5,
+      "tocColumns": "302.8px",
+      "width": 390
+    },
+    {
+      "bodyFont": "17px",
+      "faqCount": 4,
+      "faqOpen": 0,
+      "h1Font": "31px",
+      "hash": "#article-toc",
+      "images": [
+        {
+          "alt": "명일동 초등학생 영어학원 와와학원 대표",
+          "collapsed": false,
+          "display": "none",
+          "height": 0,
+          "loaded": false,
+          "naturalHeight": 0,
+          "naturalWidth": 0,
+          "width": 0
+        },
+        {
+          "alt": "명일동 초등학생 영어학원 본문",
+          "collapsed": false,
+          "display": "block",
+          "height": 6335,
+          "loaded": true,
+          "naturalHeight": 16116,
+          "naturalWidth": 918,
+          "width": 362
+        },
+        {
+          "alt": "명일동 초등학생 영어학원 지도",
+          "collapsed": false,
+          "display": "block",
+          "height": 392,
+          "loaded": true,
+          "naturalHeight": 702,
+          "naturalWidth": 648,
+          "width": 362
+        }
+      ],
+      "minSiblingTouch": 56,
+      "minTocTouch": 48,
+      "overflow": [],
+      "path": "/지점안내/서울/명일점/명일동초등학생영어학원/",
+      "scrollWidth": 390,
+      "siblingCount": 5,
+      "tocColumns": "302.8px",
+      "width": 390
+    },
+    {
+      "bodyFont": "17px",
+      "faqCount": 4,
+      "faqOpen": 0,
+      "h1Font": "31px",
+      "hash": "#article-toc",
+      "images": [
+        {
+          "alt": "갈현동 고등학생 수학학원 와와학원 대표",
+          "collapsed": false,
+          "display": "none",
+          "height": 0,
+          "loaded": false,
+          "naturalHeight": 0,
+          "naturalWidth": 0,
+          "width": 0
+        },
+        {
+          "alt": "갈현동 고등학생 수학학원 본문",
+          "collapsed": false,
+          "display": "block",
+          "height": 5811,
+          "loaded": true,
+          "naturalHeight": 16116,
+          "naturalWidth": 918,
+          "width": 332
+        },
+        {
+          "alt": "갈현동 고등학생 수학학원 지도",
+          "collapsed": false,
+          "display": "block",
+          "height": 360,
+          "loaded": true,
+          "naturalHeight": 702,
+          "naturalWidth": 648,
+          "width": 332
+        }
+      ],
+      "minSiblingTouch": 56,
+      "minTocTouch": 48,
+      "overflow": [],
+      "path": "/지점안내/서울/은평점/갈현동고등학생수학학원/",
+      "scrollWidth": 360,
+      "siblingCount": 5,
+      "tocColumns": "272.933px",
+      "width": 360
+    },
+    {
+      "bodyFont": "17px",
+      "faqCount": 4,
+      "faqOpen": 0,
+      "h1Font": "31px",
+      "hash": "#article-toc",
+      "images": [
+        {
+          "alt": "전주혁신도시 고등학생 영어학원 와와학원 대표",
+          "collapsed": false,
+          "display": "none",
+          "height": 0,
+          "loaded": false,
+          "naturalHeight": 0,
+          "naturalWidth": 0,
+          "width": 0
+        },
+        {
+          "alt": "전주혁신도시 고등학생 영어학원 본문",
+          "collapsed": false,
+          "display": "block",
+          "height": 5811,
+          "loaded": true,
+          "naturalHeight": 16116,
+          "naturalWidth": 918,
+          "width": 332
+        },
+        {
+          "alt": "전주혁신도시 고등학생 영어학원 지도",
+          "collapsed": false,
+          "display": "block",
+          "height": 394,
+          "loaded": true,
+          "naturalHeight": 701,
+          "naturalWidth": 590,
+          "width": 332
+        }
+      ],
+      "minSiblingTouch": 56,
+      "minTocTouch": 48,
+      "overflow": [],
+      "path": "/지점안내/전북/전주혁신점/전주혁신도시고등학생영어학원/",
+      "scrollWidth": 360,
+      "siblingCount": 5,
+      "tocColumns": "272.933px",
+      "width": 360
+    },
+    {
+      "bodyFont": "17px",
+      "faqCount": 4,
+      "faqOpen": 0,
+      "h1Font": "31px",
+      "hash": "#article-toc",
+      "images": [
+        {
+          "alt": "위례 고등학생 수학학원 와와학원 대표",
+          "collapsed": false,
+          "display": "none",
+          "height": 0,
+          "loaded": false,
+          "naturalHeight": 0,
+          "naturalWidth": 0,
+          "width": 0
+        },
+        {
+          "alt": "위례 고등학생 수학학원 본문",
+          "collapsed": false,
+          "display": "block",
+          "height": 5811,
+          "loaded": true,
+          "naturalHeight": 16116,
+          "naturalWidth": 918,
+          "width": 332
+        },
+        {
+          "alt": "위례 고등학생 수학학원 지도",
+          "collapsed": false,
+          "display": "block",
+          "height": 1104,
+          "loaded": true,
+          "naturalHeight": 2162,
+          "naturalWidth": 648,
+          "width": 331
+        }
+      ],
+      "minSiblingTouch": 56,
+      "minTocTouch": 48,
+      "overflow": [],
+      "path": "/지점안내/경기/위례점/위례고등학생수학학원/",
+      "scrollWidth": 360,
+      "siblingCount": 5,
+      "tocColumns": "272.933px",
+      "width": 360
+    },
+    {
+      "bodyFont": "17px",
+      "faqCount": 4,
+      "faqOpen": 0,
+      "h1Font": "44px",
+      "hash": "",
+      "images": [
+        {
+          "alt": "명일동 고등학생 수학학원 와와학원 대표",
+          "collapsed": false,
+          "display": "none",
+          "height": 0,
+          "loaded": false,
+          "naturalHeight": 0,
+          "naturalWidth": 0,
+          "width": 0
+        },
+        {
+          "alt": "명일동 고등학생 수학학원 본문",
+          "collapsed": false,
+          "display": "block",
+          "height": 10867,
+          "loaded": false,
+          "naturalHeight": 0,
+          "naturalWidth": 0,
+          "width": 620
+        },
+        {
+          "alt": "명일동 고등학생 수학학원 지도",
+          "collapsed": false,
+          "display": "block",
+          "height": 672,
+          "loaded": false,
+          "naturalHeight": 0,
+          "naturalWidth": 0,
+          "width": 620
+        }
+      ],
+      "minSiblingTouch": 56,
+      "minTocTouch": 48,
+      "overflow": [],
+      "path": "/지점안내/서울/명일점/명일동고등학생수학학원/",
+      "scrollWidth": 1280,
+      "siblingCount": 5,
+      "tocColumns": "395.467px 395.467px",
+      "width": 1280
+    }
+  ],
+  "functionalChecks": {
+    "parentToTopicClick": true,
+    "tocJump": true,
+    "faqOpenAndClose": true,
+    "sameLocalitySubjectNavigation": true,
+    "returnToParentAfterFaq": true,
+    "parentLinksImmediatelyAfterFaq": true,
+    "bodyImageFullyVisible": true,
+    "visibleBodyAndMapLoaded": true,
+    "representativeHidden": true
+  },
+  "parentChecks": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "buttons": 12,
+      "buttonMinimumHeight": 67,
+      "fontSize": 14
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "buttons": 12
+    }
+  ],
+  "viewportReset": true,
+  "notes": [
+    "Hidden lazy representative images are intentionally not loaded/rendered by the browser while display:none. Source files and hashes were checked by the static audit.",
+    "Body images are full height, not disclosure/crop previews.",
+    "Zero measured horizontal overflow across 10 article viewport cases.",
+    "This is a browser layout and interaction check, not a search-ranking score."
+  ]
+}

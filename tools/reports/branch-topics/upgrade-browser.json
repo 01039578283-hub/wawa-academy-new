@@ -1,0 +1,536 @@
+{
+  "date": "2026-09-13",
+  "environment": "http://127.0.0.1:4414",
+  "viewportRestored": true,
+  "measuredCssPixels": true,
+  "cases": [
+    {
+      "case": "myungil-390",
+      "layout": {
+        "bodyFont": "17px",
+        "faqCount": 4,
+        "faqOpen": 0,
+        "h1Font": "31px",
+        "hash": "",
+        "images": [
+          {
+            "alt": "명일동 고등학생 수학학원 와와학원 대표",
+            "collapsed": false,
+            "display": "none",
+            "height": 0,
+            "loaded": false,
+            "naturalHeight": 0,
+            "naturalWidth": 0,
+            "width": 0
+          },
+          {
+            "alt": "명일동 고등학생 수학학원 본문",
+            "collapsed": false,
+            "display": "block",
+            "height": 6335,
+            "loaded": true,
+            "naturalHeight": 16116,
+            "naturalWidth": 918,
+            "width": 362
+          },
+          {
+            "alt": "명일동 고등학생 수학학원 지도",
+            "collapsed": false,
+            "display": "block",
+            "height": 392,
+            "loaded": false,
+            "naturalHeight": 0,
+            "naturalWidth": 0,
+            "width": 362
+          }
+        ],
+        "minSiblingTouch": 56,
+        "minTocTouch": 48,
+        "overflow": [],
+        "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/%EB%AA%85%EC%9D%BC%EC%A0%90/%EB%AA%85%EC%9D%BC%EB%8F%99%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+        "scrollWidth": 390,
+        "siblingCount": 5,
+        "tocColumns": "302.8px",
+        "width": 390
+      }
+    },
+    {
+      "case": "quick-card-anchor",
+      "state": {
+        "h2": "현재 실력보다 최근 학습 흔적을 진단하기",
+        "hash": "#section-2"
+      }
+    },
+    {
+      "case": "contextual-guide",
+      "state": {
+        "h1": "오답관리 루틴 만드는 법",
+        "path": "/%ED%95%99%EC%8A%B5%EA%B0%80%EC%9D%B4%EB%93%9C/%EC%98%A4%EB%8B%B5%EA%B4%80%EB%A6%AC-%EB%A3%A8%ED%8B%B4/"
+      }
+    },
+    {
+      "case": "related-groups-390",
+      "layout": {
+        "bodyFont": "17px",
+        "faqCount": 4,
+        "faqOpen": 0,
+        "h1Font": "31px",
+        "hash": "#related-pages",
+        "images": [
+          {
+            "alt": "명일동 고등학생 수학학원 와와학원 대표",
+            "collapsed": false,
+            "display": "none",
+            "height": 0,
+            "loaded": false,
+            "naturalHeight": 0,
+            "naturalWidth": 0,
+            "width": 0
+          },
+          {
+            "alt": "명일동 고등학생 수학학원 본문",
+            "collapsed": false,
+            "display": "block",
+            "height": 6335,
+            "loaded": true,
+            "naturalHeight": 16116,
+            "naturalWidth": 918,
+            "width": 362
+          },
+          {
+            "alt": "명일동 고등학생 수학학원 지도",
+            "collapsed": false,
+            "display": "block",
+            "height": 392,
+            "loaded": true,
+            "naturalHeight": 702,
+            "naturalWidth": 648,
+            "width": 362
+          }
+        ],
+        "minSiblingTouch": 56,
+        "minTocTouch": 48,
+        "overflow": [],
+        "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/%EB%AA%85%EC%9D%BC%EC%A0%90/%EB%AA%85%EC%9D%BC%EB%8F%99%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+        "scrollWidth": 390,
+        "siblingCount": 5,
+        "tocColumns": "302.8px",
+        "width": 390
+      }
+    },
+    {
+      "case": "english-sibling-faq-open",
+      "layout": {
+        "bodyFont": "17px",
+        "faqCount": 4,
+        "faqOpen": 1,
+        "h1Font": "31px",
+        "hash": "#questions",
+        "images": [
+          {
+            "alt": "명일동 고등학생 영어학원 와와학원 대표",
+            "collapsed": false,
+            "display": "none",
+            "height": 0,
+            "loaded": false,
+            "naturalHeight": 0,
+            "naturalWidth": 0,
+            "width": 0
+          },
+          {
+            "alt": "명일동 고등학생 영어학원 본문",
+            "collapsed": false,
+            "display": "block",
+            "height": 6335,
+            "loaded": true,
+            "naturalHeight": 16116,
+            "naturalWidth": 918,
+            "width": 362
+          },
+          {
+            "alt": "명일동 고등학생 영어학원 지도",
+            "collapsed": false,
+            "display": "block",
+            "height": 392,
+            "loaded": true,
+            "naturalHeight": 702,
+            "naturalWidth": 648,
+            "width": 362
+          }
+        ],
+        "minSiblingTouch": 56,
+        "minTocTouch": 48,
+        "overflow": [],
+        "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/%EB%AA%85%EC%9D%BC%EC%A0%90/%EB%AA%85%EC%9D%BC%EB%8F%99%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+        "scrollWidth": 390,
+        "siblingCount": 5,
+        "tocColumns": "302.8px",
+        "width": 390
+      }
+    },
+    {
+      "case": "parent-child-position",
+      "state": {
+        "afterFAQ": "neighborhood-pages",
+        "hash": "#neighborhood-pages",
+        "links": 12
+      }
+    },
+    {
+      "case": "myungil-320-toc",
+      "layout": {
+        "bodyFont": "16px",
+        "faqCount": 4,
+        "faqOpen": 0,
+        "h1Font": "28px",
+        "hash": "#article-toc",
+        "images": [
+          {
+            "alt": "명일동 고등학생 수학학원 와와학원 대표",
+            "collapsed": false,
+            "display": "none",
+            "height": 0,
+            "loaded": false,
+            "naturalHeight": 0,
+            "naturalWidth": 0,
+            "width": 0
+          },
+          {
+            "alt": "명일동 고등학생 수학학원 본문",
+            "collapsed": false,
+            "display": "block",
+            "height": 5109,
+            "loaded": true,
+            "naturalHeight": 16116,
+            "naturalWidth": 918,
+            "width": 292
+          },
+          {
+            "alt": "명일동 고등학생 수학학원 지도",
+            "collapsed": false,
+            "display": "block",
+            "height": 316,
+            "loaded": true,
+            "naturalHeight": 702,
+            "naturalWidth": 648,
+            "width": 292
+          }
+        ],
+        "minSiblingTouch": 56,
+        "minTocTouch": 48,
+        "overflow": [],
+        "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/%EB%AA%85%EC%9D%BC%EC%A0%90/%EB%AA%85%EC%9D%BC%EB%8F%99%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+        "scrollWidth": 320,
+        "siblingCount": 5,
+        "tocColumns": "232.933px",
+        "width": 320
+      }
+    },
+    {
+      "case": "galhyeon-unconfirmed-320",
+      "layout": {
+        "bodyFont": "16px",
+        "faqCount": 4,
+        "faqOpen": 0,
+        "h1Font": "28px",
+        "hash": "",
+        "images": [
+          {
+            "alt": "갈현동 고등학생 수학학원 와와학원 대표",
+            "collapsed": false,
+            "display": "none",
+            "height": 0,
+            "loaded": false,
+            "naturalHeight": 0,
+            "naturalWidth": 0,
+            "width": 0
+          },
+          {
+            "alt": "갈현동 고등학생 수학학원 본문",
+            "collapsed": false,
+            "display": "block",
+            "height": 5109,
+            "loaded": true,
+            "naturalHeight": 16116,
+            "naturalWidth": 918,
+            "width": 292
+          },
+          {
+            "alt": "갈현동 고등학생 수학학원 지도",
+            "collapsed": false,
+            "display": "block",
+            "height": 316,
+            "loaded": false,
+            "naturalHeight": 0,
+            "naturalWidth": 0,
+            "width": 292
+          }
+        ],
+        "minSiblingTouch": 56,
+        "minTocTouch": 48,
+        "overflow": [],
+        "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/%EC%9D%80%ED%8F%89%EC%A0%90/%EA%B0%88%ED%98%84%EB%8F%99%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+        "scrollWidth": 320,
+        "siblingCount": 5,
+        "tocColumns": "232.933px",
+        "width": 320
+      },
+      "notice": "고등학생 수학 과정의 개설 학년을 먼저 확인해 주세요. 아래 글은 학습 준비 안내이며, 해당 수업이 개설되어 있다는 뜻은 아닙니다."
+    },
+    {
+      "case": "wirye-middle-english-360",
+      "layout": {
+        "bodyFont": "17px",
+        "faqCount": 4,
+        "faqOpen": 0,
+        "h1Font": "31px",
+        "hash": "#article-toc",
+        "images": [
+          {
+            "alt": "위례신도시 중학생 영어학원 와와학원 대표",
+            "collapsed": false,
+            "display": "none",
+            "height": 0,
+            "loaded": false,
+            "naturalHeight": 0,
+            "naturalWidth": 0,
+            "width": 0
+          },
+          {
+            "alt": "위례신도시 중학생 영어학원 본문",
+            "collapsed": false,
+            "display": "block",
+            "height": 5811,
+            "loaded": true,
+            "naturalHeight": 16116,
+            "naturalWidth": 918,
+            "width": 332
+          },
+          {
+            "alt": "위례신도시 중학생 영어학원 지도",
+            "collapsed": false,
+            "display": "block",
+            "height": 1104,
+            "loaded": true,
+            "naturalHeight": 2162,
+            "naturalWidth": 648,
+            "width": 331
+          }
+        ],
+        "minSiblingTouch": 56,
+        "minTocTouch": 48,
+        "overflow": [],
+        "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B2%BD%EA%B8%B0/%EC%9C%84%EB%A1%80%EC%A0%90/%EC%9C%84%EB%A1%80%EC%8B%A0%EB%8F%84%EC%8B%9C%EC%A4%91%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+        "scrollWidth": 360,
+        "siblingCount": 5,
+        "tocColumns": "272.933px",
+        "width": 360
+      }
+    },
+    {
+      "case": "same-branch-navigation-and-desktop-1280",
+      "layout": {
+        "bodyFont": "17px",
+        "faqCount": 4,
+        "faqOpen": 0,
+        "h1Font": "44px",
+        "hash": "",
+        "images": [
+          {
+            "alt": "위례 중학생 영어학원 와와학원 대표",
+            "collapsed": false,
+            "display": "none",
+            "height": 0,
+            "loaded": false,
+            "naturalHeight": 0,
+            "naturalWidth": 0,
+            "width": 0
+          },
+          {
+            "alt": "위례 중학생 영어학원 본문",
+            "collapsed": false,
+            "display": "block",
+            "height": 10867,
+            "loaded": true,
+            "naturalHeight": 16116,
+            "naturalWidth": 918,
+            "width": 620
+          },
+          {
+            "alt": "위례 중학생 영어학원 지도",
+            "collapsed": false,
+            "display": "block",
+            "height": 2065,
+            "loaded": true,
+            "naturalHeight": 2162,
+            "naturalWidth": 648,
+            "width": 619
+          }
+        ],
+        "minSiblingTouch": 56,
+        "minTocTouch": 48,
+        "overflow": [],
+        "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B2%BD%EA%B8%B0/%EC%9C%84%EB%A1%80%EC%A0%90/%EC%9C%84%EB%A1%80%EC%A4%91%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+        "scrollWidth": 1280,
+        "siblingCount": 5,
+        "tocColumns": "395.467px 395.467px",
+        "width": 1280
+      }
+    },
+    {
+      "case": "long-locality-elementary-320",
+      "layout": {
+        "bodyFont": "16px",
+        "faqCount": 4,
+        "faqOpen": 0,
+        "h1Font": "28px",
+        "hash": "#article-toc",
+        "images": [
+          {
+            "alt": "전주혁신도시 초등학생 영어학원 와와학원 대표",
+            "collapsed": false,
+            "display": "none",
+            "height": 0,
+            "loaded": false,
+            "naturalHeight": 0,
+            "naturalWidth": 0,
+            "width": 0
+          },
+          {
+            "alt": "전주혁신도시 초등학생 영어학원 본문",
+            "collapsed": false,
+            "display": "block",
+            "height": 5109,
+            "loaded": true,
+            "naturalHeight": 16116,
+            "naturalWidth": 918,
+            "width": 292
+          },
+          {
+            "alt": "전주혁신도시 초등학생 영어학원 지도",
+            "collapsed": false,
+            "display": "block",
+            "height": 347,
+            "loaded": true,
+            "naturalHeight": 701,
+            "naturalWidth": 590,
+            "width": 292
+          }
+        ],
+        "minSiblingTouch": 56,
+        "minTocTouch": 48,
+        "overflow": [],
+        "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%A0%84%EB%B6%81/%EC%A0%84%EC%A3%BC%ED%98%81%EC%8B%A0%EC%A0%90/%EC%A0%84%EC%A3%BC%ED%98%81%EC%8B%A0%EB%8F%84%EC%8B%9C%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/",
+        "scrollWidth": 320,
+        "siblingCount": 5,
+        "tocColumns": "232.933px",
+        "width": 320
+      }
+    },
+    {
+      "case": "elementary-math-320",
+      "layout": {
+        "bodyFont": "16px",
+        "faqCount": 4,
+        "faqOpen": 0,
+        "h1Font": "28px",
+        "hash": "#article-toc",
+        "images": [
+          {
+            "alt": "전주혁신도시 초등학생 수학학원 와와학원 대표",
+            "collapsed": false,
+            "display": "none",
+            "height": 0,
+            "loaded": false,
+            "naturalHeight": 0,
+            "naturalWidth": 0,
+            "width": 0
+          },
+          {
+            "alt": "전주혁신도시 초등학생 수학학원 본문",
+            "collapsed": false,
+            "display": "block",
+            "height": 5109,
+            "loaded": true,
+            "naturalHeight": 16116,
+            "naturalWidth": 918,
+            "width": 292
+          },
+          {
+            "alt": "전주혁신도시 초등학생 수학학원 지도",
+            "collapsed": false,
+            "display": "block",
+            "height": 347,
+            "loaded": true,
+            "naturalHeight": 701,
+            "naturalWidth": 590,
+            "width": 292
+          }
+        ],
+        "minSiblingTouch": 56,
+        "minTocTouch": 48,
+        "overflow": [],
+        "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%A0%84%EB%B6%81/%EC%A0%84%EC%A3%BC%ED%98%81%EC%8B%A0%EC%A0%90/%EC%A0%84%EC%A3%BC%ED%98%81%EC%8B%A0%EB%8F%84%EC%8B%9C%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+        "scrollWidth": 320,
+        "siblingCount": 5,
+        "tocColumns": "232.933px",
+        "width": 320
+      }
+    },
+    {
+      "case": "middle-math-390",
+      "layout": {
+        "bodyFont": "17px",
+        "faqCount": 4,
+        "faqOpen": 0,
+        "h1Font": "31px",
+        "hash": "#article-toc",
+        "images": [
+          {
+            "alt": "명일동 중학생 수학학원 와와학원 대표",
+            "collapsed": false,
+            "display": "none",
+            "height": 0,
+            "loaded": false,
+            "naturalHeight": 0,
+            "naturalWidth": 0,
+            "width": 0
+          },
+          {
+            "alt": "명일동 중학생 수학학원 본문",
+            "collapsed": false,
+            "display": "block",
+            "height": 6335,
+            "loaded": true,
+            "naturalHeight": 16116,
+            "naturalWidth": 918,
+            "width": 362
+          },
+          {
+            "alt": "명일동 중학생 수학학원 지도",
+            "collapsed": false,
+            "display": "block",
+            "height": 392,
+            "loaded": true,
+            "naturalHeight": 702,
+            "naturalWidth": 648,
+            "width": 362
+          }
+        ],
+        "minSiblingTouch": 56,
+        "minTocTouch": 48,
+        "overflow": [],
+        "path": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/%EB%AA%85%EC%9D%BC%EC%A0%90/%EB%AA%85%EC%9D%BC%EB%8F%99%EC%A4%91%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+        "scrollWidth": 390,
+        "siblingCount": 5,
+        "tocColumns": "302.8px",
+        "width": 390
+      }
+    }
+  ],
+  "notes": [
+    "Representative alone hidden; visible body image remains full height.",
+    "FAQ opened and closed; contextual guide, parent and sibling navigation exercised.",
+    "Gallery/map uses previously approved media; delayed lazy loading checked after TOC jump."
+  ]
+}

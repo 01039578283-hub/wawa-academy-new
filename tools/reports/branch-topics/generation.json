@@ -1,0 +1,20 @@
+{
+  "status": "LOCAL_ONLY",
+  "pages": 2226,
+  "perTopic": {
+    "고등학생 수학학원": 371,
+    "고등학생 영어학원": 371,
+    "중학생 수학학원": 371,
+    "중학생 영어학원": 371,
+    "초등학생 수학학원": 371,
+    "초등학생 영어학원": 371
+  },
+  "parentBranches": 188,
+  "representativePool": 371,
+  "assignedRepresentatives": 371,
+  "qualifiedScopePages": 59,
+  "editorialFieldChanges": 5537,
+  "sitemapUrls": 12214,
+  "rssItems": 55,
+  "deployment": "NOT REQUESTED / NOT DEPLOYED"
+}
