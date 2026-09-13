@@ -1,0 +1,2835 @@
+{
+  "schemaVersion": 1,
+  "collectedAt": "2026-09-13T10:15:26.724808+00:00",
+  "sourceType": "official-published-student-review",
+  "independentlyVerified": false,
+  "notice": "본사 공식 홈페이지에 게시된 학생·학부모·교사의 후기 내용을 요약했습니다. 개인의 과거 경험이며, 현재 모든 수업의 운영 방식이나 같은 결과를 보장하지 않습니다.",
+  "sourceSnapshot": "tools/reports/branch-reviews/review-source-snapshot.json",
+  "centerSnapshotSha256": "b7937da1a70314f3095739d3cca9bc202e8c48997ea3af7774b11d05fee6240a",
+  "reviews": [
+    {
+      "id": "293",
+      "sourceUrl": "https://www.wawacenter.com/review/293",
+      "title": "어휘·독해 약점을 진단한 고등 영어 학습",
+      "originalTitle": "[이충점] 와와에서의 3년, 서울대 합격까지!_김O경 학생",
+      "caseHeading": "어휘·독해 약점을 진단한 고등 영어 학습",
+      "publishedAt": "2026-03-20",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": null,
+      "centerId": "center-row-157",
+      "centerName": "이충점",
+      "centerAddress": "경기 평택시 이충로 49-31  삼원프라자 201호",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "이충점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/445",
+        "photoMatchBasis": "road-address-and-name",
+        "currentAddress": "경기 평택시 이충로 49-31  삼원프라자 201호"
+      },
+      "subjects": [
+        "영어"
+      ],
+      "stages": [
+        "고등학생"
+      ],
+      "gradeText": "고3",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 고3 표기",
+      "sourceExcerpts": [
+        "영어는 어휘가 부족하다는 점을 파악해 보완했고",
+        "제 약점에 맞는 문제를 선별해 주셨습니다."
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "고3 영어 후기에서는 암기 중심 공부의 한계를 느끼던 학생이 어휘 부족을 진단받고 독해 방법을 보완한 과정을 소개합니다. 교사와 계획을 세우고 약점에 맞는 문제를 선별해 공부하면서 학습 방향을 잡는 데 도움이 됐다고 말합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "e8b4126c99d34848bc32100baf7e079257cdab2ef4bdbca523b9312fff12662d",
+      "retrievedAt": "2026-09-13T10:15:18.497017+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    },
+    {
+      "id": "289",
+      "sourceUrl": "https://www.wawacenter.com/review/289",
+      "title": "풀이의 어려움을 진단하고 계획을 연습한 고등 수학",
+      "originalTitle": "[동탄호수점] 우수회원사례_김O서",
+      "caseHeading": "풀이의 어려움을 진단하고 계획을 연습한 고등 수학",
+      "publishedAt": "2026-03-16",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": null,
+      "centerId": "center-row-044",
+      "centerName": "동탄호수점",
+      "centerAddress": "경기 화성시 동탄순환대로 127-19  에스비타운 907호",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "동탄호수점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/389",
+        "photoMatchBasis": "reviewed-name-and-road-or-parcel",
+        "currentAddress": "경기 화성시 동탄순환대로 127-19  에스비타운 907호"
+      },
+      "subjects": [
+        "수학"
+      ],
+      "stages": [
+        "고등학생"
+      ],
+      "gradeText": "고3",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 고3 표기",
+      "sourceExcerpts": [
+        "과목별 공부 계획이나 공부 루틴 짜는 걸 연습해 보고",
+        "다양한 풀이법을 알려주셨고"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "고3 수학 학생은 코칭 시간에 과목별 계획과 공부 루틴을 짜는 연습을 했다고 말합니다. 테스트에서 문제 풀이의 어려움을 확인한 뒤 여러 풀이법을 배우면서 문제에 접근할 때의 두려움이 줄었다는 경험을 소개합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "7efd0d884e1f4c1ac03c1f9529c92fdd574fb6fa6fc56f7a38705ace3927a324",
+      "retrievedAt": "2026-09-13T10:15:18.461107+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    },
+    {
+      "id": "290",
+      "sourceUrl": "https://www.wawacenter.com/review/290",
+      "title": "학생 계획에 교사 피드백을 더한 중3 사례",
+      "originalTitle": "[반월당점] 우수회원사례_변O정",
+      "caseHeading": "학생 계획에 교사 피드백을 더한 중3 사례",
+      "publishedAt": "2025-12-11",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": null,
+      "centerId": "center-row-064",
+      "centerName": "반월당점",
+      "centerAddress": "대구 중구 대봉로 253  3층 와와학습코칭학원",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "반월당점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/508",
+        "photoMatchBasis": "road-address-and-name",
+        "currentAddress": "대구 중구 대봉로 253  3층 와와학습코칭학원"
+      },
+      "subjects": [
+        "국어"
+      ],
+      "stages": [
+        "중학생"
+      ],
+      "gradeText": "중3",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 중3 표기",
+      "sourceExcerpts": [
+        "그날 자신의 공부 계획을 스스로 적는 친구입니다.",
+        "선생님들이 플래너를 수정해 주고 추가하며"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "중3 국어 후기에는 학생이 등원 후 그날의 공부 계획을 적으면 교사가 플래너를 수정·보완한 과정이 소개됩니다. 학부모는 시험 후 담당 교사가 피드백과 이후 계획을 알려줬다고 설명하고, 학생은 질문하기와 공부에 대한 자신감이 달라졌다고 말합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "dfcc5b2dd8318d4a5f6d7dab3ea99b1a1c2848881257068a7752626107ea58de",
+      "retrievedAt": "2026-09-13T10:15:18.484578+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    },
+    {
+      "id": "286",
+      "sourceUrl": "https://www.wawacenter.com/review/286",
+      "title": "월말평가의 오답을 다시 확인한 수학 사례",
+      "originalTitle": "[향남점] 성적향상사례│수학 43점에서 80점으로!_한O호 학생",
+      "caseHeading": "월말평가의 오답을 다시 확인한 수학 사례",
+      "publishedAt": "2025-12-11",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": null,
+      "centerId": "center-row-194",
+      "centerName": "향남점",
+      "centerAddress": "경기 화성시 향남읍 발안로 103-6  J&H빌딩 402호",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "향남점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/343",
+        "photoMatchBasis": "reviewed-name-and-road-or-parcel",
+        "currentAddress": "경기 화성시 향남읍 발안로 103-6  J&H빌딩 402호"
+      },
+      "subjects": [
+        "수학"
+      ],
+      "stages": [],
+      "gradeText": "원문 미기재",
+      "parentOnly": true,
+      "gradeEvidence": "목록 및 읽을 수 있는 본문에 학년 미기재",
+      "sourceExcerpts": [
+        "수업일지를 통해 전체적인 진도 계획을 설정 후",
+        "틀린 문제에 대한 오답 분석 후 재 평가를 실시하였습니다."
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "공식 수학 후기에는 수업일지로 진도 계획을 세우고 설명과 과제 관리로 취약한 내용을 보완한 과정이 소개됩니다. 교사는 월말평가에서 틀린 문제를 분석한 뒤 재평가했다고 설명하며, 학생은 문제를 풀면서 수학에 흥미가 생겼다고 말합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "70f406a4a412cdfcea7fa7aa82ea8822ff8ba2cb349faeaaeb37a7ad1a7a9f15",
+      "retrievedAt": "2026-09-13T10:15:26.700231+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다.",
+        "학년과 학교급이 직접 명시되지 않아 지점 부모 페이지에서만 사용합니다."
+      ]
+    },
+    {
+      "id": "285",
+      "sourceUrl": "https://www.wawacenter.com/review/285",
+      "title": "시간을 맞춘 연습과 유형별 오답 점검",
+      "originalTitle": "[동소문점] 성적향상사례│영어 5등급에서 2등급으로!_안O은 학생",
+      "caseHeading": "시간을 맞춘 연습과 유형별 오답 점검",
+      "publishedAt": "2025-12-11",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": null,
+      "centerId": "center-row-041",
+      "centerName": "동소문점",
+      "centerAddress": "서울 성북구 아리랑로7길 5  4층 와와학습코칭학원",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "동소문점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/318",
+        "photoMatchBasis": "road-address-and-name",
+        "currentAddress": "서울 성북구 아리랑로7길 5  4층 와와학습코칭학원"
+      },
+      "subjects": [
+        "영어"
+      ],
+      "stages": [
+        "고등학생"
+      ],
+      "gradeText": "고2",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 고2 표기",
+      "sourceExcerpts": [
+        "실전과 동일하게 시간을 맞춰 문제 푸는 연습",
+        "오답은 유형별로 분석하여 명확하게 이해"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "고2 영어 후기의 교사는 온·오프라인 수업을 병행하고, 방학 특강에서 실제 시험처럼 시간을 맞춰 문제를 풀게 했다고 설명합니다. 틀린 문제는 유형별로 분석해 이해할 때까지 반복 점검했으며, 학생은 모의고사 후 자신감이 생겼다고 말합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "ad67fd49e48a29b8559e70a1e9f20517449af36c0dcef51c4cf772ead7b700f8",
+      "retrievedAt": "2026-09-13T10:15:18.588516+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    },
+    {
+      "id": "281",
+      "sourceUrl": "https://www.wawacenter.com/review/281",
+      "title": "주간 플래너로 매일 공부량을 확인한 초등 사례",
+      "originalTitle": "[화정점] 우수회원사례_이O현",
+      "caseHeading": "주간 플래너로 매일 공부량을 확인한 초등 사례",
+      "publishedAt": "2025-12-11",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": null,
+      "centerId": "center-row-199",
+      "centerName": "화정점",
+      "centerAddress": "경기 고양시 덕양구 화신로 263  브릿지타워 213호, 214호 와와학습코칭학원",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "화정점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/353",
+        "photoMatchBasis": "road-address-and-name",
+        "currentAddress": "경기 고양시 덕양구 화신로 263  브릿지타워 213호, 214호 와와학습코칭학원"
+      },
+      "subjects": [
+        "영어"
+      ],
+      "stages": [
+        "초등학생"
+      ],
+      "gradeText": "초6",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 초6 표기",
+      "sourceExcerpts": [
+        "매주 주간 플래너를 작성하면서 매일 공부량을 확인",
+        "자기 이해와 학습 습관을 잡을 수 있도록"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "초6 영어 후기에 소개된 코칭은 주간 플래너로 매일 공부량을 확인하고 학생이 스스로 계획하도록 돕는 방식입니다. 코칭 질문과 캘린더도 활용했으며, 학생은 자신의 공부 방법을 돌아보고 앞으로의 학습을 생각하는 데 도움이 됐다고 말합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "94c20f94157714bfc43e05df888bb760ec9382709b6de9038cd8848b0fb924bf",
+      "retrievedAt": "2026-09-13T10:15:18.709757+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    },
+    {
+      "id": "291",
+      "sourceUrl": "https://www.wawacenter.com/review/291",
+      "title": "문법 기초와 시험 전 문제 연습을 연결한 영어 사례",
+      "originalTitle": "[신도림점] 성적향상사례│영어 6등급에서 1등급으로!_조O석 학생",
+      "caseHeading": "문법 기초와 시험 전 문제 연습을 연결한 영어 사례",
+      "publishedAt": "2025-12-05",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": null,
+      "centerId": "center-row-118",
+      "centerName": "신도림점",
+      "centerAddress": "서울특별시 구로구 신도림동 신도림로 20  397-2 해동빌딩 402호",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "신도림점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/311",
+        "photoMatchBasis": "road-address-and-name",
+        "currentAddress": "서울특별시 구로구 신도림동 신도림로 20  397-2 해동빌딩 402호"
+      },
+      "subjects": [
+        "영어"
+      ],
+      "stages": [],
+      "gradeText": "원문 미기재",
+      "parentOnly": true,
+      "gradeEvidence": "목록 및 읽을 수 있는 본문에 학년 미기재",
+      "sourceExcerpts": [
+        "문법과 모의고사로 기본학습을 정리해 주고",
+        "시험 2주전부터는 다양한 학교의 기출 문제를 많이 풀게 하였습니다."
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "공식 후기에는 문법과 모의고사로 기본 학습을 정리하고, 시험 2주 전부터 여러 학교의 기출문제를 연습한 영어 지도 과정이 나옵니다. 학생은 이전보다 시험에 자신감이 생기고 진학 목표를 높여 잡게 됐다고 말합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "dd61c4841251fda07e999be556f6e0dbfbf3d91087acd165dfa3f0f2cad37a16",
+      "retrievedAt": "2026-09-13T10:15:26.710963+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다.",
+        "학년과 학교급이 직접 명시되지 않아 지점 부모 페이지에서만 사용합니다."
+      ]
+    },
+    {
+      "id": "284",
+      "sourceUrl": "https://www.wawacenter.com/review/284",
+      "title": "스스로 세운 주간 계획을 실행한 수학 학생",
+      "originalTitle": "[화정점] 우수회원사례_송O",
+      "caseHeading": "스스로 세운 주간 계획을 실행한 수학 학생",
+      "publishedAt": "2025-11-14",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": null,
+      "centerId": "center-row-199",
+      "centerName": "화정점",
+      "centerAddress": "경기 고양시 덕양구 화신로 263  브릿지타워 213호, 214호 와와학습코칭학원",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "화정점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/353",
+        "photoMatchBasis": "road-address-and-name",
+        "currentAddress": "경기 고양시 덕양구 화신로 263  브릿지타워 213호, 214호 와와학습코칭학원"
+      },
+      "subjects": [
+        "수학"
+      ],
+      "stages": [
+        "고등학생"
+      ],
+      "gradeText": "고2",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 고2 표기",
+      "sourceExcerpts": [
+        "플래너를 적고 시간표대로 실행하면서",
+        "주간 계획을 스스로 작성해 볼 수 있게 코칭"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "고2 수학 후기에서 학생은 처음에는 플래너의 필요성을 느끼지 못했지만, 계획한 시간표를 실행하면서 공부 방식에 변화가 생겼다고 말합니다. 교사는 학생이 주간 계획을 직접 작성하도록 코칭하고, 고교 생활과 진학 준비도 함께 살폈다고 설명합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "634d3b45084f7a8dd867000c6588e62a89b397b5759ac40ad433593ed87147d0",
+      "retrievedAt": "2026-09-13T10:15:18.614236+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    },
+    {
+      "id": "283",
+      "sourceUrl": "https://www.wawacenter.com/review/283",
+      "title": "실행할 수 있는 공부량을 찾아간 시험 계획",
+      "originalTitle": "[종암점] 우수회원사례_심O아",
+      "caseHeading": "실행할 수 있는 공부량을 찾아간 시험 계획",
+      "publishedAt": "2025-11-14",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": null,
+      "centerId": "center-row-165",
+      "centerName": "종암점",
+      "centerAddress": "서울 성북구 종암로27길 13  도원프라자 501",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "종암점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/374",
+        "photoMatchBasis": "road-address-and-name",
+        "currentAddress": "서울 성북구 종암로27길 13  도원프라자 501"
+      },
+      "subjects": [
+        "국어"
+      ],
+      "stages": [
+        "중학생"
+      ],
+      "gradeText": "중3",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 중3 표기",
+      "sourceExcerpts": [
+        "내가 할 수 있는 양을 알게 되었고",
+        "방학에는 특히 시간 관리 위주로 진행"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "중3 국어 학생은 시험 기간에 무작정 공부하던 방식에서 계획을 세워 공부하는 방식으로 바뀌었다고 말합니다. 반복해서 계획을 작성하며 자신이 실행할 수 있는 학습량을 알게 됐고, 교사는 방학 동안 시간 관리를 중심으로 코칭했다고 설명합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "91abaccb6e142ee8a1108de710426eab2a2bafd8ae50673328e967b4382f2d70",
+      "retrievedAt": "2026-09-13T10:15:18.631754+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    },
+    {
+      "id": "282",
+      "sourceUrl": "https://www.wawacenter.com/review/282",
+      "title": "질문과 글쓰기로 생각을 정리한 초등 코칭",
+      "originalTitle": "[마포점] 우수회원사례_정O",
+      "caseHeading": "질문과 글쓰기로 생각을 정리한 초등 코칭",
+      "publishedAt": "2025-11-14",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": null,
+      "centerId": "center-row-052",
+      "centerName": "마포점",
+      "centerAddress": "서울특별시 마포구 염리동 독막로42길 7  173-3 2층",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "마포점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/332",
+        "photoMatchBasis": "reviewed-name-and-road-or-parcel",
+        "currentAddress": "서울특별시 마포구 염리동 독막로42길 7  173-3 2층"
+      },
+      "subjects": [
+        "국어"
+      ],
+      "stages": [
+        "초등학생"
+      ],
+      "gradeText": "초4",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 초4 표기",
+      "sourceExcerpts": [
+        "영상자료 및 책을 활용하여 코칭 수업",
+        "최대한 생각한 뒤 작성하도록 지도"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "초4 국어 후기에는 워크북과 영상·책을 활용한 코칭 사례가 소개됩니다. 교사는 질문을 받은 뒤 충분히 생각하고 글로 쓰도록 지도했다고 설명합니다. 학생은 주제와 문제를 이해하는 데 익숙해졌지만 글쓰기는 계속 배우고 있다고 말합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "d179aac4876afdbb7b3ce6fbeb6c1036b9cce684afde56bbbd878110fc86490d",
+      "retrievedAt": "2026-09-13T10:15:18.631094+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    },
+    {
+      "id": "272",
+      "sourceUrl": "https://www.wawacenter.com/review/272",
+      "title": "개념을 이해한 뒤 설명·토론으로 이어간 수학",
+      "originalTitle": "[수원 영통구청점] 우수회원사례_김O",
+      "caseHeading": "개념을 이해한 뒤 설명·토론으로 이어간 수학",
+      "publishedAt": "2025-07-21",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": null,
+      "centerId": "center-row-131",
+      "centerName": "영통구청점",
+      "centerAddress": "경기 수원시 영통구 매탄로108번길 10  모닝프라자 602호",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "수원 영통구청점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/350",
+        "photoMatchBasis": "road-address-and-name",
+        "currentAddress": "경기 수원시 영통구 매탄로108번길 10  모닝프라자 602호"
+      },
+      "subjects": [
+        "수학"
+      ],
+      "stages": [
+        "고등학생"
+      ],
+      "gradeText": "고2",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 고2 표기",
+      "sourceExcerpts": [
+        "개념과 원리를 스토리로 풀어",
+        "서로 토론해보는 자리도 마련"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "고2 수학 후기의 교사는 개념을 이해해야 문제를 푸는 학생의 성향을 고려해 원리를 차근차근 설명했다고 말합니다. 이후 자신 있는 내용을 다른 학생에게 설명하거나 어려운 문제를 토론하는 자리를 마련했고, 학생은 수학 공부 방법과 고교 생활 준비에 도움을 받았다고 설명합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "e5f843135617ec5299c72c79fa5a571b3ebbf8fd202f119fb412cde947ba0540",
+      "retrievedAt": "2026-09-13T10:15:18.994031+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    },
+    {
+      "id": "287",
+      "sourceUrl": "https://www.wawacenter.com/review/287",
+      "title": "주간 계획과 오답 분석으로 공부 방법을 바꾼 영어 사례",
+      "originalTitle": "[복산점] 성적향상사례│영어 40점에서 80점으로!_이O민학생",
+      "caseHeading": "주간 계획과 오답 분석으로 공부 방법을 바꾼 영어 사례",
+      "publishedAt": "2025-04-04",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": null,
+      "centerId": "center-row-073",
+      "centerName": "복산점",
+      "centerAddress": "울산 중구 번영로 461  B2동 7",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "복산점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/379",
+        "photoMatchBasis": "road-address-and-name",
+        "currentAddress": "울산 중구 번영로 461  B2동 7"
+      },
+      "subjects": [
+        "영어"
+      ],
+      "stages": [],
+      "gradeText": "원문 미기재",
+      "parentOnly": true,
+      "gradeEvidence": "목록 및 읽을 수 있는 본문에 학년 미기재",
+      "sourceExcerpts": [
+        "매주 계획을 점검하고 피드백을 받으면서",
+        "시험 전에는 실력 점검을 위한 테스트와 오답 분석을 통해"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "공식 영어 후기에서 학생은 어려웠던 문법·독해 설명과 질문 응답, 매주 계획 점검을 도움으로 꼽았습니다. 교사는 학생과 목표를 정해 주간 계획을 확인하고, 시험 전 테스트와 오답 분석으로 취약한 부분을 보완했다고 설명합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "f022d0031ce6594ce299bcdf2f1a2770ae9381eb035367807ea48a5e24511555",
+      "retrievedAt": "2026-09-13T10:15:26.721980+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다.",
+        "학년과 학교급이 직접 명시되지 않아 지점 부모 페이지에서만 사용합니다."
+      ]
+    },
+    {
+      "id": "279",
+      "sourceUrl": "https://www.wawacenter.com/review/279",
+      "title": "중학교 기초를 다시 살핀 고등 수학 사례",
+      "originalTitle": "[일산 후곡점] 우수회원사례_이O혁",
+      "caseHeading": "중학교 기초를 다시 살핀 고등 수학 사례",
+      "publishedAt": "2025-04-04",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": null,
+      "centerId": "center-row-201",
+      "centerName": "후곡점",
+      "centerAddress": "경기 고양시 일산서구 일산로 511  태성상가 2층 201,202",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "일산 후곡점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/409",
+        "photoMatchBasis": "road-address-and-name",
+        "currentAddress": "경기 고양시 일산서구 일산로 511  태성상가 2층 201,202"
+      },
+      "subjects": [
+        "수학"
+      ],
+      "stages": [
+        "고등학생"
+      ],
+      "gradeText": "고2",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 고2 표기",
+      "sourceExcerpts": [
+        "중학교 전 과정을 다시 복습",
+        "개념과 문제를 설명하고 토론해볼 수 있는"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "고2 수학 학생은 중학교 과정을 다시 공부한 뒤 고등학교 수학에 도전한 과정을 소개합니다. 교사는 개념과 원리를 이야기처럼 설명하고, 학생이 친구에게 개념과 문제를 설명하거나 토론하는 기회를 마련했다고 말합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "d1a4edaae0884cd6096628221861c8b2bfa7b2a8fe8210140fa9519487f85bca",
+      "retrievedAt": "2026-09-13T10:15:18.751762+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    },
+    {
+      "id": "278",
+      "sourceUrl": "https://www.wawacenter.com/review/278",
+      "title": "틀린 이유를 살피고 복습을 도운 중3 수학",
+      "originalTitle": "[용인 동백점] 우수회원사례",
+      "caseHeading": "틀린 이유를 살피고 복습을 도운 중3 수학",
+      "publishedAt": "2025-04-04",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": null,
+      "centerId": "center-row-040",
+      "centerName": "동백점",
+      "centerAddress": "경기도 용인시 기흥구 중동 동백3로11번길 3  2층 201호",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "용인 동백점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/268",
+        "photoMatchBasis": "road-address-and-name",
+        "currentAddress": "경기도 용인시 기흥구 중동 동백3로11번길 3  2층 201호"
+      },
+      "subjects": [
+        "수학"
+      ],
+      "stages": [
+        "중학생"
+      ],
+      "gradeText": "중3",
+      "parentOnly": false,
+      "gradeEvidence": "본문 세 번째 중학교 3학년 사례",
+      "sourceExcerpts": [
+        "③ 중학교 3학년 전O진 학생",
+        "틀리는 문제를 반복하여 관리"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "동백점의 세 학생 후기 중 중3 수학 사례를 발췌해 요약했습니다. 학생은 시험을 못 봤을 때 교사가 틀린 이유를 함께 살폈다고 말합니다. 교사는 집에서 할 수 있는 쉬운 복습 과제를 주고, 시험 기간에는 교재와 프린트에서 틀린 문제를 반복 관리했다고 설명합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "34aaafbffd0d88a03494659e1fa7275a9760066ce73b0a9c69e71112c49692f4",
+      "retrievedAt": "2026-09-13T10:15:18.753103+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다.",
+        "세 학생을 소개한 원문 중 세 번째 중3 수학 학생과 그 학생에 관한 교사 설명만 요약했습니다."
+      ]
+    },
+    {
+      "id": "280",
+      "sourceUrl": "https://www.wawacenter.com/review/280",
+      "title": "생활 계획과 자신의 수준을 함께 살핀 수학 코칭",
+      "originalTitle": "[영통구청점] 우수회원사례_배O민 학생",
+      "caseHeading": "생활 계획과 자신의 수준을 함께 살핀 수학 코칭",
+      "publishedAt": "2025-03-13",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": null,
+      "centerId": "center-row-131",
+      "centerName": "영통구청점",
+      "centerAddress": "경기 수원시 영통구 매탄로108번길 10  모닝프라자 602호",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "영통구청점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/350",
+        "photoMatchBasis": "road-address-and-name",
+        "currentAddress": "경기 수원시 영통구 매탄로108번길 10  모닝프라자 602호"
+      },
+      "subjects": [
+        "수학"
+      ],
+      "stages": [
+        "고등학생"
+      ],
+      "gradeText": "고1",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 고1 표기",
+      "sourceExcerpts": [
+        "플래너를 쓰면서 구체적인 생활 계획",
+        "제 수준에 맞는 수업"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "고1 수학 후기에서 학생은 플래너로 구체적인 생활 계획을 세우고, 자신의 수준에 맞는 수업을 받았다는 점을 도움으로 꼽았습니다. 부족한 부분을 알아보고 보완하는 과정이 좋았다는 학생의 경험이 소개되어 있습니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "f5a954b450e0a0d05eb36d5944c9e2f99aa05ccd27534bea8befc0812b6eeb9c",
+      "retrievedAt": "2026-09-13T10:15:18.729346+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    },
+    {
+      "id": "277",
+      "sourceUrl": "https://www.wawacenter.com/review/277",
+      "title": "직접 설명할 때까지 개념과 오답을 정리한 수학",
+      "originalTitle": "[대구 침산점] 우수회원사례_신O민 학생",
+      "caseHeading": "직접 설명할 때까지 개념과 오답을 정리한 수학",
+      "publishedAt": "2025-03-13",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": null,
+      "centerId": "center-row-183",
+      "centerName": "침산점",
+      "centerAddress": "대구 북구 침산남로 140  엠비프라자 901",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "대구 침산점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/366",
+        "photoMatchBasis": "road-address-and-name",
+        "currentAddress": "대구 북구 침산남로 140  엠비프라자 901"
+      },
+      "subjects": [
+        "수학"
+      ],
+      "stages": [
+        "고등학생"
+      ],
+      "gradeText": "고2",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 고2 표기",
+      "sourceExcerpts": [
+        "플래너 작성과 타임랩스",
+        "직접 설명이 가능할 때 까지"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "고2 수학 후기에는 플래너와 타임랩스로 학생이 학습량을 확인한 과정이 소개됩니다. 교사는 모르는 내용을 학생이 이해해 직접 설명할 수 있을 때까지 반복하도록 노트 정리와 오답 관리에 중점을 뒀다고 말합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "8edb2047d812b342c7578f852918399fbbb4ec76e565a9f0cd2292b061fd165e",
+      "retrievedAt": "2026-09-13T10:15:18.833137+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    },
+    {
+      "id": "276",
+      "sourceUrl": "https://www.wawacenter.com/review/276",
+      "title": "백지노트로 단원 내용을 떠올린 중등 영어 학생",
+      "originalTitle": "[부산 동래점] 우수회원사례_박O원 학생",
+      "caseHeading": "백지노트로 단원 내용을 떠올린 중등 영어 학생",
+      "publishedAt": "2025-03-13",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": null,
+      "centerId": "center-row-039",
+      "centerName": "동래점",
+      "centerAddress": "부산광역시 동래구 온천동 충렬대로 129-1  한야빌딩 3",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "부산 동래점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/326",
+        "photoMatchBasis": "road-address-and-name",
+        "currentAddress": "부산광역시 동래구 온천동 충렬대로 129-1  한야빌딩 3"
+      },
+      "subjects": [
+        "영어"
+      ],
+      "stages": [
+        "중학생"
+      ],
+      "gradeText": "중3",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 중3 표기",
+      "sourceExcerpts": [
+        "백지노트 학습 방법",
+        "플래너 작성과 백지노트를 활용한 단원정리"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "중3 영어 학생은 공부하기 전 플래너에 할 일을 적고, 단원이 끝나면 백지노트에 배운 내용을 떠올려 적는 방식이 좋았다고 말합니다. 교사는 진도를 넘기기보다 개념을 정확히 이해하고 정리하는 데 중점을 뒀다고 설명합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "20c5103d6dcf898ac22101d9412e310dfa42f59ccd5f5fc34ae6d4da5c5e3bcf",
+      "retrievedAt": "2026-09-13T10:15:18.876607+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    },
+    {
+      "id": "275",
+      "sourceUrl": "https://www.wawacenter.com/review/275",
+      "title": "진학 목표와 영어 학습을 함께 관리한 중학생",
+      "originalTitle": "[일산 후곡점] 우수회원사례_박O우 학생",
+      "caseHeading": "진학 목표와 영어 학습을 함께 관리한 중학생",
+      "publishedAt": "2025-03-13",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": null,
+      "centerId": "center-row-201",
+      "centerName": "후곡점",
+      "centerAddress": "경기 고양시 일산서구 일산로 511  태성상가 2층 201,202",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "일산 후곡점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/409",
+        "photoMatchBasis": "road-address-and-name",
+        "currentAddress": "경기 고양시 일산서구 일산로 511  태성상가 2층 201,202"
+      },
+      "subjects": [
+        "영어"
+      ],
+      "stages": [
+        "중학생"
+      ],
+      "gradeText": "중2",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 중2 표기",
+      "sourceExcerpts": [
+        "전과목 성적관리와 영어 수업 관리",
+        "자기주도적인 학습 태도를 유지"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "중2 영어 후기에는 예술고 진학을 준비하는 학생의 영어 학습과 다른 과목 성적을 함께 관리한 과정이 소개됩니다. 교사는 당시 학생의 학습 단계에 맞춰 문법과 모의고사 자료를 공부하면서 자기주도적인 태도를 유지하도록 지도했다고 말합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "cea6a35889396bf2bb0c80afb53db15712d1626d8368ba64312ac2bc0a7451d8",
+      "retrievedAt": "2026-09-13T10:15:18.865620+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    },
+    {
+      "id": "274",
+      "sourceUrl": "https://www.wawacenter.com/review/274",
+      "title": "몰아서 하던 영어 과제를 매일 나눈 학습",
+      "originalTitle": "[성남 단대점] 우수회원사례_전O현 학생",
+      "caseHeading": "몰아서 하던 영어 과제를 매일 나눈 학습",
+      "publishedAt": "2025-03-13",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": null,
+      "centerId": "center-row-029",
+      "centerName": "단대점",
+      "centerAddress": "경기 성남시 수정구 산성대로 423  5층",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "성남 단대점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/388",
+        "photoMatchBasis": "road-address-and-name",
+        "currentAddress": "경기 성남시 수정구 산성대로 423  5층"
+      },
+      "subjects": [
+        "영어"
+      ],
+      "stages": [
+        "고등학생"
+      ],
+      "gradeText": "고1",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 고1 표기",
+      "sourceExcerpts": [
+        "과제들을 분배해서 매일 조금씩 꾸준히 공부",
+        "나에게 맞는 방법대로 설명"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "고1 영어 사례의 교사는 단어와 과제를 몰아서 하던 학생에게 학습량을 나눠 매일 조금씩 공부하도록 코칭했다고 설명합니다. 학생은 자신에게 맞는 암기 방법과 과목별 계획을 배우면서 공부 방향을 잡기 쉬워졌다고 말합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "4e2b2bb5d47b9b68e1b556960a8066a8a1ee8a71b7709d75050deb3acaa47ee9",
+      "retrievedAt": "2026-09-13T10:15:18.855229+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    },
+    {
+      "id": "273",
+      "sourceUrl": "https://www.wawacenter.com/review/273",
+      "title": "플래너와 질문으로 학습을 이어간 초등 영어",
+      "originalTitle": "[대구 침산점] 우수회원사례_최O아 학생",
+      "caseHeading": "플래너와 질문으로 학습을 이어간 초등 영어",
+      "publishedAt": "2025-03-13",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": null,
+      "centerId": "center-row-183",
+      "centerName": "침산점",
+      "centerAddress": "대구 북구 침산남로 140  엠비프라자 901",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "대구 침산점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/366",
+        "photoMatchBasis": "road-address-and-name",
+        "currentAddress": "대구 북구 침산남로 140  엠비프라자 901"
+      },
+      "subjects": [
+        "영어"
+      ],
+      "stages": [
+        "초등학생"
+      ],
+      "gradeText": "초5",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 초5 표기",
+      "sourceExcerpts": [
+        "플래너를 작성하고 습관이 잡힐 때까지 매일 올리게 관리",
+        "학부모님께도 불안감을 없애드리기 위해"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "초5 영어 학생은 스스로 계획을 세워 실천하고, 학습 소통방에서 질문과 피드백을 주고받는 점이 좋았다고 말합니다. 교사는 오늘 배운 내용과 다음 학습을 플래너에 적어 공유하도록 관리하고 학부모와도 자주 소통했다고 설명합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "96cdbc5ac4d2492b2b01f1ef58714c16ed57106b844443142767ab7195b667dd",
+      "retrievedAt": "2026-09-13T10:15:18.967584+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    },
+    {
+      "id": "271",
+      "sourceUrl": "https://www.wawacenter.com/review/271",
+      "title": "개념 설명 뒤 스스로 정리하고 다시 푼 과정",
+      "originalTitle": "[천안 신방점] 우수회원사례_임O진 학생",
+      "caseHeading": "개념 설명 뒤 스스로 정리하고 다시 푼 과정",
+      "publishedAt": "2025-03-13",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": "2021년 상반기",
+      "centerId": "center-row-119",
+      "centerName": "신방점",
+      "centerAddress": "충청남도 천안시 동남구 신방동 886 학산프라자  A동 3층 304호,305호",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "천안 신방점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/231",
+        "photoMatchBasis": "reviewed-name-and-road-or-parcel",
+        "currentAddress": "충청남도 천안시 동남구 신방동 886 학산프라자  A동 3층 304호,305호"
+      },
+      "subjects": [
+        "영어"
+      ],
+      "stages": [
+        "고등학생"
+      ],
+      "gradeText": "고2",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 고2 표기",
+      "sourceExcerpts": [
+        "2021 상반기 우수회원사례",
+        "개념노트에 정리하며"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "2021년 상반기 사례로 소개된 고2 영어 후기에는 개별 설명과 문제 연습 뒤 학생이 개념노트를 쓰는 학습 과정이 담겨 있습니다. 교사는 틀린 문제를 학생이 먼저 고쳐 풀고, 해결되지 않은 부분은 함께 살피는 순서가 도움이 됐다고 설명합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "b6877c5e99049dc73209a93fd7558a7ed4861403cd63ddda7293193aecf361f3",
+      "retrievedAt": "2026-09-13T10:15:18.985323+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    },
+    {
+      "id": "270",
+      "sourceUrl": "https://www.wawacenter.com/review/270",
+      "title": "단원 학습 목표와 실전 문제를 연결한 중등 국어",
+      "originalTitle": "[화성 동탄호수점] 우수회원사례_유O운 학생",
+      "caseHeading": "단원 학습 목표와 실전 문제를 연결한 중등 국어",
+      "publishedAt": "2025-03-13",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": "2021년 상반기",
+      "centerId": "center-row-044",
+      "centerName": "동탄호수점",
+      "centerAddress": "경기 화성시 동탄순환대로 127-19  에스비타운 907호",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "화성 동탄호수점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/389",
+        "photoMatchBasis": "reviewed-name-and-road-or-parcel",
+        "currentAddress": "경기 화성시 동탄순환대로 127-19  에스비타운 907호"
+      },
+      "subjects": [
+        "국어"
+      ],
+      "stages": [
+        "중학생"
+      ],
+      "gradeText": "중2",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 중2 표기",
+      "sourceExcerpts": [
+        "2021 상반기 우수회원사례",
+        "국어는 단원별 학습 목표를 중심으로"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "2021년 상반기 사례로 소개된 중2 국어 후기에서 교사는 단원별 학습 목표와 핵심 개념을 중심으로 공부하도록 지도했다고 설명합니다. 실전 문제를 반복 연습하고 부족한 부분을 다시 확인했으며, 학생은 첫 중학교 시험 준비에 도움이 됐다고 말합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "7808945a8a87966f8cb27ce8c4b3f569a01b3ab15230bf64380f7106acb4846e",
+      "retrievedAt": "2026-09-13T10:15:19.003765+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    },
+    {
+      "id": "269",
+      "sourceUrl": "https://www.wawacenter.com/review/269",
+      "title": "비등원일에도 학습 계획을 확인한 중등 영어",
+      "originalTitle": "[부산 동래점] 우수회원사례_진O서 학생",
+      "caseHeading": "비등원일에도 학습 계획을 확인한 중등 영어",
+      "publishedAt": "2025-03-13",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": "2021년 상반기",
+      "centerId": "center-row-039",
+      "centerName": "동래점",
+      "centerAddress": "부산광역시 동래구 온천동 충렬대로 129-1  한야빌딩 3",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "부산 동래점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/326",
+        "photoMatchBasis": "road-address-and-name",
+        "currentAddress": "부산광역시 동래구 온천동 충렬대로 129-1  한야빌딩 3"
+      },
+      "subjects": [
+        "영어"
+      ],
+      "stages": [
+        "중학생"
+      ],
+      "gradeText": "중3",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 중3 표기",
+      "sourceExcerpts": [
+        "2021 상반기 우수회원사례",
+        "수업이 없는 날에도"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "2021년 상반기 사례로 소개된 중3 영어 학생은 플래너로 해야 할 공부를 파악하며 습관을 잡았다고 말합니다. 교사는 수업이 없는 날에도 필요한 학습을 안내하고, 시험 기간에는 더 보완하고 싶은 수업 내용이 있는지 학생에게 피드백을 받았다고 설명합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "1fb0c0e27c3a7b12f68bd4c5bf2304ab7032140075ecae8989388e79a3654882",
+      "retrievedAt": "2026-09-13T10:15:19.113910+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    },
+    {
+      "id": "268",
+      "sourceUrl": "https://www.wawacenter.com/review/268",
+      "title": "답의 근거와 백지노트로 정리한 고등 국어",
+      "originalTitle": "[서울 내발산점] 우수회원사례_박O완 학생",
+      "caseHeading": "답의 근거와 백지노트로 정리한 고등 국어",
+      "publishedAt": "2025-03-13",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": null,
+      "centerId": "center-row-021",
+      "centerName": "내발산점",
+      "centerAddress": "서울 강서구 마곡중앙4로 74  이웰메디파크 제4층 401,402호",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "서울 내발산점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/323",
+        "photoMatchBasis": "road-address-and-name",
+        "currentAddress": "서울 강서구 마곡중앙4로 74  이웰메디파크 제4층 401,402호"
+      },
+      "subjects": [
+        "국어"
+      ],
+      "stages": [
+        "고등학생"
+      ],
+      "gradeText": "고2",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 고2 표기",
+      "sourceExcerpts": [
+        "정답과 오답의 근거를 찾아 지문에 표기",
+        "백지노트를 작성"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "고2 국어 사례에서는 교사·학생·학부모의 소통방으로 과제와 학습법을 공유했습니다. 교사는 정답과 오답의 근거를 지문에 표시하고 백지노트로 배운 내용을 정리하도록 지도했으며, 시험 직전에는 학생이 핵심노트를 직접 만들게 했다고 설명합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "508ab714a4663aa0afe1b26d4a188691859b2833dac8458997e722001c429da5",
+      "retrievedAt": "2026-09-13T10:15:19.101208+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    },
+    {
+      "id": "267",
+      "sourceUrl": "https://www.wawacenter.com/review/267",
+      "title": "복습·예습과 단원 테스트를 병행한 중1 수학",
+      "originalTitle": "[대구 침산점] 우수회원사례_박O정 학생",
+      "caseHeading": "복습·예습과 단원 테스트를 병행한 중1 수학",
+      "publishedAt": "2025-03-13",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": "2021년 상반기",
+      "centerId": "center-row-183",
+      "centerName": "침산점",
+      "centerAddress": "대구 북구 침산남로 140  엠비프라자 901",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "대구 침산점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/366",
+        "photoMatchBasis": "road-address-and-name",
+        "currentAddress": "대구 북구 침산남로 140  엠비프라자 901"
+      },
+      "subjects": [
+        "수학"
+      ],
+      "stages": [
+        "중학생"
+      ],
+      "gradeText": "중1",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 중1 표기",
+      "sourceExcerpts": [
+        "2021 상반기 우수회원사례",
+        "개념 학습과 정리, 그리고 오답노트를 스스로 작성"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "2021년 상반기 사례로 소개된 중1 수학 후기에는 중1 과정 복습과 중2 과정 예습을 함께 진행한 내용이 나옵니다. 학생이 개념과 오답노트를 직접 정리하고, 주기적인 단원 테스트를 통해 아는 것과 보완할 것을 확인했다고 교사가 설명합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "0fa049a3434759098dfd073a0b673a3532692089265ee4052740f35f80ea438d",
+      "retrievedAt": "2026-09-13T10:15:19.135183+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    },
+    {
+      "id": "266",
+      "sourceUrl": "https://www.wawacenter.com/review/266",
+      "title": "암기 중심 학습에서 문법·독해 기초로 전환",
+      "originalTitle": "[수원 오산점] 우수회원사례_노O민 학생",
+      "caseHeading": "암기 중심 학습에서 문법·독해 기초로 전환",
+      "publishedAt": "2025-03-13",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": null,
+      "centerId": "center-row-134",
+      "centerName": "오산점",
+      "centerAddress": "경기 오산시 성호대로 121  월드타워 505호",
+      "identityEvidence": "원문 제목의 수원 오산점은 오산점으로 연결했습니다. 현 등록 주소는 오산시 성호대로 121이며 오산대역점과 구분했습니다. 원문 수원 표기를 현재 주소로 재사용하지 않습니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "수원 오산점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/264",
+        "photoMatchBasis": "road-address-and-name",
+        "currentAddress": "경기 오산시 성호대로 121  월드타워 505호"
+      },
+      "subjects": [
+        "영어"
+      ],
+      "stages": [
+        "고등학생"
+      ],
+      "gradeText": "고1",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 고1 표기",
+      "sourceExcerpts": [
+        "자기주도학습 습관을 잡으면서 영어 문법과 독해 기초부터 진행",
+        "아이와 개별 면담을 진행하며"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "고1 영어 후기의 교사는 중학교 본문 암기에 익숙했던 학생과 문법·독해 기초부터 다시 공부했다고 설명합니다. 고교 내신의 외부 지문과 독해 준비 방법을 안내하고 개별 면담으로 시험 불안을 줄이려 했으며, 학생은 새 환경에 적응하는 데 도움이 됐다고 말합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "cfdd2a72d050e157a8b3d253ce9f3e2e97a0b2fa48851034cbc14e5ca3f54b9f",
+      "retrievedAt": "2026-09-13T10:15:19.124854+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    },
+    {
+      "id": "265",
+      "sourceUrl": "https://www.wawacenter.com/review/265",
+      "title": "배운 문법을 독해 지문에서 찾아본 중등 영어",
+      "originalTitle": "[수원 오산점] 우수회원사례_최O주 학생",
+      "caseHeading": "배운 문법을 독해 지문에서 찾아본 중등 영어",
+      "publishedAt": "2025-03-13",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": "2021년 상반기",
+      "centerId": "center-row-134",
+      "centerName": "오산점",
+      "centerAddress": "경기 오산시 성호대로 121  월드타워 505호",
+      "identityEvidence": "원문 제목의 수원 오산점은 오산점으로 연결했습니다. 현 등록 주소는 오산시 성호대로 121이며 오산대역점과 구분했습니다. 원문 수원 표기를 현재 주소로 재사용하지 않습니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "수원 오산점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/264",
+        "photoMatchBasis": "road-address-and-name",
+        "currentAddress": "경기 오산시 성호대로 121  월드타워 505호"
+      },
+      "subjects": [
+        "영어"
+      ],
+      "stages": [
+        "중학생"
+      ],
+      "gradeText": "중2",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 중2 표기",
+      "sourceExcerpts": [
+        "2021 상반기 우수회원사례",
+        "배운 것을 독해 지문에서 직접 찾아보는 연습"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "2021년 상반기 사례로 소개된 중2 영어 후기에서 교사는 쉬운 문법부터 공부한 뒤 배운 내용을 독해 지문에서 직접 찾는 연습을 진행했다고 설명합니다. 학생은 영어에 대한 거부감이 줄고 스스로 공부하기 시작했다고 말합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "c9470a5d940c3e5551e24add1a16aec3f656c649b4c192cb9dbbc1fc6e39b117",
+      "retrievedAt": "2026-09-13T10:15:19.227143+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    },
+    {
+      "id": "264",
+      "sourceUrl": "https://www.wawacenter.com/review/264",
+      "title": "복습 중심 진도와 학부모 공유를 연결한 수학",
+      "originalTitle": "[광주 수완점] 우수회원사례_김O제 학생",
+      "caseHeading": "복습 중심 진도와 학부모 공유를 연결한 수학",
+      "publishedAt": "2025-03-13",
+      "publishedAtLabel": "원문 게시일",
+      "casePeriodText": null,
+      "centerId": "center-row-111",
+      "centerName": "수완점",
+      "centerAddress": "광주 광산구 임방울대로 310  아이비타워 406",
+      "identityEvidence": "원문 지점명이 등록된 유일한 지점명과 일치합니다. 공식 센터 명칭·도로명주소 매칭자료를 함께 대조했습니다.",
+      "identityDetails": {
+        "reviewCenterLabel": "광주 수완점",
+        "reviewHasAddress": false,
+        "officialCenterUrl": "https://www.wawacenter.com/center/339",
+        "photoMatchBasis": "road-address-and-name",
+        "currentAddress": "광주 광산구 임방울대로 310  아이비타워 406"
+      },
+      "subjects": [
+        "수학"
+      ],
+      "stages": [
+        "중학생"
+      ],
+      "gradeText": "중2",
+      "parentOnly": false,
+      "gradeEvidence": "공식 후기 목록 중2 표기",
+      "sourceExcerpts": [
+        "복습 중심으로 학습 진행",
+        "학습 진도의 경우 학생과 이야기를 통해서 조율"
+      ],
+      "sourceExcerptNormalization": "Compare after whitespace normalization; source fragments retained for evidence only.",
+      "summary": "중2 수학 학생은 다양한 유형을 반복 연습하고 모르는 문제를 질문할 수 있었던 점을 도움으로 꼽았습니다. 교사는 복습 중심으로 공부하면서 학생과 진도 계획을 조율했고, 학부모에게도 진행 상황과 이후 준비할 내용을 공유했다고 설명합니다.",
+      "reportedOutcome": null,
+      "independentlyVerified": false,
+      "sourceHash": "bffb35fceaf05091240e47ccea7d9ed3be815315faabc30b3b9b97f7078124b3",
+      "retrievedAt": "2026-09-13T10:15:19.253833+00:00",
+      "limitations": [
+        "공식 홈페이지에 게시된 후기이며 별도의 학생기록으로 독립 검증한 결과가 아닙니다.",
+        "원문 게시일과 실제 학습 시점은 다를 수 있습니다. 현재 개설 여부나 운영 조건을 확정하는 자료로 사용하지 않습니다.",
+        "후기에는 상세 주소가 없어 지점 명칭과 지역을 현재 등록된 유일한 센터에 연결했습니다. 과거 주소가 현재와 동일하다는 뜻은 아닙니다."
+      ]
+    }
+  ],
+  "unmatched": [
+    {
+      "id": "292",
+      "sourceUrl": "https://www.wawacenter.com/review/292",
+      "title": "[글로리드 은평점] 우수회원사례_서O윤",
+      "reason": "외부 브랜드 또는 제외 대상 지점"
+    },
+    {
+      "id": "262",
+      "sourceUrl": "https://www.wawacenter.com/review/262",
+      "title": "남춘천 석사2호",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "261",
+      "sourceUrl": "https://www.wawacenter.com/review/261",
+      "title": "서울 하계점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "260",
+      "sourceUrl": "https://www.wawacenter.com/review/260",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "259",
+      "sourceUrl": "https://www.wawacenter.com/review/259",
+      "title": "춘천 석사1호점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "258",
+      "sourceUrl": "https://www.wawacenter.com/review/258",
+      "title": "청주 개신점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "257",
+      "sourceUrl": "https://www.wawacenter.com/review/257",
+      "title": "분당 미금점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "256",
+      "sourceUrl": "https://www.wawacenter.com/review/256",
+      "title": "수원 천천점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "255",
+      "sourceUrl": "https://www.wawacenter.com/review/255",
+      "title": "광주 치평점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "254",
+      "sourceUrl": "https://www.wawacenter.com/review/254",
+      "title": "평택 비전점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "253",
+      "sourceUrl": "https://www.wawacenter.com/review/253",
+      "title": "춘천 석사1호점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "252",
+      "sourceUrl": "https://www.wawacenter.com/review/252",
+      "title": "해운대 좌동점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "251",
+      "sourceUrl": "https://www.wawacenter.com/review/251",
+      "title": "제주 노형점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "250",
+      "sourceUrl": "https://www.wawacenter.com/review/250",
+      "title": "의정부 신곡점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "249",
+      "sourceUrl": "https://www.wawacenter.com/review/249",
+      "title": "남춘천 석사2호점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "248",
+      "sourceUrl": "https://www.wawacenter.com/review/248",
+      "title": "원주 단구점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "247",
+      "sourceUrl": "https://www.wawacenter.com/review/247",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "246",
+      "sourceUrl": "https://www.wawacenter.com/review/246",
+      "title": "평택 비전점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "245",
+      "sourceUrl": "https://www.wawacenter.com/review/245",
+      "title": "분당 미금점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "244",
+      "sourceUrl": "https://www.wawacenter.com/review/244",
+      "title": "의정부 신곡점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "243",
+      "sourceUrl": "https://www.wawacenter.com/review/243",
+      "title": "남춘천 석사2호점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "242",
+      "sourceUrl": "https://www.wawacenter.com/review/242",
+      "title": "춘천 석사1호점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "241",
+      "sourceUrl": "https://www.wawacenter.com/review/241",
+      "title": "청주 개신점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "240",
+      "sourceUrl": "https://www.wawacenter.com/review/240",
+      "title": "원주 단구점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "239",
+      "sourceUrl": "https://www.wawacenter.com/review/239",
+      "title": "평택 비전점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "238",
+      "sourceUrl": "https://www.wawacenter.com/review/238",
+      "title": "수원 천천점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "237",
+      "sourceUrl": "https://www.wawacenter.com/review/237",
+      "title": "대전 둔산점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "236",
+      "sourceUrl": "https://www.wawacenter.com/review/236",
+      "title": "제주 노형점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "235",
+      "sourceUrl": "https://www.wawacenter.com/review/235",
+      "title": "청주 산남점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "234",
+      "sourceUrl": "https://www.wawacenter.com/review/234",
+      "title": "원주 단구점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "233",
+      "sourceUrl": "https://www.wawacenter.com/review/233",
+      "title": "춘천 석사1호점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "232",
+      "sourceUrl": "https://www.wawacenter.com/review/232",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "231",
+      "sourceUrl": "https://www.wawacenter.com/review/231",
+      "title": "남춘천 석사2호점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "230",
+      "sourceUrl": "https://www.wawacenter.com/review/230",
+      "title": "수원 천천점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "229",
+      "sourceUrl": "https://www.wawacenter.com/review/229",
+      "title": "춘천 석사1호점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "228",
+      "sourceUrl": "https://www.wawacenter.com/review/228",
+      "title": "포항 두호점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "227",
+      "sourceUrl": "https://www.wawacenter.com/review/227",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "226",
+      "sourceUrl": "https://www.wawacenter.com/review/226",
+      "title": "의정부 신곡점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "225",
+      "sourceUrl": "https://www.wawacenter.com/review/225",
+      "title": "평택 비전점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "224",
+      "sourceUrl": "https://www.wawacenter.com/review/224",
+      "title": "천안 두정점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "223",
+      "sourceUrl": "https://www.wawacenter.com/review/223",
+      "title": "해운대 좌동점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "222",
+      "sourceUrl": "https://www.wawacenter.com/review/222",
+      "title": "서울 하계점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "221",
+      "sourceUrl": "https://www.wawacenter.com/review/221",
+      "title": "안양 호계점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "220",
+      "sourceUrl": "https://www.wawacenter.com/review/220",
+      "title": "남춘천 석사2호점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "219",
+      "sourceUrl": "https://www.wawacenter.com/review/219",
+      "title": "청주 개신점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "218",
+      "sourceUrl": "https://www.wawacenter.com/review/218",
+      "title": "수원 천천점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "217",
+      "sourceUrl": "https://www.wawacenter.com/review/217",
+      "title": "청주 산남점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "215",
+      "sourceUrl": "https://www.wawacenter.com/review/215",
+      "title": "창원 상남점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "214",
+      "sourceUrl": "https://www.wawacenter.com/review/214",
+      "title": "춘천 석사1호점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "213",
+      "sourceUrl": "https://www.wawacenter.com/review/213",
+      "title": "창원 상남점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "212",
+      "sourceUrl": "https://www.wawacenter.com/review/212",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "211",
+      "sourceUrl": "https://www.wawacenter.com/review/211",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "210",
+      "sourceUrl": "https://www.wawacenter.com/review/210",
+      "title": "의정부 신곡점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "209",
+      "sourceUrl": "https://www.wawacenter.com/review/209",
+      "title": "오산 오산점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "208",
+      "sourceUrl": "https://www.wawacenter.com/review/208",
+      "title": "광주 치평점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "207",
+      "sourceUrl": "https://www.wawacenter.com/review/207",
+      "title": "아산 신방점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "206",
+      "sourceUrl": "https://www.wawacenter.com/review/206",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "205",
+      "sourceUrl": "https://www.wawacenter.com/review/205",
+      "title": "대전 둔산점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "204",
+      "sourceUrl": "https://www.wawacenter.com/review/204",
+      "title": "분당 미금점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "203",
+      "sourceUrl": "https://www.wawacenter.com/review/203",
+      "title": "원주 단구점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "202",
+      "sourceUrl": "https://www.wawacenter.com/review/202",
+      "title": "동탄 영천점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "201",
+      "sourceUrl": "https://www.wawacenter.com/review/201",
+      "title": "해운대 좌동점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "200",
+      "sourceUrl": "https://www.wawacenter.com/review/200",
+      "title": "의정부 신곡점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "199",
+      "sourceUrl": "https://www.wawacenter.com/review/199",
+      "title": "천안 쌍용점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "198",
+      "sourceUrl": "https://www.wawacenter.com/review/198",
+      "title": "분당미금점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "197",
+      "sourceUrl": "https://www.wawacenter.com/review/197",
+      "title": "김포장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "196",
+      "sourceUrl": "https://www.wawacenter.com/review/196",
+      "title": "수원 천천점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "195",
+      "sourceUrl": "https://www.wawacenter.com/review/195",
+      "title": "대전 둔산점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "194",
+      "sourceUrl": "https://www.wawacenter.com/review/194",
+      "title": "석사 1호점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "193",
+      "sourceUrl": "https://www.wawacenter.com/review/193",
+      "title": "광주치평점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "192",
+      "sourceUrl": "https://www.wawacenter.com/review/192",
+      "title": "원주 단구점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "191",
+      "sourceUrl": "https://www.wawacenter.com/review/191",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "188",
+      "sourceUrl": "https://www.wawacenter.com/review/188",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "187",
+      "sourceUrl": "https://www.wawacenter.com/review/187",
+      "title": "원주 단구점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "186",
+      "sourceUrl": "https://www.wawacenter.com/review/186",
+      "title": "춘천 석사1호점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "185",
+      "sourceUrl": "https://www.wawacenter.com/review/185",
+      "title": "아산 신방점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "184",
+      "sourceUrl": "https://www.wawacenter.com/review/184",
+      "title": "대전 둔산점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "183",
+      "sourceUrl": "https://www.wawacenter.com/review/183",
+      "title": "제주 노형점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "182",
+      "sourceUrl": "https://www.wawacenter.com/review/182",
+      "title": "수원 천천점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "181",
+      "sourceUrl": "https://www.wawacenter.com/review/181",
+      "title": "수원 천천점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "180",
+      "sourceUrl": "https://www.wawacenter.com/review/180",
+      "title": "병점 영천점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "179",
+      "sourceUrl": "https://www.wawacenter.com/review/179",
+      "title": "춘천 석사2호점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "178",
+      "sourceUrl": "https://www.wawacenter.com/review/178",
+      "title": "대전 둔산점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "177",
+      "sourceUrl": "https://www.wawacenter.com/review/177",
+      "title": "평택 비전점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "176",
+      "sourceUrl": "https://www.wawacenter.com/review/176",
+      "title": "평택 비전점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "175",
+      "sourceUrl": "https://www.wawacenter.com/review/175",
+      "title": "부천 상동점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "174",
+      "sourceUrl": "https://www.wawacenter.com/review/174",
+      "title": "부산 대연점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "173",
+      "sourceUrl": "https://www.wawacenter.com/review/173",
+      "title": "순천 조례점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "172",
+      "sourceUrl": "https://www.wawacenter.com/review/172",
+      "title": "수원 천천점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "171",
+      "sourceUrl": "https://www.wawacenter.com/review/171",
+      "title": "광명 철산점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "170",
+      "sourceUrl": "https://www.wawacenter.com/review/170",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "169",
+      "sourceUrl": "https://www.wawacenter.com/review/169",
+      "title": "분당 미금점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "168",
+      "sourceUrl": "https://www.wawacenter.com/review/168",
+      "title": "수원 영통점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "167",
+      "sourceUrl": "https://www.wawacenter.com/review/167",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "166",
+      "sourceUrl": "https://www.wawacenter.com/review/166",
+      "title": "평택 비전점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "165",
+      "sourceUrl": "https://www.wawacenter.com/review/165",
+      "title": "춘천 석사1호점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "164",
+      "sourceUrl": "https://www.wawacenter.com/review/164",
+      "title": "원주 단구점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "163",
+      "sourceUrl": "https://www.wawacenter.com/review/163",
+      "title": "수원 천천점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "162",
+      "sourceUrl": "https://www.wawacenter.com/review/162",
+      "title": "대전 둔산점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "161",
+      "sourceUrl": "https://www.wawacenter.com/review/161",
+      "title": "분당 미금점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "160",
+      "sourceUrl": "https://www.wawacenter.com/review/160",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "159",
+      "sourceUrl": "https://www.wawacenter.com/review/159",
+      "title": "청주 산남점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "158",
+      "sourceUrl": "https://www.wawacenter.com/review/158",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "157",
+      "sourceUrl": "https://www.wawacenter.com/review/157",
+      "title": "포항 두호점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "156",
+      "sourceUrl": "https://www.wawacenter.com/review/156",
+      "title": "의정부 신곡점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "155",
+      "sourceUrl": "https://www.wawacenter.com/review/155",
+      "title": "아산 신방점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "154",
+      "sourceUrl": "https://www.wawacenter.com/review/154",
+      "title": "기흥 동백점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "153",
+      "sourceUrl": "https://www.wawacenter.com/review/153",
+      "title": "창원 상남점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "152",
+      "sourceUrl": "https://www.wawacenter.com/review/152",
+      "title": "평택 비전점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "151",
+      "sourceUrl": "https://www.wawacenter.com/review/151",
+      "title": "해운대 좌동점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "150",
+      "sourceUrl": "https://www.wawacenter.com/review/150",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "149",
+      "sourceUrl": "https://www.wawacenter.com/review/149",
+      "title": "청주 산남점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "148",
+      "sourceUrl": "https://www.wawacenter.com/review/148",
+      "title": "광명 철산점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "147",
+      "sourceUrl": "https://www.wawacenter.com/review/147",
+      "title": "춘천 석사1호점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "146",
+      "sourceUrl": "https://www.wawacenter.com/review/146",
+      "title": "대전 둔산점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "145",
+      "sourceUrl": "https://www.wawacenter.com/review/145",
+      "title": "포항 두호점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "144",
+      "sourceUrl": "https://www.wawacenter.com/review/144",
+      "title": "수원 천천점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "143",
+      "sourceUrl": "https://www.wawacenter.com/review/143",
+      "title": "분당 이매점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "142",
+      "sourceUrl": "https://www.wawacenter.com/review/142",
+      "title": "대전 둔산점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "141",
+      "sourceUrl": "https://www.wawacenter.com/review/141",
+      "title": "아산 신방점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "140",
+      "sourceUrl": "https://www.wawacenter.com/review/140",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "139",
+      "sourceUrl": "https://www.wawacenter.com/review/139",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "138",
+      "sourceUrl": "https://www.wawacenter.com/review/138",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "137",
+      "sourceUrl": "https://www.wawacenter.com/review/137",
+      "title": "인천 부평점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "136",
+      "sourceUrl": "https://www.wawacenter.com/review/136",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "135",
+      "sourceUrl": "https://www.wawacenter.com/review/135",
+      "title": "인천 부평점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "134",
+      "sourceUrl": "https://www.wawacenter.com/review/134",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "133",
+      "sourceUrl": "https://www.wawacenter.com/review/133",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "132",
+      "sourceUrl": "https://www.wawacenter.com/review/132",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "131",
+      "sourceUrl": "https://www.wawacenter.com/review/131",
+      "title": "인천 부평점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "130",
+      "sourceUrl": "https://www.wawacenter.com/review/130",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "129",
+      "sourceUrl": "https://www.wawacenter.com/review/129",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "128",
+      "sourceUrl": "https://www.wawacenter.com/review/128",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "127",
+      "sourceUrl": "https://www.wawacenter.com/review/127",
+      "title": "인천 부평점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "126",
+      "sourceUrl": "https://www.wawacenter.com/review/126",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "125",
+      "sourceUrl": "https://www.wawacenter.com/review/125",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "124",
+      "sourceUrl": "https://www.wawacenter.com/review/124",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "123",
+      "sourceUrl": "https://www.wawacenter.com/review/123",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "122",
+      "sourceUrl": "https://www.wawacenter.com/review/122",
+      "title": "인천 부평점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "121",
+      "sourceUrl": "https://www.wawacenter.com/review/121",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "120",
+      "sourceUrl": "https://www.wawacenter.com/review/120",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "119",
+      "sourceUrl": "https://www.wawacenter.com/review/119",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "118",
+      "sourceUrl": "https://www.wawacenter.com/review/118",
+      "title": "인천 부평점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "117",
+      "sourceUrl": "https://www.wawacenter.com/review/117",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "116",
+      "sourceUrl": "https://www.wawacenter.com/review/116",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "115",
+      "sourceUrl": "https://www.wawacenter.com/review/115",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "114",
+      "sourceUrl": "https://www.wawacenter.com/review/114",
+      "title": "인천 부평점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "113",
+      "sourceUrl": "https://www.wawacenter.com/review/113",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "112",
+      "sourceUrl": "https://www.wawacenter.com/review/112",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "111",
+      "sourceUrl": "https://www.wawacenter.com/review/111",
+      "title": "인천 부평점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "110",
+      "sourceUrl": "https://www.wawacenter.com/review/110",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "109",
+      "sourceUrl": "https://www.wawacenter.com/review/109",
+      "title": "인천 부평점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "108",
+      "sourceUrl": "https://www.wawacenter.com/review/108",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "107",
+      "sourceUrl": "https://www.wawacenter.com/review/107",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "106",
+      "sourceUrl": "https://www.wawacenter.com/review/106",
+      "title": "인천 부평점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "105",
+      "sourceUrl": "https://www.wawacenter.com/review/105",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "104",
+      "sourceUrl": "https://www.wawacenter.com/review/104",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "103",
+      "sourceUrl": "https://www.wawacenter.com/review/103",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "102",
+      "sourceUrl": "https://www.wawacenter.com/review/102",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "101",
+      "sourceUrl": "https://www.wawacenter.com/review/101",
+      "title": "인천 부평점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "100",
+      "sourceUrl": "https://www.wawacenter.com/review/100",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "99",
+      "sourceUrl": "https://www.wawacenter.com/review/99",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "98",
+      "sourceUrl": "https://www.wawacenter.com/review/98",
+      "title": "인천 부평점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "97",
+      "sourceUrl": "https://www.wawacenter.com/review/97",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "96",
+      "sourceUrl": "https://www.wawacenter.com/review/96",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "95",
+      "sourceUrl": "https://www.wawacenter.com/review/95",
+      "title": "인천 부평점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "94",
+      "sourceUrl": "https://www.wawacenter.com/review/94",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "93",
+      "sourceUrl": "https://www.wawacenter.com/review/93",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "92",
+      "sourceUrl": "https://www.wawacenter.com/review/92",
+      "title": "인천 부평점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "91",
+      "sourceUrl": "https://www.wawacenter.com/review/91",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "90",
+      "sourceUrl": "https://www.wawacenter.com/review/90",
+      "title": "인천 부평점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "89",
+      "sourceUrl": "https://www.wawacenter.com/review/89",
+      "title": "안산 고잔점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "88",
+      "sourceUrl": "https://www.wawacenter.com/review/88",
+      "title": "안양 호계점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "87",
+      "sourceUrl": "https://www.wawacenter.com/review/87",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "86",
+      "sourceUrl": "https://www.wawacenter.com/review/86",
+      "title": "인천 부평점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "85",
+      "sourceUrl": "https://www.wawacenter.com/review/85",
+      "title": "안산 고잔점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "84",
+      "sourceUrl": "https://www.wawacenter.com/review/84",
+      "title": "안양 호계점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "83",
+      "sourceUrl": "https://www.wawacenter.com/review/83",
+      "title": "서울 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "82",
+      "sourceUrl": "https://www.wawacenter.com/review/82",
+      "title": "의정부 신곡점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "81",
+      "sourceUrl": "https://www.wawacenter.com/review/81",
+      "title": "의정부 신곡점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "80",
+      "sourceUrl": "https://www.wawacenter.com/review/80",
+      "title": "의정부 신곡점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "79",
+      "sourceUrl": "https://www.wawacenter.com/review/79",
+      "title": "의정부 신곡점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "78",
+      "sourceUrl": "https://www.wawacenter.com/review/78",
+      "title": "의정부 신곡점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "77",
+      "sourceUrl": "https://www.wawacenter.com/review/77",
+      "title": "의정부 신곡점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "76",
+      "sourceUrl": "https://www.wawacenter.com/review/76",
+      "title": "의정부 신곡점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "75",
+      "sourceUrl": "https://www.wawacenter.com/review/75",
+      "title": "의정부 신곡점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "74",
+      "sourceUrl": "https://www.wawacenter.com/review/74",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "73",
+      "sourceUrl": "https://www.wawacenter.com/review/73",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "72",
+      "sourceUrl": "https://www.wawacenter.com/review/72",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "71",
+      "sourceUrl": "https://www.wawacenter.com/review/71",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "70",
+      "sourceUrl": "https://www.wawacenter.com/review/70",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "69",
+      "sourceUrl": "https://www.wawacenter.com/review/69",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "68",
+      "sourceUrl": "https://www.wawacenter.com/review/68",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "67",
+      "sourceUrl": "https://www.wawacenter.com/review/67",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "66",
+      "sourceUrl": "https://www.wawacenter.com/review/66",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "65",
+      "sourceUrl": "https://www.wawacenter.com/review/65",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "64",
+      "sourceUrl": "https://www.wawacenter.com/review/64",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "63",
+      "sourceUrl": "https://www.wawacenter.com/review/63",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "62",
+      "sourceUrl": "https://www.wawacenter.com/review/62",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "61",
+      "sourceUrl": "https://www.wawacenter.com/review/61",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "60",
+      "sourceUrl": "https://www.wawacenter.com/review/60",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "59",
+      "sourceUrl": "https://www.wawacenter.com/review/59",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "58",
+      "sourceUrl": "https://www.wawacenter.com/review/58",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "57",
+      "sourceUrl": "https://www.wawacenter.com/review/57",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "56",
+      "sourceUrl": "https://www.wawacenter.com/review/56",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "55",
+      "sourceUrl": "https://www.wawacenter.com/review/55",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "54",
+      "sourceUrl": "https://www.wawacenter.com/review/54",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "53",
+      "sourceUrl": "https://www.wawacenter.com/review/53",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "52",
+      "sourceUrl": "https://www.wawacenter.com/review/52",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "51",
+      "sourceUrl": "https://www.wawacenter.com/review/51",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "50",
+      "sourceUrl": "https://www.wawacenter.com/review/50",
+      "title": "구리 인창점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "49",
+      "sourceUrl": "https://www.wawacenter.com/review/49",
+      "title": "김포",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "48",
+      "sourceUrl": "https://www.wawacenter.com/review/48",
+      "title": "인천 부평점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "47",
+      "sourceUrl": "https://www.wawacenter.com/review/47",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "46",
+      "sourceUrl": "https://www.wawacenter.com/review/46",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "45",
+      "sourceUrl": "https://www.wawacenter.com/review/45",
+      "title": "신촌 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "44",
+      "sourceUrl": "https://www.wawacenter.com/review/44",
+      "title": "신촌 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "43",
+      "sourceUrl": "https://www.wawacenter.com/review/43",
+      "title": "중랑 하계점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "42",
+      "sourceUrl": "https://www.wawacenter.com/review/42",
+      "title": "중랑 하계점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "41",
+      "sourceUrl": "https://www.wawacenter.com/review/41",
+      "title": "용인 죽전점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "40",
+      "sourceUrl": "https://www.wawacenter.com/review/40",
+      "title": "용인 죽전점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "39",
+      "sourceUrl": "https://www.wawacenter.com/review/39",
+      "title": "용인 죽전점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "38",
+      "sourceUrl": "https://www.wawacenter.com/review/38",
+      "title": "용인 죽전점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "37",
+      "sourceUrl": "https://www.wawacenter.com/review/37",
+      "title": "용인 죽전점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "36",
+      "sourceUrl": "https://www.wawacenter.com/review/36",
+      "title": "용인 죽전점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "35",
+      "sourceUrl": "https://www.wawacenter.com/review/35",
+      "title": "용인 죽전점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "34",
+      "sourceUrl": "https://www.wawacenter.com/review/34",
+      "title": "용인 죽전점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "33",
+      "sourceUrl": "https://www.wawacenter.com/review/33",
+      "title": "용인 죽전점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "32",
+      "sourceUrl": "https://www.wawacenter.com/review/32",
+      "title": "용인 죽전점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "31",
+      "sourceUrl": "https://www.wawacenter.com/review/31",
+      "title": "신촌 상암점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "30",
+      "sourceUrl": "https://www.wawacenter.com/review/30",
+      "title": "인천 부평점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "29",
+      "sourceUrl": "https://www.wawacenter.com/review/29",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "28",
+      "sourceUrl": "https://www.wawacenter.com/review/28",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "27",
+      "sourceUrl": "https://www.wawacenter.com/review/27",
+      "title": "대전 둔산점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "26",
+      "sourceUrl": "https://www.wawacenter.com/review/26",
+      "title": "청주 개신점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "25",
+      "sourceUrl": "https://www.wawacenter.com/review/25",
+      "title": "청주 개신점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "24",
+      "sourceUrl": "https://www.wawacenter.com/review/24",
+      "title": "대전 둔산점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "23",
+      "sourceUrl": "https://www.wawacenter.com/review/23",
+      "title": "용인 죽전점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "22",
+      "sourceUrl": "https://www.wawacenter.com/review/22",
+      "title": "용인 죽전점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "21",
+      "sourceUrl": "https://www.wawacenter.com/review/21",
+      "title": "용인 죽전점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "20",
+      "sourceUrl": "https://www.wawacenter.com/review/20",
+      "title": "용인 죽전점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "19",
+      "sourceUrl": "https://www.wawacenter.com/review/19",
+      "title": "용인 죽전점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "18",
+      "sourceUrl": "https://www.wawacenter.com/review/18",
+      "title": "의정부 신곡점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "17",
+      "sourceUrl": "https://www.wawacenter.com/review/17",
+      "title": "의정부 신곡점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "16",
+      "sourceUrl": "https://www.wawacenter.com/review/16",
+      "title": "의정부 신곡점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "15",
+      "sourceUrl": "https://www.wawacenter.com/review/15",
+      "title": "의정부 신곡점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "14",
+      "sourceUrl": "https://www.wawacenter.com/review/14",
+      "title": "의정부 신곡점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "13",
+      "sourceUrl": "https://www.wawacenter.com/review/13",
+      "title": "의정부 신곡점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "12",
+      "sourceUrl": "https://www.wawacenter.com/review/12",
+      "title": "대전 둔산점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "11",
+      "sourceUrl": "https://www.wawacenter.com/review/11",
+      "title": "청주 개신점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "10",
+      "sourceUrl": "https://www.wawacenter.com/review/10",
+      "title": "대전 둔산점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "9",
+      "sourceUrl": "https://www.wawacenter.com/review/9",
+      "title": "청주 개신점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "8",
+      "sourceUrl": "https://www.wawacenter.com/review/8",
+      "title": "청주 개신점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "7",
+      "sourceUrl": "https://www.wawacenter.com/review/7",
+      "title": "대전 둔산점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "6",
+      "sourceUrl": "https://www.wawacenter.com/review/6",
+      "title": "인천 부평점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "5",
+      "sourceUrl": "https://www.wawacenter.com/review/5",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "4",
+      "sourceUrl": "https://www.wawacenter.com/review/4",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "3",
+      "sourceUrl": "https://www.wawacenter.com/review/3",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    },
+    {
+      "id": "2",
+      "sourceUrl": "https://www.wawacenter.com/review/2",
+      "title": "김포 장기점",
+      "reason": "이미지 중심 원문으로 이번 검토에서 본문과 과목·학년을 검증하지 못하여 요약 미생성"
+    }
+  ],
+  "counts": {
+    "listingPagesRead": 71,
+    "detailPagesFetched": 287,
+    "readableTextReviews": 29,
+    "selectedReviews": 28,
+    "selectedCenters": 20,
+    "parentOnlyReviews": 3,
+    "subjectStageMatchedReviews": 20,
+    "excludedReviews": 259
+  }
+}

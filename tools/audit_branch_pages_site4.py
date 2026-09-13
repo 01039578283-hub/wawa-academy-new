@@ -28,7 +28,8 @@ def main():
     parser.add_argument('--base-url')
     parser.add_argument('--skip-legacy', action='store_true', help='After a full audit, rerun only branch checks when old HTML has not changed.')
     args = parser.parse_args()
-    data = json.loads((DATA / 'snapshot.json').read_text(encoding='utf-8'))
+    from branch_verified_facts_site4 import load_reviewed_snapshot
+    data = load_reviewed_snapshot()
     generation = json.loads((REPORTS / 'generation.json').read_text(encoding='utf-8'))
     assets = json.loads((DATA / 'assets.json').read_text(encoding='utf-8'))
     baseline = json.loads((DATA / 'legacy-baseline.json').read_text(encoding='utf-8'))

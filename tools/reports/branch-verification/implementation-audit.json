@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checks": 15828,
+  "errors": [],
+  "beforeUnknownPages": 59,
+  "recordedBaselineRestored": 18,
+  "ownerConfirmedPages": 41,
+  "remainingUnknownPages": 0,
+  "remainingBranches": 0,
+  "parentPracticeSections": 71,
+  "topicPracticeSections": 749,
+  "practiceSources": {
+    "official-center-description": 41,
+    "provided-center-workbook": 30
+  },
+  "independentStudentRecordsVerified": 0,
+  "officialPublishedStudentReviewsSelected": 28,
+  "scopeMeaning": "18 recorded source recoveries plus 41 pages confirmed by the website owner in conversation on 2026-09-13. No independent phone confirmation or timetable/vacancy claim.",
+  "deployment": "NOT DEPLOYED; local review only"
+}

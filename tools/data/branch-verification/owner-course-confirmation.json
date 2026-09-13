@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "confirmedAt": "2026-09-13",
+  "sourceType": "website-owner-confirmation-in-conversation",
+  "statement": "수업 다 가능해.",
+  "scope": "직전 확인 요청의 8개 지점, 41개 페이지에 해당하는 과목과 학교급. 다른 지점의 별도 학교·수준·추가 학년 조건은 변경하지 않음.",
+  "independentBranchContact": false,
+  "confirmsTimetableOrVacancy": false,
+  "confirmations": [
+    {"centerId": "center-row-151", "subject": "수학", "stages": ["초등학생", "중학생", "고등학생"]},
+    {"centerId": "center-row-025", "subject": "수학", "stages": ["초등학생", "중학생", "고등학생"]},
+    {"centerId": "center-row-168", "subject": "수학", "stages": ["초등학생", "중학생", "고등학생"]},
+    {"centerId": "center-row-098", "subject": "영어", "stages": ["초등학생", "중학생", "고등학생"]},
+    {"centerId": "center-row-098", "subject": "수학", "stages": ["초등학생", "중학생", "고등학생"]},
+    {"centerId": "center-row-014", "subject": "영어", "stages": ["초등학생", "중학생", "고등학생"]},
+    {"centerId": "center-row-047", "subject": "수학", "stages": ["고등학생"]},
+    {"centerId": "center-row-082", "subject": "수학", "stages": ["고등학생"]},
+    {"centerId": "reference-경기-화성태안점", "subject": "수학", "stages": ["고등학생"]}
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "date": "2026-09-13",
+  "status": "PASS",
+  "scope": "local only",
+  "cases": [
+    {
+      "label": "390 이충 고등영어 후기목차",
+      "faqCount": 4,
+      "faqOpen": 0,
+      "h1Count": 1,
+      "media": [
+        {
+          "complete": false,
+          "display": "none",
+          "insideDetails": false,
+          "width": 0
+        },
+        {
+          "complete": true,
+          "display": "block",
+          "insideDetails": false,
+          "width": 918
+        },
+        {
+          "complete": true,
+          "display": "block",
+          "insideDetails": false,
+          "width": 648
+        }
+      ],
+      "overflow": 0,
+      "reviewCards": 1,
+      "reviewFont": "17px",
+      "scopeText": "상담 지점 와와학습코칭학원 이충점영어 학년 안내 초1~초6 · 중1~중3 · 고1~고2",
+      "scrollWidth": 390,
+      "url": "http://127.0.0.1:4414/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B2%BD%EA%B8%B0/%EC%9D%B4%EC%B6%A9%EC%A0%90/%EC%9D%B4%EC%B6%A9%EB%8F%99%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/#student-reviews",
+      "width": 390
+    },
+    {
+      "label": "390 이충 고등영어 FAQ 열림",
+      "faqCount": 4,
+      "faqOpen": 1,
+      "h1Count": 1,
+      "media": [
+        {
+          "complete": false,
+          "display": "none",
+          "insideDetails": false,
+          "width": 0
+        },
+        {
+          "complete": true,
+          "display": "block",
+          "insideDetails": false,
+          "width": 918
+        },
+        {
+          "complete": true,
+          "display": "block",
+          "insideDetails": false,
+          "width": 648
+        }
+      ],
+      "overflow": 0,
+      "reviewCards": 1,
+      "reviewFont": "17px",
+      "scopeText": "상담 지점 와와학습코칭학원 이충점영어 학년 안내 초1~초6 · 중1~중3 · 고1~고2",
+      "scrollWidth": 390,
+      "url": "http://127.0.0.1:4414/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B2%BD%EA%B8%B0/%EC%9D%B4%EC%B6%A9%EC%A0%90/%EC%9D%B4%EC%B6%A9%EB%8F%99%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/#student-reviews",
+      "width": 390
+    },
+    {
+      "label": "390 후기에서 이충점 부모로 이동",
+      "faqCount": 5,
+      "faqOpen": 0,
+      "h1Count": 1,
+      "media": [
+        {
+          "complete": true,
+          "display": "block",
+          "insideDetails": false,
+          "width": 918
+        },
+        {
+          "complete": true,
+          "display": "block",
+          "insideDetails": false,
+          "width": 648
+        }
+      ],
+      "overflow": 0,
+      "reviewCards": 1,
+      "reviewFont": "17px",
+      "scrollWidth": 390,
+      "url": "http://127.0.0.1:4414/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B2%BD%EA%B8%B0/%EC%9D%B4%EC%B6%A9%EC%A0%90/#student-reviews",
+      "width": 390
+    },
+    {
+      "label": "320 토당동 초등영어 공식후기",
+      "faqCount": 4,
+      "faqOpen": 0,
+      "h1Count": 1,
+      "media": [
+        {
+          "complete": false,
+          "display": "none",
+          "insideDetails": false,
+          "width": 0
+        },
+        {
+          "complete": true,
+          "display": "block",
+          "insideDetails": false,
+          "width": 918
+        },
+        {
+          "complete": true,
+          "display": "block",
+          "insideDetails": false,
+          "width": 648
+        }
+      ],
+      "overflow": 0,
+      "reviewCards": 1,
+      "reviewFont": "16px",
+      "scopeText": "상담 지점 와와학습코칭학원 화정점영어 학년 안내 초1~초6 · 중1~중3 · 고1~고3",
+      "scrollWidth": 320,
+      "url": "http://127.0.0.1:4414/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B2%BD%EA%B8%B0/%ED%99%94%EC%A0%95%EC%A0%90/%ED%86%A0%EB%8B%B9%EB%8F%99%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/#student-reviews",
+      "width": 320
+    },
+    {
+      "label": "360 석사 고등수학 수업확인",
+      "faqCount": 4,
+      "faqOpen": 0,
+      "h1Count": 1,
+      "media": [
+        {
+          "complete": false,
+          "display": "none",
+          "insideDetails": false,
+          "width": 0
+        },
+        {
+          "complete": true,
+          "display": "block",
+          "insideDetails": false,
+          "width": 918
+        },
+        {
+          "complete": false,
+          "display": "block",
+          "insideDetails": false,
+          "width": 0
+        }
+      ],
+      "overflow": 0,
+      "reviewCards": 0,
+      "reviewFont": null,
+      "scopeText": "상담 지점 와와학습코칭학원 석사점수학 학년 안내 초1~초6 · 중1~중3 · 고1~고3",
+      "scrollWidth": 360,
+      "url": "http://127.0.0.1:4414/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B0%95%EC%9B%90/%EC%84%9D%EC%82%AC%EC%A0%90/%EC%84%9D%EC%82%AC%EB%8F%99%EA%B3%A0%EB%93%B1%ED%95%99%EC%83%9D%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/",
+      "width": 360
+    },
+    {
+      "label": "1280 신도림 부모전용 후기",
+      "faqCount": 5,
+      "faqOpen": 0,
+      "h1Count": 1,
+      "media": [
+        {
+          "complete": true,
+          "display": "block",
+          "insideDetails": false,
+          "width": 918
+        },
+        {
+          "complete": true,
+          "display": "block",
+          "insideDetails": false,
+          "width": 661
+        }
+      ],
+      "overflow": 0,
+      "reviewCards": 1,
+      "reviewFont": "17px",
+      "scrollWidth": 1280,
+      "url": "http://127.0.0.1:4414/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/%EC%8B%A0%EB%8F%84%EB%A6%BC%EC%A0%90/#student-reviews",
+      "width": 1280
+    }
+  ],
+  "viewportReset": true,
+  "screenshotsInspected": [
+    "390 이충점 parent",
+    "320 토당동 child",
+    "1280 신도림점 parent"
+  ]
+}

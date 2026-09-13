@@ -11,6 +11,7 @@ from xml.sax.saxutils import escape
 from bs4 import BeautifulSoup
 from branch_site4_support import ROOT, DOMAIN, with_navigation, without_navigation
 import branch_templates_site4 as render
+from branch_verified_facts_site4 import load_reviewed_snapshot
 
 DATA = ROOT / 'tools/data/branches'
 REPORTS = ROOT / 'tools/reports/branches'
@@ -62,7 +63,7 @@ def main():
     parser.add_argument('--pages-only', action='store_true', help='Regenerate branch pages without revisiting the unchanged legacy navigation.')
     parser.add_argument('--repair-navigation', action='store_true', help='Repair only navigation exceptions from the last complete audit.')
     args = parser.parse_args()
-    data = json.loads((DATA / 'snapshot.json').read_text(encoding='utf-8'))
+    data = load_reviewed_snapshot()
     centers = data['centers']
     assert len(centers) == 193 and all(not c.get('_neighborhoodPages') for c in centers)
     # Only manifest-listed, already generated descendants may appear in parents.

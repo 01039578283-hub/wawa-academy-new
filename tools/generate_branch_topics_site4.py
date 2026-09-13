@@ -17,6 +17,8 @@ from branch_templates_site4 import (base_graph, branch_path, primary_media, pane
 from branch_topic_manuscripts_site4 import TOPICS, sha, norm
 from branch_topic_editorial_site4 import prepare, reading_chunks
 from prepare_branch_topics_site4 import DATA, REPORTS, REFERENCE, save
+from branch_verified_facts_site4 import load_reviewed_snapshot, recorded_grades, pending_note, practice_for, practice_basis
+from branch_reviews_site4 import reviews_for, review_cards
 
 DATE = '2026-09-13'
 PREFIX = {'초등학생':'초','중학생':'중','고등학생':'고'}
@@ -89,6 +91,8 @@ def render(m, c, ref, school_row, rep, siblings):
     graph.append(org)
     scope = subject_summary(c,m['subject'],c['subjects'][m['subject']],ref)
     detail = ref.get('operations',{}).get('subjectDisplay',{}).get(m['subject'],{}).get('detail','')
+    documented = practice_for(c['id'], m['subject'], m['stage']) if m['confirmedGrades'] else None
+    student_reviews = reviews_for(c['id'], m['subject'], m['stage']) if m['confirmedGrades'] else []
     article = {'@type':'Article','@id':canonical+'#article','url':canonical,'headline':title,'description':m['meta'],
                'inLanguage':'ko-KR','educationalLevel':m['stage'],'dateModified':DATE,'mainEntityOfPage':{'@id':canonical+'#webpage'},
                'isPartOf':{'@id':url(parent)+'#webpage'},'about':[{'@id':center_id},{'@type':'Thing','name':m['stage']+' '+m['subject']+' 학습'}],
@@ -105,6 +109,8 @@ def render(m, c, ref, school_row, rep, siblings):
                       'areaServed':{'@type':'Place','name':m['locality']},'mainEntityOfPage':{'@id':canonical+'#webpage'}})
         article['about'].append({'@id':sid})
     graph.append(article)
+    if student_reviews:
+        article['citation'] = [{'@type':'CreativeWork','name':r.get('originalTitle',r['title']),'url':r['sourceUrl']} for r in student_reviews]
     body = '<section class="branch-hero topic-hero"><p class="branch-eyebrow">'+esc(c['sourceCenterName']+' · '+m['stage']+' '+m['subject']+' 학습 안내')+'</p><h1>'+esc(title)+'</h1>'
     body += copy_prose([m['intro']])
     body += '<div class="topic-center-summary"><p><strong>상담 지점</strong> <a href="'+esc(parent)+'">'+esc(c['displayName'])+'</a></p><p><strong>'+esc(m['subject'])+' 학년 안내</strong> '+esc(scope)+'</p></div>'
@@ -112,6 +118,10 @@ def render(m, c, ref, school_row, rep, siblings):
         body += paragraph(m['stage']+' '+m['subject']+' 과정의 개설 학년을 먼저 확인해 주세요. 아래 글은 학습 준비 안내이며, 해당 수업이 개설되어 있다는 뜻은 아닙니다.','topic-scope-notice')
     elif len(m['confirmedGrades']) < (6 if m['stage']=='초등학생' else 3):
         body += paragraph('이 학교급에서 안내된 학년은 '+', '.join(m['confirmedGrades'])+'입니다. 그 외 학년과 세부 과정은 따로 문의해 주세요.','topic-scope-notice')
+    if pending_note(m):
+        body += paragraph(pending_note(m),'topic-scope-notice')
+    if ref.get('operations',{}).get('subjectDisplay',{}).get(m['subject'],{}).get('status') == 'recorded_baseline_extension_pending':
+        body += paragraph(detail+' 자료 확인 기준은 2026년 9월 제공 정보이며, 현재 시간표와 모집 상태를 직접 확인한 것은 아닙니다.','topic-scope-notice')
     body += '<div class="branch-actions topic-reading-shortcuts">'+button('#section-1','본문 바로 읽기')+button('#article-toc','글 목차',True)+button('#center-info','지점 정보',True)+'</div></section>'
     if m['quickScan']:
         body += '<section class="topic-quick-scan" id="quick-answer"><h2>먼저 확인할 핵심 내용</h2><ul>'
@@ -125,6 +135,10 @@ def render(m, c, ref, school_row, rep, siblings):
     body += media.replace(marker,marker+rep_html,1)
     names = school_names(school_row,m['stage'])
     anchors = [('center-info','상담할 지점 확인')] + [('section-'+str(i),s['heading']) for i,s in enumerate(m['sections'],1)]
+    if documented:
+        anchors.insert(1, ('documented-learning','지점의 수업·피드백 안내'))
+    if student_reviews:
+        anchors.insert(2 if documented else 1, ('student-reviews','학생의 학습 경험'))
     if names:
         anchors += [('schools','학교 자료 준비')]
     anchors += [('questions','자주 묻는 질문'),('related-pages','같은 동네의 다른 학습 안내'),('consultation-example','상담 준비 예시')]
@@ -137,6 +151,15 @@ def render(m, c, ref, school_row, rep, siblings):
         info += paragraph('현재 위치는 동네 단위 안내입니다. 방문할 도로명 주소·건물·층수는 상담에서 먼저 확인해 주세요.','topic-scope-notice')
     info += '<div class="branch-actions">'+button(parent+'#tuition','교육비 확인',True)+button(parent+'#directions','지점 위치 확인',True)+'</div>'
     body += panel('center-info',c['sourceCenterName']+'에서 상담하기',info)
+    if documented:
+        item = documented['practices'][0]
+        evidence_body = paragraph(item['text'])
+        evidence_body += paragraph(practice_basis(documented)+'에 기재된 운영 방식입니다. 개별 학생의 실제 성과 사례나 모든 학년에서의 동일한 운영을 뜻하지 않습니다. 적용 과정과 현재 진행 방식은 상담에서 확인해 주세요.','branch-small')
+        evidence_body += '<div class="branch-actions">'+button(parent+'#verified-learning',c['sourceCenterName']+'의 수업·피드백 안내 더 보기',True)+'</div>'
+        body += panel('documented-learning',c['sourceCenterName']+'의 '+item['title'],evidence_body)
+    if student_reviews:
+        intro = paragraph('공식 홈페이지에 공개된 '+c['sourceCenterName']+'의 '+m['stage']+' '+m['subject']+' 관련 후기입니다. 본문의 일반 학습 안내와 구분해 실제 학생이 전한 경험을 살펴보세요.')
+        body += panel('student-reviews',c['sourceCenterName']+' 학생이 전한 학습 경험',intro+review_cards(student_reviews,parent))
     for i,s in enumerate(m['sections'],1):
         body += panel('section-'+str(i),s['heading'],copy_prose(s['paragraphs'],[x for x in m['contextualLinks'] if x['section']==i]))
     if names:
@@ -184,7 +207,7 @@ def render(m, c, ref, school_row, rep, siblings):
 
 def main():
     records = json.loads((DATA/'manuscripts.json').read_text(encoding='utf8'))
-    original = json.loads((ROOT/'tools/data/branches/snapshot.json').read_text(encoding='utf8'))
+    original = load_reviewed_snapshot()
     centers = {c['id']:c for c in original['centers']}
     schools = {s['neighborhood']:s for s in json.loads((DATA/'schools.json').read_text(encoding='utf8'))}
     baseline_file = DATA/'site-baseline.json'
@@ -201,6 +224,7 @@ def main():
     edits, output, rendered, groups = [], [], [], defaultdict(list)
     for raw in records:
         m, changes = prepare(raw)
+        m['confirmedGrades'] = recorded_grades(m)
         edits.extend({'title':m['title'],**change} for change in changes)
         groups[m['centerId']].append(m)
         output.append(m)

@@ -1,9 +1,10 @@
 {
   "status": "PASS",
-  "checks": 331919,
+  "checks": 337445,
   "errors": [],
   "pages": 2226,
-  "parents": 188,
+  "parents": 193,
+  "parentsWithTopicPages": 188,
   "faqCount": 8904,
   "sections": {
     "6": 1763,
@@ -15,7 +16,15 @@
   "uniqueFullManuscripts": 2226,
   "averageBodyCharacters": 3053.5,
   "maxReadingParagraphCharacters": 283,
-  "qualifiedScopePages": 59,
+  "qualifiedScopePages": 0,
+  "externalArchiveSources": [
+    "C:\\Users\\1992k\\Desktop\\프로그램 원고\\한 거\\고등학생 수학학원.zip",
+    "C:\\Users\\1992k\\Desktop\\프로그램 원고\\한 거\\고등학생 영어학원.zip",
+    "C:\\Users\\1992k\\Desktop\\프로그램 원고\\한 거\\중학생 수학학원.zip",
+    "C:\\Users\\1992k\\Desktop\\프로그램 원고\\한 거\\중학생 영어학원.zip",
+    "C:\\Users\\1992k\\Desktop\\프로그램 원고\\한 거\\초등학생 수학학원.zip",
+    "C:\\Users\\1992k\\Desktop\\프로그램 원고\\한 거\\초등학생 영어학원.zip"
+  ],
   "sourceColumnResiduals": [],
   "http": [
     {

@@ -1,0 +1,2577 @@
+{
+  "schemaVersion": 1,
+  "researchDate": "2026-09-13",
+  "evidenceType": "official-branch-published-practice",
+  "isStudentCaseEvidence": false,
+  "notice": "공식 센터 소개 또는 제공된 센터 운영자료에 기재된 수업·관리 방식입니다. 자료 확인일은 실제 운영 확인일이 아니며, 현재 제공 여부와 대상·세부 방식은 센터 상담에서 확인합니다.",
+  "centers": {
+    "center-row-002": {
+      "centerId": "center-row-002",
+      "name": "가경점",
+      "sourceUrl": "https://www.wawacenter.com/center/513",
+      "sourceTitle": "가경점와와학습코칭학원 센터 소개",
+      "address": "충북 청주시 흥덕구 서현북로 18  2층 와와학습코칭학원",
+      "sourceAddress": "충북 청주시 흥덕구 가경동 1841 2층 와와학습코칭학원",
+      "verifiedAt": "2026-09-13T09:15:42.457017+00:00",
+      "sourceHash": "84b14382012c148dfa18f76de6ac6d91f095f8ff355db3fd39ae04c628f5b404",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "자습실 활용",
+          "text": "학습 습관 형성과 관리를 위해 자습실을 운영한다고 안내합니다.",
+          "sourceExcerpt": "상시 자습실 운영",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        },
+        {
+          "title": "원장 진로·진학 상담",
+          "text": "원장이 학생별 진로·진학 상담을 직접 진행한다고 안내합니다.",
+          "sourceExcerpt": "원장쌤이 직접 학생 맞춤 무료 진로/진학 상담 진행",
+          "subjects": [],
+          "stages": [
+            "고등학생"
+          ],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-004": {
+      "centerId": "center-row-004",
+      "name": "갈매점",
+      "sourceUrl": "https://www.wawacenter.com/center/421",
+      "sourceTitle": "갈매점와와학습코칭학원 센터 소개",
+      "address": "경기 구리시 갈매중앙로 79  에스엠타워 602호",
+      "sourceAddress": "경기 구리시 갈매동 605-3 에스엠타워 602호",
+      "verifiedAt": "2026-09-13T09:15:42.431113+00:00",
+      "sourceHash": "d3dafedead383313980e8141ef633e405bed34468bc69e3dead70252bef9ace8",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "학교별 평가 준비와 소통",
+          "text": "학교별 내신과 수행평가를 함께 준비하고, 학부모·학생·교사가 학습 상황을 소통하는 방식으로 안내되어 있습니다.",
+          "sourceExcerpt": "학교별 전 과목 내신 및 수행평가 대비",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-006": {
+      "centerId": "center-row-006",
+      "name": "강릉교동점",
+      "sourceUrl": "https://www.wawacenter.com/center/313",
+      "sourceTitle": "와와학습코칭학원 센터 소개",
+      "address": "강원특별자치도 강릉시 정원로 44  202호 와와학습코칭학원",
+      "sourceAddress": "강원특별자치도 강릉시 교동 1889-6 202호 와와학습코칭학원",
+      "verifiedAt": "2026-09-13T09:15:42.593324+00:00",
+      "sourceHash": "8cfaa018c0cffdba33682580a7c65aabac7328b2d8511c94aaa63c7d6f670b85",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "센터 평가와 학습 일정",
+          "text": "학생의 수준에 맞춰 수업과 일정을 정하고, 센터 정기고사와 방학 특강을 운영한다고 안내합니다.",
+          "sourceExcerpt": "센터 정기고사, 방학 특강",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-010": {
+      "centerId": "center-row-010",
+      "name": "관저점",
+      "sourceUrl": "https://www.wawacenter.com/center/309",
+      "sourceTitle": "관저점와와학습코칭학원 센터 소개",
+      "address": "대전 서구 구봉로 133  1542번지 205호",
+      "sourceAddress": "대전 서구 관저동 1542번지 205호",
+      "verifiedAt": "2026-09-13T09:15:42.716437+00:00",
+      "sourceHash": "9cc658d38182a7d8dcff0e88ed7399ad8719adee8e4f5fbf2c670a42e72d6dc3",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "노트와 플래너 활용",
+          "text": "개념노트·오답노트·플래너와 AI 학습 도구를 함께 활용하는 방식이 안내되어 있습니다.",
+          "sourceExcerpt": "개념노트, 오답노트, 플레너, AI학습tool",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-011": {
+      "centerId": "center-row-011",
+      "name": "관평점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC11",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "대전 유성구 관평2로 46  밸리타운 501",
+      "sourceAddress": "대전 유성구 관평2로 46  밸리타운 501",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC11 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "초등 월 평가서",
+          "text": "초등부의 학습 상황을 매월 평가서로 안내하는 운영 내용이 기재되어 있습니다.",
+          "sourceExcerpt": "초등부 매월 평가서",
+          "sourceCell": "AC11",
+          "subjects": [],
+          "stages": [
+            "초등학생"
+          ],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-014": {
+      "centerId": "center-row-014",
+      "name": "교하점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC14",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "경기 파주시 청석로 272  센타프라자1 제8층 제803",
+      "sourceAddress": "경기 파주시 청석로 272  센타프라자1 제8층 제803",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC14 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "플래너와 출결 소통",
+          "text": "학생들이 플래너를 작성하고, 학습 소통방으로 출결과 특이사항을 공유하는 방식이 기재되어 있습니다.",
+          "sourceExcerpt": "플래너작성 , 단체카톡방, 빠른소통(출결/특이사항)",
+          "sourceCell": "AC14",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-017": {
+      "centerId": "center-row-017",
+      "name": "금릉점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC17",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "경기 파주시 금빛로 24-27  제일메디컬 502",
+      "sourceAddress": "경기 파주시 금빛로 24-27  제일메디컬 502",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC17 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "월 정기고사와 학생별 소통",
+          "text": "매월 정기고사를 진행하고 학생별 소통방을 운영하는 것으로 기재되어 있습니다.",
+          "sourceExcerpt": "학생별 단톡방운영/매월정기고사",
+          "sourceCell": "AC17",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-019": {
+      "centerId": "center-row-019",
+      "name": "기흥구청점",
+      "sourceUrl": "https://www.wawacenter.com/center/470",
+      "sourceTitle": "기흥구청점 와와학습코칭센터학원 센터 소개",
+      "address": "경기 용인시 기흥구 구갈로60번길 15  경영빌딩 3층 와와학습코칭학원",
+      "sourceAddress": "경기 용인시 기흥구 구갈동 354-6 경영빌딩 3층 와와학습코칭학원",
+      "verifiedAt": "2026-09-13T09:15:43.005310+00:00",
+      "sourceHash": "f480cc2a80b8cc894ab195c963510afb01a74fdbe241c91c6c6a9cf9cc37ecd0",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "레벨 진단과 개별 계획",
+          "text": "개별 레벨 진단과 학습 관리를 바탕으로 학생이 학습 목표를 설정하도록 돕는다고 안내합니다.",
+          "sourceExcerpt": "1:1 맞춤 레벨 진단과 개별 학습 관리",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-020": {
+      "centerId": "center-row-020",
+      "name": "남외점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC20",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "울산 중구 남외3길 15  남외프라자 401호",
+      "sourceAddress": "울산 중구 남외3길 15  남외프라자 401호",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC20 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "남외초 형성평가 준비",
+          "text": "남외초등학교 학생의 형성평가에 맞춰 학습을 준비하는 운영 내용이 기재되어 있습니다.",
+          "sourceExcerpt": "남외초만을 위한형성평가대비",
+          "sourceCell": "AC20",
+          "subjects": [],
+          "stages": [
+            "초등학생"
+          ],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        },
+        {
+          "title": "남외중 시험 준비",
+          "text": "남외중학교 내신 준비에 모의평가를 활용하는 내용이 기재되어 있습니다.",
+          "sourceExcerpt": "모의평가로 내신대비",
+          "sourceCell": "AC20",
+          "subjects": [],
+          "stages": [
+            "중학생"
+          ],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-021": {
+      "centerId": "center-row-021",
+      "name": "내발산점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC21",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "서울 강서구 마곡중앙4로 74  이웰메디파크 제4층 401,402호",
+      "sourceAddress": "서울 강서구 마곡중앙4로 74  이웰메디파크 제4층 401,402호",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC21 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "주 1회 학습코칭",
+          "text": "개별 학습 관리와 주 1회 학습코칭을 병행하고, 필요한 경우 수업 방식을 조정하는 내용이 기재되어 있습니다.",
+          "sourceExcerpt": "개별 관리와 학습코칭 주1회",
+          "sourceCell": "AC21",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-022": {
+      "centerId": "center-row-022",
+      "name": "노형점",
+      "sourceUrl": "https://www.wawacenter.com/center/285",
+      "sourceTitle": "와와학습코칭학원 센터 소개",
+      "address": "제주시 과원북4길 27, 2층(노형동)",
+      "sourceAddress": "제주특별자치도 제주시 노형동 728 2층 와와학습코칭학원",
+      "verifiedAt": "2026-09-13T09:15:43.089744+00:00",
+      "sourceHash": "04e3795b2f68f3a835e82d66f26123b32cbd37d74ab2ec59a6cded1ab3991248",
+      "identityBasis": "reviewed-name-and-road-or-parcel; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "수시평가와 학습 기록",
+          "text": "AI 과제와 수시평가를 활용하고, 개념노트·오답노트·플래너를 함께 관리한다고 안내합니다.",
+          "sourceExcerpt": "ai과제로 수시평가, 개념노트, 오답노트, 플래너 관리",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-024": {
+      "centerId": "center-row-024",
+      "name": "다산도농점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC24",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "경기 남양주시 도농로 29  604호 와와학습코칭센터",
+      "sourceAddress": "경기 남양주시 도농로 29  604호 와와학습코칭센터",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC24 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "월정기평가 후 보고서",
+          "text": "매월 정기평가를 진행한 뒤 보고서와 코칭평가서를 제공하는 방식이 기재되어 있습니다.",
+          "sourceExcerpt": "월정기평가를 매월 봅니다. 보고나면 보고서 및 코칭평가서를 제공합니다",
+          "sourceCell": "AC24",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-028": {
+      "centerId": "center-row-028",
+      "name": "단구점",
+      "sourceUrl": "https://www.wawacenter.com/center/284",
+      "sourceTitle": "와와학습코칭학원 센터 소개",
+      "address": "강원특별자치도 원주시 서원대로 406  리더스빌딩 402",
+      "sourceAddress": "강원특별자치도 원주시 단구동 1512-1 리더스빌딩 402호",
+      "verifiedAt": "2026-09-13T09:15:43.208064+00:00",
+      "sourceHash": "a9d42ce5cbf1320d60f2d58e3d721c237f6fcaa7138bbdaed20c34c357e542a3",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "학부모 상담과 학습 공유",
+          "text": "정기적인 학부모 상담과 단체 소통방을 통해 학생의 학습 상황을 공유한다고 안내합니다.",
+          "sourceExcerpt": "정기적인 학부모 상담과 카카오톡 단체방 소통",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        },
+        {
+          "title": "지필·수행평가 함께 준비",
+          "text": "지필평가와 수행평가를 함께 관리하는 방식이 센터 소개에 기재되어 있습니다.",
+          "sourceExcerpt": "지필과 수행평가를 체계적으로 관리",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-030": {
+      "centerId": "center-row-030",
+      "name": "당산점",
+      "sourceUrl": "https://www.wawacenter.com/center/375",
+      "sourceTitle": "당산점와와학습코칭학원 센터 소개",
+      "address": "서울 영등포구 당산로44길 3  삼성타운 504",
+      "sourceAddress": "서울 영등포구 당산동5가 11-34 삼성타운 504호",
+      "verifiedAt": "2026-09-13T09:15:43.266093+00:00",
+      "sourceHash": "c1422866f61cfcbc4c6bd237ff0eec6dbe81bb6902aae70ecc776b548121a371",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "플래너와 노트 정리",
+          "text": "개별 진도에 맞춘 학습과 함께 플래너, 개념노트, 오답노트 정리를 관리한다고 안내합니다.",
+          "sourceExcerpt": "플래너관리, 개념노트, 오답노트 정리",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-032": {
+      "centerId": "center-row-032",
+      "name": "대구도남점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC32",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "대구 북구 도남중앙로7길 20-3  위너프라자 402호 와와학습코칭학원",
+      "sourceAddress": "대구 북구 도남중앙로7길 20-3  위너프라자 402호 와와학습코칭학원",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC32 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "학교 유인물과 수행평가 준비",
+          "text": "대상 학교의 유인물을 분석해 수업에 활용하고 수행평가를 준비하는 내용이 기재되어 있습니다.",
+          "sourceExcerpt": "학교 유인물 빠른 분석 및 수업시간 바로 적용",
+          "sourceCell": "AC32",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        },
+        {
+          "title": "영어 듣기평가 준비",
+          "text": "영어 듣기평가 대비 특강을 주말에 운영하는 내용이 기재되어 있습니다.",
+          "sourceExcerpt": "영어 듣기 평가 대비 특강 주말 진행",
+          "sourceCell": "AC32",
+          "subjects": [
+            "영어"
+          ],
+          "stages": [
+            "중학생",
+            "고등학생"
+          ],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-033": {
+      "centerId": "center-row-033",
+      "name": "대구역점",
+      "sourceUrl": "https://www.wawacenter.com/center/479",
+      "sourceTitle": "대구역점와와학습코칭학원 센터 소개",
+      "address": "대구 중구 서성로 99  대구역센트럴자이 상가 302호 와와학습코칭학원",
+      "sourceAddress": "대구 중구 수창동 173 대구역센트럴자이 상가 302호 와와학습코칭학원",
+      "verifiedAt": "2026-09-13T09:15:43.370947+00:00",
+      "sourceHash": "66ff452ca5e7e620586af118c37999e99911b6f599985fb1ffc7971a5e70cb89",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "정기평가·피드백·보강",
+          "text": "정기고사로 성취도를 점검하고, 피드백과 시험 보강으로 학습 방향을 조정한다고 안내합니다.",
+          "sourceExcerpt": "꾸준한 피드백으로 학습 방향을 체계적으로 잡아주고, 정기고사를 통해 성취도를 꼼꼼히 점검합니다.",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-036": {
+      "centerId": "center-row-036",
+      "name": "덕이점",
+      "sourceUrl": "https://www.wawacenter.com/center/444",
+      "sourceTitle": "덕이점와와학습코칭학원 센터 소개",
+      "address": "경기 고양시 일산서구 하이파크2로 40  금문프라자 804호",
+      "sourceAddress": "경기 고양시 일산서구 덕이동 1543 금문프라자 804호",
+      "verifiedAt": "2026-09-13T09:15:43.397732+00:00",
+      "sourceHash": "4bc7894b07f62d79efd4904476ed859242547b754ab7dd1d52fc545d723c2c56",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "진단에 따른 교재·진도",
+          "text": "진단 결과를 바탕으로 학생의 실력에 맞는 진도와 교재, 학습 계획을 설정한다고 안내합니다.",
+          "sourceExcerpt": "내 실력에 맞는 진도와 교재, 커리큘럼 설정",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        },
+        {
+          "title": "월말평가와 학습 공유",
+          "text": "플래너 작성, 학습 소통방 관리, 월말평가를 운영 항목으로 안내합니다.",
+          "sourceExcerpt": "월말평가 진행",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-039": {
+      "centerId": "center-row-039",
+      "name": "동래점",
+      "sourceUrl": "https://www.wawacenter.com/center/326",
+      "sourceTitle": "동래점와와학습코칭학원 센터 소개",
+      "address": "부산광역시 동래구 온천동 충렬대로 129-1  한야빌딩 3",
+      "sourceAddress": "부산 동래구 온천동 1434-8 한야빌딩 3층",
+      "verifiedAt": "2026-09-13T09:15:43.514796+00:00",
+      "sourceHash": "3085d73920455d451a1ae12a3a118d91687ae4134a30bb9494812630aac3b71a",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "정기고사와 방학 학습",
+          "text": "학생 수준에 맞는 수업·관리를 진행하고, 정기고사와 방학 특강을 운영한다고 안내합니다.",
+          "sourceExcerpt": "정기고사 / 방학특강",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-040": {
+      "centerId": "center-row-040",
+      "name": "동백점",
+      "sourceUrl": "https://www.wawacenter.com/center/268",
+      "sourceTitle": "동백점와와학습코칭학원 센터 소개",
+      "address": "경기도 용인시 기흥구 중동 동백3로11번길 3  2층 201호",
+      "sourceAddress": "경기 용인시 기흥구 중동 851-4 동백역타워 2층 201호",
+      "verifiedAt": "2026-09-13T09:15:43.529644+00:00",
+      "sourceHash": "15bb4718352e32088ccbaec5ae2b98656411338fe1ac3a5376394a3d0d16eb6f",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "월 평가서와 개별 소통",
+          "text": "월 평가서를 발송하고 개별 소통방을 운영하는 방식으로 학생의 학습 상황을 공유한다고 안내합니다.",
+          "sourceExcerpt": "월 평가서 발송, 1대1 소통방 운영",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        },
+        {
+          "title": "정기고사와 시험 전 보충",
+          "text": "주기적인 정기고사와 시험 전 특별 보충 학습을 진행한다고 안내합니다.",
+          "sourceExcerpt": "주기적인 정기고사 실시, 시험 전 주말 자습실 운영 및 특별 보충 학습",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-043": {
+      "centerId": "center-row-043",
+      "name": "동탄목동점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC43",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "경기 화성시 동탄신리천로 408  M메디칼 212호",
+      "sourceAddress": "경기 화성시 동탄신리천로 408  M메디칼 212호",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC43 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "매월 평가와 피드백",
+          "text": "학습 소통방을 운영하며 매월 평가와 피드백을 진행하는 것으로 기재되어 있습니다.",
+          "sourceExcerpt": "소통방 운영, 매 월 평가 및 피드백",
+          "sourceCell": "AC43",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-046": {
+      "centerId": "center-row-046",
+      "name": "두호점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC46",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "경상북도 포항시 북구 용두산길 32  3층",
+      "sourceAddress": "경상북도 포항시 북구 용두산길 32  3층",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC46 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "시험 전후 피드백",
+          "text": "시험 전후에 피드백을 제공하고 시험 직전 3~4주간 주말 수업을 운영하는 내용이 기재되어 있습니다.",
+          "sourceExcerpt": "시험직전 주말 3-4주 수업/시험 전후 피드백",
+          "sourceCell": "AC46",
+          "subjects": [],
+          "stages": [
+            "중학생",
+            "고등학생"
+          ],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-047": {
+      "centerId": "center-row-047",
+      "name": "둔산점",
+      "sourceUrl": "https://www.wawacenter.com/center/222",
+      "sourceTitle": "와와학습코칭센터학원 센터 소개",
+      "address": "대전광역시 서구 둔산동 둔산로 142  신화빌딩 401호",
+      "sourceAddress": "대전 서구 둔산동 1487 신화빌딩 401호",
+      "verifiedAt": "2026-09-13T09:15:43.747703+00:00",
+      "sourceHash": "9f380fe0a23c6701290b6635ad86193db50cb70de0ad880d16651fd0e2278f12",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "개념·오답·계획 기록",
+          "text": "개념노트와 오답노트를 정리하고 플래너 및 AI 학습 도구를 활용하는 방식이 안내되어 있습니다.",
+          "sourceExcerpt": "개념노트, 오답노트, 플레너, AI학습tool",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-051": {
+      "centerId": "center-row-051",
+      "name": "마포2호점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC51",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "서울 마포구 토정로 252  승지빌딩 3층",
+      "sourceAddress": "서울 마포구 토정로 252  승지빌딩 3층",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC51 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "개념·오답 노트 활용",
+          "text": "학습 과정에서 개념정리노트와 오답노트를 활용하는 방식이 기재되어 있습니다.",
+          "sourceExcerpt": "개념정리노트와 오답노트 활용",
+          "sourceCell": "AC51",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-054": {
+      "centerId": "center-row-054",
+      "name": "명일점",
+      "sourceUrl": "https://www.wawacenter.com/center/42",
+      "sourceTitle": "명일점와와학습코칭학원 센터 소개",
+      "address": "서울 강동구 양재대로 1606  3층",
+      "sourceAddress": "서울 강동구 명일동 334-17 3층",
+      "verifiedAt": "2026-09-13T09:15:43.984344+00:00",
+      "sourceHash": "34826fdce42fd50d6274415bb3af14b5456a18aebd1deab61b9a477ce23d6ec4",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "강동구 학교 시험자료",
+          "text": "센터 소개에는 강동구 중·고등학교 시험자료를 갖추고 있는 국어·영어·수학 전문학원으로 안내되어 있습니다.",
+          "sourceExcerpt": "강동구 중학교, 고등학교 모든 시험자료",
+          "subjects": [
+            "영어",
+            "수학"
+          ],
+          "stages": [
+            "중학생",
+            "고등학생"
+          ],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-060": {
+      "centerId": "center-row-060",
+      "name": "반달점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC60",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "경기 부천시 원미구 상일로 69  반달마을 제상가동 제 3층 제 304호 와와학습코칭학원",
+      "sourceAddress": "경기 부천시 원미구 상일로 69  반달마을 제상가동 제 3층 제 304호 와와학습코칭학원",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC60 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "월 학습진행 리포트",
+          "text": "플래너를 작성하고 학습 소통방을 운영하며, 매월 학습진행 리포트를 공유하는 방식이 기재되어 있습니다.",
+          "sourceExcerpt": "매월 학습진행 리포트 공유",
+          "sourceCell": "AC60",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-063": {
+      "centerId": "center-row-063",
+      "name": "반여점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC63",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "부산 해운대구 반여로 102  경성빌딩 501호",
+      "sourceAddress": "부산 해운대구 반여로 102  경성빌딩 501호",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC63 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "월 계획과 주간 코멘트",
+          "text": "학생별 월 학습계획을 세우고, 과목 교사가 매주 진행 상황에 관한 코멘트를 학생·학부모 소통방에 공유하는 것으로 기재되어 있습니다.",
+          "sourceExcerpt": "주차별 코멘트를 작성해서 학생,학부모로 이루어진 단톡방에 공유",
+          "sourceCell": "AC63",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        },
+        {
+          "title": "학생이 쓰는 학습일지",
+          "text": "학생이 과목별 학습일지를 작성해 당일 학습량을 점검하고, 배운 내용을 개념노트나 오답노트로 정리하는 방식이 기재되어 있습니다.",
+          "sourceExcerpt": "과목 수업 학습 일지를 학생 스스로 작성",
+          "sourceCell": "AC63",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-064": {
+      "centerId": "center-row-064",
+      "name": "반월당점",
+      "sourceUrl": "https://www.wawacenter.com/center/508",
+      "sourceTitle": "반월당점와와학습코칭학원 센터 소개",
+      "address": "대구 중구 대봉로 253  3층 와와학습코칭학원",
+      "sourceAddress": "대구 중구 봉산동 185-33 3층 와와학습코칭학원",
+      "verifiedAt": "2026-09-13T09:15:44.307998+00:00",
+      "sourceHash": "32de4a6afe6ad9707de6a8d97c729ebe7f48597d9dbe092ec68f38c80844ebff",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "수업·과제와 정기평가",
+          "text": "수업별 맞춤 학습과 과제를 관리하고, 두 달 간격의 정기고사로 성취도를 점검한다고 안내합니다.",
+          "sourceExcerpt": "2달마다 정기고사를 실시",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        },
+        {
+          "title": "시험 기간 보강",
+          "text": "시험 기간에 보강과 독서실 운영을 제공한다고 안내합니다.",
+          "sourceExcerpt": "시험 기간 보강 및 독서실 운영",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-066": {
+      "centerId": "center-row-066",
+      "name": "범박점",
+      "sourceUrl": "https://www.wawacenter.com/center/431",
+      "sourceTitle": "범박점와와학습코칭보습학원 센터 소개",
+      "address": "경기 부천시 소사구 은성로 132  5층",
+      "sourceAddress": "경기 부천시 소사구 소사본동 409-4 5층",
+      "verifiedAt": "2026-09-13T09:15:44.330913+00:00",
+      "sourceHash": "03d71af0df9c553acda6d9f44ff9c0880b729bacdc8d2bb20ffa528d0ed35839",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "학습 진행 상황 피드백",
+          "text": "학습 진행 상황을 살펴 피드백을 제공하고, 학생이 스스로 계획을 세워 실행하도록 지도한다고 안내합니다.",
+          "sourceExcerpt": "학습 진행 상황을 꼼꼼하게 관리하고 피드백을 제공합니다.",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-070": {
+      "centerId": "center-row-070",
+      "name": "병점점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC70",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "경기 화성시 병점1로 221  화인메디컬프라자 2층 203호",
+      "sourceAddress": "경기 화성시 병점1로 221  화인메디컬프라자 2층 203호",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC70 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "수준별 AI 교재와 학습량",
+          "text": "학생의 현재 학습 수준에 맞춰 AI 교재와 학습량을 정하고, 개별 학습자료를 제공하는 내용이 기재되어 있습니다.",
+          "sourceExcerpt": "개별 학습 수준에 맞춘 AI 교재 및 학습량 설정",
+          "sourceCell": "AC70",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-071": {
+      "centerId": "center-row-071",
+      "name": "보라점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC71",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "경기 용인시 기흥구 사은로126번길 6  신원프라자 303호",
+      "sourceAddress": "경기 용인시 기흥구 사은로126번길 6  신원프라자 303호",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC71 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "수업 내용 공유와 원장 상담",
+          "text": "수업 내용을 매 수업마다 발송하고, 월 1회 원장 상담을 진행하는 방식이 기재되어 있습니다.",
+          "sourceExcerpt": "매 수업마다 수업내용 발송 / 월1회 원장상담",
+          "sourceCell": "AC71",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-072": {
+      "centerId": "center-row-072",
+      "name": "복대점",
+      "sourceUrl": "https://www.wawacenter.com/center/410",
+      "sourceTitle": "복대점와와학습코칭학원 센터 소개",
+      "address": "충북 청주시 흥덕구 진재로 37  3",
+      "sourceAddress": "충북 청주시 흥덕구 복대동 2648 3층",
+      "verifiedAt": "2026-09-13T09:15:44.545041+00:00",
+      "sourceHash": "951bbd4eecb6816d0c29f57028432da337c5c4bfc2afb654f62ec20c0987bdee",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "학습 습관과 자습실",
+          "text": "학습 습관을 위해 자습실을 운영한다고 안내합니다.",
+          "sourceExcerpt": "상시 자습실 운영",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        },
+        {
+          "title": "원장 대학 진학 상담",
+          "text": "원장이 학생별 대학 진학 상담을 직접 진행한다고 안내합니다.",
+          "sourceExcerpt": "원장쌤이 직접 학생 맞춤 무료상담 진행",
+          "subjects": [],
+          "stages": [
+            "고등학생"
+          ],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-074": {
+      "centerId": "center-row-074",
+      "name": "복현점",
+      "sourceUrl": "https://www.wawacenter.com/center/492",
+      "sourceTitle": "복현점와와학습코칭학원 센터 소개",
+      "address": "대구 북구 동북로 247  이편한세상복현 상가동 305호 와와학습코칭학원",
+      "sourceAddress": "대구 북구 복현동 713 이편한세상복현 상가동 305호 와와학습코칭학원",
+      "verifiedAt": "2026-09-13T09:15:44.577235+00:00",
+      "sourceHash": "f29a24dc9adae987970ee936c2bf3bb8576698aef1db63bddb8587ff9acf0a7e",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "AI 오답 점검과 주간 코칭",
+          "text": "AI 오답 클리닉과 주간 코칭을 학습 관리 방식으로 안내합니다.",
+          "sourceExcerpt": "AI 오답 클리닉과 주간 밀착 코칭",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-077": {
+      "centerId": "center-row-077",
+      "name": "부평점",
+      "sourceUrl": "https://www.wawacenter.com/center/4",
+      "sourceTitle": "와와학습코칭센터부평학원 센터 소개",
+      "address": "인천광역시 부평구 부평동 부흥로 264  5층 와와학습코칭센터",
+      "sourceAddress": "인천 부평구 부평동 529-40 동아웰빙타운 5층 와와학습코칭센터",
+      "verifiedAt": "2026-09-13T09:15:44.688018+00:00",
+      "sourceHash": "46ae4b4c4936e93c2b0a738a58bae89932b222eb204898dbd66ef8eb195ba9da",
+      "identityBasis": "reviewed-name-and-road-or-parcel; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "평가 유형별 별도 관리",
+          "text": "내신·모의고사·수행평가 준비를 별도로 운영·관리한다고 안내합니다.",
+          "sourceExcerpt": "내신 및 모의고사, 수행평가 대비 별도 운영 및 관리",
+          "subjects": [],
+          "stages": [
+            "중학생",
+            "고등학생"
+          ],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-085": {
+      "centerId": "center-row-085",
+      "name": "산내점",
+      "sourceUrl": "https://www.wawacenter.com/center/422",
+      "sourceTitle": "산내점와와학습코칭학원 센터 소개",
+      "address": "경기 파주시 청암로17번길 21  월드타워5차 405호",
+      "sourceAddress": "경기 파주시 목동동 935-2 월드타워5차 405호",
+      "verifiedAt": "2026-09-13T09:15:44.970031+00:00",
+      "sourceHash": "849b57beb4ff924d246671bcaead4c280bd1b91e29d18dbc8daa062d95b6ada5",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "수준별 관리와 수행평가",
+          "text": "국어·영어·수학 중심으로 수준별 내신 관리를 진행하고, 개별 공부 습관과 수행평가를 함께 관리한다고 안내합니다.",
+          "sourceExcerpt": "국영수 중심 내신관리와 수준별 개별 관리",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-089": {
+      "centerId": "center-row-089",
+      "name": "삼송점",
+      "sourceUrl": "https://www.wawacenter.com/center/446",
+      "sourceTitle": "삼송점와와학습코칭학원 센터 소개",
+      "address": "경기 고양시 덕양구 신원로 36  명승세도나3 701호",
+      "sourceAddress": "경기 고양시 덕양구 신원동 621-1 명승세도나3 701호",
+      "verifiedAt": "2026-09-13T09:15:45.121580+00:00",
+      "sourceHash": "e80c74a584488d243358505c871222f78d2f97b61dd5a5b02260d48d269584bd",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "방학 학습 프로그램",
+          "text": "센터 소개에 방학 특강 프로그램과 학생별 맞춤 관리가 운영 내용으로 기재되어 있습니다.",
+          "sourceExcerpt": "방학 특강 프로그램",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-090": {
+      "centerId": "center-row-090",
+      "name": "상남점",
+      "sourceUrl": "https://www.wawacenter.com/center/271",
+      "sourceTitle": "상남점와와학습코칭학원 센터 소개",
+      "address": "경남 창원시 성산구 마디미동로 25  비전빌딩 302호",
+      "sourceAddress": "경남 창원시 성산구 상남동 19-2 302호",
+      "verifiedAt": "2026-09-13T09:15:45.160312+00:00",
+      "sourceHash": "6f0ea411ef6f22e5885e028962199bddcc165dee3d787dcde104b91b9e77f8df",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "플래너를 통한 습관 관리",
+          "text": "플래너를 활용해 학생이 계획한 행동을 실천하는 공부 습관을 지도한다고 안내합니다.",
+          "sourceExcerpt": "플래너를 통해 능동적인 행동 과 생각의 습관",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-092": {
+      "centerId": "center-row-092",
+      "name": "상암점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC92",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "서울특별시 마포구 상암동 상암산로1길 73  202호",
+      "sourceAddress": "서울특별시 마포구 상암동 상암산로1길 73  202호",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC92 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "월 정기고사 후 피드백",
+          "text": "매월 정기고사로 한 달 동안 공부한 내용을 점검하고 피드백을 제공하는 내용이 기재되어 있습니다.",
+          "sourceExcerpt": "월 정기고사 시험으로 한달 공부 한 내용들 점검하고 피드백",
+          "sourceCell": "AC92",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-093": {
+      "centerId": "center-row-093",
+      "name": "상현점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC93",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "경기도 용인시 수지구 상현동 만현로 120  4층 410호 와와학습코칭학원",
+      "sourceAddress": "경기도 용인시 수지구 상현동 만현로 120  4층 410호 와와학습코칭학원",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC93 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "시험지 분석과 오답 피드백",
+          "text": "시험이 끝난 뒤 시험지를 분석하고 오답노트에 피드백을 제공하며, 정기고사를 진행하는 방식이 기재되어 있습니다.",
+          "sourceExcerpt": "시험후 시험지 분석 및 오답노트 피드백",
+          "sourceCell": "AC93",
+          "subjects": [],
+          "stages": [
+            "중학생",
+            "고등학생"
+          ],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-099": {
+      "centerId": "center-row-099",
+      "name": "선운점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC99",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "광주 광산구 선운로20번길 55-1  402호 와와학습코칭학원",
+      "sourceAddress": "광주 광산구 선운로20번길 55-1  402호 와와학습코칭학원",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC99 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "등·하원 때 플래너 확인",
+          "text": "등원과 하원 때 플래너를 사용하고 숙제를 기입하는 학습 관리 방식이 기재되어 있습니다.",
+          "sourceExcerpt": "플래너 모든 학년 필수 사용(등원,하원시) 숙제 기입",
+          "sourceCell": "AC99",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-100": {
+      "centerId": "center-row-100",
+      "name": "세교점",
+      "sourceUrl": "https://www.wawacenter.com/center/440",
+      "sourceTitle": "세교점와와학습코칭학원 센터 소개",
+      "address": "경기 오산시 수청로 193  P&P세교프라자 402호",
+      "sourceAddress": "경기 오산시 금암동 516-4 P&P세교프라자 402호",
+      "verifiedAt": "2026-09-13T09:15:45.577353+00:00",
+      "sourceHash": "16571f80d7c72e4c650511969ed65417efe3c3ef9d968a9f51e9929944ac9ea2",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "레벨 테스트와 교재 선택",
+          "text": "학생별 레벨 테스트를 진행한 뒤 학습 방법과 교재를 정하는 방식으로 안내되어 있습니다.",
+          "sourceExcerpt": "학생별 레벨 테스트를 통해 학습 방법과 교재를 정밀하게 설계",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-101": {
+      "centerId": "center-row-101",
+      "name": "센트럴점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC101",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "경기 하남시 미사강변대로 84  미사탑프라자 601호",
+      "sourceAddress": "경기 하남시 미사강변대로 84  미사탑프라자 601호",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC101 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "과목 교사 간 학습 점검",
+          "text": "과목별 담당 교사들이 한 학생의 학습에 관해 주 3회 이상 회의하며, 학생별 핵심 오답노트 작성도 운영 내용에 포함되어 있습니다.",
+          "sourceExcerpt": "한 학생에 대한 과목별 담당 선생님들 회의가 주3회 이상 진행",
+          "sourceCell": "AC101",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-126": {
+      "centerId": "center-row-126",
+      "name": "알파시티점",
+      "sourceUrl": "https://www.wawacenter.com/center/475",
+      "sourceTitle": "알파시티점와와학습코칭학원 센터 소개",
+      "address": "대구 수성구 알파시티2로 19  알파N시티 2층 201호 와와학습코칭학원",
+      "sourceAddress": "대구 수성구 시지동 579-3 알파N시티 2층 201호 와와학습코칭학원",
+      "verifiedAt": "2026-09-13T09:15:46.284729+00:00",
+      "sourceHash": "df70aac03581ca64d7e1cbd89f7f7f84bcb30a41ab1b4803ba361763864b84b5",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "시험 전 평가 대비",
+          "text": "교과별 수행평가와 내신을 함께 관리하고, 시험 전 4주간의 주말 대비 관리를 운영한다고 안내합니다.",
+          "sourceExcerpt": "4주간 주말 시험대비 관리",
+          "subjects": [],
+          "stages": [
+            "중학생",
+            "고등학생"
+          ],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-129": {
+      "centerId": "center-row-129",
+      "name": "염창점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC129",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "서울 강서구 양천로67길 15  한희빌딩 2층 202호  와와학습코칭학원",
+      "sourceAddress": "서울 강서구 양천로67길 15  한희빌딩 2층 202호  와와학습코칭학원",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC129 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "영어 영역별 학습과 시험 준비",
+          "text": "방학에는 교과서 읽기와 스토리북을 바탕으로 문법·어휘·독해·말하기를 공부하고, 개학 후에는 시험 6주 대비 과정을 운영하는 것으로 기재되어 있습니다.",
+          "sourceExcerpt": "4대영역 레벨업: 문법, 단어, 독해, 말하기",
+          "sourceCell": "AC129",
+          "subjects": [
+            "영어"
+          ],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        },
+        {
+          "title": "수학 반복 학습과 시험 연습",
+          "text": "수학은 네 차례 반복 학습을 운영 항목으로 안내하며, 시험 4주 전부터 시험 연습을 진행하는 내용이 기재되어 있습니다.",
+          "sourceExcerpt": "수: 4회 반복학습",
+          "sourceCell": "AC129",
+          "subjects": [
+            "수학"
+          ],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-137": {
+      "centerId": "center-row-137",
+      "name": "옥길점",
+      "sourceUrl": "https://www.wawacenter.com/center/413",
+      "sourceTitle": "옥길점와와학습코칭보습학원 센터 소개",
+      "address": "경기 부천시 소사구 옥길로 116  퀸즈파크 A동 7층 718호~719",
+      "sourceAddress": "경기 부천시 소사구 옥길동 745-1 퀸즈파크 A동 7층 718호~719호",
+      "verifiedAt": "2026-09-13T09:15:46.551378+00:00",
+      "sourceHash": "213ecfe5860338c971825d819b2fdccc37245b1dd0c13357a857edc96f0631be",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "학습 계획·평가·AI 관리",
+          "text": "플래너와 수행평가 관리, AI 학습 관리를 운영 항목으로 안내합니다.",
+          "sourceExcerpt": "플래너관리, 수행평가관리, AI학습관리",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-139": {
+      "centerId": "center-row-139",
+      "name": "용인백현점(모두)",
+      "sourceUrl": "https://www.wawacenter.com/center/520",
+      "sourceTitle": "용인백현점 모두오름학습코칭학원 센터 소개",
+      "address": "경기 용인시 기흥구 동백7로 83  백현마을중앙프라자 제 2층 제 208호",
+      "sourceAddress": "경기 용인시 기흥구 동백동 598-5 백현마을중앙프라자 제 2층 제 208호 모두오름학습코칭학원",
+      "verifiedAt": "2026-09-13T09:15:46.694688+00:00",
+      "sourceHash": "8f1a68f7de41eb21690746801bbda00e53b01bdbe0aa799b3784e625f762ca68",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "원장 수업과 수준별 관리",
+          "text": "원장이 직접 수업을 진행하며, 학생의 수준과 유형에 맞춰 학습을 관리한다고 안내합니다.",
+          "sourceExcerpt": "전문 원장들이 직강하는 센터",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-140": {
+      "centerId": "center-row-140",
+      "name": "운양점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC140",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "경기 김포시 김포한강11로 288-37  헤리움리버테라스 205호",
+      "sourceAddress": "경기 김포시 김포한강11로 288-37  헤리움리버테라스 205호",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC140 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "수업 전 플래너와 학습법 코칭",
+          "text": "수업 시작 전에 플래너를 작성하고, 중·고등 학생에게 학습법 코칭을 진행하는 내용이 기재되어 있습니다.",
+          "sourceExcerpt": "중고등 학습법코칭 진행",
+          "sourceCell": "AC140",
+          "subjects": [],
+          "stages": [
+            "중학생",
+            "고등학생"
+          ],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        },
+        {
+          "title": "초등 주 1회 코칭",
+          "text": "초등학생에게 자체 교재를 활용한 주 1회 인성코칭을 진행하고, 단원평가를 활용하는 내용이 기재되어 있습니다.",
+          "sourceExcerpt": "자체교재로 주 1회 초등 인성코칭",
+          "sourceCell": "AC140",
+          "subjects": [],
+          "stages": [
+            "초등학생"
+          ],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-141": {
+      "centerId": "center-row-141",
+      "name": "운정점",
+      "sourceUrl": "https://www.wawacenter.com/center/328",
+      "sourceTitle": "운정점와와학습코칭학원 센터 소개",
+      "address": "경기 파주시 동패동  1758-1 삼융프라자2 302호",
+      "sourceAddress": "경기 파주시 동패동 1758-1 삼융프라자2 302호",
+      "verifiedAt": "2026-09-13T09:15:46.716611+00:00",
+      "sourceHash": "8d17253b56cf7165c8c5951faac3e693ecca3433c9e423d79608265db4f621e4",
+      "identityBasis": "reviewed-name-and-road-or-parcel; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "내신과 공부 습관 관리",
+          "text": "국어·영어·수학 중심으로 수준별 내신 관리를 진행하고, 개별 공부 습관과 수행평가를 함께 관리한다고 안내합니다.",
+          "sourceExcerpt": "국영수 중심 내신관리와 수준별 개별 관리",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-142": {
+      "centerId": "center-row-142",
+      "name": "운정중앙점",
+      "sourceUrl": "https://www.wawacenter.com/center/522",
+      "sourceTitle": "운정중앙점 와와학습코칭학원 센터 소개",
+      "address": "경기도 파주시 양지로 131, 운정SB타워 509호,510호 (동패동)",
+      "sourceAddress": "경기 파주시 동패동 2125-3 운정 SB타워 509호,510호 와와학습코칭학원",
+      "verifiedAt": "2026-09-13T09:15:46.805568+00:00",
+      "sourceHash": "1d60ea37df3d542e279f0dacf11a4781af8be7a82fbdcc27831bd6fbdad7c88f",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "매일 플래너 작성",
+          "text": "매일 플래너를 작성하며 학습 방법과 목표, 과제 진행을 함께 관리한다고 안내합니다.",
+          "sourceExcerpt": "매일 플래너 작성",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-143": {
+      "centerId": "center-row-143",
+      "name": "운정호수점",
+      "sourceUrl": "https://www.wawacenter.com/center/472",
+      "sourceTitle": "운정호수점와와학습코칭센터학원 센터 소개",
+      "address": "경기 파주시 경의로1240번길 37-1  명품프라자3차 605호",
+      "sourceAddress": "경기 파주시 와동동 1466-1 명품프라자3차 605호",
+      "verifiedAt": "2026-09-13T09:15:46.817127+00:00",
+      "sourceHash": "fea1da036ca22f5c27754e324ce6dfaf428fcac93886c5abfce6fc1a6ab87d57",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "플래너로 목표와 과제 점검",
+          "text": "매일 작성하는 플래너를 통해 학습 목표와 과제, 공부 습관을 함께 관리한다고 안내합니다.",
+          "sourceExcerpt": "매일 플래너 작성",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-150": {
+      "centerId": "center-row-150",
+      "name": "율하점",
+      "sourceUrl": "https://www.wawacenter.com/center/426",
+      "sourceTitle": "율하점와와학습코칭학원 센터 소개",
+      "address": "대구 동구 율하동로 32  4층 와와학습코칭센터",
+      "sourceAddress": "대구 동구 율하동 1485 4층 와와학습코칭센터",
+      "verifiedAt": "2026-09-13T09:15:46.977968+00:00",
+      "sourceHash": "a9f6b7ede2a1028d3adafbcb5938e2c51d9f1e356a4012c7f79a5426a8858bb8",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "학교별 시험 경향과 학습 계획",
+          "text": "주변 학교의 시험 경향을 반영해 학습 계획을 세우고, 수행평가를 관리한다고 안내합니다.",
+          "sourceExcerpt": "주변 학교의 시험 경향을 반영한 체계적인 학습 플랜",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-151": {
+      "centerId": "center-row-151",
+      "name": "은평점",
+      "sourceUrl": "https://www.wawacenter.com/center/315",
+      "sourceTitle": "와와학습코칭학원 센터 소개",
+      "address": "서울특별시 은평구 진관동 진관2로 29-21  드림스퀘어 제 8층 804호 805호",
+      "sourceAddress": "서울 은평구 진관동 72 드림스퀘어 제 8층 804호 805호",
+      "verifiedAt": "2026-09-13T09:15:47.082554+00:00",
+      "sourceHash": "fc5931e636f4964f8d6450db67c3e88dcf85569bf49a8ef6d8bc399ca998e49b",
+      "identityBasis": "reviewed-name-and-road-or-parcel; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "영어 학습 기록 관리",
+          "text": "영어 전문관의 운영 안내에는 어휘노트·플래너·개념노트 관리와 학교별 시험 경향 분석이 포함되어 있습니다.",
+          "sourceExcerpt": "어휘노트,플래너,개념노트관리",
+          "subjects": [
+            "영어"
+          ],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-154": {
+      "centerId": "center-row-154",
+      "name": "이곡점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC154",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "대구광역시 달서구 이곡동 달구벌대로259길 33  제일빌딩 5층",
+      "sourceAddress": "대구광역시 달서구 이곡동 달구벌대로259길 33  제일빌딩 5층",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC154 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "주간평가서와 월 정기고사",
+          "text": "주간평가서를 공유하고, 매월 정기고사로 학습 성취도를 점검하는 내용이 기재되어 있습니다.",
+          "sourceExcerpt": "주간평가서 공유",
+          "sourceCell": "AC154",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-156": {
+      "centerId": "center-row-156",
+      "name": "이시아폴리스점",
+      "sourceUrl": "https://www.wawacenter.com/center/517",
+      "sourceTitle": "이시아폴리스점와와학습코칭학원 센터 소개",
+      "address": "대구 동구 팔공로51길 33  A-503호 와와학습코칭학원",
+      "sourceAddress": "대구 동구 봉무동 1543-1 A-503호 와와학습코칭학원",
+      "verifiedAt": "2026-09-13T09:15:47.100270+00:00",
+      "sourceHash": "b2e43b4a3ec318428cc5592843bc3e77ab100f16b64f865069b9194942daf70c",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "계획·실행·피드백 연결",
+          "text": "학생의 수준·습관·성향을 살피고, 학습 계획과 실행, 피드백을 연결하는 코칭 과정을 안내합니다.",
+          "sourceExcerpt": "계획 수립부터 실행, 피드백, 습관 형성까지",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-157": {
+      "centerId": "center-row-157",
+      "name": "이충점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC157",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "경기 평택시 이충로 49-31  삼원프라자 201호",
+      "sourceAddress": "경기 평택시 이충로 49-31  삼원프라자 201호",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC157 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "매일 수업·숙제 피드백",
+          "text": "학습 소통방에서 매일 수업 내용과 숙제에 대한 피드백을 제공하는 방식이 기재되어 있습니다.",
+          "sourceExcerpt": "매일 수업 내용과 숙제에 대한 피드백 제공",
+          "sourceCell": "AC157",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-158": {
+      "centerId": "center-row-158",
+      "name": "인창점",
+      "sourceUrl": "https://www.wawacenter.com/center/228",
+      "sourceTitle": "와와학습코칭센터학원 센터 소개",
+      "address": "경기 구리시 건원대로 36  제 407호 와와학습코칭학원",
+      "sourceAddress": "경기 구리시 인창동 670-7 제 407호 와와학습코칭학원",
+      "verifiedAt": "2026-09-13T09:15:47.237515+00:00",
+      "sourceHash": "75576fd6dbc93794d36648e262322a094fbb4d3d51c2e58c97d1b7f0c94245a6",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "내신·모의고사·수행평가 관리",
+          "text": "내신과 모의고사, 수행평가를 별도로 운영·관리한다고 안내합니다.",
+          "sourceExcerpt": "내신대비 / 모의고사/ 수행평가 별도 운영 관리",
+          "subjects": [],
+          "stages": [
+            "중학생",
+            "고등학생"
+          ],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-160": {
+      "centerId": "center-row-160",
+      "name": "장곡점",
+      "sourceUrl": "https://www.wawacenter.com/center/304",
+      "sourceTitle": "와와학습코칭학원 센터 소개",
+      "address": "경기 시흥시 진말로 7  중앙프라자 3층 305호, 306호",
+      "sourceAddress": "경기 시흥시 장곡동 819-2 중앙프라자 3층 305호, 306호",
+      "verifiedAt": "2026-09-13T09:15:47.249449+00:00",
+      "sourceHash": "92c599eda446a96ade551a14822461e150f64a617dfc31a96efd28070cf01925",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "수업 전 학습 공백 진단",
+          "text": "수업 전 테스트로 학습 공백을 확인한 뒤 학생 수준에 맞는 개별 수업을 진행한다고 안내합니다.",
+          "sourceExcerpt": "수업 전 테스트로 학습 공백을 정확하게 진단",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-165": {
+      "centerId": "center-row-165",
+      "name": "종암점",
+      "sourceUrl": "https://www.wawacenter.com/center/374",
+      "sourceTitle": "종암와와학습코칭학원 센터 소개",
+      "address": "서울 성북구 종암로27길 13  도원프라자 501",
+      "sourceAddress": "서울 성북구 종암동 80-1 도원프라자 501호",
+      "verifiedAt": "2026-09-13T09:15:47.491273+00:00",
+      "sourceHash": "c98caec568cf9e1f822d50ffedbf80e6e5fdeb4e8d4498b3f5658653d86e27a8",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "학교 분석과 맞춤 교재",
+          "text": "지역 학교 분석을 바탕으로 학생별 학습 계획과 교재를 정하고 개별 코칭을 진행한다고 안내합니다.",
+          "sourceExcerpt": "지역 내 학교 분석",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-166": {
+      "centerId": "center-row-166",
+      "name": "좌동점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC166",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "부산광역시 해운대구 좌동 좌동로 88  울트라타워 5층 508호",
+      "sourceAddress": "부산광역시 해운대구 좌동 좌동로 88  울트라타워 5층 508호",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC166 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "플래너와 월평가서 소통",
+          "text": "매일 플래너를 작성하고 학부모가 참여하는 학습방을 운영하며, 월평가서로 학습 상황을 소통하는 내용이 기재되어 있습니다.",
+          "sourceExcerpt": "매일 플래너 작성과 학부모초대 학습방 운영 / 월평가서 소통",
+          "sourceCell": "AC166",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-170": {
+      "centerId": "center-row-170",
+      "name": "중산점",
+      "sourceUrl": "https://www.wawacenter.com/center/512",
+      "sourceTitle": "중산점와와학습코칭학원 센터 소개",
+      "address": "경기 고양시 일산동구 중산로 103  거풍프라자 202호",
+      "sourceAddress": "경기 고양시 일산동구 중산동 1691 거풍프라자 202호",
+      "verifiedAt": "2026-09-13T09:15:47.644448+00:00",
+      "sourceHash": "d62999e722906c184575c909809091bac63407d61eea5bc92da6f146315c8f6d",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "학교 교육과정에 맞춘 평가 준비",
+          "text": "중산동 학교의 교육과정에 맞춰 시험 준비와 수행평가를 관리한다고 안내합니다.",
+          "sourceExcerpt": "중산동 내 학교의 커리큘럼에 맞춰 시험 대비와 수행평가 관리",
+          "subjects": [],
+          "stages": [
+            "중학생",
+            "고등학생"
+          ],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-173": {
+      "centerId": "center-row-173",
+      "name": "진접점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC173",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "경기 남양주시 진접읍 해밀예당1로 171  제일프라자 203호",
+      "sourceAddress": "경기 남양주시 진접읍 해밀예당1로 171  제일프라자 203호",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC173 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "일일 테스트와 학부모 피드백",
+          "text": "일일 테스트 결과를 학부모에게 개별적으로 알리고, 수업 진행에 관한 피드백을 제공하는 방식이 기재되어 있습니다.",
+          "sourceExcerpt": "매일 일일테스트 진행해서 학부모님 개별 통보",
+          "sourceCell": "AC173",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-174": {
+      "centerId": "center-row-174",
+      "name": "진천점(모두)",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC174",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "대구광역시 달서구 조암남로 158,301호(유천동)",
+      "sourceAddress": "대구광역시 달서구 조암남로 158,301호(유천동)",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC174 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "개념 반복과 백지 테스트",
+          "text": "개념노트를 관리하면서 기초 개념을 반복 학습하고 백지 테스트를 활용하는 내용이 기재되어 있습니다.",
+          "sourceExcerpt": "기초개념 반복학습 및 백지테스트",
+          "sourceCell": "AC174",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        },
+        {
+          "title": "일일 수업 리포트",
+          "text": "학부모에게 일일 수업 리포트를 제공하는 소통 방식이 기재되어 있습니다.",
+          "sourceExcerpt": "일일 수업리포트 제공",
+          "sourceCell": "AC174",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-177": {
+      "centerId": "center-row-177",
+      "name": "첨단점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC177",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "광주 광산구 월계로 191  404호",
+      "sourceAddress": "광주 광산구 월계로 191  404호",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC177 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "초등 단원 마무리 점검",
+          "text": "초등학생은 단원이 끝날 때 테스트와 보완 학습을 진행하는 내용이 기재되어 있습니다.",
+          "sourceExcerpt": "초등회원은 매 단원 끝날때마다 주기적 테스트 및 보완",
+          "sourceCell": "AC177",
+          "subjects": [],
+          "stages": [
+            "초등학생"
+          ],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-180": {
+      "centerId": "center-row-180",
+      "name": "치평점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC180",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "광주 서구 치평로 76  대한빌딩 403호",
+      "sourceAddress": "광주 서구 치평로 76  대한빌딩 403호",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC180 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "원장 수업과 학부모 소통",
+          "text": "원장이 직접 수업을 진행하고 학부모 소통방을 운영하며, 분기별 코칭데이를 진행하는 것으로 기재되어 있습니다.",
+          "sourceExcerpt": "분기별 코칭데이를 진행",
+          "sourceCell": "AC180",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-183": {
+      "centerId": "center-row-183",
+      "name": "침산점",
+      "sourceUrl": "https://www.wawacenter.com/center/366",
+      "sourceTitle": "침산점와와학습코칭학원 센터 소개",
+      "address": "대구 북구 침산남로 140  엠비프라자 901",
+      "sourceAddress": "대구 북구 침산동 260-8 엠비프라자 901호",
+      "verifiedAt": "2026-09-13T09:15:48.074858+00:00",
+      "sourceHash": "1de48267bf4a36b0c5f8c66c7d027a3fcc0d3d65e8d33f443d5e6ba4f4e95b30",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "AI 오답 클리닉과 주간 코칭",
+          "text": "AI 오답 클리닉과 주간 코칭을 통해 학습을 점검하는 방식이 안내되어 있습니다.",
+          "sourceExcerpt": "AI 오답 클리닉과 주간 밀착 코칭",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-185": {
+      "centerId": "center-row-185",
+      "name": "탄현점",
+      "sourceUrl": "https://www.wawacenter.com/center/395",
+      "sourceTitle": "탄현점와와학습코칭학원 센터 소개",
+      "address": "경기 고양시 일산서구 산현로17번길 23  은행프라자 4",
+      "sourceAddress": "경기 고양시 일산서구 탄현동 1576-2 은행프라자 4층",
+      "verifiedAt": "2026-09-13T09:15:48.075845+00:00",
+      "sourceHash": "c5de73a74a0a72e73b5b5931728160bd38678ed558eb3c143fa3e47bad4924c5",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "등원 수업과 비등원일 학습 관리",
+          "text": "온·오프라인 병행 수업과 학교별 지필·수행평가 준비를 진행하며, 수업이 없는 날의 학습도 관리한다고 안내합니다.",
+          "sourceExcerpt": "수업이 없는 날에도 학습 안정화가 가능하도록 학습 관리",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-186": {
+      "centerId": "center-row-186",
+      "name": "탕정점(모두)",
+      "sourceUrl": "https://www.wawacenter.com/center/516",
+      "sourceTitle": "탕정점 모두오름학습코칭학원 센터 소개",
+      "address": "충남 아산시 탕정면 한들물빛5로 5  605호 모두오름학습코칭학원",
+      "sourceAddress": "충남 아산시 탕정면 매곡리 1220 605호 모두오름학습코칭학원",
+      "verifiedAt": "2026-09-13T09:15:48.179522+00:00",
+      "sourceHash": "2dfe1a288d251c45743289e5b215b988c4c81113bd8cbd56d54dcb9691335652",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "원장들의 수업·상담 협력",
+          "text": "원장들이 교육 내용을 함께 설계하고 수업과 생활 지도, 학부모 상담을 직접 진행한다고 안내합니다.",
+          "sourceExcerpt": "원장들이 수업, 생활 지도, 학부모 상담까지 전 과정을 책임",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-190": {
+      "centerId": "center-row-190",
+      "name": "풍동점",
+      "sourceUrl": "https://www.wawacenter.com/center/359",
+      "sourceTitle": "풍동와와학습코칭학원 센터 소개",
+      "address": "경기 고양시 일산동구 숲속마을로 44  미래타워 6",
+      "sourceAddress": "경기 고양시 일산동구 풍동 1280-1 미래타워 6층",
+      "verifiedAt": "2026-09-13T09:15:48.313209+00:00",
+      "sourceHash": "d0094a16de775a09b86c8eb546df6a911e82d7d75f89ca04a66c616ffb24184d",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "학교 시험 분석과 노트 관리",
+          "text": "학교별 시험 경향·유형을 분석하고, 수행평가와 플래너·개념노트·오답노트를 함께 관리한다고 안내합니다.",
+          "sourceExcerpt": "학교별 시험경향 및 유형분석 맞춤 지도",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-191": {
+      "centerId": "center-row-191",
+      "name": "하계점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC191",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "서울 노원구 노원로 257  401호",
+      "sourceAddress": "서울 노원구 노원로 257  401호",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC191 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "과목별 월평가서",
+          "text": "매월 과목별 학습 평가서를 학부모에게 보내고, 정기고사로 학습 진행 상황을 점검한 뒤 피드백하는 방식이 기재되어 있습니다.",
+          "sourceExcerpt": "매월 과목별  학습 평가서 학부모 전송",
+          "sourceCell": "AC191",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-193": {
+      "centerId": "center-row-193",
+      "name": "행신점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC193",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "경기 고양시 덕양구 중앙로 442  아성프라자 305호 와와학습코칭학원",
+      "sourceAddress": "경기 고양시 덕양구 중앙로 442  아성프라자 305호 와와학습코칭학원",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC193 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "수학 오답 누적 반복",
+          "text": "수학 오답관리 시스템을 통해 학생별로 틀린 문제를 누적해서 반복 학습할 수 있도록 운영하는 내용이 기재되어 있습니다.",
+          "sourceExcerpt": "수학 오답관리 시스템으로 학생별 오답문제에 대하여 누적반복학습가능",
+          "sourceCell": "AC193",
+          "subjects": [
+            "수학"
+          ],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        },
+        {
+          "title": "비등원일 영어 학습",
+          "text": "등원하지 않는 날에도 영어 ORT와 단어 학습 시스템을 활용할 수 있도록 운영하는 내용이 기재되어 있습니다.",
+          "sourceExcerpt": "학원 등원하지 않는 날에도 영어 ort, 단어 시스템으로 학습",
+          "sourceCell": "AC193",
+          "subjects": [
+            "영어"
+          ],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        },
+        {
+          "title": "수업별 진도·과제 공유",
+          "text": "수업마다 학습 소통방에 진도와 교사 코멘트, 과제 진행 여부와 다음 과제, 학사일정을 공유하는 방식이 기재되어 있습니다.",
+          "sourceExcerpt": "현 진도, 코치 코멘트, 과제진행유무, 과제부여, 학사일정",
+          "sourceCell": "AC193",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-198": {
+      "centerId": "center-row-198",
+      "name": "화명점",
+      "sourceUrl": "",
+      "sourceTitle": "제공된 센터 운영자료",
+      "sourceFile": "C:\\Users\\1992k\\Desktop\\코칭센터_데이터_260909.xlsx",
+      "sourceCell": "AC198",
+      "sourceSheet": "센터정보",
+      "workbookSHA": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "address": "부산 북구 금곡대로285번길 19  리버사이드빌딩 504",
+      "sourceAddress": "부산 북구 금곡대로285번길 19  리버사이드빌딩 504",
+      "verifiedAt": "2026-09-13",
+      "sourceHash": "59d1c33e633ef98537f43bc5f09339508cba38b03be2ab7a3c0a4a9f99f98b29",
+      "sourceType": "provided-center-workbook",
+      "identityBasis": "센터정보 시트 AC198 원본 행과 snapshot source.row 및 center name 일치",
+      "practices": [
+        {
+          "title": "수업 과정 기록과 마무리",
+          "text": "수업마다 학습 태도와 과제 수행, 당일 학습 내용, 교사 코멘트를 기록하고, 수업이 끝나기 전에 배운 내용을 정리하는 방식이 기재되어 있습니다.",
+          "sourceExcerpt": "매 수업마다 태도, 과제 수행, 당일 학습 내용",
+          "sourceCell": "AC198",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "provided-operating-record",
+          "isIndividualStudentCase": false
+        }
+      ]
+    },
+    "center-row-201": {
+      "centerId": "center-row-201",
+      "name": "후곡점",
+      "sourceUrl": "https://www.wawacenter.com/center/409",
+      "sourceTitle": "후곡점와와학습코칭학원 센터 소개",
+      "address": "경기 고양시 일산서구 일산로 511  태성상가 2층 201,202",
+      "sourceAddress": "경기 고양시 일산서구 일산동 1088-5 태성상가 2층 201,202호",
+      "verifiedAt": "2026-09-13T09:15:48.684147+00:00",
+      "sourceHash": "a4c6c0a205149c7ce7920b1da891bdd7cc400bfb8683e61fc35f480a36c533d6",
+      "identityBasis": "road-address-and-name; current official name and parcel address exactly match reviewed catalog",
+      "sourceType": "official-center-description",
+      "practices": [
+        {
+          "title": "시험 집중반과 방학 특강",
+          "text": "시험 기간의 시험 집중반과 방학 특강을 운영한다고 안내합니다.",
+          "sourceExcerpt": "시험 집중반 운영과 방학 때는 방학특강",
+          "subjects": [],
+          "stages": [],
+          "evidenceType": "published-operating-practice",
+          "isIndividualStudentCase": false
+        }
+      ]
+    }
+  },
+  "excluded": [
+    {
+      "centerId": "center-row-003",
+      "name": "가좌점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-005",
+      "name": "갈산점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-007",
+      "name": "개신점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-008",
+      "name": "거제수월점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-009",
+      "name": "고잔점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-012",
+      "name": "광명점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-013",
+      "name": "광장점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-015",
+      "name": "구산점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-016",
+      "name": "구월점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-018",
+      "name": "금천점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-023",
+      "name": "논현점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-025",
+      "name": "다산점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-029",
+      "name": "단대점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-031",
+      "name": "당진중앙점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-035",
+      "name": "대구장기점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-037",
+      "name": "도안점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-038",
+      "name": "돈암점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-041",
+      "name": "동소문점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-042",
+      "name": "동춘점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-044",
+      "name": "동탄호수점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-045",
+      "name": "두정점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-049",
+      "name": "루원시티점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-050",
+      "name": "마두점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-052",
+      "name": "마포점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-053",
+      "name": "망포점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-055",
+      "name": "명지대역점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-056",
+      "name": "목감점(모두)",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-057",
+      "name": "목동점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-058",
+      "name": "미금점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-059",
+      "name": "미사점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-061",
+      "name": "반석점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-062",
+      "name": "반송점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-065",
+      "name": "배곧점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-068",
+      "name": "별내점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-069",
+      "name": "별내중앙점(모두)",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-073",
+      "name": "복산점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-075",
+      "name": "봉담점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-076",
+      "name": "부발점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-078",
+      "name": "불당점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-079",
+      "name": "비산점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-080",
+      "name": "비전점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-081",
+      "name": "사동점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-082",
+      "name": "사우점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-083",
+      "name": "사직점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-084",
+      "name": "산남점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-086",
+      "name": "산본점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-087",
+      "name": "삼각산점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-088",
+      "name": "삼산점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-091",
+      "name": "상동점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-094",
+      "name": "새롬점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-095",
+      "name": "서수원점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-096",
+      "name": "서신점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-097",
+      "name": "석동점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-098",
+      "name": "석사점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-102",
+      "name": "소하점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-103",
+      "name": "송도점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-105",
+      "name": "송정점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-106",
+      "name": "송천점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-107",
+      "name": "송촌점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-109",
+      "name": "수성2가점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-110",
+      "name": "수성만촌점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-111",
+      "name": "수완점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-112",
+      "name": "수지점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-115",
+      "name": "수진점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-116",
+      "name": "시흥대야점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-117",
+      "name": "신곡점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-118",
+      "name": "신도림점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-119",
+      "name": "신방점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-120",
+      "name": "신방화점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-121",
+      "name": "신봉점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-122",
+      "name": "신월성점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-123",
+      "name": "신중동점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-124",
+      "name": "신창점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-125",
+      "name": "쌍용점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-127",
+      "name": "야탑점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-128",
+      "name": "양덕점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-130",
+      "name": "영천점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-131",
+      "name": "영통구청점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-132",
+      "name": "영통점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-133",
+      "name": "오산대역점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-134",
+      "name": "오산점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-135",
+      "name": "옥계점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-138",
+      "name": "옥정점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-144",
+      "name": "원당점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-145",
+      "name": "원주시청점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-146",
+      "name": "원흥점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-147",
+      "name": "웰카운티점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-148",
+      "name": "위례점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-155",
+      "name": "이매점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-159",
+      "name": "인천삼산점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-161",
+      "name": "장기점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-162",
+      "name": "전주혁신점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-163",
+      "name": "정평점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-164",
+      "name": "제기점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-167",
+      "name": "주엽점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-168",
+      "name": "중동점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-171",
+      "name": "지족점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-172",
+      "name": "진월점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-175",
+      "name": "천천점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-176",
+      "name": "철산점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-178",
+      "name": "청라점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-179",
+      "name": "충주용산점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-181",
+      "name": "칠곡점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-182",
+      "name": "칠금점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-184",
+      "name": "탄벌점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-187",
+      "name": "태평점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-188",
+      "name": "퇴계원점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-189",
+      "name": "평내점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-192",
+      "name": "하남풍산점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-194",
+      "name": "향남점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-195",
+      "name": "혁신점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-196",
+      "name": "호매실점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-197",
+      "name": "호평점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-199",
+      "name": "화정점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-203",
+      "name": "후평점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "center-row-204",
+      "name": "흥덕점",
+      "reason": "No concrete branch-specific operational detail selected; generic description, slogan or unverified outcome claim is not a student case."
+    },
+    {
+      "centerId": "reference-경기-화성태안점",
+      "name": "화성태안점",
+      "reason": "No approved official center identity mapping."
+    }
+  ],
+  "counts": {
+    "sourcePagesRead": 187,
+    "branchesWithSelectedPractices": 71,
+    "practiceItems": 85,
+    "individualStudentCasesVerified": 0,
+    "officialPracticeBranches": 41,
+    "providedWorkbookPracticeBranches": 30
+  }
+}

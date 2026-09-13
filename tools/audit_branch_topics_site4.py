@@ -17,6 +17,7 @@ from bs4 import BeautifulSoup
 from branch_site4_support import ROOT, DOMAIN
 from branch_topic_manuscripts_site4 import TOPICS, load_archive, sha, norm, text_fields
 from branch_topic_editorial_site4 import prepare, clean_copy
+from branch_templates_site4 import branch_path
 from prepare_branch_topics_site4 import DATA, REPORTS, save, SOURCE
 
 BASE_COMMIT = 'c840608d6b660dc77fd4ce061c6a828e4d5ddcc8'
@@ -29,7 +30,8 @@ def main():
     records=json.loads((DATA/'display-manuscripts.json').read_text(encoding='utf8'))
     manifest=json.loads((DATA/'manifest.json').read_text(encoding='utf8'))['pages']
     baseline=json.loads((DATA/'site-baseline.json').read_text(encoding='utf8'))
-    source_data=json.loads((ROOT/'tools/data/branches/snapshot.json').read_text(encoding='utf8'))
+    from branch_verified_facts_site4 import load_reviewed_snapshot, recorded_grades, REVIEWED_SCOPE_CENTERS, LOCATION_REPAIRS
+    source_data=load_reviewed_snapshot()
     centers={c['id']:c for c in source_data['centers']}
     raw_records={m['path']:m for m in json.loads((DATA/'manuscripts.json').read_text(encoding='utf8'))}
     errors=[]
@@ -57,6 +59,7 @@ def main():
         raw=target_file(path).read_bytes()
         check(sha(raw)==m['htmlSha256'],prefix+'generated file hash')
         expected,_=prepare(raw_records[path])
+        check(m['confirmedGrades']==recorded_grades(m),prefix+'recorded baseline grades match reviewed source')
         check(all(expected[k]==m[k] for k in ('meta','intro','sections','faq','cases','documentTitle','quickScan','contextualLinks')),prefix+'reviewed manuscript overlay current')
         soup=BeautifulSoup(raw,'html.parser')
         canonical=DOMAIN+quote(path,safe='/')
@@ -154,19 +157,36 @@ def main():
     check(len(set(descriptions))==len(records),'unique descriptions')
     check(len(set(body_hashes))==len(records),'no exact whole-manuscript duplicates')
     check(not source_tokens,'no source-column references')
+    external_archive_sources=[]
+    input_hashes={r['topic']:r['sha256'] for r in json.loads((REPORTS/'inputs.json').read_text(encoding='utf8'))['archiveStats']}
     for topic in TOPICS:
         file=DATA/'sources'/(topic+'.zip')
         parsed=load_archive(file,topic)
-        check(sha(file.read_bytes())==sha((SOURCE/file.name).read_bytes()),topic+': original ZIP unchanged')
+        # Completed manuscripts may be moved into the user's "한 거" folder.
+        # Find the exact filename only within the supplied manuscript directory;
+        # still require a unique original and the import-time SHA-256.
+        original_path=SOURCE/file.name
+        candidates=[original_path] if original_path.is_file() else list(SOURCE.rglob(file.name))
+        check(len(candidates)==1,topic+': unique original ZIP location')
+        check(sha(file.read_bytes())==input_hashes[topic],topic+': imported ZIP original hash')
+        if len(candidates)==1:
+            check(sha(file.read_bytes())==sha(candidates[0].read_bytes()),topic+': original ZIP unchanged')
+            external_archive_sources.append(str(candidates[0]))
         original={m['title']:m for m in raw_records.values() if m['topic']==topic}
         check(all(p['sourceSha256']==original[p['title']]['sourceSha256'] for p in parsed),topic+': all 371 source CRC/hash identities')
-    parents={m['parentPath'].strip('/')+'/index.html' for m in manifest}
+    topic_parents={m['parentPath'].strip('/')+'/index.html' for m in manifest}
+    # A corrected subject badge also appears in nearby-branch cards on the five
+    # branches without topic children. Audit all 193 parents against the baseline
+    # instead of treating those legitimate card updates as unexplained changes.
+    parents={branch_path(c).strip('/')+'/index.html' for c in centers.values()}
+    reviewed_card_centers={branch_path(c):c for c in centers.values() if c['id'] in REVIEWED_SCOPE_CENTERS}
+    scope_hubs={'지점안내/index.html'} | {'지점안내/'+c['region']['province']+'/index.html' for c in reviewed_card_centers.values()}
     for file,digest in baseline['html'].items():
-        if file not in parents:
+        if file not in parents and file not in scope_hubs:
             check(sha((ROOT/file).read_bytes())==digest,'existing HTML unchanged: '+file)
     # Archive must retain committed LF bytes instead of applying the Windows
     # checkout's core.autocrlf conversion. This does not change user Git config.
-    archived=subprocess.check_output(['git','-c','core.autocrlf=false','archive','--format=tar',BASE_COMMIT,*sorted(parents)],cwd=ROOT)
+    archived=subprocess.check_output(['git','-c','core.autocrlf=false','archive','--format=tar',BASE_COMMIT,*sorted(parents|scope_hubs)],cwd=ROOT)
     with tarfile.open(fileobj=BytesIO(archived)) as tar:
         for member in tar.getmembers():
             if not member.isfile():
@@ -174,10 +194,35 @@ def main():
             old=tar.extractfile(member).read()
             check(sha(old)==baseline['html'][member.name],member.name+': baseline commit')
             before=BeautifulSoup(old,'html.parser'); after=BeautifulSoup((ROOT/member.name).read_bytes(),'html.parser')
-            for node in after.select('#neighborhood-pages, a[href="#neighborhood-pages"]'):
+            # Directory, region and related-branch cards must reflect the same
+            # reviewed subject ranges; no other card content may change.
+            for card in after.select('.branch-center-card'):
+                c=reviewed_card_centers.get(card.get('href'))
+                if not c:
+                    continue
+                previous=next(x for x in before.select('.branch-center-card') if x['href']==card['href'])
+                label=card.select_one('.branch-card-end > span')
+                check(label.get_text()==' · '.join(c['_displaySubjects']),member.name+': reviewed subject card exact')
+                label.string=previous.select_one('.branch-card-end > span').get_text()
+                check(norm(card.get_text(' ',strip=True))==norm(previous.get_text(' ',strip=True)),member.name+': other card text preserved')
+            for node in after.select('#neighborhood-pages, a[href="#neighborhood-pages"], #verified-learning, a[href="#verified-learning"], #student-reviews, a[href="#student-reviews"], .branch-placement-note'):
                 node.decompose()
+            branch_id=next((c['id'] for c in centers.values() if branch_path(c).strip('/')+'/index.html'==member.name),None)
+            if branch_id in LOCATION_REPAIRS:
+                # Only sourced location prose changes, never the factual address list.
+                for doc in (before,after):
+                    for p in doc.select('#center-info > p:not(.branch-small)'):
+                        p.decompose()
+            if branch_id in REVIEWED_SCOPE_CENTERS:
+                # Explicitly reviewed subject display affects these derived summaries.
+                # A separate evidence audit verifies every grade/condition and exact
+                # regeneration; tuition, school lists, address, maps and all other
+                # branch copy still compare to the original baseline here.
+                for doc in (before,after):
+                    for node in doc.select('.branch-editorial-intro, .branch-at-a-glance, #learning, #programs, #curriculum, a[href="#curriculum"], #consultation-guide, #questions'):
+                        node.decompose()
             check(norm(before.select_one('main').get_text(' ',strip=True))==norm(after.select_one('main').get_text(' ',strip=True)),member.name+': branch copy preserved outside child links')
-            check(before.title.get_text()==after.title.get_text() and before.select_one('meta[name="description"]')['content']==after.select_one('meta[name="description"]')['content'],member.name+': branch metadata preserved')
+            check(before.title.get_text()==after.title.get_text() and (branch_id in REVIEWED_SCOPE_CENTERS or before.select_one('meta[name="description"]')['content']==after.select_one('meta[name="description"]')['content']),member.name+': branch metadata preserved except reviewed scope description')
     for file,digest in baseline['sourceData'].items():
         check(sha((ROOT/'tools/data/branches'/file).read_bytes())==digest,'immutable branch source '+file)
     for rep in json.loads((DATA/'representatives.json').read_text(encoding='utf8')):
@@ -197,10 +242,12 @@ def main():
             http=list(pool.map(fetch,manifest))
         check(all(x['status']==200 and x['hashMatches'] for x in http),'all 2226 local HTTP responses match generated files')
     result={'status':'PASS' if not errors else 'FAIL','checks':total,'errors':errors,'pages':len(records),'parents':len(parents),
+            'parentsWithTopicPages':len(topic_parents),
             'faqCount':sum(len(m['faq']) for m in records),'sections':dict(Counter(section_counts)),
             'uniqueTitles':len(set(documents)),'uniqueDescriptions':len(set(descriptions)),'uniqueFullManuscripts':len(set(body_hashes)),
             'averageBodyCharacters':round(sum(sum(len(p) for s in m['sections'] for p in s['paragraphs']) for m in records)/len(records),1),
             'maxReadingParagraphCharacters':max(paragraphs),'qualifiedScopePages':sum(not m['confirmedGrades'] for m in records),
+            'externalArchiveSources':external_archive_sources,
             'sourceColumnResiduals':source_tokens,'http':http,'interpretation':'Structural/source-preservation checks, not a search-engine rank or originality score.'}
     save(REPORTS/'audit.json',result)
     print(json.dumps({k:v for k,v in result.items() if k not in ('http','errors','sourceColumnResiduals')},ensure_ascii=False,indent=2))

@@ -9,6 +9,8 @@ from urllib.parse import quote
 
 from branch_site4_support import DOMAIN, page, reference_gallery
 import branch_editorial_site4 as editorial
+from branch_verified_facts_site4 import practice_for, practice_basis, placement_note
+from branch_reviews_site4 import reviews_for, review_cards
 
 
 REGIONS = ['서울', '경기', '인천', '부산', '대구', '광주', '대전', '울산', '세종', '강원', '충북', '충남', '전북', '전남', '경북', '경남', '제주']
@@ -458,6 +460,8 @@ def center_page(c, match, centers, reference=None):
     heading = '<span class="branch-brand-name">' + esc(c['brandName']) + '</span> ' + esc(c['sourceCenterName'])
     body = '<section class="branch-hero branch-detail-hero"><div><p class="branch-eyebrow">' + esc(region + ' · ' + (c['region']['administrativeAreaText'] or '지점안내')) + '</p><h1>' + heading + '</h1>'
     body += paragraph(branch_summary(c, reference), 'branch-intro branch-editorial-intro')
+    if placement_note(c['id']):
+        body += paragraph(placement_note(c['id']), 'branch-status-note branch-placement-note')
     body += paragraph(c['address'], 'branch-intro branch-hero-address')
     neighborhoods = list(dict.fromkeys((match or {}).get('neighborhoods', [])))
     if neighborhoods:
@@ -470,8 +474,14 @@ def center_page(c, match, centers, reference=None):
     anchors = [('center-info', '지점 정보'), ('programs', '과목·학년'), ('tuition', '교육비'), ('schools', '대상 학교'), ('directions', '오시는 길'), ('questions', '자주 묻는 질문')]
     additions = [('learning', '지점별 확인점', learning_section(c, reference)), ('curriculum', '학생별 준비', curriculum_section(c, reference, match)), ('learning-space', '학습 공간', reference_gallery(c, reference)), ('consultation-guide', '상담 순서', consultation_section(c, reference, match))]
     available_additions = {id_: (label, content) for id_, label, content in additions if content}
-    order = ['center-info', 'learning', 'programs', 'curriculum', 'tuition', 'schools', 'directions', 'consultation-guide', 'questions', 'neighborhood-pages', 'learning-space']
+    documented = practice_for(c['id'])
+    student_reviews = reviews_for(c['id'])
+    order = ['center-info', 'learning', 'verified-learning', 'student-reviews', 'programs', 'curriculum', 'tuition', 'schools', 'directions', 'consultation-guide', 'questions', 'neighborhood-pages', 'learning-space']
     labels = dict(anchors) | {id_: label for id_, (label, _) in available_additions.items()}
+    if documented:
+        labels['verified-learning'] = '수업·피드백 안내'
+    if student_reviews:
+        labels['student-reviews'] = '학생의 학습 경험'
     if children:
         labels['neighborhood-pages'] = '동네별 학습 안내'
     anchors = [(id_, labels[id_]) for id_ in order if id_ in labels]
@@ -486,6 +496,16 @@ def center_page(c, match, centers, reference=None):
     body += panel('center-info', '방문 전, 지점 정보부터', info, '01  CENTER INFORMATION')
     if additions[0][2]:
         body += panel('learning', editorial.name(c) + '에서 먼저 살펴볼 점', additions[0][2], 'BRANCH CHECKPOINTS')
+    if documented:
+        evidence_body = paragraph(practice_basis(documented)+'에서 확인한 '+editorial.name(c)+'의 운영 방식입니다. 공통 학습 조언과 구분해 정리했으며, 개별 학생의 성적 향상 사례를 뜻하지 않습니다.','branch-small')
+        evidence_body += '<div class="branch-decision-cards">'+''.join('<article><h3>'+esc(item['title'])+'</h3>'+paragraph(item['text'],'branch-focus-copy')+'</article>' for item in documented['practices'])+'</div>'
+        evidence_body += paragraph('자료를 대조한 날은 2026년 9월 13일입니다. 운영 내용을 직접 확인한 날짜는 아니므로, 적용 학년·과목·공유 주기는 상담에서 확인해 주세요.','branch-small')
+        if documented.get('sourceUrl'):
+            evidence_body += '<p class="branch-inline-guide"><a href="'+esc(documented['sourceUrl'])+'" target="_blank" rel="noopener">공식 센터 소개 확인 ↗</a></p>'
+        body += panel('verified-learning',editorial.name(c)+'의 수업·피드백 안내',evidence_body)
+    if student_reviews:
+        intro = paragraph('공식 홈페이지에 공개된 '+editorial.name(c)+' 학생 후기에서 수업과 피드백 경험을 정리했습니다.')
+        body += panel('student-reviews',editorial.name(c)+' 학생이 전한 학습 경험',intro+review_cards(student_reviews),'STUDENT EXPERIENCES')
     subjects = paragraph('같은 지점에서도 과목마다 시작 학년과 수업 가능한 범위가 다릅니다. 희망 과목의 학년을 먼저 살펴보세요.') + '<div class="branch-subject-list">'
     for name, data in c['subjects'].items():
         detail = reader_text(reference.get('operations', {}).get('subjectDisplay', {}).get(name, {}).get('detail', ''))
