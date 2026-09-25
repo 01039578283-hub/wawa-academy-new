@@ -7,3 +7,9 @@ tools/reports/title-suffix-plan.json
 tools/reports/title-suffix-public-verification.json
 tools/reports/title-suffix-release.json
 tools/reports/hub-enrichment/
+
+# Isolated public release: never commit derived output or private inputs.
+.public-release/
+node_modules/
+.env*
+tools/data/
