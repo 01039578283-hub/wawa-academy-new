@@ -1,0 +1,24 @@
+#branch-finder{scroll-margin-top:110px;}
+.branch-course-filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:22px;}
+.branch-search-controls .branch-course-filters label{font-size:15px;margin-bottom:7px;}
+.branch-course-filters select{width:100%;min-height:48px;padding:10px 34px 10px 12px;border:1px solid #acbac5;border-radius:9px;background:#fff;color:#24364c;font:inherit;font-size:16px;}
+.branch-search-controls .branch-review-option{display:flex;align-items:flex-start;gap:9px;font-size:15px;line-height:1.7;font-weight:700;cursor:pointer;}
+.branch-review-option input{flex:0 0 20px;width:20px;height:20px;margin:3px 0 0;accent-color:#773951;}
+.branch-search-controls .branch-review-help{margin:5px 0 14px 29px;font-size:13px;}
+.branch-course-match{border-top:1px solid #e3d8df;padding-top:12px;display:grid;gap:12px;}
+.branch-course-match p{margin:5px 0 0!important;font-size:14px!important;line-height:1.75;overflow-wrap:anywhere;}
+.branch-course-match strong{display:block;font-size:14px;line-height:1.7;color:#3a3e59;}
+.branch-course-match .branch-match-review{color:#80511d;}
+.branch-course-match .branch-match-note{font-size:13px!important;color:#685360;}
+.branch-course-filters select:focus-visible,.branch-review-option input:focus-visible{outline:3px solid #a84d73;outline-offset:3px;}
+@media(max-width:380px){.branch-course-filters{gap:10px;}.branch-search-controls .branch-review-option{font-size:14px;}}
+.branch-result{min-width:0;display:flex;flex-direction:column;border:1px solid #e0e5e9;border-radius:16px;background:#fff;overflow:hidden;}
+.branch-result .branch-center-card{flex:1;border:0;border-radius:0;}
+.branch-result .branch-center-card:focus-visible{outline:3px solid #a84d73;outline-offset:-3px;}
+.branch-course-links{padding:0 23px 23px;}
+.branch-course-links .branch-course-link-title{margin:0 0 10px;padding-top:16px;border-top:1px solid #e3d8df;color:#24364c;font-size:14px;font-weight:800;line-height:1.6;}
+.branch-course-links ul{display:grid;gap:8px;margin:0;padding:0;list-style:none;}
+.branch-course-links a{display:flex;align-items:center;min-height:44px;padding:10px 12px;border:1px solid #dcc6d0;border-radius:8px;background:#fff5f9;color:#71354e;font-size:14px;font-weight:700;line-height:1.6;overflow-wrap:anywhere;}
+.branch-course-links a:hover{background:#f9e8f0;border-color:#a84d73;}
+.branch-course-links a:focus-visible{outline:3px solid #a84d73;outline-offset:2px;}
+@media(max-width:380px){.branch-course-links{padding:0 18px 18px;}}

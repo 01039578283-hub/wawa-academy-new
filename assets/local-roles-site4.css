@@ -1,0 +1,30 @@
+/* Local branch selection and practical learning guides have distinct roles. */
+.local-role-nav {display:flex; flex-wrap:wrap; gap:10px; margin:20px auto; max-width:900px;}
+.local-role-nav a {display:flex; align-items:center; justify-content:center; min-height:46px; padding:10px 16px; border:1px solid #ddcbd5; border-radius:10px; color:#71324d; background:white; text-decoration:none; font-weight:700;}
+.local-role-nav a[aria-current="page"] {background:#71324d; color:white; border-color:#71324d;}
+.local-role-nav a:focus-visible,.local-study-notes summary:focus-visible {outline:3px solid #81324f; outline-offset:3px;}
+.local-practice-grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:18px;}
+.local-practice-grid article {padding:20px; background:#faf5f8; border:1px solid #eadbe3; border-radius:14px;}
+.local-practice-grid h3 {margin:0 0 12px; font-size:20px;}
+.local-practice-grid p {line-height:1.8; margin:8px 0;}
+.local-branch-photo {margin:26px auto; max-width:580px;}
+.local-branch-photo img {display:block; width:100%; height:auto; border-radius:14px;}
+.local-branch-photo figcaption {padding:10px 4px; font-size:14px; color:#655660;}
+.local-study-notes {margin:26px 0; border:1px solid #ddcbd5; border-radius:14px; background:#fff; padding:0 20px;}
+.local-study-notes>summary {padding:20px 0; cursor:pointer; font-size:17px; font-weight:700; color:#71324d;}
+.local-role-table {margin-top:24px; overflow-x:auto;}
+.local-role-table table {width:100%; border-collapse:collapse; table-layout:fixed;}
+.local-role-table caption {text-align:left; font-weight:700; padding:14px 0;}
+.local-role-table :is(th,td) {padding:14px; text-align:left; vertical-align:top; border:1px solid #e7d6e0; line-height:1.7; overflow-wrap:anywhere;}
+.local-role-table th {background:#faf5f8;}
+[data-local-role-version] .faq-section details {padding:18px 20px; margin:12px 0; border:1px solid #eadbe3; border-radius:12px; background:white;}
+[data-local-role-version] .faq-section summary {font-weight:700; cursor:pointer; line-height:1.6;}
+[data-local-role-version] .faq-section details p {line-height:1.8; margin:16px 0 0;}
+[data-local-role-version] :is(#programs,#local-practices,#learning-space,#local-study-guide) {scroll-margin-top:100px;}
+@media(max-width:600px) {
+ .local-role-nav {padding:0 8px; flex-direction:column;}
+ .local-role-nav a {width:100%; box-sizing:border-box;}
+ .local-practice-grid {grid-template-columns:minmax(0,1fr);}
+ .local-study-notes {padding:0 12px;}
+ .local-role-table :is(th,td) {padding:10px 7px; font-size:14px;}
+}

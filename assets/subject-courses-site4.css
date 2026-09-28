@@ -1,0 +1,17 @@
+/* The five course pages keep stage-specific facts visible before study notes. */
+[data-subject-courses] .topic-hero {max-width:900px;margin:0 auto 22px;box-sizing:border-box;}
+[data-subject-courses] .subject-main-facts {max-width:900px;margin:0 auto 20px;box-sizing:border-box;}
+.subject-panel p {line-height:1.85;overflow-wrap:anywhere;}
+.subject-facts {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px;margin:22px 0;}
+.subject-facts>div:last-child {grid-column:1/-1;}
+.subject-facts dt {font-size:14px;color:#6f606a;margin-bottom:8px;}
+.subject-facts dd {margin:0;font-size:20px;line-height:1.6;font-weight:700;overflow-wrap:anywhere;}
+.subject-condition {padding:16px 18px;background:#faf5f8;border-left:3px solid #81324f;border-radius:0 10px 10px 0;}
+.subject-prep-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:22px 0;}
+.subject-prep-grid article {padding:20px;background:#f8f6f7;border:1px solid #e9e0e5;border-radius:12px;}
+.subject-prep-grid h3 {font-size:18px;margin:0 0 12px;line-height:1.6;}
+.subject-prep-grid p {font-size:16px;margin:0;}
+[data-subject-courses] :is(#center-info,#course-preparation,#documented-learning,#schools,#questions,#study-reference) {scroll-margin-top:90px;}
+[data-subject-courses] .local-study-notes .branch-panel {box-shadow:none;}
+@media(max-width:768px) {.subject-prep-grid{grid-template-columns:minmax(0,1fr);}.subject-prep-grid article{padding:18px;}}
+@media(max-width:480px) {.subject-facts{grid-template-columns:minmax(0,1fr);gap:14px;}.subject-facts dd{font-size:18px;}.subject-condition{padding:13px;}[data-subject-courses] .local-actions a{font-size:15px;}}

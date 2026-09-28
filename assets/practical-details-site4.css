@@ -1,0 +1,34 @@
+/* Provided opening guidance and historical tuition remain separate from current lessons. */
+.practical-schedule,.practical-fees {scroll-margin-top:100px;}
+.practical-schedule-list {margin:24px 0; border-top:1px solid #e4d8df;}
+.practical-schedule-list>div {display:grid; grid-template-columns:170px minmax(0,1fr); gap:24px; padding:20px 0; border-bottom:1px solid #e4d8df;}
+.practical-schedule-list dt {font-weight:700; color:#71324d; line-height:1.6;}
+.practical-schedule-list dt span {font-size:14px; font-weight:400; color:#655660;}
+.practical-schedule-list dd {margin:0; line-height:1.85; overflow-wrap:anywhere;}
+.practical-schedule-list dd p {margin:8px 0 0;}
+.practical-source-note {font-size:14px; line-height:1.8; color:#655660;}
+.practical-source-card {margin:24px 0; padding:20px; border-left:4px solid #71324d; border-radius:0 12px 12px 0; background:#faf5f8;}
+.practical-source-card strong {color:#71324d;}
+.practical-source-card p {margin:10px 0 0; line-height:1.8;}
+.practical-fee-excerpt {margin:24px 0; padding:0 20px; border:1px solid #ddcbd5; border-radius:14px;}
+.practical-fee-excerpt>summary {cursor:pointer; font-weight:700; color:#71324d; padding:20px 0; line-height:1.7;}
+.practical-fee-excerpt>p {line-height:1.85;}
+.practical-fee-excerpt>summary:focus-visible,.practical-topic-links a:focus-visible {outline:3px solid #71324d; outline-offset:4px;}
+.practical-fee-table table {width:100%; table-layout:fixed; border-collapse:collapse;}
+.practical-fee-table caption {text-align:left; line-height:1.7; font-size:14px; margin:12px 0;}
+.practical-fee-table th,.practical-fee-table td {padding:14px 12px; border:1px solid #e4d8df; text-align:left; vertical-align:top; overflow-wrap:anywhere; line-height:1.75;}
+.practical-fee-table thead th {background:#faf5f8;}
+.practical-fee-table thead th:first-child {width:46%;}
+.practical-fee-table tbody th {font-weight:500;}
+.practical-topic-links {display:flex; flex-wrap:wrap; gap:10px 22px;}
+.practical-topic-links a {display:inline-flex; align-items:center; min-height:44px; line-height:1.65;}
+@media(max-width:600px) {
+ .practical-schedule-list>div {grid-template-columns:minmax(0,1fr); gap:8px; padding:18px 0;}
+ .practical-schedule-list dt br {display:none;}
+ .practical-schedule-list dt span {margin-left:7px;}
+ .practical-source-card {padding:16px;}
+ .practical-fee-excerpt {padding:0 12px;}
+ .practical-fee-table th,.practical-fee-table td {padding:10px 6px; font-size:13px;}
+ .practical-fee-table thead th:first-child {width:38%;}
+ .practical-topic-links {flex-direction:column; gap:4px;}
+}

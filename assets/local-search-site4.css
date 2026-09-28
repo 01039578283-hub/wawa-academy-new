@@ -1,0 +1,38 @@
+/* Local information stays readable before the long reference images. */
+.local-center-link { margin: 0; padding: 26px 0; background: #faf5f8; border-block: 1px solid #e7d6e0; }
+.local-center-link h2 { margin: 6px 0 10px; font-size: clamp(21px, 3vw, 28px); }
+.local-center-link p { margin: 8px 0; line-height: 1.7; }
+.local-eyebrow { color: #81324f; font-size: 14px; font-weight: 700; }
+.local-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+.local-button { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 11px 17px; border: 1px solid #81324f; border-radius: 10px; background: #81324f; color: #fff !important; font-size: 16px; font-weight: 700; line-height: 1.5; text-decoration: none !important; text-align: center; }
+.local-button.secondary { background: #fff; color: #71324d !important; border-color: #d1afc0; }
+.local-button:hover { filter: brightness(.94); }
+.local-button:focus-visible, .local-reading-links a:focus-visible, .local-media-disclosure summary:focus-visible { outline: 3px solid #81324f; outline-offset: 4px; }
+.local-note { font-size: 15px; color: #655660; line-height: 1.7; }
+.local-facts { max-width: 900px; margin: 20px auto !important; border-top: 4px solid #81324f !important; }
+.local-facts h2 { margin-top: 0; }
+.local-facts dl { margin: 18px 0; }
+.local-facts dl > div { display: grid; grid-template-columns: 105px minmax(0, 1fr); gap: 12px; padding: 11px 0; border-bottom: 1px solid #eee3e8; }
+.local-facts dt { font-weight: 700; }
+.local-facts dd { margin: 0; overflow-wrap: anywhere; }
+.local-facts a:not(.local-button), .local-fee-link a { color: #71324d; text-decoration: underline; text-underline-offset: 4px; }
+.local-reading-links { max-width: 900px; margin: 20px auto; display: flex; flex-wrap: wrap; gap: 8px 22px; }
+.local-reading-links a { min-height: 44px; display: inline-flex; align-items: center; color: #71324d; text-decoration: underline; text-underline-offset: 4px; }
+.local-learning-flow ol { padding-left: 24px; }
+.local-learning-flow li { padding-left: 5px; margin: 20px 0; }
+.local-learning-flow h3 { font-size: 19px; margin: 0 0 8px; }
+.local-learning-flow p { margin: 8px 0; }
+.local-branch-context { padding: 16px; background: #faf5f8; border-left: 3px solid #81324f; }
+.local-media-disclosure { max-width: 900px; margin: 28px auto; border: 1px solid #ddcbd5; border-radius: 14px; background: #fff; }
+.local-media-disclosure > summary { cursor: pointer; padding: 20px; min-height: 48px; color: #71324d; font-size: 17px; font-weight: 700; }
+.local-media-disclosure .branch-primary-media { margin-top: 0; padding: 12px; }
+.local-media-disclosure img { max-width: 100%; height: auto; }
+[data-local-search-version] :is(#center-info, #section-1, #schools, #questions, #tuition, #directions) { scroll-margin-top: 100px; }
+@media (max-width: 600px) {
+  .local-facts dl > div { grid-template-columns: minmax(0, 1fr); gap: 5px; }
+  .local-actions { flex-direction: column; align-items: stretch; }
+  .local-button { width: 100%; box-sizing: border-box; overflow-wrap: anywhere; }
+  .local-reading-links { padding-inline: 8px; gap: 4px 16px; }
+  .local-center-link { padding-block: 22px; }
+  .local-media-disclosure > summary { padding: 18px 14px; }
+}

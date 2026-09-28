@@ -1,0 +1,21 @@
+/* Verified regional course choices and combined-subject study references. */
+.overview-role-nav{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0;}
+.overview-role-nav a,.overview-learning-grid a{display:block;padding:12px 16px;border:1px solid #ddcbd5;border-radius:10px;background:#fff;color:#71324d;font-weight:700;text-decoration:none;line-height:1.6;overflow-wrap:anywhere;}
+.overview-role-nav [aria-current=page]{color:white;background:#71324d;}
+.overview-course-table{margin:20px 0;overflow-x:auto;}
+.overview-course-table table{width:100%;border-collapse:collapse;table-layout:fixed;}
+.overview-course-table caption{text-align:left;font-weight:700;padding-bottom:16px;line-height:1.7;}
+.overview-course-table :is(th,td){padding:16px;text-align:left;vertical-align:top;border:1px solid #eadbe3;line-height:1.8;overflow-wrap:anywhere;}
+.overview-course-table thead th{background:#faf5f8;}
+.overview-course-table th:first-child{width:19%;}
+.overview-course-table th:nth-child(2){width:22%;}
+.overview-course-table td a{display:inline-block;color:#71324d;font-weight:700;padding:8px 0;text-underline-offset:4px;}
+.overview-condition{margin:0 0 10px;}
+.overview-learning-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;}
+.overview-learning-grid article{padding:20px;border:1px solid #eadbe3;border-radius:14px;background:#faf5f8;min-width:0;}
+.overview-learning-grid h3{margin:0 0 16px;line-height:1.6;}
+.overview-learning-grid article a+a{margin-top:10px;}
+.overview-role-nav a:focus-visible,.overview-learning-grid a:focus-visible{outline:3px solid #81324f;outline-offset:3px;}
+[id^=regional-]{scroll-margin-top:100px;}
+@media(max-width:768px){.overview-learning-grid{grid-template-columns:minmax(0,1fr);}.overview-course-table :is(th,td){padding:12px 9px;}}
+@media(max-width:480px){.overview-role-nav{flex-direction:column;}.overview-role-nav a{text-align:center;}.overview-course-table :is(th,td){font-size:13px;padding:10px 7px;}.overview-course-table p{word-break:normal;}.overview-course-table th:first-child{width:20%;}.overview-course-table th:nth-child(2){width:22%;}}

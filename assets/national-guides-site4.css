@@ -1,0 +1,32 @@
+/* Existing regional routes distinguish study, scheduling and branch availability. */
+.national-role-wrap{padding-top:20px;padding-bottom:12px;}
+.national-role-nav{display:flex;flex-wrap:wrap;gap:10px;max-width:1120px;margin:20px auto;}
+.national-role-nav a,.national-guide-actions a{display:flex;align-items:center;justify-content:center;min-height:46px;padding:12px 18px;border:1px solid #ddcbd5;border-radius:10px;background:#fff;color:#71324d;font-weight:700;text-decoration:none;box-sizing:border-box;}
+.national-role-nav a[aria-current=page]{background:#71324d;color:#fff;}
+.national-guide-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px;}
+.national-guide-actions a:first-child{background:#71324d;color:#fff;}
+.national-guide-panel{padding-top:34px;padding-bottom:34px;}
+.national-guide-panel h2{font-size:clamp(23px,3vw,30px);line-height:1.55;margin:0 0 22px;word-break:keep-all;}
+.national-guide-panel p{line-height:1.9;word-break:keep-all;overflow-wrap:anywhere;}
+.national-study-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;}
+.national-study-grid article{padding:24px;background:#faf5f8;border:1px solid #eadbe3;border-radius:14px;min-width:0;}
+.national-study-grid h3{font-size:19px;line-height:1.6;margin:0 0 12px;}
+.national-study-grid p{margin:0;}
+.national-guide-table{margin:24px 0;overflow-x:auto;}
+.national-guide-table table{border-collapse:collapse;table-layout:fixed;width:100%;}
+.national-guide-table caption{text-align:left;font-weight:700;padding:14px 0;}
+.national-guide-table :is(th,td){padding:14px;text-align:left;vertical-align:top;border:1px solid #e7d6e0;line-height:1.8;overflow-wrap:anywhere;}
+.national-guide-table th{background:#faf5f8;}
+.national-note{font-size:14px;color:#6f606a;}
+.national-branch-name{font-size:22px;font-weight:700;}
+.national-school-list{display:flex;flex-wrap:wrap;gap:9px 25px;line-height:1.8;padding-left:22px;}
+.national-guide-panel details{padding:18px 20px;margin:12px 0;border:1px solid #eadbe3;border-radius:12px;}
+.national-guide-panel summary{font-weight:700;cursor:pointer;line-height:1.65;}
+.national-reference-media,.national-original-article{max-width:1120px;margin:26px auto;border:1px solid #ddcbd5;border-radius:14px;padding:18px;box-sizing:border-box;}
+.national-reference-media summary,.national-original-article>summary{cursor:pointer;padding:10px 0;font-size:17px;font-weight:700;}
+.national-reference-media img{display:block;max-width:100%;width:auto;height:auto;margin:20px auto;}
+.national-original-article .article-main{padding:12px 0;}
+.national-role-nav a:focus-visible,.national-guide-actions a:focus-visible,.national-guide-panel summary:focus-visible{outline:3px solid #81324f;outline-offset:3px;}
+[id^=national-]{scroll-margin-top:100px;}
+@media(max-width:768px){.national-study-grid{grid-template-columns:minmax(0,1fr);}.national-study-grid article{padding:20px;}.national-role-nav{margin:18px 20px;}.national-role-wrap .national-role-nav{margin:0;}.national-reference-media,.national-original-article{margin:20px;}}
+@media(max-width:480px){.national-role-nav,.national-guide-actions{flex-direction:column;}.national-role-nav a,.national-guide-actions a{width:100%;font-size:15px;}.national-guide-table :is(th,td){padding:10px 7px;font-size:13px;}.national-guide-panel{padding-top:24px;padding-bottom:24px;}.national-branch-name{font-size:19px;}.national-original-article{padding:12px;}}
