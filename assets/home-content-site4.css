@@ -1,0 +1,40 @@
+/* Homepage navigation to existing, reviewed academy and education content. */
+.wa-home-page .hc-jumps{grid-template-columns:repeat(6,minmax(0,1fr))}
+.wa-home-page :is(.hc-library,.hc-curriculum,.hc-reading){overflow-wrap:anywhere;scroll-margin-top:110px}
+.wa-home-page .hc-library{padding-top:40px;background:#fffbfc}
+.wa-home-page :is(.hc-menu-grid,.hc-reading-grid,.hc-guide-grid){display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;list-style:none;padding:0;margin:0}
+.wa-home-page .hc-card{padding:22px 24px;border:1px solid #e3ced7;border-radius:18px;background:#fff;min-width:0;box-shadow:0 4px 20px #78365005}
+.wa-home-page .hc-card :is(h3,h4){font-size:21px;line-height:1.5;margin:0 0 10px}
+.wa-home-page .hc-title-link{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:48px;color:#53293e;text-decoration:none;line-height:1.6}
+.wa-home-page .hc-title-link span{flex-shrink:0;color:#8f3f60;font-size:23px}
+.wa-home-page .hc-title-link:hover{text-decoration:underline;text-underline-offset:4px}
+.wa-home-page .hc-card p{font-size:15px;line-height:1.85;color:#555361;margin:0}
+.wa-home-page .hc-card .hc-tag{font-size:12px;color:#8a3e5b;font-weight:800;margin-bottom:9px}
+.wa-home-page .hc-section-head{display:flex;align-items:flex-start;justify-content:space-between;gap:28px;margin-bottom:26px}
+.wa-home-page .hc-section-head .wa-heading{margin-bottom:0;max-width:760px}
+.wa-home-page .hc-button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 18px;border:1px solid #d7b9c8;border-radius:11px;background:#fff;color:#74334e;font-size:14px;font-weight:800;line-height:1.6;text-decoration:none;max-width:100%}
+.wa-home-page .hc-primary{background:#8f3f60;border-color:#8f3f60;color:#fff}
+.wa-home-page .hc-section-head>.hc-button{flex-shrink:0;margin-top:7px}
+.wa-home-page .hc-button:hover{background:#f8edf2}
+.wa-home-page .hc-primary:hover{background:#74334e;color:#fff}
+.wa-home-page .hc-curriculum.cr-context{margin:0;width:100%;max-width:none;border:0;border-radius:0;padding:58px 0;background:#f6f7f2;display:block}
+.wa-home-page .hc-stage-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.wa-home-page .hc-stage{min-width:0;border:1px solid #d9dfd3;border-radius:18px;padding:24px;background:#fff}
+.wa-home-page .hc-stage h3{font-size:22px;line-height:1.5;margin:0 0 8px;color:#293d32}
+.wa-home-page .hc-stage p{font-size:14px;line-height:1.8;color:#566354;margin:0 0 18px}
+.wa-home-page .hc-grade-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.wa-home-page .hc-grade-link{min-height:46px;padding:10px 12px;display:flex;align-items:center;justify-content:center;text-align:center;background:#f6f8f3;border:1px solid #d4decd;border-radius:10px;font-size:14px;line-height:1.7;font-weight:750;color:#2f5542;text-decoration:none}
+.wa-home-page .hc-grade-link:hover{background:#e6efdf;border-color:#657f58}
+.wa-home-page .hc-stage-all{display:block;min-height:44px;padding:15px 0 4px;color:#345d49;font-size:14px;font-weight:750;text-decoration:underline;text-underline-offset:4px;line-height:1.7}
+.wa-home-page .hc-note{font-size:13px;color:#57664e;line-height:1.8;margin:18px 0 0}
+.wa-home-page .hc-reading.ei-context{margin:0;width:100%;max-width:none;border:0;border-radius:0;padding:64px 0;background:#fff9fc;display:block}
+.wa-home-page .hc-reading-card .hc-question{color:#555361;font-size:13px;margin:0 0 8px}
+.wa-home-page .hc-reading-card h3{font-size:19px}
+.wa-home-page .hc-guide-head{display:flex;justify-content:space-between;align-items:center;gap:22px;margin:38px 0 18px}
+.wa-home-page .hc-guide-head h3{font-size:23px;line-height:1.5;margin:0;letter-spacing:-.03em}
+.wa-home-page .hc-guide-grid h4{font-size:18px}
+.wa-home-page .hc-faq-links{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0}
+.wa-home-page .hc-faq-links .hc-button{font-size:13px}
+.wa-home-page :is(.hc-title-link,.hc-grade-link,.hc-stage-all,.hc-button):focus-visible{outline:3px solid #2462ad;outline-offset:4px}
+@media(max-width:1000px){.wa-home-page .hc-jumps{grid-template-columns:repeat(3,minmax(0,1fr))}.wa-home-page .hc-section-head{display:block}.wa-home-page .hc-section-head>.hc-button{margin-top:18px}.wa-home-page :is(.hc-menu-grid,.hc-reading-grid){grid-template-columns:repeat(2,minmax(0,1fr))}.wa-home-page .hc-stage{padding:20px 16px}.wa-home-page .hc-grade-links{grid-template-columns:1fr}.wa-home-page .hc-guide-grid{grid-template-columns:1fr}.wa-home-page .hc-guide-head{align-items:flex-start}}
+@media(max-width:640px){.wa-home-page .hc-jumps{grid-template-columns:repeat(2,minmax(0,1fr))}.wa-home-page :is(.hc-library,.hc-curriculum.cr-context,.hc-reading.ei-context){padding:40px 0}.wa-home-page :is(.hc-menu-grid,.hc-reading-grid,.hc-stage-grid){grid-template-columns:1fr;gap:14px}.wa-home-page .hc-card{padding:20px}.wa-home-page .hc-title-link{min-height:48px}.wa-home-page .hc-stage{padding:22px 20px}.wa-home-page .hc-grade-links{grid-template-columns:repeat(2,minmax(0,1fr))}.wa-home-page .hc-guide-head{display:block;margin-top:30px}.wa-home-page .hc-guide-head .hc-button{margin-top:16px}.wa-home-page .hc-section-head>.hc-button{width:100%;text-align:center}.wa-home-page .hc-card :is(h3,h4){font-size:19px}.wa-home-page .hc-faq-links{display:grid;grid-template-columns:1fr}.wa-home-page .hc-faq-links .hc-button{justify-content:flex-start}.wa-home-page .wa-hero .wa-actions{gap:9px}}
