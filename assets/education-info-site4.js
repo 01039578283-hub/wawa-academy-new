@@ -21,7 +21,7 @@
         if (show) visible += 1;
       });
       buttons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.educationCategory === category)));
-      count.textContent = `교육정보 ${visible}편 / 전체 30편`;
+      count.textContent = `교육정보 ${visible}편 / 전체 ${cards.length}편`;
       empty.hidden = visible > 0;
       try { sessionStorage.setItem('site4-education-finder', JSON.stringify({q: search.value, stage: stage.value, category})); } catch (_) { /* Filtering remains available when storage is disabled. */ }
     };
@@ -70,7 +70,7 @@
         results.replaceChildren();
         const branch = centers.find(item => item.path === center.value && item.region === region.value);
         if (!branch) { status.textContent = region.value ? '지점을 선택하면 실제 지점·동네 안내가 표시됩니다.' : '지역과 지점을 선택해 가까운 안내를 찾아보세요.'; return; }
-        const heading = document.createElement('h3'); heading.textContent = `${branch.name}와 동네 안내`; results.append(heading);
+        const heading = document.createElement('h3'); heading.textContent = `${branch.name}과 동네 안내`; results.append(heading);
         results.append(anchor(branch.path, `${branch.name} 지점 안내 보기`, 'ei-button ei-primary'));
         const relevant = branch.courses.filter(course => safePath(course.path) && (!articleStages.length || articleStages.includes(stageMap[course.stage] || course.stage)) && (!articleSubject || articleSubject === (subjectMap[course.subject] || course.subject)));
         const courses = relevant.length ? relevant : branch.courses.filter(course => safePath(course.path));
