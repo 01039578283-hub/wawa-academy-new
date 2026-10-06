@@ -1,0 +1,8 @@
+/* Owner-supplied body and map images are always visible; the representative is hidden. */
+.page-primary-media { box-sizing: border-box; width: 100%; max-width: 1120px; margin: 28px auto; padding: 16px; }
+.page-primary-media figure { margin: 20px auto; max-width: 918px; }
+.page-primary-media img { max-width: 100%; height: auto; }
+.page-primary-media img[data-page-media="body"] { display: block; width: 100%; max-width: 918px; height: auto; margin: 0 auto; }
+.page-primary-media img[data-page-media="map"] { display: block; max-width: 100%; height: auto; margin-inline: auto; }
+.page-primary-media img[data-page-media="representative"] { display: none !important; }
+@media (max-width: 600px) { .page-primary-media { padding: 10px; margin-block: 20px; } }
