@@ -6,3 +6,32 @@
 .page-primary-media img[data-page-media="map"] { display: block; max-width: 100%; height: auto; margin-inline: auto; }
 .page-primary-media img[data-page-media="representative"] { display: none !important; }
 @media (max-width: 600px) { .page-primary-media { padding: 10px; margin-block: 20px; } }
+
+.page-primary-media .media-zoom-link { display:block; color:inherit; cursor:zoom-in; border-radius:8px; }
+.page-primary-media .media-zoom-link:focus-visible, .branch-gallery .media-zoom-link:focus-visible { outline:3px solid #087b79; outline-offset:4px; }
+.page-primary-media img[data-page-media="map"] { width:100%; max-width:var(--map-natural-width,918px); }
+.page-primary-media .media-image-caption { margin:10px 0 16px; color:#506778; font-size:15px; line-height:1.75; }
+.page-primary-media .media-location-facts { margin:24px 0 16px; padding:18px; border:1px solid #dce7e7; border-radius:14px; background:#f8fbfa; }
+.page-primary-media .media-location-facts address { font-style:normal; overflow-wrap:anywhere; line-height:1.85; }
+.page-primary-media .media-location-facts .wrap { width:100%; max-width:none; padding:0; }
+.page-primary-media .local-center-link, .page-primary-media .national-guide-panel { margin:0; }
+.media-school-check { margin-top:18px; padding:16px; background:#f5f9f9; border-radius:12px; line-height:1.85; }
+.media-school-check table { width:100%; border-collapse:collapse; font-size:15px; }
+.media-school-check th,.media-school-check td { padding:12px 9px; text-align:left; vertical-align:top; border-bottom:1px solid #d9e5e5; }
+.media-school-check th { width:30%; }
+.media-zoom-dialog { padding:16px; width:min(1120px,calc(100vw - 24px)); max-width:calc(100vw - 24px); height:calc(100dvh - 40px); max-height:calc(100dvh - 40px); border:0; border-radius:16px; box-sizing:border-box; overflow:hidden; }
+.media-zoom-dialog::backdrop { background:rgba(15,30,38,.76); }
+.media-zoom-dialog[open] { display:flex; flex-direction:column; gap:10px; }
+.media-zoom-dialog header { display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; flex:none; }
+.media-zoom-dialog h2 { font-size:18px; line-height:1.5; margin:0; }
+.media-zoom-controls { display:flex; flex-wrap:wrap; gap:8px; }
+.media-zoom-controls button,.media-zoom-controls a { display:inline-flex; align-items:center; min-height:44px; padding:8px 12px; color:#174c4c; background:#edf5f4; border:1px solid #b8d3d0; border-radius:8px; font:inherit; font-size:14px; cursor:pointer; text-decoration:none; }
+.media-zoom-dialog .media-zoom-help { margin:0; font-size:14px; line-height:1.5; }
+.media-zoom-scroll { overflow:auto; flex:1; min-height:0; overscroll-behavior:contain; background:#eef1f1; }
+.media-zoom-scroll img { display:block; max-width:none; height:auto; margin:0; }
+.home-region-links { display:flex; flex-wrap:wrap; gap:9px; margin-top:20px; }
+.home-region-links a { display:inline-flex; align-items:center; min-height:44px; border:1px solid #cfdfde; border-radius:24px; padding:8px 15px; background:#fff; color:#23595a; text-decoration:none; font-size:15px; }
+@media(max-width:600px) { .media-school-check th { width:32%; } .media-school-check { padding:10px; } .media-school-check table { font-size:14px; } .media-zoom-dialog { padding:12px; } }
+
+/* Keep the existing teacher preview inside a narrow viewport. */
+.teacher-context { box-sizing: border-box; margin-inline: auto; max-width: 100%; }

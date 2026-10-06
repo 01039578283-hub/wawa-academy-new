@@ -29,7 +29,7 @@ if(fs.existsSync(output)) {
   }
   inspect(output);
 }
-let cursor=0;
+let cursor=0, copied=0, unchanged=0;
 await Promise.all(Array.from({length:12},async()=>{
   while(cursor<files.length){
     const [name,hash]=files[cursor++];
@@ -38,8 +38,14 @@ await Promise.all(Array.from({length:12},async()=>{
     if(fs.lstatSync(input).isSymbolicLink())throw Error('Source symlink '+name);
     const bytes=await fs.promises.readFile(input);
     if(!reviewedBytes(bytes,hash,name))throw Error('Reviewed file changed; refresh release manifest: '+name);
+    // Still verify every reviewed source. Avoid rewriting an identical output file.
+    if(fs.existsSync(dest) && (await fs.promises.readFile(dest)).equals(bytes)) {
+      unchanged++;
+      continue;
+    }
     await fs.promises.mkdir(path.dirname(dest),{recursive:true});
     await fs.promises.writeFile(dest,bytes);
+    copied++;
   }
 }));
-console.log(JSON.stringify({publicFiles:files.length,sitemapPages:manifest.sitemapPages,output:'.public-release',privateSourcesIncluded:false}));
+console.log(JSON.stringify({publicFiles:files.length,sitemapPages:manifest.sitemapPages,copied,unchanged,output:'.public-release',privateSourcesIncluded:false}));
