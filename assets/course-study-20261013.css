@@ -1,0 +1,10 @@
+/* Course learning references. Existing imagery and global styles remain unchanged. */
+.course-study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:22px 0}
+.course-study-card{min-width:0;padding:22px;border:1px solid #d8e2d9;border-radius:16px;background:#fff;overflow-wrap:anywhere}
+.course-study-context .course-study-card h3{margin:0 0 8px;font-size:20px;line-height:1.5;color:#244d3c}
+.course-study-context .course-study-edition{font-size:13px;color:#526456;margin:0 0 15px}
+.course-study-card dl{margin:0 0 20px}.course-study-card dt{font-weight:700;margin:12px 0 4px;color:#344c3d}.course-study-card dd{margin:0;line-height:1.8;color:#34433a}
+.course-study-card .cr-button{max-width:100%;white-space:normal;text-align:left}
+.course-school-materials{border-top:1px solid #dedbd5;margin-top:26px;padding-top:24px;scroll-margin-top:110px}
+.course-school-materials>h3{font-size:21px;line-height:1.5;margin:0 0 15px}.course-school-materials h4{font-size:17px;line-height:1.6}
+@media(max-width:640px){.course-study-grid{grid-template-columns:1fr;gap:12px}.course-study-card{padding:18px}.course-study-context .course-study-card h3{font-size:19px}.course-school-materials>h3{font-size:20px}}
