@@ -7,7 +7,8 @@
   if(url.origin!==location.origin||!/^\/assets\/kakao-maps\/\d+\.html$/.test(url.pathname))return;
   const shell=frame.closest('.kd-map-shell');shell?.removeAttribute('data-map-ready');
   if(shell)shell.querySelector('.kd-map-status').textContent='지도 위치를 자동으로 불러옵니다.';
-  frame.src=url.pathname;frame.dataset.kakaoLoaded='true';
+  // Vercel cleanUrls + trailingSlash serves the HTML map resource at this URL.
+  frame.src=url.pathname.replace(/\.html$/,'/');frame.dataset.kakaoLoaded='true';
   shell?.setAttribute('data-map-started','true');
   const expected=frame.dataset.kakaoSrc;
   setTimeout(()=>{if(frame.dataset.kakaoSrc===expected&&!shell?.hasAttribute('data-map-ready')&&shell){shell.querySelector('.kd-map-status').textContent='카카오맵 연결이 지연되고 있습니다. 주소와 주변 교통 안내를 확인해 주세요.';}},10000);
