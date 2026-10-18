@@ -1,0 +1,9 @@
+/* Scoped study links; original images, maps and site shell stay unchanged. */
+.sg-study-links{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 4px;max-width:100%}
+.sg-study-links a{display:inline-flex;align-items:center;min-height:36px;padding:6px 10px;border:1px solid #bcd3cb;border-radius:8px;background:#fff;color:#174c43;font:inherit;font-size:15px;line-height:1.5;text-decoration:none;overflow-wrap:anywhere;max-width:100%;box-sizing:border-box}
+.sg-study-links a:hover,.sg-study-links a:focus-visible{background:#edf6f1;border-color:#35765f;text-decoration:underline;text-underline-offset:3px}
+.sg-study-links a:focus-visible{outline:2px solid #174c43;outline-offset:3px}
+.sg-subject-paths{margin-top:12px;min-width:0}.sg-subject-paths>p{font-size:15px;font-weight:600;margin:0;color:#274f46}
+.sg-reference-paths{margin:14px 0}.sg-reference-note{font-size:15px;line-height:1.7;color:#45635a;margin:18px 0 0}
+.sg-range-links a{display:inline-flex;align-items:center;min-height:36px;max-width:100%;color:#174c43;text-decoration:underline;text-underline-offset:3px;border-radius:4px}.sg-range-links a:focus-visible{outline:2px solid #174c43;outline-offset:3px}
+@media(max-width:480px){.sg-study-links{gap:7px}.sg-study-links a{font-size:15px;min-height:40px;padding:7px 9px}}
